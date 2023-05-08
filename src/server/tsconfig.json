@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "strict": true,
+    "outDir": "../../dist",
+    "skipLibCheck": true
+  },
+  "include": ["./src/**/*.ts"]
+}

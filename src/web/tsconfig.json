@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "preserve",
+    "strict": true,
+    "types": ["@emotion/react/types/css-prop", "@types/node", "./src/types"],
+    "skipLibCheck": true
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"]
+}
