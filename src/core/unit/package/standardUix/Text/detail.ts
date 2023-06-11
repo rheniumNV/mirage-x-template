@@ -11,6 +11,7 @@ const detail = {
   propsConfig: {
     content: UnitProp.String(""),
     size: UnitProp.Float(64),
+    color: UnitProp.Color([0, 0, 0, 1]),
   },
 };
 

@@ -159,6 +159,13 @@ export const Template = ({
                 VariableName={"State.WS.Owner"}
                 TargetReference={websocketClient.Data.HandlingUser.User.ID}
               />,
+              <DynamicField_T
+                type={{
+                  T: { name: "[System.Boolean, mscorlib]" },
+                }}
+                VariableName={"State.WS.IsConnected"}
+                TargetField={websocketClient.Data.IsConnected.ID}
+              />,
             ]}
           />
         </Slot>

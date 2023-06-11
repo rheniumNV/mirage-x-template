@@ -9,7 +9,7 @@ export const neos = generateNeosUnit({
     return (
       <Slot
         id={root}
-        name="Text"
+        name="Image"
         components={[<Image Tint={{ id: tint }} />]}
       ></Slot>
     );

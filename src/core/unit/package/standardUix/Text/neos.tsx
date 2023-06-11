@@ -8,7 +8,7 @@ import { TextUnlitMaterial } from "neos-script/assets/common/materials/TextUnlit
 
 export const neos = generateNeosUnit({
   config: unitConfig,
-  main: ({ root, content, size }) => {
+  main: ({ root, content, size, color }) => {
     return (
       <Slot
         id={root}
@@ -18,7 +18,10 @@ export const neos = generateNeosUnit({
             Content={{ id: content }}
             Font={Font.id}
             Materials={[{ ID: uuidv4(), Data: TextUnlitMaterial.id }]}
+            VerticalAlign={"Middle"}
+            HorizontalAlign={"Center"}
             Size={{ id: size }}
+            Color={{ id: color }}
           />,
         ]}
         assets={[...Font.assets, ...TextUnlitMaterial.assets]}

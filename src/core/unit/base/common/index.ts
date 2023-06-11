@@ -20,7 +20,7 @@ export namespace UnitProp {
     type: "Boolean",
     main: defaultValue,
     mirror: defaultValue,
-    neosDVType: "[System.Bool, mscorlib]",
+    neosDVType: "[System.Boolean, mscorlib]",
     dvMode,
   });
 
