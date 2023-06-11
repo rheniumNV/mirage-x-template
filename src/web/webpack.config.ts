@@ -13,7 +13,7 @@ const common: Configuration = {
   },
   output: {
     path: path.resolve(__dirname, "../../dist/web"),
-    publicPath: "/",
+    publicPath: "/web/",
     assetModuleFilename: "assets/[name][ext]",
   },
   module: {
@@ -49,7 +49,7 @@ const common: Configuration = {
 const renderer: Configuration = {
   ...common,
   target: "web",
-  entry: { app: path.resolve(__dirname, "./src/index.tsx") },
+  entry: { app: path.resolve(__dirname, "./src/Index.tsx") },
   plugins: [
     new NodePolyfillPlugin(),
     new HtmlWebpackPlugin({

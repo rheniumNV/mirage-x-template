@@ -1,0 +1,25 @@
+import {
+  UnitProp,
+  generateUnitConfig,
+  getMainProps,
+  getMirrorProps,
+  getWebProps,
+} from "../../../base/common";
+
+const detail = {
+  code: "StandardUIX/LayoutElement",
+  propsConfig: {
+    minWidth: UnitProp.Float(-1),
+    preferredWidth: UnitProp.Float(-1),
+    flexibleWidth: UnitProp.Float(-1),
+    minHeight: UnitProp.Float(-1),
+    preferredHeight: UnitProp.Float(-1),
+    flexibleHeight: UnitProp.Float(-1),
+  },
+  children: "multi" as "multi",
+};
+
+export type MainProps = getMainProps<typeof detail>;
+export type MirrorProps = getMirrorProps<typeof detail>;
+export type WebProps = getWebProps<typeof detail>;
+export const unitConfig = generateUnitConfig(detail);

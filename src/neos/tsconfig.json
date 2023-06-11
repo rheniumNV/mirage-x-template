@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "../../dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": ["es5"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "neos-script",
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "include": ["./**/*.ts", "./**/*.tsx"]
+}

@@ -1,14 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "esModuleInterop": true,
-    "moduleResolution": "Node",
-    "lib": ["DOM", "ESNext"],
-    "jsx": "preserve",
+    "target": "es5",
+    "module": "commonjs",
     "strict": true,
-    "types": ["@emotion/react/types/css-prop", "@types/node", "./src/types"],
-    "skipLibCheck": true
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "types": ["@emotion/react/types/css-prop", "@types/node", "./src/types"]
   },
   "include": ["./src/**/*.ts", "./src/**/*.tsx"]
 }
