@@ -1,4 +1,4 @@
-import { assignArray } from "./../../util";
+import { assignArray } from "./util";
 
 export interface Cell {
   readonly isOpened: boolean;
