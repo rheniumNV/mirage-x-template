@@ -33,7 +33,20 @@ export const App = () => {
       <VerticalLayout>
         <LayoutElement minHeight={100}>
           <Image tint={[1, 0, 0, 1]} />
-          <Text content="マルバツゲーム!" />
+          <Text content="マルバツゲーム" />
+        </LayoutElement>
+        <LayoutElement minHeight={100}>
+          <Button
+            onClick={() => {
+              setState([
+                ["", "", ""],
+                ["", "", ""],
+                ["", "", ""],
+              ]);
+            }}
+          >
+            <Text content="リセット" />
+          </Button>
         </LayoutElement>
         <LayoutElement flexibleHeight={1}>
           <VerticalLayout
@@ -49,12 +62,13 @@ export const App = () => {
                   {row.map((cell, x) => {
                     return (
                       <LayoutElement>
-                        <Button
-                          baseColor={[0.8, 0.8, 0.8, 1]}
-                          onClick={() => checkCell(x, y)}
-                        >
-                          <Text content={cell} />
-                        </Button>
+                        {cell === "" && (
+                          <Button
+                            baseColor={[0.8, 0.8, 0.8, 1]}
+                            onClick={() => checkCell(x, y)}
+                          ></Button>
+                        )}
+                        {cell !== "" && <Text content={cell} />}
                       </LayoutElement>
                     );
                   })}

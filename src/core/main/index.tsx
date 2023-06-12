@@ -1,6 +1,6 @@
 import { MainRootContext } from "../../base/main";
 import { UnitChangeEvent } from "../../base/common/unitChangeEvent";
-import { App } from "./app";
+import { App } from "./samples/useState";
 
 export const Main = ({
   eventEmitter,

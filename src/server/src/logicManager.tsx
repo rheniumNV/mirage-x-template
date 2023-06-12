@@ -178,7 +178,7 @@ export class LogicManager {
       }
     };
 
-    if (isValidUnit(event, this.unitMap)) {
+    if (event.type === "destroyUnit" || isValidUnit(event, this.unitMap)) {
       sendEvent();
     } else {
       const wait4Send = () => {
