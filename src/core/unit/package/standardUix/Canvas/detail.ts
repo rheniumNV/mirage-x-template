@@ -7,7 +7,7 @@ import {
 } from "../../../base/common";
 
 const detail = {
-  code: "StandardUIX/Canvas",
+  code: "StandardUix/Canvas",
   propsConfig: {
     size: UnitProp.Float2([1000, 1000]),
     position: UnitProp.Float3([0, 0, 0]),

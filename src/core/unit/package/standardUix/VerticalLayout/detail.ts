@@ -7,13 +7,17 @@ import {
 } from "../../../base/common";
 
 const detail = {
-  code: "StandardUIX/VerticalLayout",
+  code: "StandardUix/VerticalLayout",
   propsConfig: {
     paddingTop: UnitProp.Float(0),
     paddingBottom: UnitProp.Float(0),
     paddingLeft: UnitProp.Float(0),
     paddingRight: UnitProp.Float(0),
     spacing: UnitProp.Float(0),
+    forceExpandChildWidth: UnitProp.Boolean(true),
+    forceExpandChildHeight: UnitProp.Boolean(true),
+    horizontalAlign: UnitProp.EnumLayoutHorizontalAlignment("Left"),
+    verticalAlign: UnitProp.EnumLayoutVerticalAlignment("Top"),
   },
   children: "multi" as "multi",
 };

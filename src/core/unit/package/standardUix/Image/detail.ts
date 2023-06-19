@@ -7,7 +7,7 @@ import {
 } from "../../../base/common";
 
 const detail = {
-  code: "StandardUIX/Image",
+  code: "StandardUix/Image",
   propsConfig: {
     tint: UnitProp.Color(),
   },

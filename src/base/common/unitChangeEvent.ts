@@ -34,6 +34,7 @@ export type UpdatePropEvent = {
       key: string;
       type: string;
       value: unknown;
+      option: unknown;
     };
   };
 };

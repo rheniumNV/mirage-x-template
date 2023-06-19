@@ -7,7 +7,7 @@ import {
 } from "../../../base/common";
 
 const detail = {
-  code: "StandardUIX/LayoutElement",
+  code: "StandardUix/LayoutElement",
   propsConfig: {
     minWidth: UnitProp.Float(-1),
     preferredWidth: UnitProp.Float(-1),

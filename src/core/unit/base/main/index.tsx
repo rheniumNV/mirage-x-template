@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useMemo } from "react";
+import { createContext, useContext, useEffect, useMemo, useRef } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { DetailBase, UnitConfig, getMainProps } from "../common";
 import { MainRootContext } from "../../../../base/main";
@@ -12,14 +12,48 @@ export const useSyncProp = (
   unitId: string,
   key: string,
   type: string,
-  value: unknown
+  value: unknown,
+  enumType?: string,
+  enumKeys?: string[]
 ) => {
-  const { eventEmitter } = useContext(MainRootContext) ?? {};
+  const { eventEmitter, functionMap } = useContext(MainRootContext) ?? {};
+  const functionIdRef = useRef<string>();
   useEffect(() => {
-    eventEmitter?.({
-      type: "updateProp",
-      unit: { id: unitId, prop: { key, type, value } },
-    });
+    if (eventEmitter && functionMap) {
+      let mirrorValue = (() => {
+        switch (type) {
+          case "Enum":
+            return typeof value === "string"
+              ? enumKeys?.indexOf(value as string) ?? value
+              : value;
+          default:
+            return value;
+        }
+      })();
+      let option = {};
+
+      switch (type) {
+        case "Function":
+          if (functionIdRef.current) {
+            functionMap?.delete(functionIdRef.current);
+          }
+          functionIdRef.current = uuidv4();
+          functionMap.set(functionIdRef.current, value as (args: any) => any);
+          mirrorValue = functionIdRef.current;
+          break;
+        case "Enum":
+          option = { enum: enumType };
+          break;
+      }
+
+      eventEmitter?.({
+        type: "updateProp",
+        unit: {
+          id: unitId,
+          prop: { key, type, value: mirrorValue, option },
+        },
+      });
+    }
   }, [value]);
 };
 
@@ -54,7 +88,14 @@ export const generateMain =
     const unitId = useUnitId();
 
     config.syncPropConfigList.forEach((config) => {
-      useSyncProp(unitId, config.name, config.type, props[config.name]);
+      useSyncProp(
+        unitId,
+        config.name,
+        config.type,
+        props[config.name],
+        config.enumType,
+        config.enumKeys
+      );
     });
     return (
       <GeneralUnit id={unitId} unitCode={config.code}>

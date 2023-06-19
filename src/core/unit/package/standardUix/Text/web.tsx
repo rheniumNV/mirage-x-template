@@ -8,9 +8,7 @@ export const o = (props: MirrorProps) => {
         justifyContent: "center",
         alignItems: "center",
       }}
-    >
-      <p>{props.content}</p>
-    </div>
+    ></div>
   );
 };
 

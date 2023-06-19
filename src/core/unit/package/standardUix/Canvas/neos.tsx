@@ -8,7 +8,7 @@ import { UiUnlitMaterial } from "neos-script/assets/common/materials/UiUnlitMate
 
 export const neos = generateNeosUnit({
   config: unitConfig,
-  main: ({ root, children, size, position, rotation, scale }) => {
+  main: ({ children, size, position, rotation, scale }) => {
     const boxCollider = BoxCollider({});
     const canvas = Canvas({
       Size: { id: size },
@@ -23,7 +23,6 @@ export const neos = generateNeosUnit({
 
     return (
       <Slot
-        id={root}
         name={"Canvas"}
         position={{ id: position }}
         rotation={{ id: rotation }}

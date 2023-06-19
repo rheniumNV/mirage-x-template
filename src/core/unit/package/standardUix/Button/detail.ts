@@ -7,7 +7,7 @@ import {
 } from "../../../base/common";
 
 const detail = {
-  code: "StandardUIX/Button",
+  code: "StandardUix/Button",
   propsConfig: {
     baseColor: UnitProp.Color([1, 1, 1, 1]),
     onClick: UnitProp.Function(),

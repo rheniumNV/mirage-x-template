@@ -26,7 +26,12 @@ const common: Configuration = {
             loader: "babel-loader",
             options: { configFile: path.resolve(__dirname, "./.babelrc") },
           },
-          "ts-loader",
+          {
+            loader: "ts-loader",
+            options: {
+              configFile: path.resolve(__dirname, "../../tsconfig.web.json"),
+            },
+          },
         ],
       },
       {

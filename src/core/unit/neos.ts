@@ -1,3 +1,3 @@
-import { Units as StandardUIXUnits } from "./package/standardUix/neos";
+import { Units as StandardUix } from "./package/standardUix/neos";
 
-export const Units = { ...StandardUIXUnits };
+export const Units = { StandardUix };

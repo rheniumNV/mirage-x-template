@@ -6,16 +6,20 @@ import { HorizontalLayout } from "neos-script/components/UIX/Layout/HorizontalLa
 export const neos = generateNeosUnit({
   config: unitConfig,
   main: ({
-    root,
+    children,
     spacing,
     paddingBottom,
     paddingLeft,
     paddingRight,
     paddingTop,
+    forceExpandChildWidth,
+    forceExpandChildHeight,
+    horizontalAlign,
+    verticalAlign,
   }) => {
     return (
       <Slot
-        id={root}
+        id={children}
         name="HorizontalLayout"
         components={[
           <HorizontalLayout
@@ -24,10 +28,13 @@ export const neos = generateNeosUnit({
             PaddingLeft={{ id: paddingLeft }}
             PaddingRight={{ id: paddingRight }}
             Spacing={{ id: spacing }}
+            ForceExpandHeight={{ id: forceExpandChildWidth }}
+            ForceExpandWidth={{ id: forceExpandChildHeight }}
+            HorizontalAlign={{ id: horizontalAlign }}
+            VerticalAlign={{ id: verticalAlign }}
           />,
         ]}
       ></Slot>
     );
   },
-  option: { isRootChildrenParent: true },
 });

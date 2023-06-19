@@ -6,7 +6,7 @@ import { LayoutElement } from "neos-script/components/UIX/Layout/LayoutElement";
 export const neos = generateNeosUnit({
   config: unitConfig,
   main: ({
-    root,
+    children,
     minHeight,
     minWidth,
     preferredHeight,
@@ -16,7 +16,7 @@ export const neos = generateNeosUnit({
   }) => {
     return (
       <Slot
-        id={root}
+        id={children}
         name="LayoutElement"
         components={[
           <LayoutElement

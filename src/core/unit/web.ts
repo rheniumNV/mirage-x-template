@@ -1,3 +1,3 @@
-import { Units as StandardUIXUnits } from "./package/standardUix/web";
+import { Units as StandardUixUnits } from "./package/standardUix/web";
 
-export const Units = { ...StandardUIXUnits };
+export const Units = { ...StandardUixUnits };

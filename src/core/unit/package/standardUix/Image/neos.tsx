@@ -5,14 +5,14 @@ import { Image } from "neos-script/components/UIX/Graphics/Image";
 
 export const neos = generateNeosUnit({
   config: unitConfig,
-  main: ({ root, tint }) => {
+  main: ({ children, tint }) => {
     return (
       <Slot
-        id={root}
+        id={children}
         name="Image"
         components={[<Image Tint={{ id: tint }} />]}
       ></Slot>
     );
   },
-  option: { isRootChildrenParent: true },
+  option: {},
 });

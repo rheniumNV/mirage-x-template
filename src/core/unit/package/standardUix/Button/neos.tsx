@@ -9,7 +9,7 @@ import { DynamicReferenceVariableDriver_T } from "neos-script/components/Data/Dy
 
 export const neos = generateNeosUnit({
   config: unitConfig,
-  main: ({ root, baseColor, onClick }) => {
+  main: ({ children, baseColor, onClick }) => {
     const image = Image({});
     const button = Button({
       BaseColor: {
@@ -69,7 +69,7 @@ export const neos = generateNeosUnit({
 
     return (
       <Slot
-        id={root}
+        id={children}
         name="Button"
         components={[
           image,
@@ -79,8 +79,5 @@ export const neos = generateNeosUnit({
         ]}
       ></Slot>
     );
-  },
-  option: {
-    isRootChildrenParent: true,
   },
 });

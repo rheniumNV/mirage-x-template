@@ -6,16 +6,20 @@ import { VerticalLayout } from "neos-script/components/UIX/Layout/VerticalLayout
 export const neos = generateNeosUnit({
   config: unitConfig,
   main: ({
-    root,
+    children,
     spacing,
     paddingBottom,
     paddingLeft,
     paddingRight,
     paddingTop,
+    forceExpandChildWidth,
+    forceExpandChildHeight,
+    verticalAlign,
+    horizontalAlign,
   }) => {
     return (
       <Slot
-        id={root}
+        id={children}
         name="VerticalLayout"
         components={[
           <VerticalLayout
@@ -24,10 +28,13 @@ export const neos = generateNeosUnit({
             PaddingLeft={{ id: paddingLeft }}
             PaddingRight={{ id: paddingRight }}
             Spacing={{ id: spacing }}
+            ForceExpandHeight={{ id: forceExpandChildWidth }}
+            ForceExpandWidth={{ id: forceExpandChildHeight }}
+            VerticalAlign={{ id: verticalAlign }}
+            HorizontalAlign={{ id: horizontalAlign }}
           />,
         ]}
       ></Slot>
     );
   },
-  option: { isRootChildrenParent: true },
 });

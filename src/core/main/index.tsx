@@ -1,14 +1,16 @@
 import { MainRootContext } from "../../base/main";
 import { UnitChangeEvent } from "../../base/common/unitChangeEvent";
-import { App } from "./samples/useState";
+import { App } from "./samples/notion";
 
 export const Main = ({
   eventEmitter,
+  functionMap,
 }: {
   eventEmitter: (event: UnitChangeEvent) => void;
+  functionMap: Map<string, (v: any) => any>;
 }) => {
   return (
-    <MainRootContext.Provider value={{ eventEmitter }}>
+    <MainRootContext.Provider value={{ eventEmitter, functionMap }}>
       <App />
     </MainRootContext.Provider>
   );

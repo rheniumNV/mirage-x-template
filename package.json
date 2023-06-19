@@ -1,18 +1,19 @@
 {
   "name": "mirage-x-template",
+  "version": "0.0.1",
   "scripts": {
-    "start": "node ./dist/server/src/index.js",
+    "start": "node ./dist/server/index.js",
     "build": "run-p build:*",
     "build:web": "webpack --config ./src/web/webpack.config.ts",
-    "build:neos": "tsc --project ./src/neos/tsconfig.json && node ./dist/neos/src/index.js",
-    "build:server": "tsc --project ./src/server/tsconfig.json",
+    "build:neos": "tsc --project ./tsconfig.neos.json && node ./dist/neos/index.js",
+    "build:server": "tsc --project ./tsconfig.main.json",
     "dev": "run-p dev:*",
     "dev:web": "webpack --watch --mode production --config ./src/web/webpack.config.ts",
-    "dev:neos": "tsc-watch --project ./src/neos/tsconfig.json --onSuccess \"node ./dist/neos/src/index.js\"",
-    "dev:server": "tsc-watch --project ./src/server/tsconfig.json --onSuccess \"npm start\"",
-    "feedback:fetch": "ts-node ./src/neosFeedback/fetch",
-    "feedback:attach:base": "ts-node ./src/neosFeedback/attach",
-    "feedback:attach:unit": "ts-node ./src/neosFeedback/attachUnit"
+    "dev:neos": "tsc-watch --project ./tsconfig.neos.json --onSuccess \"node ./dist/neos/index.js\"",
+    "dev:server": "tsc-watch --project  ./tsconfig.main.json --onSuccess \"npm start\"",
+    "unitPackage:sync": "ts-node ./src/dev/unitPackage",
+    "feedback:fetch": "ts-node ./src/dev/neosFeedback/fetch",
+    "feedback:attach": "ts-node ./src/dev/neosFeedback/attach"
   },
   "devDependencies": {
     "@babel/core": "^7.21.8",
@@ -40,6 +41,7 @@
     "webpack-cli": "^5.1.1"
   },
   "dependencies": {
+    "@notionhq/client": "^2.2.5",
     "7zbson.js": "^1.0.2",
     "axios": "^1.4.0",
     "express": "^4.18.2",

@@ -1,72 +1,76 @@
 export namespace MainProp {
   export type DvMode = "Field" | "Variable";
-  export type Boolean = {
+
+  type Common = {
+    neosDVType: string;
+    dvMode: DvMode;
+    enumType?: string;
+    enumKeys?: string[];
+  };
+
+  export type Boolean = Common & {
     type: "Boolean";
     main: boolean;
     mirror: boolean;
-    neosDVType: string;
-    dvMode: DvMode;
   };
 
-  export type Float = {
+  export type Float = Common & {
     type: "Float";
     main: number;
     mirror: number;
-    neosDVType: string;
-    dvMode: DvMode;
   };
-  export type Float2 = {
+  export type Float2 = Common & {
     type: "Float2";
     main: [number, number];
     mirror: [number, number];
-    neosDVType: string;
-    dvMode: DvMode;
   };
-  export type Float3 = {
+  export type Float3 = Common & {
     type: "Float3";
     main: [number, number, number];
     mirror: [number, number, number];
-    neosDVType: string;
-    dvMode: DvMode;
   };
-  export type FloatQ = {
+  export type FloatQ = Common & {
     type: "FloatQ";
     main: [number, number, number, number];
     mirror: [number, number, number, number];
-    neosDVType: string;
-    dvMode: DvMode;
   };
 
-  export type String = {
+  export type String = Common & {
     type: "String";
     main: string;
     mirror: string;
-    neosDVType: string;
-    dvMode: DvMode;
   };
 
-  export type Function = {
-    type: "Function";
-    main: (...args: unknown[]) => unknown;
+  export type Uri = Common & {
+    type: "Uri";
+    main: string;
     mirror: string;
-    neosDVType: string;
-    dvMode: DvMode;
   };
 
-  export type Color = {
+  export type Enum<T extends string> = Common & {
+    type: "Enum";
+    main: T;
+    mirror: number;
+    enumType: string;
+    enumKeys: T[];
+  };
+
+  export type Function = Common & {
+    type: "Function";
+    main: (...args: any[]) => any;
+    mirror: string;
+  };
+
+  export type Color = Common & {
     type: "Color";
     main: [number, number, number, number];
     mirror: [number, number, number, number];
-    neosDVType: string;
-    dvMode: DvMode;
   };
 
-  export type Int = {
+  export type Int = Common & {
     type: "Int";
     main: number;
     mirror: number;
-    neosDVType: string;
-    dvMode: DvMode;
   };
 
   export type Base =
@@ -78,5 +82,7 @@ export namespace MainProp {
     | String
     | Function
     | Color
-    | Int;
+    | Int
+    | Uri
+    | Enum<string>;
 }

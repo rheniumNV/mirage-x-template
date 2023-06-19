@@ -35,6 +35,93 @@ export namespace UnitProp {
     dvMode,
   });
 
+  export const Uri = (
+    defaultValue: string,
+    { dvMode }: Option = { dvMode: "Field" }
+  ): MainProp.Uri => ({
+    type: "Uri",
+    main: defaultValue,
+    mirror: defaultValue,
+    neosDVType: "[System.Uri, System]",
+    dvMode,
+  });
+
+  const textHorizontalAlignmentKeys: ["Left", "Center", "Right", "Justify"] = [
+    "Left",
+    "Center",
+    "Right",
+    "Justify",
+  ];
+
+  export const EnumTextHorizontalAlignment = (
+    defaultValue: (typeof textHorizontalAlignmentKeys)[number] = "Left",
+    { dvMode }: Option = { dvMode: "Field" }
+  ): MainProp.Enum<(typeof textHorizontalAlignmentKeys)[number]> => ({
+    type: "Enum",
+    main: defaultValue,
+    mirror: textHorizontalAlignmentKeys.indexOf(defaultValue),
+    neosDVType: "[CodeX.TextHorizontalAlignment, CodeX]",
+    dvMode,
+    enumKeys: textHorizontalAlignmentKeys,
+    enumType: "CodeX.TextHorizontalAlignment",
+  });
+
+  const textVerticalAlignmentKeys: ["Top", "Center", "Bottom"] = [
+    "Top",
+    "Center",
+    "Bottom",
+  ];
+  export const EnumTextVerticalAlignment = (
+    defaultValue: (typeof textVerticalAlignmentKeys)[number] = "Top",
+    { dvMode }: Option = { dvMode: "Field" }
+  ): MainProp.Enum<(typeof textVerticalAlignmentKeys)[number]> => ({
+    type: "Enum",
+    main: defaultValue,
+    mirror: textVerticalAlignmentKeys.indexOf(defaultValue),
+    neosDVType: "[CodeX.TextVerticalAlignment, CodeX]",
+    dvMode,
+    enumKeys: textVerticalAlignmentKeys,
+    enumType: "CodeX.TextVerticalAlignment",
+  });
+
+  const layoutElementHorizontalAlignmentKeys: [
+    "Left",
+    "Center",
+    "Right",
+    "Justify"
+  ] = ["Left", "Center", "Right", "Justify"];
+  export const EnumLayoutHorizontalAlignment = (
+    defaultValue: (typeof layoutElementHorizontalAlignmentKeys)[number] = "Left",
+    { dvMode }: Option = { dvMode: "Field" }
+  ): MainProp.Enum<(typeof layoutElementHorizontalAlignmentKeys)[number]> => ({
+    type: "Enum",
+    main: defaultValue,
+    mirror: layoutElementHorizontalAlignmentKeys.indexOf(defaultValue),
+    neosDVType: "[FrooxEngine.UIX.LayoutHorizontalAlignment, FrooxEngine]",
+    dvMode,
+    enumKeys: layoutElementHorizontalAlignmentKeys,
+    enumType: "FrooxEngine.UIX.LayoutHorizontalAlignment",
+  });
+
+  const layoutElementVerticalAlignmentKeys: [
+    "Top",
+    "Middle",
+    "Bottom",
+    "Justify"
+  ] = ["Top", "Middle", "Bottom", "Justify"];
+  export const EnumLayoutVerticalAlignment = (
+    defaultValue: (typeof layoutElementVerticalAlignmentKeys)[number] = "Top",
+    { dvMode }: Option = { dvMode: "Field" }
+  ): MainProp.Enum<(typeof layoutElementVerticalAlignmentKeys)[number]> => ({
+    type: "Enum",
+    main: defaultValue,
+    mirror: layoutElementVerticalAlignmentKeys.indexOf(defaultValue),
+    neosDVType: "[FrooxEngine.UIX.LayoutVerticalAlignment, FrooxEngine]",
+    dvMode,
+    enumKeys: layoutElementVerticalAlignmentKeys,
+    enumType: "FrooxEngine.UIX.LayoutVerticalAlignment",
+  });
+
   export const Function = (
     defaultValue: MainProp.Function["main"] = () => {},
     { dvMode }: Option = { dvMode: "Field" }
@@ -130,6 +217,8 @@ type SyncPropConfig = {
   type: MainProp.Base["type"];
   neosDVType: string;
   dvMode: MainProp.DvMode;
+  enumType?: string;
+  enumKeys?: string[];
 };
 
 export type UnitConfig<C extends DetailBase> = {
@@ -155,6 +244,8 @@ export const generateUnitConfig = <C extends DetailBase>(
       type: config.propsConfig[key].type,
       neosDVType: config.propsConfig[key].neosDVType,
       dvMode: config.propsConfig[key].dvMode,
+      enumType: config.propsConfig[key].enumType,
+      enumKeys: config.propsConfig[key].enumKeys,
     })),
   };
 };
