@@ -1,6 +1,6 @@
 import { MainRootContext } from "../../base/main";
 import { UnitChangeEvent } from "../../base/common/unitChangeEvent";
-import { App } from "./samples/notion";
+import { App } from "./samples/mineSweeper";
 
 export const Main = ({
   eventEmitter,

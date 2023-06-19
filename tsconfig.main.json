@@ -15,6 +15,7 @@
     "./src/base/common/**/*.ts",
     "./src/base/main/**/*.tsx",
     "./src/core/main/**/*.ts",
+    "./src/core/main/**/*.tsx",
     "./src/core/unit/**/*main.tsx",
     "./src/core/unit/**/*main.ts",
     "./src/core/unit/base/common/**/*.tsx",
