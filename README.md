@@ -66,6 +66,10 @@ Unit はユースケースに合わせてパッケージでまとめられてい
 コピーしたテンプレート下にある`detail.ts`を編集します。
 `detail.code`に他の Unit と衝突しない名前、`detail.propsConfig`に必要なプロパティを定義します。
 
+以下のコマンドで各パッケージに Unit のインポート文を追加します。（Unit を新規追加・削除した後は実行してください。）
+
+> npm run unitPackage:sync
+
 以下のコマンドで`./dist/neos/src/output.json`を更新して、Neos にドラッグアンドドロップしなおします。
 （`npm run dev`を実行中であれば、以下を行わずとも変更を検知して自動で再生成されています。）
 
