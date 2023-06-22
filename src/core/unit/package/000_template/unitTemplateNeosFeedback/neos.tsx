@@ -1,6 +1,6 @@
 import { generateNeosUnitFromFeedback } from "../../../base/neos";
 import { unitConfig } from "./detail";
-import NeosFeedback from "../NeosFeedback.json";
+const NeosFeedback = require("../NeosFeedback.json");
 
 export const neos = generateNeosUnitFromFeedback({
   config: unitConfig,

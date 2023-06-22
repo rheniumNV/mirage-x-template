@@ -11,9 +11,10 @@
     "dev:web": "webpack --watch --mode production --config ./src/web/webpack.config.ts",
     "dev:neos": "tsc-watch --project ./tsconfig.neos.json --onSuccess \"node ./dist/neos/index.js\"",
     "dev:server": "tsc-watch --project  ./tsconfig.main.json --onSuccess \"npm start\"",
-    "unitPackage:sync": "ts-node ./src/dev/unitPackage",
-    "feedback:fetch": "ts-node ./src/dev/neosFeedback/fetch",
-    "feedback:attach": "ts-node ./src/dev/neosFeedback/attach"
+    "unitPackage:sync": "ts-node -P ./tsconfig.dev.json ./src/dev/unitPackage",
+    "feedback": "run-s feedback:*",
+    "feedback:fetch": "ts-node -P ./tsconfig.dev.json ./src/dev/neosFeedback/fetch",
+    "feedback:attach": "ts-node -P ./tsconfig.dev.json ./src/dev/neosFeedback/attach"
   },
   "devDependencies": {
     "@babel/core": "^7.21.8",
@@ -31,7 +32,6 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.1",
     "node-polyfill-webpack-plugin": "^2.0.1",
-    "nodemon": "^2.0.22",
     "npm-run-all": "^4.1.5",
     "ts-loader": "^9.4.3",
     "ts-node": "^10.9.1",
@@ -53,5 +53,8 @@
     "swr": "^2.1.5",
     "uuid": "^9.0.0",
     "ws": "^8.13.0"
+  },
+  "volta": {
+    "node": "18.16.1"
   }
 }

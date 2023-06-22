@@ -28,8 +28,8 @@ export const neos = generateNeosUnit({
             PaddingLeft={{ id: paddingLeft }}
             PaddingRight={{ id: paddingRight }}
             Spacing={{ id: spacing }}
-            ForceExpandHeight={{ id: forceExpandChildWidth }}
-            ForceExpandWidth={{ id: forceExpandChildHeight }}
+            ForceExpandHeight={{ id: forceExpandChildHeight }}
+            ForceExpandWidth={{ id: forceExpandChildWidth }}
             VerticalAlign={{ id: verticalAlign }}
             HorizontalAlign={{ id: horizontalAlign }}
           />,

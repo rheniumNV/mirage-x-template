@@ -10,8 +10,9 @@ const NeosFeedback = JSON.parse(
 
 fs.copyFileSync(
   path.resolve(__dirname, "./index.json"),
-  path.resolve(__dirname, "../../neos/src/static/NeosFeedback.json")
+  path.resolve(__dirname, "../../neos/static/NeosFeedback.json")
 );
+console.info("attached to base");
 
 fs.readdirSync(path.resolve(__dirname, "../../core/unit/package")).forEach(
   (file) => {
@@ -41,6 +42,7 @@ fs.readdirSync(path.resolve(__dirname, "../../core/unit/package")).forEach(
             2
           )
         );
+        console.info(`attached to ${file}`);
       }
     }
   }

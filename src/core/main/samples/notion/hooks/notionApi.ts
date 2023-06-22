@@ -5,7 +5,7 @@ import {
   PageObjectResponse,
   PartialBlockObjectResponse,
 } from "@notionhq/client/build/src/api-endpoints";
-import Config from "../config/config.private.json";
+const Config = require("../config/config.private.json");
 
 export type SchedulePageObject = PageObjectResponse & {
   properties: {
