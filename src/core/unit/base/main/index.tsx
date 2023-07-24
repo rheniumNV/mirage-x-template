@@ -84,22 +84,21 @@ export const GeneralUnit = ({
 export const generateMain =
   <C extends DetailBase>(config: UnitConfig<C>) =>
   (rawProps: getMainProps<C>) => {
-    const props = { ...config.defaultProps, ...rawProps };
     const unitId = useUnitId();
 
-    config.syncPropConfigList.forEach((config) => {
+    config.syncPropConfigList.forEach((propConfig) => {
       useSyncProp(
         unitId,
-        config.name,
-        config.type,
-        props[config.name],
-        config.enumType,
-        config.enumKeys
+        propConfig.name,
+        propConfig.type,
+        rawProps[propConfig.name] ?? config.defaultProps[propConfig.name],
+        propConfig.enumType,
+        propConfig.enumKeys
       );
     });
     return (
       <GeneralUnit id={unitId} unitCode={config.code}>
-        {props.children as React.ReactNode}
+        {rawProps.children as React.ReactNode}
       </GeneralUnit>
     );
   };

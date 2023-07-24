@@ -66,9 +66,9 @@ export namespace UnitProp {
     enumType: "CodeX.TextHorizontalAlignment",
   });
 
-  const textVerticalAlignmentKeys: ["Top", "Center", "Bottom"] = [
+  const textVerticalAlignmentKeys: ["Top", "Middle", "Bottom"] = [
     "Top",
-    "Center",
+    "Middle",
     "Bottom",
   ];
   export const EnumTextVerticalAlignment = (
@@ -164,6 +164,16 @@ export namespace UnitProp {
     neosDVType: "[BaseX.float3, BaseX]",
     dvMode,
   });
+  export const Float4 = (
+    defaultValue: [number, number, number, number] = [0, 0, 0, 0],
+    { dvMode }: Option = { dvMode: "Field" }
+  ): MainProp.Float4 => ({
+    type: "Float4",
+    main: defaultValue,
+    mirror: defaultValue,
+    neosDVType: "[BaseX.float4, BaseX]",
+    dvMode,
+  });
   export const FloatQ = (
     defaultValue: [number, number, number, number] = [0, 0, 0, 0],
     { dvMode }: Option = { dvMode: "Field" }
@@ -174,7 +184,16 @@ export namespace UnitProp {
     neosDVType: "[BaseX.floatQ, BaseX]",
     dvMode,
   });
-
+  export const Rect = (
+    defaultValue: [number, number, number, number] = [0, 0, 0, 0],
+    { dvMode }: Option = { dvMode: "Field" }
+  ): MainProp.Rect => ({
+    type: "Rect",
+    main: defaultValue,
+    mirror: defaultValue,
+    neosDVType: "[BaseX.Rect, BaseX]",
+    dvMode,
+  });
   export const Int = (
     defaultValue: number = 0,
     { dvMode }: Option = { dvMode: "Field" }
@@ -184,6 +203,24 @@ export namespace UnitProp {
     mirror: defaultValue,
     neosDVType: "[System.Int32, System]",
     dvMode,
+  });
+
+  const sizeFitKeys: ["Disabled", "MinSize", "PreferredSize"] = [
+    "Disabled",
+    "MinSize",
+    "PreferredSize",
+  ];
+  export const EnumSizeFit = (
+    defaultValue: (typeof sizeFitKeys)[number] = "Disabled",
+    { dvMode }: Option = { dvMode: "Field" }
+  ): MainProp.Enum<(typeof sizeFitKeys)[number]> => ({
+    type: "Enum",
+    main: defaultValue,
+    mirror: sizeFitKeys.indexOf(defaultValue),
+    neosDVType: "[FrooxEngine.UIX.SizeFit, FrooxEngine]",
+    dvMode,
+    enumKeys: sizeFitKeys,
+    enumType: "FrooxEngine.UIX.SizeFit",
   });
 }
 

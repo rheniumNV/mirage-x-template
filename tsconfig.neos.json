@@ -17,6 +17,7 @@
     "./src/base/neos/**/*.ts",
     "./src/core/unit/**/*neos.tsx",
     "./src/core/unit/**/*neos.ts",
+    "./src/core/unit/**/*NeosFeedback.json",
     "./src/core/unit/base/neos/**/*.tsx",
     "./src/core/unit/base/neos/**/*.ts",
     "./src/neos/**/*.tsx",

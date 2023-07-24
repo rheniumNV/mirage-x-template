@@ -54,7 +54,7 @@ const common: Configuration = {
 const renderer: Configuration = {
   ...common,
   target: "web",
-  entry: { app: path.resolve(__dirname, "./src/Index.tsx") },
+  entry: { app: path.resolve(__dirname, "./src/index.tsx") },
   plugins: [
     new NodePolyfillPlugin(),
     new HtmlWebpackPlugin({
