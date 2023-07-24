@@ -2,6 +2,32 @@ import http from "http";
 import { WebSocket } from "ws";
 import { LogicManager } from "./logicManager";
 import json2emap from "json2emap";
+import fs from "fs";
+import path from "path";
+
+let wsList: WebSocket[] = [];
+
+const getVersion = () => {
+  const version = JSON.parse(
+    fs.readFileSync(path.resolve(__dirname, "../neos/version.json"), "utf8")
+  );
+  return version;
+};
+
+let version = getVersion().version;
+
+setInterval(() => {
+  const currentVersion = getVersion().version;
+  if (currentVersion !== version) {
+    console.info(`version changed: ${version} -> ${currentVersion}`);
+    version = currentVersion;
+    wsList.forEach((ws) => {
+      ws.send(JSON.stringify({ type: "version", data: { version } }));
+      ws.close();
+    });
+    wsList = [];
+  }
+}, 1000);
 
 export const websocketController = (
   ws: WebSocket,
@@ -15,12 +41,23 @@ export const websocketController = (
     Function
   >();
 
+  wsList.push(ws);
+
   ws.on("message", (message) => {
     try {
       const data = JSON.parse(message.toString());
       switch (data.type) {
         case "init":
           const eventType = data.data.eventType;
+          const res = {
+            type: "version",
+            data: { version: version },
+          };
+          ws.send(eventType === "sync" ? json2emap(res) : JSON.stringify(res));
+          if (version !== data.data.version) {
+            ws.close();
+            return;
+          }
           switch (eventType) {
             case "tree":
               logicManager = new LogicManager();
@@ -56,5 +93,6 @@ export const websocketController = (
     logicManager?.close();
     logicManager = undefined;
     functionMap = undefined;
+    wsList = wsList.filter((w) => w !== ws);
   });
 };

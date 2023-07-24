@@ -11,7 +11,7 @@ const detail = {
   propsConfig: {
     name: UnitProp.String("Empty"),
   },
-  children: "multi" as "multi",
+  children: "multi" as const,
 };
 
 export type MainProps = getMainProps<typeof detail>;

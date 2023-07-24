@@ -14,7 +14,7 @@ const detail = {
     offsetMin: UnitProp.Float2([0, 0]),
     offsetMax: UnitProp.Float2([0, 0]),
   },
-  children: "multi" as "multi",
+  children: "multi" as const,
 };
 
 export type MainProps = getMainProps<typeof detail>;

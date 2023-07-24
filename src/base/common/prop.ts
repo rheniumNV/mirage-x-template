@@ -29,8 +29,18 @@ export namespace MainProp {
     main: [number, number, number];
     mirror: [number, number, number];
   };
+  export type Float4 = Common & {
+    type: "Float4";
+    main: [number, number, number, number];
+    mirror: [number, number, number, number];
+  };
   export type FloatQ = Common & {
     type: "FloatQ";
+    main: [number, number, number, number];
+    mirror: [number, number, number, number];
+  };
+  export type Rect = Common & {
+    type: "Rect";
     main: [number, number, number, number];
     mirror: [number, number, number, number];
   };
@@ -78,7 +88,9 @@ export namespace MainProp {
     | Float
     | Float2
     | Float3
+    | Float4
     | FloatQ
+    | Rect
     | String
     | Function
     | Color

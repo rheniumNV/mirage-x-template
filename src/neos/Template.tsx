@@ -7,6 +7,7 @@ import { DynamicReference_T } from "neos-script/components/Data/Dynamic/DynamicR
 import { Grabbable } from "neos-script/components/Transform/Interaction/Grabbable";
 import { WebsocketClient } from "neos-script/components/Network/WebsocketClient";
 import NeosFeedbackJson from "./static/NeosFeedback.json";
+import { DynamicValueVariable_T } from "neos-script/components/Data/Dynamic/DynamicValueVariable_T";
 
 const getObject = (object: any) =>
   object.Name.Data === "Holder" ? object.Children[0] : object;
@@ -24,6 +25,93 @@ const debugSlotJson = {
 };
 
 export const Template = ({
+  apiHost,
+  useSSL,
+  version,
+  children,
+}: {
+  apiHost: string;
+  useSSL: boolean;
+  version: string;
+  children: JSX.IntrinsicElements[];
+}) => {
+  const feedback = getObject(NeosFeedbackJson.Object);
+
+  const staticRootId = feedback.ID;
+  const staticPackageId = feedback.Children.find(
+    (c: any) => c.Name.Data === "Package"
+  ).ID;
+
+  const feedbackDV = feedback.Children.find((c: any) => c.Name.Data === "DV");
+  const feedbackDVChildren = feedbackDV.Children.filter(
+    (c: any) => c.Name.Data !== "ENV"
+  );
+  const feedbackSystem = feedback.Children.find(
+    (c: any) => c.Name.Data === "System"
+  );
+  const feedbackWS = feedback.Children.find((c: any) => c.Name.Data === "WS");
+  const feedbackRefList = feedback.Children.find(
+    (c: any) => c.Name.Data === "RefList"
+  );
+  const feedbackObjectRoot = feedback.Children.find(
+    (c: any) => c.Name.Data === "ObjectRoot"
+  );
+  const feedbackDebug = feedback.Children.find(
+    (c: any) => c.Name.Data === "Debug"
+  );
+
+  return (
+    <Slot
+      id={staticRootId}
+      name="MirageX"
+      components={[<Grabbable />, <DynamicVariableSpace SpaceName={"MX"} />]}
+    >
+      <Slot name="DV">
+        {feedbackDVChildren.map((c: any) => ({
+          Object: c,
+          Assets: [],
+          TypeVersions: {},
+        }))}
+        <Slot
+          name="ENV"
+          components={[
+            <DynamicValueVariable_T
+              type={{ T: { name: "[System.String, mscorlib]" } }}
+              VariableName="Static.Web.Host"
+              Value={apiHost}
+            />,
+            <DynamicValueVariable_T
+              type={{
+                T: { name: "[System.Boolean, mscorlib]" },
+              }}
+              VariableName="Static.Web.UseSSL"
+              Value={useSSL}
+            />,
+            <DynamicValueVariable_T
+              type={{ T: { name: "[System.String, mscorlib]" } }}
+              VariableName="Static.Hub.Version"
+              Value={version}
+            />,
+          ]}
+        />
+      </Slot>
+      {{
+        Object: feedbackSystem,
+        Assets: NeosFeedbackJson.Assets,
+        TypeVersions: NeosFeedbackJson.TypeVersions,
+      }}
+      {{ Object: feedbackWS, Assets: [], TypeVersions: {} }}
+      <Slot id={staticPackageId} name="Package" active={false}>
+        {children}
+      </Slot>
+      {{ Object: feedbackRefList, Assets: [], TypeVersions: {} }}
+      {{ Object: feedbackObjectRoot, Assets: [], TypeVersions: {} }}
+      {{ Object: feedbackDebug, Assets: [], TypeVersions: {} }}
+    </Slot>
+  );
+};
+
+export const TemplateOld = ({
   children,
 }: {
   children: JSX.IntrinsicElements[];

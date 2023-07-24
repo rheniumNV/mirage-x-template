@@ -4,13 +4,23 @@ import { WebSocketServer } from "ws";
 import path from "path";
 import { websocketController } from "./websocketController";
 
+const { PORT = 3000 } = process.env;
+
 const app = express();
 const server = http.createServer(app);
 const wss = new WebSocketServer({ server });
 
 app.use("/web/", express.static(path.resolve(__dirname, "../web")));
 
-app.use(express.static(path.resolve(__dirname, "../neos")));
+app.use(
+  "/output.json",
+  express.static(path.resolve(__dirname, "../neos/output.json"))
+);
+
+app.use(
+  "/version",
+  express.static(path.resolve(__dirname, "../neos/version.json"))
+);
 
 wss.on("connection", websocketController);
 
@@ -21,6 +31,6 @@ app.on("upgrade", (request, socket, head) => {
   });
 });
 
-server.listen(3000, () => {
-  console.log("Server is listening on port 3000");
+server.listen(PORT, () => {
+  console.log(`Server is listening on port ${PORT}`);
 });

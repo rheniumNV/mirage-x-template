@@ -15,8 +15,8 @@
   "include": [
     "./src/base/web/**/*.tsx",
     "./src/base/web/**/*.ts",
-    "./src/core/unit/**/*.web.tsx",
-    "./src/core/unit/**/*.web.ts",
+    "./src/core/unit/**/*web.tsx",
+    "./src/core/unit/**/*web.ts",
     "./src/core/unit/base/web/**/*.tsx",
     "./src/core/unit/base/web/**/*.ts",
     "./src/web/**/*.tsx",

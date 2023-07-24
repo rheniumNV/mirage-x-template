@@ -1,4 +1,5 @@
-import { Units as StandardUix } from "./package/standardUix/neos";
-import { Units as PrimitiveUix } from "./package/primitiveUix/neos";
+import { Units as PrimitiveUix } from "./package/PrimitiveUix/neos";
+import { Units as StyledUnit } from "./package/StyledUnit/neos";
+import { Units as StyledUix } from "./package/StyledUix/neos";
 
-export const Units = { StandardUix, PrimitiveUix };
+export const Units = { PrimitiveUix, StyledUnit, StyledUix };

@@ -4,7 +4,7 @@ import { getJson, getRecords, pickLatestObject } from "./util";
 
 const Config = require("../config.private.json");
 
-const prevInfo = require("./info.json");
+const prevInfo = require("./NeosFeedbackMetaOriginal.json");
 
 const main = async () => {
   const records = await getRecords(Config.feedbackLink);
@@ -22,9 +22,12 @@ const main = async () => {
   }
   const json = await getJson(latestObject.assetUri);
   if (json) {
-    fs.writeFileSync(path.resolve(__dirname, "./index.json"), json);
     fs.writeFileSync(
-      path.resolve(__dirname, "./info.json"),
+      path.resolve(__dirname, "./NeosFeedbackOriginal.json"),
+      json
+    );
+    fs.writeFileSync(
+      path.resolve(__dirname, "./NeosFeedbackMetaOriginal.json"),
       JSON.stringify({
         id: latestObject.id,
         creationTime: latestObject.creationTime,

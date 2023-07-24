@@ -136,11 +136,10 @@ export const generateNeosUnitFromFeedback =
     config: UnitConfig<C>;
   }) =>
   () => {
-    const feedback = (rawFeedback as NeosJson)?.Object.Children.find(
-      (o: Slot) => o.Name.Data === config.code
-    ) ?? { Name: { ID: uuidv4() }, Children: [] };
-
-    console.log(feedback.Children.map((o: Slot) => o.Name.Data));
+    const feedback = (rawFeedback as NeosJson)?.Object ?? {
+      Name: { ID: uuidv4() },
+      Children: [],
+    };
 
     const feedbackRef = feedback.Children.find(
       (o: Slot) => o.Name.Data === "Ref"
@@ -169,12 +168,6 @@ export const generateNeosUnitFromFeedback =
         (o: any) => o.Data.VariableName.Data === "Static.ChildrenParent"
       )?.Data.Reference.Data ?? staticInnerMainRootId;
 
-    console.log(
-      staticInnerMainRootId,
-      feedbackDVStatic?.Components.Data.find(
-        (o: any) => o.Data.VariableName?.Data === "Static.Main"
-      )
-    );
     const feedbackMain =
       feedback.Children.find((o: any) => o.Name.Data === "Ref")?.Children.find(
         (o: any) => o.ID === staticInnerMainRootId
