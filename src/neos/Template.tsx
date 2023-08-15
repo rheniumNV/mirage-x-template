@@ -64,7 +64,7 @@ export const Template = ({
     <Slot
       id={staticRootId}
       name="MirageX"
-      components={[<Grabbable />, <DynamicVariableSpace SpaceName={"MX"} />]}
+      components={feedback.Components.Data}
     >
       <Slot name="DV">
         {feedbackDVChildren.map((c: any) => ({

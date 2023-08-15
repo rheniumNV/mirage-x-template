@@ -1,3 +1,4 @@
+import { FunctionEnv } from "../../../../../base/common/interactionEvent";
 import {
   UnitProp,
   generateUnitConfig,
@@ -16,7 +17,7 @@ const detail = {
     styledBackgroundColor: UnitProp.String(""),
     defaultBackgroundColor: UnitProp.Color([0.8, 0.8, 0.8, 1]),
     styledSprite: UnitProp.String(""),
-    onChange: UnitProp.Function(),
+    onChange: UnitProp.Function((_env: FunctionEnv, _text: string) => {}),
     horizontalAlign: UnitProp.EnumTextHorizontalAlignment("Left"),
     verticalAlign: UnitProp.EnumTextVerticalAlignment("Middle"),
     autoSizeMin: UnitProp.Float(0),

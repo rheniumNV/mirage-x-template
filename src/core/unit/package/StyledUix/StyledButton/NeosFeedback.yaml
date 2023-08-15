@@ -1,1963 +1,777 @@
-Object:
-  Name:
-    ID: "?"
-    Data: StyledUix/StyledButton
-  Active:
-    ID: "?"
-    Data: true
+Name:
   ID: "?"
-  Persistent-Id: "?"
-  Position:
-    ID: "?"
-    Data:
-      - 0
-      - 0
-      - 0
-  Rotation:
-    ID: "?"
-    Data:
-      - 0
-      - 0
-      - 0
-      - 1
-  Scale:
-    ID: "?"
-    Data:
-      - 1
-      - 1
-      - 1
-  Tag:
-    ID: "?"
-    Data: ""
-  OrderOffset:
-    ID: "?"
-    Data: 0
-  Components:
-    ID: "?"
-    Data:
-      - Type: FrooxEngine.DynamicVariableSpace
-        Data:
+  Data: StyledUix/StyledButton
+Active:
+  ID: "?"
+  Data: true
+ID: "?"
+Persistent-Id: "?"
+Position:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+Rotation:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+    - 1
+Scale:
+  ID: "?"
+  Data:
+    - 1
+    - 1
+    - 1
+Tag:
+  ID: "?"
+  Data: ""
+OrderOffset:
+  ID: "?"
+  Data: 0
+Components:
+  ID: "?"
+  Data:
+    - Type: FrooxEngine.DynamicVariableSpace
+      Data:
+        ID: "?"
+        persistent-ID: "?"
+        UpdateOrder:
           ID: "?"
-          persistent-ID: "?"
-          UpdateOrder:
-            ID: "?"
-            Data: 0
-          Enabled:
-            ID: "?"
-            Data: true
-          SpaceName:
-            ID: "?"
-            Data: null
-          OnlyDirectBinding:
-            ID: "?"
-            Data: false
-  Children:
-    - Name:
-        ID: "?"
-        Data: DV
-      Active:
-        ID: "?"
-        Data: true
+          Data: 0
+        Enabled:
+          ID: "?"
+          Data: true
+        SpaceName:
+          ID: "?"
+          Data: null
+        OnlyDirectBinding:
+          ID: "?"
+          Data: false
+Children:
+  - Name:
       ID: "?"
-      Persistent-Id: "?"
-      Position:
-        ID: "?"
-        Data:
-          - 0
-          - 0
-          - 0
-      Rotation:
-        ID: "?"
-        Data:
-          - 0
-          - 0
-          - 0
-          - 1
-      Scale:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-          - 1
-      Tag:
-        ID: "?"
-        Data: ""
-      OrderOffset:
-        ID: "?"
-        Data: 0
-      Components:
-        ID: "?"
-        Data:
-          - Type: FrooxEngine.DynamicReferenceVariable`1[[FrooxEngine.Slot, FrooxEngine,
-              Version=2022.1.28.1335, Culture=neutral, PublicKeyToken=null]]
-            Data:
+      Data: DV
+    Active:
+      ID: "?"
+      Data: true
+    ID: "?"
+    Persistent-Id: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 1
+    Scale:
+      ID: "?"
+      Data:
+        - 1
+        - 1
+        - 1
+    Tag:
+      ID: "?"
+      Data: ""
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: FrooxEngine.DynamicReferenceVariable`1[[FrooxEngine.Slot, FrooxEngine,
+            Version=2022.1.28.1310, Culture=neutral, PublicKeyToken=null]]
+          Data:
+            ID: "?"
+            persistent-ID: "?"
+            UpdateOrder:
               ID: "?"
-              persistent-ID: "?"
-              UpdateOrder:
-                ID: "?"
-                Data: 0
-              Enabled:
-                ID: "?"
-                Data: true
-              VariableName:
-                ID: "?"
-                Data: Static.Ref
-              Reference:
-                ID: "?"
-                Data: ID:Ref:0
-              OverrideOnLink:
-                ID: "?"
-                Data: false
-      Children: []
-    - Name:
-        ID: "?"
-        Data: Ref
-      Active:
-        ID: "?"
-        Data: true
-      ID: ID:Ref:0
-      Persistent-Id: "?"
-      Position:
-        ID: "?"
-        Data:
-          - 0
-          - 0
-          - 0
-      Rotation:
-        ID: "?"
-        Data:
-          - 0
-          - 0
-          - 0
-          - 1
-      Scale:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-          - 1
-      Tag:
-        ID: "?"
-        Data: ""
-      OrderOffset:
-        ID: "?"
-        Data: 0
-      Components:
-        ID: "?"
-        Data:
-          - Type: FrooxEngine.DynamicVariableSpace
-            Data:
+              Data: 0
+            Enabled:
               ID: "?"
-              persistent-ID: "?"
-              UpdateOrder:
-                ID: "?"
-                Data: 0
-              Enabled:
-                ID: "?"
-                Data: true
-              SpaceName:
-                ID: "?"
-                Data: null
-              OnlyDirectBinding:
-                ID: "?"
-                Data: false
-      Children:
-        - Name:
+              Data: true
+            VariableName:
+              ID: "?"
+              Data: Static.Ref
+            Reference:
+              ID: "?"
+              Data: ID:Ref:0
+            OverrideOnLink:
+              ID: "?"
+              Data: false
+    Children: []
+  - Name:
+      ID: "?"
+      Data: Ref
+    Active:
+      ID: "?"
+      Data: true
+    ID: ID:Ref:0
+    Persistent-Id: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 1
+    Scale:
+      ID: "?"
+      Data:
+        - 1
+        - 1
+        - 1
+    Tag:
+      ID: "?"
+      Data: ""
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: FrooxEngine.DynamicVariableSpace
+          Data:
             ID: "?"
-            Data: DV/Static
-          Active:
-            ID: "?"
-            Data: true
+            persistent-ID: "?"
+            UpdateOrder:
+              ID: "?"
+              Data: 0
+            Enabled:
+              ID: "?"
+              Data: true
+            SpaceName:
+              ID: "?"
+              Data: null
+            OnlyDirectBinding:
+              ID: "?"
+              Data: false
+    Children:
+      - Name:
           ID: "?"
-          Persistent-Id: "?"
-          Position:
-            ID: "?"
-            Data:
-              - 0
-              - 0
-              - 0
-          Rotation:
-            ID: "?"
-            Data:
-              - 0
-              - 0
-              - 0
-              - 1
-          Scale:
-            ID: "?"
-            Data:
-              - 1
-              - 1
-              - 1
-          Tag:
-            ID: "?"
-            Data: ""
-          OrderOffset:
-            ID: "?"
-            Data: 0
-          Components:
-            ID: "?"
-            Data:
-              - Type: FrooxEngine.DynamicReferenceVariable`1[[FrooxEngine.Slot, FrooxEngine,
-                  Version=2022.1.28.1335, Culture=neutral, PublicKeyToken=null]]
-                Data:
-                  ID: "?"
-                  persistent-ID: "?"
-                  UpdateOrder:
-                    ID: "?"
-                    Data: 0
-                  Enabled:
-                    ID: "?"
-                    Data: true
-                  VariableName:
-                    ID: "?"
-                    Data: Static.Root
-                  Reference:
-                    ID: "?"
-                    Data: ID:Ref:0
-                  OverrideOnLink:
-                    ID: "?"
-                    Data: false
-              - Type: FrooxEngine.DynamicReferenceVariable`1[[FrooxEngine.Slot, FrooxEngine,
-                  Version=2022.1.28.1335, Culture=neutral, PublicKeyToken=null]]
-                Data:
-                  ID: "?"
-                  persistent-ID: "?"
-                  UpdateOrder:
-                    ID: "?"
-                    Data: 0
-                  Enabled:
-                    ID: "?"
-                    Data: true
-                  VariableName:
-                    ID: "?"
-                    Data: Static.Main
-                  Reference:
-                    ID: "?"
-                    Data: ID:StyledButton:0
-                  OverrideOnLink:
-                    ID: "?"
-                    Data: false
-              - Type: FrooxEngine.DynamicReferenceVariable`1[[FrooxEngine.Slot, FrooxEngine,
-                  Version=2022.1.28.1335, Culture=neutral, PublicKeyToken=null]]
-                Data:
-                  ID: "?"
-                  persistent-ID: "?"
-                  UpdateOrder:
-                    ID: "?"
-                    Data: 0
-                  Enabled:
-                    ID: "?"
-                    Data: true
-                  VariableName:
-                    ID: "?"
-                    Data: Static.ChildrenParent
-                  Reference:
-                    ID: "?"
-                    Data: ID:StyledButton:0
-                  OverrideOnLink:
-                    ID: "?"
-                    Data: false
-          Children: []
-        - Name:
-            ID: "?"
-            Data: DV/Props
-          Active:
-            ID: "?"
-            Data: true
+          Data: DV/Static
+        Active:
           ID: "?"
-          Persistent-Id: "?"
-          Position:
-            ID: "?"
-            Data:
-              - 0
-              - 0
-              - 0
-          Rotation:
-            ID: "?"
-            Data:
-              - 0
-              - 0
-              - 0
-              - 1
-          Scale:
-            ID: "?"
-            Data:
-              - 1
-              - 1
-              - 1
-          Tag:
-            ID: "?"
-            Data: ""
-          OrderOffset:
-            ID: "?"
-            Data: 0
-          Components:
-            ID: "?"
-            Data:
-              - Type: FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0,
-                  Culture=neutral, PublicKeyToken=b77a5c561934e089]]
-                Data:
+          Data: true
+        ID: "?"
+        Persistent-Id: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 1
+        Scale:
+          ID: "?"
+          Data:
+            - 1
+            - 1
+            - 1
+        Tag:
+          ID: "?"
+          Data: ""
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: FrooxEngine.DynamicReferenceVariable`1[[FrooxEngine.Slot, FrooxEngine,
+                Version=2022.1.28.1310, Culture=neutral, PublicKeyToken=null]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
                   ID: "?"
-                  persistent-ID: "?"
-                  UpdateOrder:
-                    ID: "?"
-                    Data: 0
-                  Enabled:
-                    ID: "?"
-                    Data: true
-                  VariableName:
-                    ID: "?"
-                    Data: Props.styledSprite
-                  TargetField:
-                    ID: "?"
-                    Data: ID:StyledButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[[FrooxEngine.IAssetProvider`1[[FrooxEngine.Sprite,
-                      FrooxEngine, Version=2022.1.28.1335, Culture=neutral,
-                      PublicKeyToken=null]], FrooxEngine,
-                      Version=2022.1.28.1335, Culture=neutral,
-                      PublicKeyToken=null]]:VariableName:0
-                  OverrideOnLink:
-                    ID: "?"
-                    Data: false
-              - Type: FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0,
-                  Culture=neutral, PublicKeyToken=b77a5c561934e089]]
-                Data:
+                  Data: 0
+                Enabled:
                   ID: "?"
-                  persistent-ID: "?"
-                  UpdateOrder:
-                    ID: "?"
-                    Data: 0
-                  Enabled:
-                    ID: "?"
-                    Data: true
-                  VariableName:
-                    ID: "?"
-                    Data: Props.styledColor
-                  TargetField:
-                    ID: "?"
-                    Data: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[[BaseX.color,
-                      BaseX, Version=1.0.0.0, Culture=neutral,
-                      PublicKeyToken=null]]:VariableName:0
-                  OverrideOnLink:
-                    ID: "?"
-                    Data: false
-              - Type: FrooxEngine.DynamicField`1[[BaseX.color, BaseX, Version=1.0.0.0,
-                  Culture=neutral, PublicKeyToken=null]]
-                Data:
+                  Data: true
+                VariableName:
                   ID: "?"
-                  persistent-ID: "?"
-                  UpdateOrder:
-                    ID: "?"
-                    Data: 0
-                  Enabled:
-                    ID: "?"
-                    Data: true
-                  VariableName:
-                    ID: "?"
-                    Data: Props.defaultColor
-                  TargetField:
-                    ID: "?"
-                    Data: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[[BaseX.color,
-                      BaseX, Version=1.0.0.0, Culture=neutral,
-                      PublicKeyToken=null]]:DefaultValue:0
-                  OverrideOnLink:
-                    ID: "?"
-                    Data: false
-              - Type: FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0,
-                  Culture=neutral, PublicKeyToken=b77a5c561934e089]]
-                Data:
+                  Data: Static.Root
+                Reference:
                   ID: "?"
-                  persistent-ID: "?"
-                  UpdateOrder:
-                    ID: "?"
-                    Data: 0
-                  Enabled:
-                    ID: "?"
-                    Data: true
-                  VariableName:
-                    ID: "?"
-                    Data: Props.onClick
-                  TargetField:
-                    ID: "?"
-                    Data: "?"
-                  OverrideOnLink:
-                    ID: "?"
-                    Data: false
-              - Type: FrooxEngine.DynamicField`1[[System.Boolean, mscorlib, Version=4.0.0.0,
-                  Culture=neutral, PublicKeyToken=b77a5c561934e089]]
-                Data:
+                  Data: ID:Ref:0
+                OverrideOnLink:
                   ID: "?"
-                  persistent-ID: "?"
-                  UpdateOrder:
-                    ID: "?"
-                    Data: 0
-                  Enabled:
-                    ID: "?"
-                    Data: true
-                  VariableName:
-                    ID: "?"
-                    Data: Props.requireLockInToPress
-                  TargetField:
-                    ID: "?"
-                    Data: ID:StyledButton:Components:FrooxEngine.UIX.Button:RequireLockInToPress:0
-                  OverrideOnLink:
-                    ID: "?"
-                    Data: false
-          Children: []
-        - Name:
-            ID: "?"
-            Data: StyledButton
-          Active:
-            ID: "?"
-            Data: true
-          ID: ID:StyledButton:0
-          Persistent-Id: "?"
-          Position:
-            ID: "?"
-            Data:
-              - 0
-              - 0
-              - 0
-          Rotation:
-            ID: "?"
-            Data:
-              - 0
-              - 0
-              - 0
-              - 1
-          Scale:
-            ID: "?"
-            Data:
-              - 1
-              - 1
-              - 1
-          Tag:
-            ID: "?"
-            Data: null
-          OrderOffset:
-            ID: "?"
-            Data: 0
-          Components:
-            ID: "?"
-            Data:
-              - Type: FrooxEngine.UIX.Image
-                Data:
+                  Data: false
+            - Type: FrooxEngine.DynamicReferenceVariable`1[[FrooxEngine.Slot, FrooxEngine,
+                Version=2022.1.28.1310, Culture=neutral, PublicKeyToken=null]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
                   ID: "?"
-                  persistent-ID: "?"
-                  UpdateOrder:
-                    ID: "?"
-                    Data: 0
-                  Enabled:
-                    ID: "?"
-                    Data: true
-                  Sprite:
-                    ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:Sprite:0
-                    Data: null
-                  Material:
-                    ID: "?"
-                    Data: null
-                  Tint:
-                    ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:Tint:0
-                    Data:
-                      - 0
-                      - 0
-                      - 0
-                      - 0
-                  PreserveAspect:
-                    ID: "?"
-                    Data: true
-                  NineSliceSizing:
-                    ID: "?"
-                    Data: TextureSize
-                  InteractionTarget:
-                    ID: "?"
-                    Data: true
-                  __legacyZWrite-ID: "?"
-              - Type: FrooxEngine.UIX.RectTransform
-                Data:
+                  Data: 0
+                Enabled:
                   ID: "?"
-                  persistent-ID: "?"
-                  UpdateOrder:
-                    ID: "?"
-                    Data: 0
-                  Enabled:
-                    ID: "?"
-                    Data: true
-                  AnchorMin:
-                    ID: "?"
-                    Data:
-                      - 0
-                      - 0
-                  AnchorMax:
-                    ID: "?"
-                    Data:
-                      - 1
-                      - 1
-                  OffsetMin:
-                    ID: "?"
-                    Data:
-                      - 0
-                      - 0
-                  OffsetMax:
-                    ID: "?"
-                    Data:
-                      - 0
-                      - 0
-                  Pivot:
-                    ID: "?"
-                    Data:
-                      - 0.5
-                      - 0.5
-              - Type: FrooxEngine.UIX.Button
-                Data:
+                  Data: true
+                VariableName:
                   ID: "?"
-                  persistent-ID: "?"
-                  UpdateOrder:
-                    ID: "?"
-                    Data: 0
-                  Enabled:
-                    ID: "?"
-                    Data: true
-                  BaseColor:
-                    ID: ID:StyledButton:Components:FrooxEngine.UIX.Button:BaseColor:0
-                    Data:
-                      - 0
-                      - 0
-                      - 0
-                      - 0
-                  ColorDrivers:
-                    ID: "?"
-                    Data:
-                      - ID: "?"
-                        ColorDrive:
-                          ID: "?"
-                          Data: ID:StyledButton:Components:FrooxEngine.UIX.Image:Tint:0
-                        TintColorMode:
-                          ID: "?"
-                          Data: Explicit
-                        NormalColor:
-                          ID: "?"
-                          Data:
-                            - 1
-                            - 1
-                            - 1
-                            - 1
-                        HighlightColor:
-                          ID: "?"
-                          Data:
-                            - 0.75
-                            - 0.75
-                            - 0.75
-                            - 1
-                        PressColor:
-                          ID: "?"
-                          Data:
-                            - 0.5
-                            - 0.5
-                            - 0.5
-                            - 1
-                        DisabledColor:
-                          ID: "?"
-                          Data:
-                            - 0.6499999761581421
-                            - 0.6499999761581421
-                            - 0.6499999761581421
-                            - 1
-                  __legacy_NormalColor-ID: "?"
-                  __legacy_HighlightColor-ID: "?"
-                  __legacy_PressColor-ID: "?"
-                  __legacy_DisabledColor-ID: "?"
-                  __legacy_TintColorMode-ID: "?"
-                  __legacy_ColorDrive-ID: "?"
-                  IsPressed:
-                    ID: "?"
-                    Data: false
-                  IsHovering:
-                    ID: "?"
-                    Data: false
-                  HoverVibrate:
-                    ID: "?"
-                    Data: Short
-                  PressVibrate:
-                    ID: "?"
-                    Data: Medium
-                  ClearFocusOnPress:
-                    ID: "?"
-                    Data: true
-                  PassThroughHorizontalMovement:
-                    ID: "?"
-                    Data: true
-                  PassThroughVerticalMovement:
-                    ID: "?"
-                    Data: true
-                  RequireLockInToPress:
-                    ID: ID:StyledButton:Components:FrooxEngine.UIX.Button:RequireLockInToPress:0
-                    Data: false
-                  RequireInitialPress:
-                    ID: "?"
-                    Data: true
-                  PressPoint:
-                    ID: "?"
-                    Data:
-                      - 0
-                      - 0
-                  Pressed:
-                    ID: "?"
-                    Data:
-                      Target: null
-                  Pressing:
-                    ID: "?"
-                    Data:
-                      Target: null
-                  Released:
-                    ID: "?"
-                    Data:
-                      Target: null
-                  HoverEnter:
-                    ID: "?"
-                    Data:
-                      Target: null
-                  HoverStay:
-                    ID: "?"
-                    Data:
-                      Target: null
-                  HoverLeave:
-                    ID: "?"
-                    Data:
-                      Target: null
-              - Type: FrooxEngine.ButtonDynamicImpulseTriggerWithValue`1[[System.String,
-                  mscorlib, Version=4.0.0.0, Culture=neutral,
-                  PublicKeyToken=b77a5c561934e089]]
-                Data:
+                  Data: Static.Main
+                Reference:
                   ID: "?"
-                  persistent-ID: "?"
-                  UpdateOrder:
-                    ID: "?"
-                    Data: 0
-                  Enabled:
-                    ID: "?"
-                    Data: true
-                  Target:
-                    ID: ID:StyledButton:Components:FrooxEngine.ButtonDynamicImpulseTriggerWithValue`1[[System.String,
-                      mscorlib, Version=4.0.0.0, Culture=neutral,
-                      PublicKeyToken=b77a5c561934e089]]:Target:0
-                    Data: "?"
-                  PressedData:
-                    ID: "?"
-                    Data: {}
-                  PressingData:
-                    ID: "?"
-                    Data: {}
-                  ReleasedData:
-                    ID: "?"
-                    Data: {}
-                  HoverEnterData:
-                    ID: "?"
-                    Data: {}
-                  HoverStayData:
-                    ID: "?"
-                    Data: {}
-                  HoverLeaveData:
-                    ID: "?"
-                    Data: {}
-              - Type: FrooxEngine.DynamicReferenceVariableDriver`1[[FrooxEngine.Slot,
-                  FrooxEngine, Version=2022.1.28.1335, Culture=neutral,
-                  PublicKeyToken=null]]
-                Data:
+                  Data: ID:StyledButton:0
+                OverrideOnLink:
                   ID: "?"
-                  persistent-ID: "?"
-                  UpdateOrder:
-                    ID: "?"
-                    Data: 0
-                  Enabled:
-                    ID: "?"
-                    Data: true
-                  VariableName:
-                    ID: "?"
-                    Data: MX/Static.System.Func.EmitInteractionEvent
-                  Target:
-                    ID: "?"
-                    Data: ID:StyledButton:Components:FrooxEngine.ButtonDynamicImpulseTriggerWithValue`1[[System.String,
-                      mscorlib, Version=4.0.0.0, Culture=neutral,
-                      PublicKeyToken=b77a5c561934e089]]:Target:0
-                  DefaultTarget:
-                    ID: "?"
-                    Data: null
-              - Type: FrooxEngine.DynamicValueVariableDriver`1[[BaseX.color, BaseX,
-                  Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
-                Data:
+                  Data: false
+            - Type: FrooxEngine.DynamicReferenceVariable`1[[FrooxEngine.Slot, FrooxEngine,
+                Version=2022.1.28.1310, Culture=neutral, PublicKeyToken=null]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
                   ID: "?"
-                  persistent-ID: "?"
-                  UpdateOrder:
-                    ID: "?"
-                    Data: 0
-                  Enabled:
-                    ID: "?"
-                    Data: true
-                  VariableName:
-                    ID: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[[BaseX.color,
-                      BaseX, Version=1.0.0.0, Culture=neutral,
-                      PublicKeyToken=null]]:VariableName:0
-                    Data: null
-                  Target:
-                    ID: "?"
-                    Data: ID:StyledButton:Components:FrooxEngine.UIX.Button:BaseColor:0
-                  DefaultValue:
-                    ID: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[[BaseX.color,
-                      BaseX, Version=1.0.0.0, Culture=neutral,
-                      PublicKeyToken=null]]:DefaultValue:0
-                    Data:
-                      - 0
-                      - 0
-                      - 0
-                      - 0
-              - Type: FrooxEngine.DynamicReferenceVariableDriver`1[[FrooxEngine.IAssetProvider`1[[FrooxEngine.Sprite,
-                  FrooxEngine, Version=2022.1.28.1335, Culture=neutral,
-                  PublicKeyToken=null]], FrooxEngine, Version=2022.1.28.1335,
-                  Culture=neutral, PublicKeyToken=null]]
-                Data:
+                  Data: 0
+                Enabled:
                   ID: "?"
-                  persistent-ID: "?"
-                  UpdateOrder:
-                    ID: "?"
-                    Data: 0
-                  Enabled:
-                    ID: "?"
-                    Data: true
-                  VariableName:
-                    ID: ID:StyledButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[[FrooxEngine.IAssetProvider`1[[FrooxEngine.Sprite,
-                      FrooxEngine, Version=2022.1.28.1335, Culture=neutral,
-                      PublicKeyToken=null]], FrooxEngine,
-                      Version=2022.1.28.1335, Culture=neutral,
-                      PublicKeyToken=null]]:VariableName:0
-                    Data: ""
-                  Target:
-                    ID: "?"
-                    Data: ID:StyledButton:Components:FrooxEngine.UIX.Image:Sprite:0
-                  DefaultTarget:
-                    ID: "?"
-                    Data: null
-          Children: []
-Assets:
-  - Type: FrooxEngine.UI_UnlitMaterial
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      HighPriorityIntegration:
-        ID: "?"
-        Data: false
-      Rect:
-        ID: "?"
-        Data:
-          X: 0
-          Y: 0
-          Width: 0
-          Height: 0
-      RectClip:
-        ID: "?"
-        Data: false
-      ColorMask:
-        ID: "?"
-        Data: RGBA
-      StencilComparison:
-        ID: "?"
-        Data: Always
-      StencilOperation:
-        ID: "?"
-        Data: Keep
-      StencilID:
-        ID: "?"
-        Data: 0
-      StencilWriteMask:
-        ID: "?"
-        Data: 255
-      StencilReadMask:
-        ID: "?"
-        Data: 255
-      RenderQueue:
-        ID: "?"
-        Data: -1
-      _shader-ID: "?"
-      Texture:
-        ID: "?"
-        Data: null
-      TextureScale:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-      TextureOffset:
-        ID: "?"
-        Data:
-          - 0
-          - 0
-      Tint:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-          - 1
-          - 1
-      Overlay:
-        ID: "?"
-        Data: false
-      OverlayTint:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-          - 1
-          - 0.5
-      AlphaCutoff:
-        ID: "?"
-        Data: 0.009999999776482582
-      AlphaClip:
-        ID: "?"
-        Data: true
-      TextureMode:
-        ID: "?"
-        Data: DirectColor
-      MaskTexture:
-        ID: "?"
-        Data: null
-      MaskScale:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-      MaskOffset:
-        ID: "?"
-        Data:
-          - 0
-          - 0
-      MaskMode:
-        ID: "?"
-        Data: MultiplyAlpha
-      BlendMode:
-        ID: "?"
-        Data: Alpha
-      Sidedness:
-        ID: "?"
-        Data: Double
-      ZWrite:
-        ID: "?"
-        Data: On
-      ZTest:
-        ID: "?"
-        Data: LessOrEqual
-      OffsetFactor:
-        ID: "?"
-        Data: 1
-      OffsetUnits:
-        ID: "?"
-        Data: 100
-  - Type: FrooxEngine.FontChain
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      HighPriorityIntegration:
-        ID: "?"
-        Data: false
-      MainFont:
-        ID: "?"
-        Data: ID:Assets:FrooxEngine.StaticFont:ID:0
-      FallbackFonts:
-        ID: "?"
-        Data:
-          - ID: "?"
-            Data: "?"
-          - ID: "?"
-            Data: "?"
-          - ID: "?"
-            Data: "?"
-          - ID: "?"
-            Data: "?"
-  - Type: FrooxEngine.StaticFont
-    Data:
-      ID: ID:Assets:FrooxEngine.StaticFont:ID:0
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///c801b8d2522fb554678f17f4597158b1af3f9be3abd6ce35d5a3112a81e2b\
-          f39"
-      Padding:
-        ID: "?"
-        Data: 1
-      PixelRange:
-        ID: "?"
-        Data: 4
-      GlyphEmSize:
-        ID: "?"
-        Data: 32
-  - Type: FrooxEngine.StaticFont
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///4cac521169034ddd416c6deffe2eb16234863761837df677a910697ec5bab\
-          d25"
-      Padding:
-        ID: "?"
-        Data: 1
-      PixelRange:
-        ID: "?"
-        Data: 4
-      GlyphEmSize:
-        ID: "?"
-        Data: 32
-  - Type: FrooxEngine.StaticFont
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///23e7ad7cb0a5a4cf75e07c9e0848b1eb06bba15e8fa9b8cb0579fc823c532\
-          927"
-      Padding:
-        ID: "?"
-        Data: 1
-      PixelRange:
-        ID: "?"
-        Data: 4
-      GlyphEmSize:
-        ID: "?"
-        Data: 32
-  - Type: FrooxEngine.StaticFont
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///415dc6290378574135b64c808dc640c1df7531973290c4970c51fdeb849cb\
-          0c5"
-      Padding:
-        ID: "?"
-        Data: 1
-      PixelRange:
-        ID: "?"
-        Data: 4
-      GlyphEmSize:
-        ID: "?"
-        Data: 32
-  - Type: FrooxEngine.StaticFont
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///bcda0bcc22bab28ea4fedae800bfbf9ec76d71cc3b9f851779a35b7e438a8\
-          39d"
-      Padding:
-        ID: "?"
-        Data: 1
-      PixelRange:
-        ID: "?"
-        Data: 4
-      GlyphEmSize:
-        ID: "?"
-        Data: 32
-  - Type: FrooxEngine.UI_TextUnlitMaterial
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: false
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      HighPriorityIntegration:
-        ID: "?"
-        Data: false
-      _shader-ID: "?"
-      FontAtlas:
-        ID: "?"
-        Data: null
-      TintColor:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-          - 1
-          - 1
-      OutlineColor:
-        ID: "?"
-        Data:
-          - 0
-          - 0
-          - 0
-          - 1
-      BackgroundColor:
-        ID: "?"
-        Data:
-          - 0
-          - 0
-          - 0
-          - 1
-      AutoBackgroundColor:
-        ID: "?"
-        Data: true
-      GlyphRenderMethod:
-        ID: "?"
-        Data: MSDF
-      PixelRange:
-        ID: "?"
-        Data: 4
-      FaceDilate:
-        ID: "?"
-        Data: 0
-      OutlineThickness:
-        ID: "?"
-        Data: 0
-      FaceSoftness:
-        ID: "?"
-        Data: 0
-      BlendMode:
-        ID: "?"
-        Data: Alpha
-      Sidedness:
-        ID: "?"
-        Data: Double
-      ZWrite:
-        ID: "?"
-        Data: Auto
-      ZTest:
-        ID: "?"
-        Data: LessOrEqual
-      OffsetFactor:
-        ID: "?"
-        Data: 0
-      OffsetUnits:
-        ID: "?"
-        Data: 0
-      RenderQueue:
-        ID: "?"
-        Data: -1
-      Overlay:
-        ID: "?"
-        Data: false
-      OverlayTint:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-          - 1
-          - 0.5
-      Rect:
-        ID: "?"
-        Data:
-          X: 0
-          Y: 0
-          Width: 0
-          Height: 0
-      RectClip:
-        ID: "?"
-        Data: false
-      ColorMask:
-        ID: "?"
-        Data: RGBA
-      StencilComparison:
-        ID: "?"
-        Data: Always
-      StencilOperation:
-        ID: "?"
-        Data: Keep
-      StencilID:
-        ID: "?"
-        Data: 0
-      StencilWriteMask:
-        ID: "?"
-        Data: 255
-      StencilReadMask:
-        ID: "?"
-        Data: 255
-  - Type: FrooxEngine.FontChain
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      HighPriorityIntegration:
-        ID: "?"
-        Data: false
-      MainFont:
-        ID: "?"
-        Data: ID:Assets:FrooxEngine.StaticFont:ID:0
-      FallbackFonts:
-        ID: "?"
-        Data:
-          - ID: "?"
-            Data: "?"
-          - ID: "?"
-            Data: "?"
-          - ID: "?"
-            Data: "?"
-          - ID: "?"
-            Data: "?"
-  - Type: FrooxEngine.SpriteProvider
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      HighPriorityIntegration:
-        ID: "?"
-        Data: false
-      Texture:
-        ID: "?"
-        Data: ID:Assets:FrooxEngine.StaticTexture2D:ID:0
-      Rect:
-        ID: "?"
-        Data:
-          X: 1
-          Y: 1
-          Width: 1
-          Height: 1
-      Borders:
-        ID: "?"
-        Data:
-          - 0.3319999873638153
-          - 0.3319999873638153
-          - 0.3319999873638153
-          - 0.3319999873638153
-      Scale:
-        ID: "?"
-        Data: 0.03999999910593033
-  - Type: FrooxEngine.StaticTexture2D
-    Data:
-      ID: ID:Assets:FrooxEngine.StaticTexture2D:ID:0
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///d8495d0372ef5bb0f9eec8ad864ebf7bf7f699e713176821e6ed0f7826b78\
-          091.png"
-      FilterMode:
-        ID: "?"
-        Data: Anisotropic
-      AnisotropicLevel:
-        ID: "?"
-        Data: 8
-      Uncompressed:
-        ID: "?"
-        Data: false
-      DirectLoad:
-        ID: "?"
-        Data: false
-      ForceExactVariant:
-        ID: "?"
-        Data: false
-      PreferredFormat:
-        ID: "?"
-        Data: null
-      MipMapBias:
-        ID: "?"
-        Data: 0
-      IsNormalMap:
-        ID: "?"
-        Data: false
-      WrapModeU:
-        ID: "?"
-        Data: Repeat
-      WrapModeV:
-        ID: "?"
-        Data: Repeat
-      PowerOfTwoAlignThreshold:
-        ID: "?"
-        Data: 0.05000000074505806
-      CrunchCompressed:
-        ID: "?"
-        Data: true
-      MaxSize:
-        ID: "?"
-        Data: null
-      MipMaps:
-        ID: "?"
-        Data: false
-      MipMapFilter:
-        ID: "?"
-        Data: Box
-      Readable:
-        ID: "?"
-        Data: false
-  - Type: FrooxEngine.UI_UnlitMaterial
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      HighPriorityIntegration:
-        ID: "?"
-        Data: false
-      Rect:
-        ID: "?"
-        Data:
-          X: 0
-          Y: 0
-          Width: 0
-          Height: 0
-      RectClip:
-        ID: "?"
-        Data: false
-      ColorMask:
-        ID: "?"
-        Data: RGBA
-      StencilComparison:
-        ID: "?"
-        Data: Always
-      StencilOperation:
-        ID: "?"
-        Data: Keep
-      StencilID:
-        ID: "?"
-        Data: 0
-      StencilWriteMask:
-        ID: "?"
-        Data: 255
-      StencilReadMask:
-        ID: "?"
-        Data: 255
-      RenderQueue:
-        ID: "?"
-        Data: -1
-      _shader-ID: "?"
-      Texture:
-        ID: "?"
-        Data: null
-      TextureScale:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-      TextureOffset:
-        ID: "?"
-        Data:
-          - 0
-          - 0
-      Tint:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-          - 1
-          - 1
-      Overlay:
-        ID: "?"
-        Data: false
-      OverlayTint:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-          - 1
-          - 0.5
-      AlphaCutoff:
-        ID: "?"
-        Data: 0.009999999776482582
-      AlphaClip:
-        ID: "?"
-        Data: true
-      TextureMode:
-        ID: "?"
-        Data: DirectColor
-      MaskTexture:
-        ID: "?"
-        Data: null
-      MaskScale:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-      MaskOffset:
-        ID: "?"
-        Data:
-          - 0
-          - 0
-      MaskMode:
-        ID: "?"
-        Data: MultiplyAlpha
-      BlendMode:
-        ID: "?"
-        Data: Alpha
-      Sidedness:
-        ID: "?"
-        Data: Double
-      ZWrite:
-        ID: "?"
-        Data: On
-      ZTest:
-        ID: "?"
-        Data: LessOrEqual
-      OffsetFactor:
-        ID: "?"
-        Data: 1
-      OffsetUnits:
-        ID: "?"
-        Data: 100
-  - Type: FrooxEngine.FontChain
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      HighPriorityIntegration:
-        ID: "?"
-        Data: false
-      MainFont:
-        ID: "?"
-        Data: ID:Assets:FrooxEngine.StaticFont:ID:5
-      FallbackFonts:
-        ID: "?"
-        Data:
-          - ID: "?"
-            Data: "?"
-          - ID: "?"
-            Data: "?"
-          - ID: "?"
-            Data: "?"
-          - ID: "?"
-            Data: "?"
-  - Type: FrooxEngine.StaticFont
-    Data:
-      ID: ID:Assets:FrooxEngine.StaticFont:ID:5
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///c801b8d2522fb554678f17f4597158b1af3f9be3abd6ce35d5a3112a81e2b\
-          f39"
-      Padding:
-        ID: "?"
-        Data: 1
-      PixelRange:
-        ID: "?"
-        Data: 4
-      GlyphEmSize:
-        ID: "?"
-        Data: 32
-  - Type: FrooxEngine.StaticFont
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///4cac521169034ddd416c6deffe2eb16234863761837df677a910697ec5bab\
-          d25"
-      Padding:
-        ID: "?"
-        Data: 1
-      PixelRange:
-        ID: "?"
-        Data: 4
-      GlyphEmSize:
-        ID: "?"
-        Data: 32
-  - Type: FrooxEngine.StaticFont
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///23e7ad7cb0a5a4cf75e07c9e0848b1eb06bba15e8fa9b8cb0579fc823c532\
-          927"
-      Padding:
-        ID: "?"
-        Data: 1
-      PixelRange:
-        ID: "?"
-        Data: 4
-      GlyphEmSize:
-        ID: "?"
-        Data: 32
-  - Type: FrooxEngine.StaticFont
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///415dc6290378574135b64c808dc640c1df7531973290c4970c51fdeb849cb\
-          0c5"
-      Padding:
-        ID: "?"
-        Data: 1
-      PixelRange:
-        ID: "?"
-        Data: 4
-      GlyphEmSize:
-        ID: "?"
-        Data: 32
-  - Type: FrooxEngine.StaticFont
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///bcda0bcc22bab28ea4fedae800bfbf9ec76d71cc3b9f851779a35b7e438a8\
-          39d"
-      Padding:
-        ID: "?"
-        Data: 1
-      PixelRange:
-        ID: "?"
-        Data: 4
-      GlyphEmSize:
-        ID: "?"
-        Data: 32
-  - Type: FrooxEngine.UI_TextUnlitMaterial
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      HighPriorityIntegration:
-        ID: "?"
-        Data: false
-      _shader-ID: "?"
-      FontAtlas:
-        ID: "?"
-        Data: null
-      TintColor:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-          - 1
-          - 1
-      OutlineColor:
-        ID: "?"
-        Data:
-          - 0
-          - 0
-          - 0
-          - 1
-      BackgroundColor:
-        ID: "?"
-        Data:
-          - 0
-          - 0
-          - 0
-          - 1
-      AutoBackgroundColor:
-        ID: "?"
-        Data: true
-      GlyphRenderMethod:
-        ID: "?"
-        Data: MSDF
-      PixelRange:
-        ID: "?"
-        Data: 4
-      FaceDilate:
-        ID: "?"
-        Data: 0
-      OutlineThickness:
-        ID: "?"
-        Data: 0
-      FaceSoftness:
-        ID: "?"
-        Data: 0
-      BlendMode:
-        ID: "?"
-        Data: Alpha
-      Sidedness:
-        ID: "?"
-        Data: Double
-      ZWrite:
-        ID: "?"
-        Data: Auto
-      ZTest:
-        ID: "?"
-        Data: LessOrEqual
-      OffsetFactor:
-        ID: "?"
-        Data: 0
-      OffsetUnits:
-        ID: "?"
-        Data: 0
-      RenderQueue:
-        ID: "?"
-        Data: -1
-      Overlay:
-        ID: "?"
-        Data: false
-      OverlayTint:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-          - 1
-          - 0.5
-      Rect:
-        ID: "?"
-        Data:
-          X: 0
-          Y: 0
-          Width: 0
-          Height: 0
-      RectClip:
-        ID: "?"
-        Data: false
-      ColorMask:
-        ID: "?"
-        Data: RGBA
-      StencilComparison:
-        ID: "?"
-        Data: Always
-      StencilOperation:
-        ID: "?"
-        Data: Keep
-      StencilID:
-        ID: "?"
-        Data: 0
-      StencilWriteMask:
-        ID: "?"
-        Data: 255
-      StencilReadMask:
-        ID: "?"
-        Data: 255
-  - Type: FrooxEngine.FontChain
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      HighPriorityIntegration:
-        ID: "?"
-        Data: false
-      MainFont:
-        ID: "?"
-        Data: ID:Assets:FrooxEngine.StaticFont:ID:10
-      FallbackFonts:
-        ID: "?"
-        Data:
-          - ID: "?"
-            Data: "?"
-          - ID: "?"
-            Data: "?"
-          - ID: "?"
-            Data: "?"
-          - ID: "?"
-            Data: "?"
-  - Type: FrooxEngine.StaticFont
-    Data:
-      ID: ID:Assets:FrooxEngine.StaticFont:ID:10
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///c801b8d2522fb554678f17f4597158b1af3f9be3abd6ce35d5a3112a81e2b\
-          f39"
-      Padding:
-        ID: "?"
-        Data: 1
-      PixelRange:
-        ID: "?"
-        Data: 4
-      GlyphEmSize:
-        ID: "?"
-        Data: 32
-  - Type: FrooxEngine.StaticFont
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///4cac521169034ddd416c6deffe2eb16234863761837df677a910697ec5bab\
-          d25"
-      Padding:
-        ID: "?"
-        Data: 1
-      PixelRange:
-        ID: "?"
-        Data: 4
-      GlyphEmSize:
-        ID: "?"
-        Data: 32
-  - Type: FrooxEngine.StaticFont
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///23e7ad7cb0a5a4cf75e07c9e0848b1eb06bba15e8fa9b8cb0579fc823c532\
-          927"
-      Padding:
-        ID: "?"
-        Data: 1
-      PixelRange:
-        ID: "?"
-        Data: 4
-      GlyphEmSize:
-        ID: "?"
-        Data: 32
-  - Type: FrooxEngine.StaticFont
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///415dc6290378574135b64c808dc640c1df7531973290c4970c51fdeb849cb\
-          0c5"
-      Padding:
-        ID: "?"
-        Data: 1
-      PixelRange:
-        ID: "?"
-        Data: 4
-      GlyphEmSize:
-        ID: "?"
-        Data: 32
-  - Type: FrooxEngine.StaticFont
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      URL:
-        ID: "?"
-        Data: "@neosdb:///bcda0bcc22bab28ea4fedae800bfbf9ec76d71cc3b9f851779a35b7e438a8\
-          39d"
-      Padding:
-        ID: "?"
-        Data: 1
-      PixelRange:
-        ID: "?"
-        Data: 4
-      GlyphEmSize:
-        ID: "?"
-        Data: 32
-  - Type: FrooxEngine.UI_TextUnlitMaterial
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: false
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      HighPriorityIntegration:
-        ID: "?"
-        Data: false
-      _shader-ID: "?"
-      FontAtlas:
-        ID: "?"
-        Data: null
-      TintColor:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-          - 1
-          - 1
-      OutlineColor:
-        ID: "?"
-        Data:
-          - 0
-          - 0
-          - 0
-          - 1
-      BackgroundColor:
-        ID: "?"
-        Data:
-          - 0
-          - 0
-          - 0
-          - 1
-      AutoBackgroundColor:
-        ID: "?"
-        Data: true
-      GlyphRenderMethod:
-        ID: "?"
-        Data: MSDF
-      PixelRange:
-        ID: "?"
-        Data: 4
-      FaceDilate:
-        ID: "?"
-        Data: 0
-      OutlineThickness:
-        ID: "?"
-        Data: 0
-      FaceSoftness:
-        ID: "?"
-        Data: 0
-      BlendMode:
-        ID: "?"
-        Data: Alpha
-      Sidedness:
-        ID: "?"
-        Data: Double
-      ZWrite:
-        ID: "?"
-        Data: Auto
-      ZTest:
-        ID: "?"
-        Data: LessOrEqual
-      OffsetFactor:
-        ID: "?"
-        Data: 0
-      OffsetUnits:
-        ID: "?"
-        Data: 0
-      RenderQueue:
-        ID: "?"
-        Data: -1
-      Overlay:
-        ID: "?"
-        Data: false
-      OverlayTint:
-        ID: "?"
-        Data:
-          - 1
-          - 1
-          - 1
-          - 0.5
-      Rect:
-        ID: "?"
-        Data:
-          X: 0
-          Y: 0
-          Width: 0
-          Height: 0
-      RectClip:
-        ID: "?"
-        Data: false
-      ColorMask:
-        ID: "?"
-        Data: RGBA
-      StencilComparison:
-        ID: "?"
-        Data: Always
-      StencilOperation:
-        ID: "?"
-        Data: Keep
-      StencilID:
-        ID: "?"
-        Data: 0
-      StencilWriteMask:
-        ID: "?"
-        Data: 255
-      StencilReadMask:
-        ID: "?"
-        Data: 255
-  - Type: FrooxEngine.FontChain
-    Data:
-      ID: "?"
-      persistent:
-        ID: "?"
-        Data: true
-      UpdateOrder:
-        ID: "?"
-        Data: 0
-      Enabled:
-        ID: "?"
-        Data: true
-      HighPriorityIntegration:
-        ID: "?"
-        Data: false
-      MainFont:
-        ID: "?"
-        Data: ID:Assets:FrooxEngine.StaticFont:ID:10
-      FallbackFonts:
-        ID: "?"
-        Data:
-          - ID: "?"
-            Data: "?"
-          - ID: "?"
-            Data: "?"
-          - ID: "?"
-            Data: "?"
-          - ID: "?"
-            Data: "?"
-TypeVersions:
-  FrooxEngine.Grabbable: 2
-  FrooxEngine.LogiX.WorldModel.FindChildByName: 1
-  FrooxEngine.UIX.RectTransform: 1
-  FrooxEngine.UIX.Image: 1
-  FrooxEngine.UIX.Canvas: 1
-  FrooxEngine.BoxCollider: 1
-  FrooxEngine.UIX.ScrollRect: 1
-  FrooxEngine.UIX.Text: 1
-  FrooxEngine.UIX.TextField: 1
-  FrooxEngine.VirtualMultiKey: 1
-  FrooxEngine.UI_UnlitMaterial: 2
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.ChildrenParent
+                Reference:
+                  ID: "?"
+                  Data: ID:StyledButton:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+      - Name:
+          ID: "?"
+          Data: DV/Props
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-Id: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 1
+        Scale:
+          ID: "?"
+          Data:
+            - 1
+            - 1
+            - 1
+        Tag:
+          ID: "?"
+          Data: ""
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: FrooxEngine.DynamicField`1[[System.Boolean, mscorlib, Version=4.0.0.0,
+                Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.enabled
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Button:Enabled:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0,
+                Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.styledSprite
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[[FrooxEngine.IAssetProvider`1[[FrooxEngine.Sprite,
+                    FrooxEngine, Version=2022.1.28.1310, Culture=neutral,
+                    PublicKeyToken=null]], FrooxEngine, Version=2022.1.28.1310,
+                    Culture=neutral, PublicKeyToken=null]]:VariableName:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0,
+                Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.styledColor
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[[BaseX.color,
+                    BaseX, Version=1.0.0.0, Culture=neutral,
+                    PublicKeyToken=null]]:VariableName:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[[BaseX.color, BaseX, Version=1.0.0.0,
+                Culture=neutral, PublicKeyToken=null]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.defaultColor
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[[BaseX.color,
+                    BaseX, Version=1.0.0.0, Culture=neutral,
+                    PublicKeyToken=null]]:DefaultValue:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[[System.Boolean, mscorlib, Version=4.0.0.0,
+                Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.preserveAspect
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Image:PreserveAspect:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0,
+                Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.onClick
+                TargetField:
+                  ID: "?"
+                  Data: "?"
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[[System.Boolean, mscorlib, Version=4.0.0.0,
+                Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.requireLockInToPress
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Button:RequireLockInToPress:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+      - Name:
+          ID: "?"
+          Data: StyledButton
+        Active:
+          ID: "?"
+          Data: true
+        ID: ID:StyledButton:0
+        Persistent-Id: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 1
+        Scale:
+          ID: "?"
+          Data:
+            - 1
+            - 1
+            - 1
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: FrooxEngine.UIX.Image
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                Sprite:
+                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:Sprite:0
+                  Data: null
+                Material:
+                  ID: "?"
+                  Data: null
+                Tint:
+                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:Tint:0
+                  Data:
+                    - 0
+                    - 0
+                    - 0
+                    - 0
+                PreserveAspect:
+                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:PreserveAspect:0
+                  Data: true
+                NineSliceSizing:
+                  ID: "?"
+                  Data: TextureSize
+                InteractionTarget:
+                  ID: "?"
+                  Data: true
+                __legacyZWrite-ID: "?"
+            - Type: FrooxEngine.UIX.RectTransform
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                AnchorMin:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                AnchorMax:
+                  ID: "?"
+                  Data:
+                    - 1
+                    - 1
+                OffsetMin:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                OffsetMax:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                Pivot:
+                  ID: "?"
+                  Data:
+                    - 0.5
+                    - 0.5
+            - Type: FrooxEngine.UIX.Button
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Button:Enabled:0
+                  Data: true
+                BaseColor:
+                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Button:BaseColor:0
+                  Data:
+                    - 0
+                    - 0
+                    - 0
+                    - 0
+                ColorDrivers:
+                  ID: "?"
+                  Data:
+                    - ID: "?"
+                      ColorDrive:
+                        ID: "?"
+                        Data: ID:StyledButton:Components:FrooxEngine.UIX.Image:Tint:0
+                      TintColorMode:
+                        ID: "?"
+                        Data: Explicit
+                      NormalColor:
+                        ID: "?"
+                        Data:
+                          - 1
+                          - 1
+                          - 1
+                          - 1
+                      HighlightColor:
+                        ID: "?"
+                        Data:
+                          - 0.75
+                          - 0.75
+                          - 0.75
+                          - 1
+                      PressColor:
+                        ID: "?"
+                        Data:
+                          - 0.5
+                          - 0.5
+                          - 0.5
+                          - 1
+                      DisabledColor:
+                        ID: "?"
+                        Data:
+                          - 0.6499999761581421
+                          - 0.6499999761581421
+                          - 0.6499999761581421
+                          - 1
+                __legacy_NormalColor-ID: "?"
+                __legacy_HighlightColor-ID: "?"
+                __legacy_PressColor-ID: "?"
+                __legacy_DisabledColor-ID: "?"
+                __legacy_TintColorMode-ID: "?"
+                __legacy_ColorDrive-ID: "?"
+                IsPressed:
+                  ID: "?"
+                  Data: false
+                IsHovering:
+                  ID: "?"
+                  Data: false
+                HoverVibrate:
+                  ID: "?"
+                  Data: Short
+                PressVibrate:
+                  ID: "?"
+                  Data: Medium
+                ClearFocusOnPress:
+                  ID: "?"
+                  Data: true
+                PassThroughHorizontalMovement:
+                  ID: "?"
+                  Data: true
+                PassThroughVerticalMovement:
+                  ID: "?"
+                  Data: true
+                RequireLockInToPress:
+                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Button:RequireLockInToPress:0
+                  Data: false
+                RequireInitialPress:
+                  ID: "?"
+                  Data: true
+                PressPoint:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                Pressed:
+                  ID: "?"
+                  Data:
+                    Target: null
+                Pressing:
+                  ID: "?"
+                  Data:
+                    Target: null
+                Released:
+                  ID: "?"
+                  Data:
+                    Target: null
+                HoverEnter:
+                  ID: "?"
+                  Data:
+                    Target: null
+                HoverStay:
+                  ID: "?"
+                  Data:
+                    Target: null
+                HoverLeave:
+                  ID: "?"
+                  Data:
+                    Target: null
+            - Type: FrooxEngine.ButtonDynamicImpulseTriggerWithValue`1[[System.String,
+                mscorlib, Version=4.0.0.0, Culture=neutral,
+                PublicKeyToken=b77a5c561934e089]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                Target:
+                  ID: ID:StyledButton:Components:FrooxEngine.ButtonDynamicImpulseTriggerWithValue`1[[System.String,
+                    mscorlib, Version=4.0.0.0, Culture=neutral,
+                    PublicKeyToken=b77a5c561934e089]]:Target:0
+                  Data: "?"
+                PressedData:
+                  ID: "?"
+                  Data: {}
+                PressingData:
+                  ID: "?"
+                  Data: {}
+                ReleasedData:
+                  ID: "?"
+                  Data: {}
+                HoverEnterData:
+                  ID: "?"
+                  Data: {}
+                HoverStayData:
+                  ID: "?"
+                  Data: {}
+                HoverLeaveData:
+                  ID: "?"
+                  Data: {}
+            - Type: FrooxEngine.DynamicReferenceVariableDriver`1[[FrooxEngine.Slot,
+                FrooxEngine, Version=2022.1.28.1310, Culture=neutral,
+                PublicKeyToken=null]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: MX/Static.System.Func.EmitInteractionEvent
+                Target:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:FrooxEngine.ButtonDynamicImpulseTriggerWithValue`1[[System.String,
+                    mscorlib, Version=4.0.0.0, Culture=neutral,
+                    PublicKeyToken=b77a5c561934e089]]:Target:0
+                DefaultTarget:
+                  ID: "?"
+                  Data: null
+            - Type: FrooxEngine.DynamicValueVariableDriver`1[[BaseX.color, BaseX,
+                Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[[BaseX.color,
+                    BaseX, Version=1.0.0.0, Culture=neutral,
+                    PublicKeyToken=null]]:VariableName:0
+                  Data: null
+                Target:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Button:BaseColor:0
+                DefaultValue:
+                  ID: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[[BaseX.color,
+                    BaseX, Version=1.0.0.0, Culture=neutral,
+                    PublicKeyToken=null]]:DefaultValue:0
+                  Data:
+                    - 0
+                    - 0
+                    - 0
+                    - 0
+            - Type: FrooxEngine.DynamicReferenceVariableDriver`1[[FrooxEngine.IAssetProvider`1[[FrooxEngine.Sprite,
+                FrooxEngine, Version=2022.1.28.1310, Culture=neutral,
+                PublicKeyToken=null]], FrooxEngine, Version=2022.1.28.1310,
+                Culture=neutral, PublicKeyToken=null]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: ID:StyledButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[[FrooxEngine.IAssetProvider`1[[FrooxEngine.Sprite,
+                    FrooxEngine, Version=2022.1.28.1310, Culture=neutral,
+                    PublicKeyToken=null]], FrooxEngine, Version=2022.1.28.1310,
+                    Culture=neutral, PublicKeyToken=null]]:VariableName:0
+                  Data: ""
+                Target:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Image:Sprite:0
+                DefaultTarget:
+                  ID: "?"
+                  Data: null
+        Children: []

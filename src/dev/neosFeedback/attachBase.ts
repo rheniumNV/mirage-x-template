@@ -7,7 +7,14 @@ const main = () => {
   const neosFeedbackString = readFileSync({
     path: path.resolve(__dirname, "./NeosFeedbackOriginal.json"),
   });
-  const neosFeedback = JSON.parse(neosFeedbackString);
+  const rawNeosFeedback = JSON.parse(neosFeedbackString);
+  const neosFeedback = {
+    ...rawNeosFeedback,
+    Object:
+      rawNeosFeedback.Object.Name.Data === "Holder"
+        ? rawNeosFeedback.Object.Children[0]
+        : rawNeosFeedback.Object,
+  };
   const neosFeedbackYaml = neos2yaml(neosFeedback);
   const prevNeosFeedbackYaml = readFileSync({
     path: path.resolve(__dirname, "../../neos/static/NeosFeedback.yaml"),

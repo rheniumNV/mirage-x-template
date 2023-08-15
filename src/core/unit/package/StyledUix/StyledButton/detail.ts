@@ -1,3 +1,4 @@
+import { FunctionEnv } from "../../../../../base/common/interactionEvent";
 import {
   UnitProp,
   generateUnitConfig,
@@ -9,10 +10,12 @@ import {
 const detail = {
   code: "StyledUix/StyledButton",
   propsConfig: {
+    enabled: UnitProp.Boolean(true),
     styledSprite: UnitProp.String(""),
     styledColor: UnitProp.String(""),
     defaultColor: UnitProp.Color([1, 1, 1, 1]),
-    onClick: UnitProp.Function(() => {}),
+    preserveAspect: UnitProp.Boolean(true),
+    onClick: UnitProp.Function((_env: FunctionEnv) => {}),
     requireLockInToPress: UnitProp.Boolean(false),
   },
   children: "multi" as const,

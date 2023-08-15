@@ -3,7 +3,7 @@ import { web as StyledDVSpace } from "./StyledDVSpace/web";
 import { web as StyledDVSprite } from "./StyledDVSprite/web";
 
 export const Units = {
-  ...StyledDVColor,
+  StyledDVColor,
   StyledDVSpace,
   StyledDVSprite,
 };

@@ -287,4 +287,4 @@ const neos2flat = (
 };
 
 export const neos2yaml = (neosObject: NeosObject): string =>
-  stringify(neos2flat(neosObject).data);
+  stringify(neos2flat(neosObject).data.Object);
