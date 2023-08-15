@@ -18,6 +18,7 @@
     "feedback:fetch": "ts-node -P ./tsconfig.dev.json ./src/dev/neosFeedback/fetch",
     "feedback:attachBase": "ts-node -P ./tsconfig.dev.json ./src/dev/neosFeedback/attachBase",
     "feedback:attachUnit": "ts-node -P ./tsconfig.dev.json ./src/dev/neosFeedback/attachUnit",
+    "updateCloudVariable": "ts-node -P ./tsconfig.dev.json ./src/dev/updateCloudVariable",
     "format": "prettier --write ./src/**/*.{ts,tsx,json}",
     "prepare": "husky install"
   },

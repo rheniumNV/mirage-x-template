@@ -1,3 +1,4 @@
+import { FunctionEnv } from "../../../../../base/common/interactionEvent";
 import {
   UnitProp,
   generateUnitConfig,
@@ -7,10 +8,15 @@ import {
 } from "../../../base/common";
 
 const detail = {
-  code: "StyledUix/StyledMask",
+  code: "StyledUix/StyledHyperLinkButton",
   propsConfig: {
+    url: UnitProp.Uri(""),
+    reason: UnitProp.String(""),
     styledSprite: UnitProp.String(""),
-    preserveAspect: UnitProp.Boolean(true),
+    styledColor: UnitProp.String(""),
+    defaultColor: UnitProp.Color([1, 1, 1, 1]),
+    onClick: UnitProp.Function((_env: FunctionEnv) => {}),
+    requireLockInToPress: UnitProp.Boolean(false),
   },
   children: "multi" as const,
 };

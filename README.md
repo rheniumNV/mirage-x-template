@@ -36,11 +36,11 @@ MirageX は Neos でスピード感のある開発をするためのフレーム
 
 > npm run dev
 
-- Neos オブジェクトが`./dist/neos/src/output.json`に生成されます。
+- Neos オブジェクトが`./dist/neos/src/output.7zbson`に生成されます。
 - サーバーが起動します。
 - これらはソースコードを変更すると自動で再生成・再起動します。
 
-`./dist/neos/src/output.json`を Neos のウィンドウにドラッグアンドドロップすると、サーバーと通信してサンプルが表示されます。
+`./dist/neos/src/output.7zbson`を Neos のウィンドウにドラッグアンドドロップすると、サーバーと通信してサンプルが表示されます。
 
 ## メインロジック
 
@@ -70,7 +70,7 @@ Unit はユースケースに合わせてパッケージでまとめられてい
 
 > npm run unitPackage:sync
 
-以下のコマンドで`./dist/neos/src/output.json`を更新して、Neos にドラッグアンドドロップしなおします。
+以下のコマンドで`./dist/neos/src/output.7zbson`を更新して、Neos にドラッグアンドドロップしなおします。
 （`npm run dev`を実行中であれば、以下を行わずとも変更を検知して自動で再生成されています。）
 
 > npm run build:neos
@@ -80,7 +80,7 @@ Unit はユースケースに合わせてパッケージでまとめられてい
 Neos 上の編集をリポジトリにフィードバックさせることができます。
 （正確には Neos 側を優先する Slot とそうでない Slot があります。）
 
-読み込んだ`./dist/neos/src/output.json`を編集して保存します。
+読み込んだ`./dist/neos/src/output.7zbson`を編集して保存します。
 
 #### config の設定
 

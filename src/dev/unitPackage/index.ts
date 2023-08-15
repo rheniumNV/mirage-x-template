@@ -53,11 +53,13 @@ fs.readdirSync(path.resolve(__dirname, "../../core/unit/package")).forEach(
         return;
       }
 
-      const mainCode = mainFileList
-        .map(
-          (unitFile) => `export { o as ${unitFile} } from "./${unitFile}/main";`
-        )
-        .join("\n");
+      const mainCode =
+        mainFileList
+          .map(
+            (unitFile) =>
+              `export { o as ${unitFile} } from "./${unitFile}/main";`
+          )
+          .join("\n") + "\n";
       fs.writeFileSync(
         path.resolve(
           __dirname,
@@ -75,7 +77,8 @@ fs.readdirSync(path.resolve(__dirname, "../../core/unit/package")).forEach(
 
 export const Units = {
 ${neosFileList.map((unitFile) => `  ${unitFile},`).join("\n")}
-};`;
+};
+`;
       fs.writeFileSync(
         path.resolve(
           __dirname,
@@ -92,8 +95,9 @@ ${neosFileList.map((unitFile) => `  ${unitFile},`).join("\n")}
         .join("\n")}
 
 export const Units = {
-...${webFileList.map((unitFile) => `  ${unitFile},`).join("\n")}
-};`;
+${webFileList.map((unitFile) => `  ${unitFile},`).join("\n")}
+};
+`;
       fs.writeFileSync(
         path.resolve(__dirname, `../../core/unit/package/${packageDir}/web.ts`),
         webCode

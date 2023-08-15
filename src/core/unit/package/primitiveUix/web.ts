@@ -6,7 +6,7 @@ import { web as Text } from "./Text/web";
 import { web as VerticalLayout } from "./VerticalLayout/web";
 
 export const Units = {
-  ...GridLayout,
+  GridLayout,
   HorizontalLayout,
   LayoutElement,
   RectTransform,

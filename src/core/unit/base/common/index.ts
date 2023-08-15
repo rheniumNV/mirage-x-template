@@ -122,10 +122,10 @@ export namespace UnitProp {
     enumType: "FrooxEngine.UIX.LayoutVerticalAlignment",
   });
 
-  export const Function = (
-    defaultValue: MainProp.Function["main"] = () => {},
+  export const Function = <A extends any[]>(
+    defaultValue: MainProp.Function<A>["main"],
     { dvMode }: Option = { dvMode: "Field" }
-  ): MainProp.Function => ({
+  ): MainProp.Function<A> => ({
     type: "Function",
     main: defaultValue,
     mirror: "",

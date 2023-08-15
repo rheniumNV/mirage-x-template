@@ -12,6 +12,7 @@ const detail = {
     styledSprite: UnitProp.String(""),
     styledColor: UnitProp.String(""),
     defaultColor: UnitProp.Color([1, 1, 1, 1]),
+    preserveAspect: UnitProp.Boolean(true),
   },
   children: "multi" as const,
 };

@@ -1,3 +1,5 @@
+import { FunctionEnv } from "./interactionEvent";
+
 export namespace MainProp {
   export type DvMode = "Field" | "Variable";
 
@@ -65,9 +67,9 @@ export namespace MainProp {
     enumKeys: T[];
   };
 
-  export type Function = Common & {
+  export type Function<A extends any[]> = Common & {
     type: "Function";
-    main: (...args: any[]) => any;
+    main: (env: FunctionEnv, ...args: A) => void;
     mirror: string;
   };
 
@@ -92,7 +94,7 @@ export namespace MainProp {
     | FloatQ
     | Rect
     | String
-    | Function
+    | Function<any[]>
     | Color
     | Int
     | Uri
