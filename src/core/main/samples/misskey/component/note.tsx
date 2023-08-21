@@ -22,7 +22,7 @@ export const NoteView = ({
   isRenote?: boolean;
 }) => {
   const content = note.cw != null ? note.cw : note.text;
-  const time = new Date(note.createdAt).toLocaleDateString();
+  const time = new Date(note.createdAt).toLocaleString();
   const images = note.files.filter(
     (file) => !file.isSensitive && file.type.startsWith("image/")
   );
@@ -57,9 +57,7 @@ export const NoteView = ({
                 <HorizontalLayout forceExpandChildWidth={false}>
                   <LayoutElement flexibleWidth={1}>
                     <StyledText
-                      content={`${note.user.name ?? note.user.username}@${
-                        note.user.username
-                      }`}
+                      content={`${note.user.name ?? ""}@${note.user.username}`}
                       styledColor={Color.black}
                       size={35}
                       verticalAlign="Middle"

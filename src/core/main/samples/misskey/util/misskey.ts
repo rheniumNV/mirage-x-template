@@ -10,18 +10,35 @@ export const useMisskey = () => {
     setNotes((prevNotes) =>
       [
         // avatarUrlがNeosで正常に読まれないので、URLデコードしておく
-        ...notes.map((note) => {
-          const avatarUrl = decodeURIComponent(
-            note.user.avatarUrl.match(/\?url=(.*)&/)?.[1] ?? ""
-          );
-          return {
-            ...note,
-            user: {
-              ...note.user,
-              avatarUrl,
-            },
-          };
-        }),
+        ...notes
+          .map((note) => {
+            const avatarUrl = decodeURIComponent(
+              note.user.avatarUrl.match(/\?url=(.*)&/)?.[1] ?? ""
+            );
+            return {
+              ...note,
+              user: {
+                ...note.user,
+                avatarUrl,
+              },
+            };
+          })
+          .map((note) => {
+            if (!note.renote) return note;
+            const avatarUrl = decodeURIComponent(
+              note.renote.user.avatarUrl.match(/\?url=(.*)&/)?.[1] ?? ""
+            );
+            return {
+              ...note,
+              renote: {
+                ...note.renote,
+                user: {
+                  ...note.renote.user,
+                  avatarUrl,
+                },
+              },
+            };
+          }),
         ...prevNotes,
       ].splice(-100)
     );

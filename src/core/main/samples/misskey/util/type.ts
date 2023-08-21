@@ -46,7 +46,7 @@ export type File = {
   id: string; // '9f9s7efzju',
   // createdAt: '2023-05-27T16:39:42.047Z',
   // name: '2023-05-28 01.32.38.jpg',
-  type: "image/jpeg";
+  type: string; // "image/jpeg";
   // md5: '05ee43cbd6d7c451406127b730667ffc',
   // size: 211795,
   isSensitive: boolean; // false,
