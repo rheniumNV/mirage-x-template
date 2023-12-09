@@ -11,9 +11,6 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "./src/base/common/**/*.tsx",
-    "./src/base/common/**/*.ts",
-    "./src/base/main/**/*.tsx",
     "./src/core/main/**/*.ts",
     "./src/core/main/**/*.tsx",
     "./src/core/unit/**/*main.tsx",
@@ -23,6 +20,17 @@
     "./src/core/unit/base/main/**/*.tsx",
     "./src/core/unit/base/main/**/*.ts",
     "./src/server/**/*.tsx",
-    "./src/server/**/*.ts"
+    "./src/server/**/*.ts",
+    "./src/lib/mirage-x/common/**/*.tsx",
+    "./src/lib/mirage-x/main/**/*.tsx",
+    "./src/lib/mirage-x/server/**/*.tsx",
+    "./src/lib/mirage-x/util/**/*.tsx",
+    "./src/lib/mirage-x/common/**/*.ts",
+    "./src/lib/mirage-x/main/**/*.ts",
+    "./src/lib/mirage-x/server/**/*.ts",
+    "./src/lib/mirage-x/util/**/*.ts",
+    "src/lib/mirage-x/unit/main/index.tsx",
+    "src/lib/fileUtil/index.ts",
+    "src/lib/mirage-x/res/index.tsx"
   ]
 }

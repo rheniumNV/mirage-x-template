@@ -2,22 +2,20 @@ import express from "express";
 import http from "http";
 import { WebSocketServer } from "ws";
 import path from "path";
-import {
-  interactionEventController,
-  websocketController,
-} from "./websocketController";
+import { MirageXServer } from "../lib/mirage-x/server";
+import { config } from "./config";
+import { App } from "../core/main";
 
 type RequestHandler = (
   req: express.Request,
   res: express.Response,
   next: express.NextFunction
 ) => Promise<void> | void;
+
 const insuring =
   (handler: RequestHandler): RequestHandler =>
   async (req, res, next) =>
     handler(req, res, next)?.catch(next);
-
-const { PORT = 3000 } = process.env;
 
 const app = express();
 const server = http.createServer(app);
@@ -32,27 +30,36 @@ app.get(
   })
 );
 
-app.use("/web/", express.static(path.resolve(__dirname, "../web")));
+const dummyConfig = {
+  mirage: {
+    port: config.mirage.port,
+    serverId: config.mirage.serverId,
+    apiPath: {
+      info: "/info",
+      output: "/output.brson",
+      auth: "/auth/:connectionId",
+      interactionEvent: "/events",
+      websocket: "/",
+    },
+  },
+  main: {
+    appCode: config.appCode,
+    outputPath: path.resolve(__dirname, "../res/output.brson"),
+    versionPath: path.resolve(__dirname, "../res/version.json"),
+  },
+  auth: {
+    url: config.auth.url,
+  },
+};
 
-app.use(
-  "/output.json",
-  express.static(path.resolve(__dirname, "../neos/output.json"))
-);
+const mirageX = new MirageXServer(App, dummyConfig);
+mirageX.route(app, wss);
 
-app.use(
-  "/output.7zbson",
-  express.static(path.resolve(__dirname, "../neos/output.7zbson"))
-);
-
-app.use(
-  "/version",
-  express.static(path.resolve(__dirname, "../neos/version.json"))
-);
-
-app.post("/events", insuring(interactionEventController));
-
-// handler websocket connection
-wss.on("connection", websocketController);
+if (process.env.NODE_ENV !== "production") {
+  setInterval(() => {
+    mirageX.reloadVersion();
+  }, 1000);
+}
 
 // @ts-ignore
 app.on("upgrade", (request, socket, head) => {
@@ -76,11 +83,11 @@ app.use(
 
 // handle routing not found
 app.use((req, res, _next) => {
-  console.warn(`routing not found. url=${req.path}`);
+  console.warn(`routing not found. method=${req.method} url=${req.path}`);
   res.status(404).send("NotFound").send();
 });
 
 // start server
-server.listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}`);
+server.listen(config.mirage.port, () => {
+  console.info(`Server is listening on port ${dummyConfig.mirage.port}`);
 });

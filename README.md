@@ -1,10 +1,10 @@
 # MirageX（ミラージュ・クロス）α
 
-MirageX は Neos でスピード感のある開発をするためのフレームワークです。
+MirageX は TypeScript×React で Resonite の開発を行えるフレームワークです。
 
-現在は α 版であり破壊的な変更を頻繁にしています。
+現在は α 版であり破壊的な変更を頻繁にします。
 
-サーバーサイドでメインロジックを動かし、Neos では結果のみを表示するという仕組みになっています。
+サーバーサイドでメインロジックを動かし、Resonite では結果のみを表示するという仕組みになっています。
 特殊な構成になるため、導入は慎重に検討してください。
 
 主なメリット
@@ -16,13 +16,12 @@ MirageX は Neos でスピード感のある開発をするためのフレーム
     - git が使える。
     - 再利用がしやすくなる。
 - メインロジックを隠蔽できるため、ユーザーのチートを防ぎやすくなる。
-- ブラウザと Neos のクロスプラットフォーム開発ができる。
 
 主なデメリット
 
 - 完成品にはインフラコストがかかる。
 - ネットワークレイテンシーの影響を受ける。
-- Neos 上で改造できない。
+- Resonite 上で改造できない。
 
 ## ローカル環境のセットアップ
 
@@ -36,11 +35,11 @@ MirageX は Neos でスピード感のある開発をするためのフレーム
 
 > npm run dev
 
-- Neos オブジェクトが`./dist/neos/src/output.7zbson`に生成されます。
+- Resonite オブジェクトが`./dist/res/src/output.brson`に生成されます。
 - サーバーが起動します。
 - これらはソースコードを変更すると自動で再生成・再起動します。
 
-`./dist/neos/src/output.7zbson`を Neos のウィンドウにドラッグアンドドロップすると、サーバーと通信してサンプルが表示されます。
+`./dist/res/src/output.brson`を Resonite のウィンドウにドラッグアンドドロップすると、サーバーと通信してサンプルが表示されます。
 
 ## メインロジック
 
@@ -52,7 +51,7 @@ React で動いています。
 
 ## Unit パッケージ
 
-MirageX では Neos と同期する際に、Unit という独自概念を最小単位としています。
+MirageX では Resonite と同期する際に、Unit という独自概念を最小単位としています。
 Unit はユースケースに合わせてパッケージでまとめられています。
 また、自分で作ることもできます。
 
@@ -60,7 +59,7 @@ Unit はユースケースに合わせてパッケージでまとめられてい
 
 `./src/core/unit/package/`下にパッケージのディレクトリを作ります。既存のパッケージを使ってもいいです。
 
-`./src/core/unit/package/000_template/unitTemplateNeosFeedback`というテンプレートをコピーして、先程作ったパッケージのディレクトリ下に配置します。
+`./src/core/unit/package/000_template/unitTemplateResFeedback`というテンプレートをコピーして、先程作ったパッケージのディレクトリ下に配置します。
 またディレクトリ名は任意の Unit 名をつけます。
 
 コピーしたテンプレート下にある`detail.ts`を編集します。
@@ -70,22 +69,22 @@ Unit はユースケースに合わせてパッケージでまとめられてい
 
 > npm run unitPackage:sync
 
-以下のコマンドで`./dist/neos/src/output.7zbson`を更新して、Neos にドラッグアンドドロップしなおします。
+以下のコマンドで`./dist/res/src/output.brson`を更新して、Resonite にドラッグアンドドロップしなおします。
 （`npm run dev`を実行中であれば、以下を行わずとも変更を検知して自動で再生成されています。）
 
-> npm run build:neos
+> npm run build:res
 
-### Unit を Neos で編集する
+### Unit を Resonite で編集する
 
-Neos 上の編集をリポジトリにフィードバックさせることができます。
-（正確には Neos 側を優先する Slot とそうでない Slot があります。）
+Resonite 上の編集をリポジトリにフィードバックさせることができます。
+（正確には Resonite 側を優先する Slot とそうでない Slot があります。）
 
-読み込んだ`./dist/neos/src/output.7zbson`を編集して保存します。
+読み込んだ`./dist/res/src/output.brson`を編集して保存します。
 
 #### config の設定
 
 `./src/dev/config.private.json`を作成します。
-{RECORD_URL}に Neos で保存したフォルダのリンクを入れます。
+{RECORD_URL}に Resonite で保存したフォルダのリンクを入れます。
 （パブリックフォルダにする必要があります。）
 
 ```
@@ -96,10 +95,8 @@ Neos 上の編集をリポジトリにフィードバックさせることがで
 
 #### 使い方
 
-以下のコマンドで登録したフォルダから最新のオブジェクトを取得します。
+以下のコマンドで登録したフォルダから最新のオブジェクトを取得して、ユニット名 xxxx に適用します。
 
-> npm run feedback:fetch
+> npm run feedback:unit xxxx
 
-以下のコマンドで取得したオブジェクトの内容を MirageX のベースと Unit に適用させます。
-
-> npm run feedback:attach
+ユニット名の指定には正規表現が使えます。

@@ -1,6 +1,4 @@
 export { o as StyledButton } from "./StyledButton/main";
-export { o as StyledCanvas } from "./StyledCanvas/main";
-export { o as StyledHyperLinkButton } from "./StyledHyperLinkButton/main";
 export { o as StyledImage } from "./StyledImage/main";
 export { o as StyledMask } from "./StyledMask/main";
 export { o as StyledRawImage } from "./StyledRawImage/main";

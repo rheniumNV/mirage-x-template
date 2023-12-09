@@ -4,13 +4,12 @@ import {
   getMainProps,
   getMirrorProps,
   getWebProps,
-} from "../../../base/common";
+} from "../../../../../lib/mirage-x/unit/common";
 
 const detail = {
   code: "StyledUix/StyledMask",
   propsConfig: {
     styledSprite: UnitProp.String(""),
-    preserveAspect: UnitProp.Boolean(true),
   },
   children: "multi" as const,
 };

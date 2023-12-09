@@ -1,0 +1,578 @@
+Name:
+  ID: "?"
+  Data: PrimitiveUix/Canvas
+Active:
+  ID: "?"
+  Data: true
+ID: "?"
+Persistent-Id: "?"
+Position:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+Rotation:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+    - 1
+Scale:
+  ID: "?"
+  Data:
+    - 1
+    - 1
+    - 1
+Tag:
+  ID: "?"
+  Data: ""
+OrderOffset:
+  ID: "?"
+  Data: 0
+Components:
+  ID: "?"
+  Data:
+    - Type: FrooxEngine.DynamicVariableSpace
+      Data:
+        ID: "?"
+        persistent-ID: "?"
+        UpdateOrder:
+          ID: "?"
+          Data: 0
+        Enabled:
+          ID: "?"
+          Data: true
+        SpaceName:
+          ID: "?"
+          Data: ""
+        OnlyDirectBinding:
+          ID: "?"
+          Data: false
+Children:
+  - Name:
+      ID: "?"
+      Data: DV
+    Active:
+      ID: "?"
+      Data: true
+    ID: "?"
+    Persistent-Id: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 111111
+    Scale:
+      ID: "?"
+      Data:
+        - 111111
+        - 111111
+        - 111111
+    Tag:
+      ID: "?"
+      Data: ""
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+          Data:
+            ID: "?"
+            persistent-ID: "?"
+            UpdateOrder:
+              ID: "?"
+              Data: 0
+            Enabled:
+              ID: "?"
+              Data: true
+            VariableName:
+              ID: "?"
+              Data: Static.Ref
+            Reference:
+              ID: "?"
+              Data: ID:Ref:0
+            OverrideOnLink:
+              ID: "?"
+              Data: false
+    Children: []
+  - Name:
+      ID: "?"
+      Data: Ref
+    Active:
+      ID: "?"
+      Data: true
+    ID: ID:Ref:0
+    Persistent-Id: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 111111
+    Scale:
+      ID: "?"
+      Data:
+        - 111111
+        - 111111
+        - 111111
+    Tag:
+      ID: "?"
+      Data: ""
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: FrooxEngine.DynamicVariableSpace
+          Data:
+            ID: "?"
+            persistent-ID: "?"
+            UpdateOrder:
+              ID: "?"
+              Data: 0
+            Enabled:
+              ID: "?"
+              Data: true
+            SpaceName:
+              ID: "?"
+              Data: ""
+            OnlyDirectBinding:
+              ID: "?"
+              Data: false
+    Children:
+      - Name:
+          ID: "?"
+          Data: DV/Static
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-Id: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: ""
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Root
+                Reference:
+                  ID: "?"
+                  Data: ID:Ref:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Main
+                Reference:
+                  ID: "?"
+                  Data: ID:Canvas:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.ChildrenParent
+                Reference:
+                  ID: "?"
+                  Data: ID:Content:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+      - Name:
+          ID: "?"
+          Data: DV/Props
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-Id: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: ""
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: FrooxEngine.DynamicField`1[Elements.Core.float2]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.size
+                TargetField:
+                  ID: "?"
+                  Data: ID:Content:Components:FrooxEngine.UIX.Canvas:Size:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[Elements.Core.float3]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.position
+                TargetField:
+                  ID: "?"
+                  Data: ID:Canvas:Tag:2
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[Elements.Core.floatQ]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.rotation
+                TargetField:
+                  ID: "?"
+                  Data: ID:Canvas:Tag:3
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[Elements.Core.float3]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.scale
+                TargetField:
+                  ID: "?"
+                  Data: ID:Canvas:Tag:4
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+      - Name:
+          ID: "?"
+          Data: Canvas
+        Active:
+          ID: "?"
+          Data: true
+        ID: ID:Canvas:0
+        Persistent-Id: "?"
+        Position:
+          ID: ID:Canvas:Tag:2
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: ID:Canvas:Tag:3
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: ID:Canvas:Tag:4
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data: []
+        Children:
+          - Name:
+              ID: "?"
+              Data: Content
+            Active:
+              ID: "?"
+              Data: true
+            ID: ID:Content:0
+            Persistent-Id: "?"
+            Position:
+              ID: "?"
+              Data:
+                - 0
+                - 0
+                - 0
+            Rotation:
+              ID: "?"
+              Data:
+                - 0
+                - 0
+                - 0
+                - 111111
+            Scale:
+              ID: "?"
+              Data:
+                - 111
+                - 111
+                - 111
+            Tag:
+              ID: "?"
+              Data: null
+            OrderOffset:
+              ID: "?"
+              Data: 0
+            Components:
+              ID: "?"
+              Data:
+                - Type: FrooxEngine.UIX.Canvas
+                  Data:
+                    ID: "?"
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 33333333.333333332
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    Size:
+                      ID: ID:Content:Components:FrooxEngine.UIX.Canvas:Size:0
+                      Data:
+                        - 333333.3333333333
+                        - 333333.3333333333
+                    EditModeOnly:
+                      ID: "?"
+                      Data: false
+                    AcceptRemoteTouch:
+                      ID: "?"
+                      Data: true
+                    AcceptPhysicalTouch:
+                      ID: "?"
+                      Data: true
+                    AcceptExistingTouch:
+                      ID: "?"
+                      Data: false
+                    HighPriorityIntegration:
+                      ID: "?"
+                      Data: false
+                    IgnoreTouchesFromBehind:
+                      ID: "?"
+                      Data: true
+                    BlockAllInteractions:
+                      ID: "?"
+                      Data: false
+                    LaserPassThrough:
+                      ID: "?"
+                      Data: false
+                    PixelScale:
+                      ID: "?"
+                      Data: 333.3333333333333
+                    UnitScale:
+                      ID: "?"
+                      Data: 333.3333333333333
+                    _rootRect:
+                      ID: "?"
+                      Data: ID:Content:Components:FrooxEngine.UIX.RectTransform:0
+                    Collider:
+                      ID: "?"
+                      Data: ID:Content:Components:FrooxEngine.BoxCollider:0
+                    DefaultCulling:
+                      ID: "?"
+                      Data: Off
+                    _colliderSize:
+                      ID: "?"
+                      Data: ID:Content:Components:FrooxEngine.BoxCollider:Size:0
+                    _colliderOffset:
+                      ID: "?"
+                      Data: ID:Content:Components:FrooxEngine.BoxCollider:Offset:0
+                    StartingOffset:
+                      ID: "?"
+                      Data: -10666666.666666666
+                    StartingMaskDepth:
+                      ID: "?"
+                      Data: 0
+                - Type: FrooxEngine.UIX.RectTransform
+                  Data:
+                    ID: ID:Content:Components:FrooxEngine.UIX.RectTransform:0
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    AnchorMin:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                    AnchorMax:
+                      ID: "?"
+                      Data:
+                        - 333.3333333333333
+                        - 333.3333333333333
+                    OffsetMin:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                    OffsetMax:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                    Pivot:
+                      ID: "?"
+                      Data:
+                        - 166.66666666666666
+                        - 166.66666666666666
+                - Type: FrooxEngine.BoxCollider
+                  Data:
+                    ID: ID:Content:Components:FrooxEngine.BoxCollider:0
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 333333333.3333333
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    Offset:
+                      ID: ID:Content:Components:FrooxEngine.BoxCollider:Offset:0
+                      Data:
+                        - 0
+                        - 0
+                        - 0
+                    Type:
+                      ID: "?"
+                      Data: Static
+                    Mass:
+                      ID: "?"
+                      Data: 333.3333333333333
+                    CharacterCollider:
+                      ID: "?"
+                      Data: false
+                    IgnoreRaycasts:
+                      ID: "?"
+                      Data: false
+                    Size:
+                      ID: ID:Content:Components:FrooxEngine.BoxCollider:Size:0
+                      Data:
+                        - 0
+                        - 0
+                        - 0
+            Children: []

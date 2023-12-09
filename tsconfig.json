@@ -5,9 +5,7 @@
   "files": [],
   "references": [
     { "path": "./tsconfig.main.json" },
-    { "path": "./tsconfig.neos.json" },
-    { "path": "./tsconfig.web.json" },
-    { "path": "./tsconfig.dev.json" },
-    { "path": "./tsconfig.webpack.json" }
+    { "path": "./tsconfig.res.json" },
+    { "path": "./tsconfig.dev.json" }
   ]
 }

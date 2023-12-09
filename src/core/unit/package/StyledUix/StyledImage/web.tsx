@@ -2,7 +2,7 @@ import { MirrorProps, unitConfig } from "./detail";
 
 export const o = (props: MirrorProps) => {
   return (
-    <div>
+    <div style={{ color: `${props.defaultColor}` }}>
       {
         //@ts-ignore
         props.children

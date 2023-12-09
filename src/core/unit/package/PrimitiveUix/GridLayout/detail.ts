@@ -4,7 +4,7 @@ import {
   getMainProps,
   getMirrorProps,
   getWebProps,
-} from "../../../base/common";
+} from "../../../../../lib/mirage-x/unit/common";
 
 const detail = {
   code: "PrimitiveUix/GridLayout",

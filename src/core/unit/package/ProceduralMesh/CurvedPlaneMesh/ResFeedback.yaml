@@ -1,0 +1,514 @@
+Name:
+  ID: "?"
+  Data: ProceduralMesh/CurvedPlaneMesh
+Active:
+  ID: "?"
+  Data: true
+ID: "?"
+Persistent-Id: "?"
+Position:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+Rotation:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+    - 1
+Scale:
+  ID: "?"
+  Data:
+    - 1
+    - 1
+    - 1
+Tag:
+  ID: "?"
+  Data: ""
+OrderOffset:
+  ID: "?"
+  Data: 0
+Components:
+  ID: "?"
+  Data:
+    - Type: FrooxEngine.DynamicVariableSpace
+      Data:
+        ID: "?"
+        persistent-ID: "?"
+        UpdateOrder:
+          ID: "?"
+          Data: 0
+        Enabled:
+          ID: "?"
+          Data: true
+        SpaceName:
+          ID: "?"
+          Data: ""
+        OnlyDirectBinding:
+          ID: "?"
+          Data: false
+Children:
+  - Name:
+      ID: "?"
+      Data: DV
+    Active:
+      ID: "?"
+      Data: true
+    ID: "?"
+    Persistent-Id: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 111111
+    Scale:
+      ID: "?"
+      Data:
+        - 111111
+        - 111111
+        - 111111
+    Tag:
+      ID: "?"
+      Data: ""
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+          Data:
+            ID: "?"
+            persistent-ID: "?"
+            UpdateOrder:
+              ID: "?"
+              Data: 0
+            Enabled:
+              ID: "?"
+              Data: true
+            VariableName:
+              ID: "?"
+              Data: Static.Ref
+            Reference:
+              ID: "?"
+              Data: ID:Ref:0
+            OverrideOnLink:
+              ID: "?"
+              Data: false
+    Children: []
+  - Name:
+      ID: "?"
+      Data: Ref
+    Active:
+      ID: "?"
+      Data: true
+    ID: ID:Ref:0
+    Persistent-Id: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 111111
+    Scale:
+      ID: "?"
+      Data:
+        - 111111
+        - 111111
+        - 111111
+    Tag:
+      ID: "?"
+      Data: ""
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: FrooxEngine.DynamicVariableSpace
+          Data:
+            ID: "?"
+            persistent-ID: "?"
+            UpdateOrder:
+              ID: "?"
+              Data: 0
+            Enabled:
+              ID: "?"
+              Data: true
+            SpaceName:
+              ID: "?"
+              Data: ""
+            OnlyDirectBinding:
+              ID: "?"
+              Data: false
+    Children:
+      - Name:
+          ID: "?"
+          Data: DV/Static
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-Id: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: ""
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Root
+                Reference:
+                  ID: "?"
+                  Data: ID:Ref:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Main
+                Reference:
+                  ID: "?"
+                  Data: ID:CurvedPlaneMesh:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.ChildrenParent
+                Reference:
+                  ID: "?"
+                  Data: ID:CurvedPlaneMesh:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+      - Name:
+          ID: "?"
+          Data: DV/Props
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-Id: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: ""
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: FrooxEngine.DynamicField`1[Elements.Core.float3]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.position
+                TargetField:
+                  ID: "?"
+                  Data: ID:CurvedPlaneMesh:Tag:2
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[Elements.Core.floatQ]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.rotation
+                TargetField:
+                  ID: "?"
+                  Data: ID:CurvedPlaneMesh:Tag:3
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[Elements.Core.float3]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.scale
+                TargetField:
+                  ID: "?"
+                  Data: ID:CurvedPlaneMesh:Tag:4
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+      - Name:
+          ID: "?"
+          Data: CurvedPlaneMesh
+        Active:
+          ID: "?"
+          Data: true
+        ID: ID:CurvedPlaneMesh:0
+        Persistent-Id: "?"
+        Position:
+          ID: ID:CurvedPlaneMesh:Tag:2
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: ID:CurvedPlaneMesh:Tag:3
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: ID:CurvedPlaneMesh:Tag:4
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: FrooxEngine.MeshRenderer
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                Mesh:
+                  ID: "?"
+                  Data: ID:CurvedPlaneMesh:Components:FrooxEngine.CurvedPlaneMesh:0
+                Materials:
+                  ID: "?"
+                  Data:
+                    - ID: "?"
+                      Data: ID:Assets:FrooxEngine.PBS_DualSidedMetallic:ID:0
+                MaterialPropertyBlocks:
+                  ID: "?"
+                  Data: []
+                ShadowCastMode:
+                  ID: "?"
+                  Data: On
+                MotionVectorMode:
+                  ID: "?"
+                  Data: Object
+                SortingOrder:
+                  ID: "?"
+                  Data: 0
+            - Type: FrooxEngine.CurvedPlaneMesh
+              Data:
+                ID: ID:CurvedPlaneMesh:Components:FrooxEngine.CurvedPlaneMesh:0
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                HighPriorityIntegration:
+                  ID: "?"
+                  Data: false
+                OverrideBoundingBox:
+                  ID: "?"
+                  Data: false
+                OverridenBoundingBox:
+                  ID: "?"
+                  Data:
+                    Min:
+                      - 0
+                      - 0
+                      - 0
+                    Max:
+                      - 0
+                      - 0
+                      - 0
+                Profile:
+                  ID: "?"
+                  Data: Linear
+                Size:
+                  ID: "?"
+                  Data:
+                    - 833.3333333333334
+                    - 733.3333333333334
+                Curvature:
+                  ID: "?"
+                  Data: 116.33333333333333
+                TiltAngle:
+                  ID: "?"
+                  Data: 0
+                AspectRatioCompensation:
+                  ID: "?"
+                  Data: None
+                UVScale:
+                  ID: "?"
+                  Data:
+                    - 333.3333333333333
+                    - 333.3333333333333
+                UVOffset:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                Segments:
+                  ID: "?"
+                  Data: 10666.666666666666
+                FlatShading:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.MeshCollider
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 333333333.3333333
+                Enabled:
+                  ID: "?"
+                  Data: true
+                Offset:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                    - 0
+                Type:
+                  ID: "?"
+                  Data: NoCollision
+                Mass:
+                  ID: "?"
+                  Data: 333.3333333333333
+                CharacterCollider:
+                  ID: "?"
+                  Data: false
+                IgnoreRaycasts:
+                  ID: "?"
+                  Data: false
+                Mesh:
+                  ID: "?"
+                  Data: ID:CurvedPlaneMesh:Components:FrooxEngine.CurvedPlaneMesh:0
+                Sidedness:
+                  ID: "?"
+                  Data: DualSided
+                ActualSpeculativeMargin:
+                  ID: "?"
+                  Data: null
+        Children: []

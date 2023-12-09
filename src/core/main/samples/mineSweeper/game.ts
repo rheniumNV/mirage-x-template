@@ -1,14 +1,3 @@
-/**
-Minesweeper
-https://github.com/odiak/minesweeper/blob/master/src/game.ts
-
-Copyright (c) 2019 odiak
-
-This software is released under the MIT License.
-http://opensource.org/licenses/mit-license.php
-
-**/
-
 import { assignArray } from "./util";
 
 export interface Cell {

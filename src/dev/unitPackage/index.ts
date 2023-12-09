@@ -12,7 +12,7 @@ fs.readdirSync(path.resolve(__dirname, "../../core/unit/package")).forEach(
         .isDirectory()
     ) {
       const mainFileList: string[] = [];
-      const neosFileList: string[] = [];
+      const resFileList: string[] = [];
       const webFileList: string[] = [];
       fs.readdirSync(
         path.resolve(__dirname, `../../core/unit/package/${packageDir}`)
@@ -36,8 +36,8 @@ fs.readdirSync(path.resolve(__dirname, "../../core/unit/package")).forEach(
           if (files.includes("main.tsx")) {
             mainFileList.push(unitFile);
           }
-          if (files.includes("neos.tsx")) {
-            neosFileList.push(unitFile);
+          if (files.includes("res.tsx")) {
+            resFileList.push(unitFile);
           }
           if (files.includes("web.tsx")) {
             webFileList.push(unitFile);
@@ -46,10 +46,7 @@ fs.readdirSync(path.resolve(__dirname, "../../core/unit/package")).forEach(
       });
 
       console.log(packageDir, mainFileList);
-      if (
-        mainFileList.length + neosFileList.length + webFileList.length ===
-        0
-      ) {
+      if (mainFileList.length + resFileList.length + webFileList.length === 0) {
         return;
       }
 
@@ -68,23 +65,20 @@ fs.readdirSync(path.resolve(__dirname, "../../core/unit/package")).forEach(
         mainCode
       );
 
-      const neosCode = `${neosFileList
+      const resCode = `${resFileList
         .map(
           (unitFile) =>
-            `import { neos as ${unitFile} } from "./${unitFile}/neos";`
+            `import { res as ${unitFile} } from "./${unitFile}/res";`
         )
         .join("\n")}
 
 export const Units = {
-${neosFileList.map((unitFile) => `  ${unitFile},`).join("\n")}
+${resFileList.map((unitFile) => `  ${unitFile},`).join("\n")}
 };
 `;
       fs.writeFileSync(
-        path.resolve(
-          __dirname,
-          `../../core/unit/package/${packageDir}/neos.ts`
-        ),
-        neosCode
+        path.resolve(__dirname, `../../core/unit/package/${packageDir}/res.ts`),
+        resCode
       );
 
       const webCode = `${webFileList
@@ -95,7 +89,7 @@ ${neosFileList.map((unitFile) => `  ${unitFile},`).join("\n")}
         .join("\n")}
 
 export const Units = {
-${webFileList.map((unitFile) => `  ${unitFile},`).join("\n")}
+${webFileList.map((unitFile) => `  ...${unitFile},`).join("\n")}
 };
 `;
       fs.writeFileSync(

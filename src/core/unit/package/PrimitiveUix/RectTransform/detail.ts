@@ -4,11 +4,12 @@ import {
   getMainProps,
   getMirrorProps,
   getWebProps,
-} from "../../../base/common";
+} from "../../../../../lib/mirage-x/unit/common";
 
 const detail = {
   code: "PrimitiveUix/RectTransform",
   propsConfig: {
+    active: UnitProp.Boolean(true),
     anchorMin: UnitProp.Float2([0, 0]),
     anchorMax: UnitProp.Float2([1, 1]),
     offsetMin: UnitProp.Float2([0, 0]),

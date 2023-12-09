@@ -1,0 +1,910 @@
+Name:
+  ID: "?"
+  Data: StyledUnit/StyledDVFont
+Active:
+  ID: "?"
+  Data: true
+ID: "?"
+Persistent-Id: "?"
+Position:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+Rotation:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+    - 1
+Scale:
+  ID: "?"
+  Data:
+    - 1
+    - 1
+    - 1
+Tag:
+  ID: "?"
+  Data: ""
+OrderOffset:
+  ID: "?"
+  Data: 0
+Components:
+  ID: "?"
+  Data:
+    - Type: FrooxEngine.DynamicVariableSpace
+      Data:
+        ID: "?"
+        persistent-ID: "?"
+        UpdateOrder:
+          ID: "?"
+          Data: 0
+        Enabled:
+          ID: "?"
+          Data: true
+        SpaceName:
+          ID: "?"
+          Data: ""
+        OnlyDirectBinding:
+          ID: "?"
+          Data: false
+Children:
+  - Name:
+      ID: "?"
+      Data: DV
+    Active:
+      ID: "?"
+      Data: true
+    ID: "?"
+    Persistent-Id: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 111111
+    Scale:
+      ID: "?"
+      Data:
+        - 111111
+        - 111111
+        - 111111
+    Tag:
+      ID: "?"
+      Data: ""
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+          Data:
+            ID: "?"
+            persistent-ID: "?"
+            UpdateOrder:
+              ID: "?"
+              Data: 0
+            Enabled:
+              ID: "?"
+              Data: true
+            VariableName:
+              ID: "?"
+              Data: Static.Ref
+            Reference:
+              ID: "?"
+              Data: ID:Ref:0
+            OverrideOnLink:
+              ID: "?"
+              Data: false
+    Children: []
+  - Name:
+      ID: "?"
+      Data: Ref
+    Active:
+      ID: "?"
+      Data: true
+    ID: ID:Ref:0
+    Persistent-Id: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 111111
+    Scale:
+      ID: "?"
+      Data:
+        - 111111
+        - 111111
+        - 111111
+    Tag:
+      ID: "?"
+      Data: ""
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: FrooxEngine.DynamicVariableSpace
+          Data:
+            ID: "?"
+            persistent-ID: "?"
+            UpdateOrder:
+              ID: "?"
+              Data: 0
+            Enabled:
+              ID: "?"
+              Data: true
+            SpaceName:
+              ID: "?"
+              Data: ""
+            OnlyDirectBinding:
+              ID: "?"
+              Data: false
+    Children:
+      - Name:
+          ID: "?"
+          Data: DV/Static
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-Id: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: ""
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Root
+                Reference:
+                  ID: "?"
+                  Data: ID:Ref:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Main
+                Reference:
+                  ID: "?"
+                  Data: ID:StyledDVFont:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.ChildrenParent
+                Reference:
+                  ID: "?"
+                  Data: ID:StyledDVFont:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+      - Name:
+          ID: "?"
+          Data: DV/Props
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-Id: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: ""
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: FrooxEngine.DynamicField`1[System.String]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.name
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVFont:Components:FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.IAssetProvider`1],
+                    FrooxEngine, , Culture=neutral,
+                    PublicKeyToken=null]]:VariableName:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[System.Uri]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.url0
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[System.Uri]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.url1
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:1
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[System.Uri]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.url2
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:2
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[System.Uri]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.url3
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:3
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[System.Uri]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.url4
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:4
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[System.Uri]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.url5
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:5
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[System.Uri]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.url6
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:6
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[System.Uri]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.url7
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:7
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[System.Uri]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.url8
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:8
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[System.Uri]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.url9
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:9
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+      - Name:
+          ID: "?"
+          Data: StyledDVFont
+        Active:
+          ID: "?"
+          Data: true
+        ID: ID:StyledDVFont:0
+        Persistent-Id: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: FrooxEngine.FontChain
+              Data:
+                ID: ID:StyledDVFont:Components:FrooxEngine.FontChain:0
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                HighPriorityIntegration:
+                  ID: "?"
+                  Data: false
+                MainFont:
+                  ID: "?"
+                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:0
+                FallbackFonts:
+                  ID: "?"
+                  Data:
+                    - ID: "?"
+                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:1
+                    - ID: "?"
+                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:2
+                    - ID: "?"
+                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:3
+                    - ID: "?"
+                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:4
+                    - ID: "?"
+                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:5
+                    - ID: "?"
+                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:6
+                    - ID: "?"
+                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:7
+                    - ID: "?"
+                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:8
+                    - ID: "?"
+                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:9
+            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.IAssetProvider`1],
+                FrooxEngine, , Culture=neutral, PublicKeyToken=null]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: ID:StyledDVFont:Components:FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.IAssetProvider`1],
+                    FrooxEngine, , Culture=neutral,
+                    PublicKeyToken=null]]:VariableName:0
+                  Data: Name
+                Reference:
+                  ID: "?"
+                  Data: ID:StyledDVFont:Components:FrooxEngine.FontChain:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.StaticFont
+              Data:
+                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:0
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                URL:
+                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:0
+                  Data: null
+                Padding:
+                  ID: "?"
+                  Data: 333.3333333333333
+                PixelRange:
+                  ID: "?"
+                  Data: 1333.3333333333333
+                GlyphEmSize:
+                  ID: "?"
+                  Data: 10666.666666666666
+                MipMaps:
+                  ID: "?"
+                  Data: true
+                MipMapFiltering:
+                  ID: "?"
+                  Data: Box
+                LODBias:
+                  ID: "?"
+                  Data: -333.3333333333333
+            - Type: FrooxEngine.StaticFont
+              Data:
+                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:1
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                URL:
+                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:1
+                  Data: null
+                Padding:
+                  ID: "?"
+                  Data: 333.3333333333333
+                PixelRange:
+                  ID: "?"
+                  Data: 1333.3333333333333
+                GlyphEmSize:
+                  ID: "?"
+                  Data: 10666.666666666666
+                MipMaps:
+                  ID: "?"
+                  Data: true
+                MipMapFiltering:
+                  ID: "?"
+                  Data: Box
+                LODBias:
+                  ID: "?"
+                  Data: -333.3333333333333
+            - Type: FrooxEngine.StaticFont
+              Data:
+                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:2
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                URL:
+                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:2
+                  Data: null
+                Padding:
+                  ID: "?"
+                  Data: 333.3333333333333
+                PixelRange:
+                  ID: "?"
+                  Data: 1333.3333333333333
+                GlyphEmSize:
+                  ID: "?"
+                  Data: 10666.666666666666
+                MipMaps:
+                  ID: "?"
+                  Data: true
+                MipMapFiltering:
+                  ID: "?"
+                  Data: Box
+                LODBias:
+                  ID: "?"
+                  Data: -333.3333333333333
+            - Type: FrooxEngine.StaticFont
+              Data:
+                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:3
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                URL:
+                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:3
+                  Data: null
+                Padding:
+                  ID: "?"
+                  Data: 333.3333333333333
+                PixelRange:
+                  ID: "?"
+                  Data: 1333.3333333333333
+                GlyphEmSize:
+                  ID: "?"
+                  Data: 10666.666666666666
+                MipMaps:
+                  ID: "?"
+                  Data: true
+                MipMapFiltering:
+                  ID: "?"
+                  Data: Box
+                LODBias:
+                  ID: "?"
+                  Data: -333.3333333333333
+            - Type: FrooxEngine.StaticFont
+              Data:
+                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:4
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                URL:
+                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:4
+                  Data: null
+                Padding:
+                  ID: "?"
+                  Data: 333.3333333333333
+                PixelRange:
+                  ID: "?"
+                  Data: 1333.3333333333333
+                GlyphEmSize:
+                  ID: "?"
+                  Data: 10666.666666666666
+                MipMaps:
+                  ID: "?"
+                  Data: true
+                MipMapFiltering:
+                  ID: "?"
+                  Data: Box
+                LODBias:
+                  ID: "?"
+                  Data: -333.3333333333333
+            - Type: FrooxEngine.StaticFont
+              Data:
+                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:5
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                URL:
+                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:5
+                  Data: null
+                Padding:
+                  ID: "?"
+                  Data: 333.3333333333333
+                PixelRange:
+                  ID: "?"
+                  Data: 1333.3333333333333
+                GlyphEmSize:
+                  ID: "?"
+                  Data: 10666.666666666666
+                MipMaps:
+                  ID: "?"
+                  Data: true
+                MipMapFiltering:
+                  ID: "?"
+                  Data: Box
+                LODBias:
+                  ID: "?"
+                  Data: -333.3333333333333
+            - Type: FrooxEngine.StaticFont
+              Data:
+                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:6
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                URL:
+                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:6
+                  Data: null
+                Padding:
+                  ID: "?"
+                  Data: 333.3333333333333
+                PixelRange:
+                  ID: "?"
+                  Data: 1333.3333333333333
+                GlyphEmSize:
+                  ID: "?"
+                  Data: 10666.666666666666
+                MipMaps:
+                  ID: "?"
+                  Data: true
+                MipMapFiltering:
+                  ID: "?"
+                  Data: Box
+                LODBias:
+                  ID: "?"
+                  Data: -333.3333333333333
+            - Type: FrooxEngine.StaticFont
+              Data:
+                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:7
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                URL:
+                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:7
+                  Data: null
+                Padding:
+                  ID: "?"
+                  Data: 333.3333333333333
+                PixelRange:
+                  ID: "?"
+                  Data: 1333.3333333333333
+                GlyphEmSize:
+                  ID: "?"
+                  Data: 10666.666666666666
+                MipMaps:
+                  ID: "?"
+                  Data: true
+                MipMapFiltering:
+                  ID: "?"
+                  Data: Box
+                LODBias:
+                  ID: "?"
+                  Data: -333.3333333333333
+            - Type: FrooxEngine.StaticFont
+              Data:
+                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:8
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                URL:
+                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:8
+                  Data: null
+                Padding:
+                  ID: "?"
+                  Data: 333.3333333333333
+                PixelRange:
+                  ID: "?"
+                  Data: 1333.3333333333333
+                GlyphEmSize:
+                  ID: "?"
+                  Data: 10666.666666666666
+                MipMaps:
+                  ID: "?"
+                  Data: true
+                MipMapFiltering:
+                  ID: "?"
+                  Data: Box
+                LODBias:
+                  ID: "?"
+                  Data: -333.3333333333333
+            - Type: FrooxEngine.StaticFont
+              Data:
+                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:9
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                URL:
+                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:9
+                  Data: null
+                Padding:
+                  ID: "?"
+                  Data: 333.3333333333333
+                PixelRange:
+                  ID: "?"
+                  Data: 1333.3333333333333
+                GlyphEmSize:
+                  ID: "?"
+                  Data: 10666.666666666666
+                MipMaps:
+                  ID: "?"
+                  Data: true
+                MipMapFiltering:
+                  ID: "?"
+                  Data: Box
+                LODBias:
+                  ID: "?"
+                  Data: -333.3333333333333
+        Children: []

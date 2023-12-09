@@ -1,0 +1,606 @@
+Name:
+  ID: "?"
+  Data: StyledUnit/StyledDVSprite
+Active:
+  ID: "?"
+  Data: true
+ID: "?"
+Persistent-Id: "?"
+Position:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+Rotation:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+    - 1
+Scale:
+  ID: "?"
+  Data:
+    - 1
+    - 1
+    - 1
+Tag:
+  ID: "?"
+  Data: ""
+OrderOffset:
+  ID: "?"
+  Data: 0
+Components:
+  ID: "?"
+  Data:
+    - Type: FrooxEngine.DynamicVariableSpace
+      Data:
+        ID: "?"
+        persistent-ID: "?"
+        UpdateOrder:
+          ID: "?"
+          Data: 0
+        Enabled:
+          ID: "?"
+          Data: true
+        SpaceName:
+          ID: "?"
+          Data: ""
+        OnlyDirectBinding:
+          ID: "?"
+          Data: false
+Children:
+  - Name:
+      ID: "?"
+      Data: DV
+    Active:
+      ID: "?"
+      Data: true
+    ID: "?"
+    Persistent-Id: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 111111
+    Scale:
+      ID: "?"
+      Data:
+        - 111111
+        - 111111
+        - 111111
+    Tag:
+      ID: "?"
+      Data: ""
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+          Data:
+            ID: "?"
+            persistent-ID: "?"
+            UpdateOrder:
+              ID: "?"
+              Data: 0
+            Enabled:
+              ID: "?"
+              Data: true
+            VariableName:
+              ID: "?"
+              Data: Static.Ref
+            Reference:
+              ID: "?"
+              Data: ID:Ref:0
+            OverrideOnLink:
+              ID: "?"
+              Data: false
+    Children: []
+  - Name:
+      ID: "?"
+      Data: Ref
+    Active:
+      ID: "?"
+      Data: true
+    ID: ID:Ref:0
+    Persistent-Id: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 111111
+    Scale:
+      ID: "?"
+      Data:
+        - 111111
+        - 111111
+        - 111111
+    Tag:
+      ID: "?"
+      Data: ""
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: FrooxEngine.DynamicVariableSpace
+          Data:
+            ID: "?"
+            persistent-ID: "?"
+            UpdateOrder:
+              ID: "?"
+              Data: 0
+            Enabled:
+              ID: "?"
+              Data: true
+            SpaceName:
+              ID: "?"
+              Data: ""
+            OnlyDirectBinding:
+              ID: "?"
+              Data: false
+    Children:
+      - Name:
+          ID: "?"
+          Data: DV/Static
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-Id: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: ""
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Root
+                Reference:
+                  ID: "?"
+                  Data: ID:Ref:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Main
+                Reference:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.ChildrenParent
+                Reference:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+      - Name:
+          ID: "?"
+          Data: DV/Props
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-Id: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: ""
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: FrooxEngine.DynamicField`1[System.String]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.name
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.IAssetProvider`1],
+                    FrooxEngine, , Culture=neutral,
+                    PublicKeyToken=null]]:VariableName:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[System.Uri]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.url
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:URL:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[Elements.Core.Rect]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.rect
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:Rect:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[Elements.Core.float4]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.borders
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:Borders:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[System.Single]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.scale
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:Scale:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[FrooxEngine.TextureFilterMode]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.filterMode
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:FilterMode:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[FrooxEngine.TextureWrapMode]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.wrapModeU
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:WrapModeU:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[FrooxEngine.TextureWrapMode]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.wrapModeV
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:WrapModeV:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+      - Name:
+          ID: "?"
+          Data: StyledDVSprite
+        Active:
+          ID: "?"
+          Data: true
+        ID: ID:StyledDVSprite:0
+        Persistent-Id: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: FrooxEngine.SpriteProvider
+              Data:
+                ID: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:0
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                HighPriorityIntegration:
+                  ID: "?"
+                  Data: false
+                Texture:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:0
+                Rect:
+                  ID: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:Rect:0
+                  Data:
+                    X: 0
+                    Y: 0
+                    Width: 333.3333333333333
+                    Height: 333.3333333333333
+                Borders:
+                  ID: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:Borders:0
+                  Data:
+                    - 0
+                    - 0
+                    - 0
+                    - 0
+                Scale:
+                  ID: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:Scale:0
+                  Data: 333.3333333333333
+                FixedSize:
+                  ID: "?"
+                  Data: 2666.6666666666665
+            - Type: FrooxEngine.StaticTexture2D
+              Data:
+                ID: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:0
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                URL:
+                  ID: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:URL:0
+                  Data: null
+                FilterMode:
+                  ID: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:FilterMode:0
+                  Data: Bilinear
+                AnisotropicLevel:
+                  ID: "?"
+                  Data: 2666.6666666666665
+                Uncompressed:
+                  ID: "?"
+                  Data: false
+                DirectLoad:
+                  ID: "?"
+                  Data: true
+                ForceExactVariant:
+                  ID: "?"
+                  Data: false
+                PreferredFormat:
+                  ID: "?"
+                  Data: null
+                PreferredProfile:
+                  ID: "?"
+                  Data: null
+                MipMapBias:
+                  ID: "?"
+                  Data: 0
+                IsNormalMap:
+                  ID: "?"
+                  Data: false
+                WrapModeU:
+                  ID: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:WrapModeU:0
+                  Data: Repeat
+                WrapModeV:
+                  ID: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:WrapModeV:0
+                  Data: Repeat
+                PowerOfTwoAlignThreshold:
+                  ID: "?"
+                  Data: 16.666666666666668
+                CrunchCompressed:
+                  ID: "?"
+                  Data: true
+                MaxSize:
+                  ID: "?"
+                  Data: null
+                MipMaps:
+                  ID: "?"
+                  Data: false
+                MipMapFilter:
+                  ID: "?"
+                  Data: Box
+                Readable:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.IAssetProvider`1],
+                FrooxEngine, , Culture=neutral, PublicKeyToken=null]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: ID:StyledDVSprite:Components:FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.IAssetProvider`1],
+                    FrooxEngine, , Culture=neutral,
+                    PublicKeyToken=null]]:VariableName:0
+                  Data: Name
+                Reference:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []

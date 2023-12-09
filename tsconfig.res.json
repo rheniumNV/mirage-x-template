@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": ["es5"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "neos-script",
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "./src/core/unit/**/*res.tsx",
+    "./src/core/unit/**/*res.ts",
+    "./src/core/unit/**/*ResFeedback.json",
+    "./src/core/unit/base/res/**/*.tsx",
+    "./src/core/unit/base/res/**/*.ts",
+    "./src/res/**/*.tsx",
+    "./src/res/**/*.ts",
+    "src/lib/mirage-x/unit/res/index.tsx",
+    "src/lib/mirage-x/res/**/*.tsx",
+    "src/lib/mirage-x/res/**/*.ts"
+  ]
+}

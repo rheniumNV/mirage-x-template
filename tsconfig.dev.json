@@ -7,5 +7,5 @@
     "esModuleInterop": true,
     "resolveJsonModule": true
   },
-  "include": ["./src/dev/**/*.tsx", "./src/dev/**/*.ts"]
+  "include": ["./src/dev/**/*.tsx", "./src/dev/**/*.ts", "jest.config.js"]
 }

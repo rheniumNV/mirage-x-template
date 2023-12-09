@@ -4,15 +4,17 @@ import {
   getMainProps,
   getMirrorProps,
   getWebProps,
-} from "../../../base/common";
+} from "../../../../../lib/mirage-x/unit/common";
 
 const detail = {
   code: "StyledUix/StyledText",
   propsConfig: {
+    styledFont: UnitProp.String(""),
     content: UnitProp.String(""),
     size: UnitProp.Float(64),
     styledColor: UnitProp.String(""),
     defaultColor: UnitProp.Color([0, 0, 0, 1]),
+    styledMaterial: UnitProp.String(""),
     nullContent: UnitProp.String(""),
     lineHeight: UnitProp.Float(0.8),
     horizontalAutoSize: UnitProp.Boolean(false),

@@ -1,11 +1,11 @@
-import { FunctionEnv } from "../../../../../base/common/interactionEvent";
+import { FunctionEnv } from "../../../../../lib/mirage-x/common/interactionEvent";
 import {
   UnitProp,
   generateUnitConfig,
   getMainProps,
   getMirrorProps,
   getWebProps,
-} from "../../../base/common";
+} from "../../../../../lib/mirage-x/unit/common";
 
 const detail = {
   code: "StyledUix/StyledButton",
@@ -13,10 +13,16 @@ const detail = {
     enabled: UnitProp.Boolean(true),
     styledSprite: UnitProp.String(""),
     styledColor: UnitProp.String(""),
+    styledMaterial: UnitProp.String(""),
     defaultColor: UnitProp.Color([1, 1, 1, 1]),
-    preserveAspect: UnitProp.Boolean(true),
+    tintColorMode: UnitProp.EnumInteractionElementColorMode("Explicit"),
+    styledNormalColor: UnitProp.String(""),
+    styledHighlightColor: UnitProp.String(""),
+    styledPressColor: UnitProp.String(""),
+    styledDisableColor: UnitProp.String(""),
     onClick: UnitProp.Function((_env: FunctionEnv) => {}),
     requireLockInToPress: UnitProp.Boolean(false),
+    nineSliceSizing: UnitProp.EnumNineSliceSizing("TextureSize"),
   },
   children: "multi" as const,
 };

@@ -1,5 +1,5 @@
-import { Unit } from "../../../../../base/common/unitChangeEvent";
-import { generateMain } from "../../../base/main";
+import { Unit } from "../../../../../lib/mirage-x/common/unitChangeEvent";
+import { generateMain } from "../../../../../lib/mirage-x/unit/main";
 import { unitConfig } from "./detail";
 import { StyledSpriteVariable } from "../../../../lib/styledUnit";
 
