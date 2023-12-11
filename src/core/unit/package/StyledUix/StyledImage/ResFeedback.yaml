@@ -306,7 +306,7 @@ Children:
                 TargetField:
                   ID: "?"
                   Data: ID:StyledImage:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, , Culture=neutral,
+                    FrooxEngine, 5, Culture=neutral,
                     PublicKeyToken=null]]:VariableName:0
                 OverrideOnLink:
                   ID: "?"
@@ -346,7 +346,7 @@ Children:
                 TargetField:
                   ID: "?"
                   Data: ID:StyledImage:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, , Culture=neutral,
+                    FrooxEngine, 5, Culture=neutral,
                     PublicKeyToken=null]]:VariableName:1
                 OverrideOnLink:
                   ID: "?"
@@ -386,6 +386,25 @@ Children:
                 TargetField:
                   ID: "?"
                   Data: ID:StyledImage:Components:FrooxEngine.UIX.Image:NineSliceSizing:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.preserveAspect
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledImage:Components:FrooxEngine.UIX.Image:PreserveAspect:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
@@ -443,7 +462,7 @@ Children:
                   ID: ID:StyledImage:Components:FrooxEngine.UIX.Image:Material:0
                   Data: null
                 PreserveAspect:
-                  ID: "?"
+                  ID: ID:StyledImage:Components:FrooxEngine.UIX.Image:PreserveAspect:0
                   Data: true
                 NineSliceSizing:
                   ID: ID:StyledImage:Components:FrooxEngine.UIX.Image:NineSliceSizing:0
@@ -533,7 +552,7 @@ Children:
                     - 333.3333333333333
                     - sRGBAlpha
             - Type: FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                FrooxEngine, , Culture=neutral, PublicKeyToken=null]]
+                FrooxEngine, 5, Culture=neutral, PublicKeyToken=null]]
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -545,7 +564,7 @@ Children:
                   Data: true
                 VariableName:
                   ID: ID:StyledImage:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, , Culture=neutral,
+                    FrooxEngine, 5, Culture=neutral,
                     PublicKeyToken=null]]:VariableName:0
                   Data: ""
                 Target:
@@ -555,7 +574,7 @@ Children:
                   ID: "?"
                   Data: null
             - Type: FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                FrooxEngine, , Culture=neutral, PublicKeyToken=null]]
+                FrooxEngine, 5, Culture=neutral, PublicKeyToken=null]]
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -567,7 +586,7 @@ Children:
                   Data: true
                 VariableName:
                   ID: ID:StyledImage:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, , Culture=neutral,
+                    FrooxEngine, 5, Culture=neutral,
                     PublicKeyToken=null]]:VariableName:1
                   Data: ""
                 Target:

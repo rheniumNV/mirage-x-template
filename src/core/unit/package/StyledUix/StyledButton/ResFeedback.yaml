@@ -325,7 +325,7 @@ Children:
                 TargetField:
                   ID: "?"
                   Data: ID:StyledButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, , Culture=neutral,
+                    FrooxEngine, 5, Culture=neutral,
                     PublicKeyToken=null]]:VariableName:0
                 OverrideOnLink:
                   ID: "?"
@@ -365,7 +365,7 @@ Children:
                 TargetField:
                   ID: "?"
                   Data: ID:StyledButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, , Culture=neutral,
+                    FrooxEngine, 5, Culture=neutral,
                     PublicKeyToken=null]]:VariableName:1
                 OverrideOnLink:
                   ID: "?"
@@ -541,6 +541,25 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
+            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.preserveAspect
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Image:PreserveAspect:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
         Children: []
       - Name:
           ID: "?"
@@ -595,7 +614,7 @@ Children:
                   ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:Material:0
                   Data: null
                 PreserveAspect:
-                  ID: "?"
+                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:PreserveAspect:0
                   Data: true
                 NineSliceSizing:
                   ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:NineSliceSizing:0
@@ -797,7 +816,7 @@ Children:
                   Data: true
                 Target:
                   ID: ID:StyledButton:Components:FrooxEngine.ButtonDynamicImpulseTriggerWithValue`1[System.String]:Target:0
-                  Data: null
+                  Data: "?"
                 ExcludeDisabled:
                   ID: "?"
                   Data: false
@@ -863,7 +882,7 @@ Children:
                     - 333.3333333333333
                     - sRGBAlpha
             - Type: FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                FrooxEngine, , Culture=neutral, PublicKeyToken=null]]
+                FrooxEngine, 5, Culture=neutral, PublicKeyToken=null]]
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -875,7 +894,7 @@ Children:
                   Data: true
                 VariableName:
                   ID: ID:StyledButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, , Culture=neutral,
+                    FrooxEngine, 5, Culture=neutral,
                     PublicKeyToken=null]]:VariableName:0
                   Data: ""
                 Target:
@@ -885,7 +904,7 @@ Children:
                   ID: "?"
                   Data: null
             - Type: FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                FrooxEngine, , Culture=neutral, PublicKeyToken=null]]
+                FrooxEngine, 5, Culture=neutral, PublicKeyToken=null]]
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -897,7 +916,7 @@ Children:
                   Data: true
                 VariableName:
                   ID: ID:StyledButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, , Culture=neutral,
+                    FrooxEngine, 5, Culture=neutral,
                     PublicKeyToken=null]]:VariableName:1
                   Data: ""
                 Target:

@@ -23,6 +23,7 @@ const detail = {
     onClick: UnitProp.Function((_env: FunctionEnv) => {}),
     requireLockInToPress: UnitProp.Boolean(false),
     nineSliceSizing: UnitProp.EnumNineSliceSizing("TextureSize"),
+    preserveAspect: UnitProp.Boolean(true),
   },
   children: "multi" as const,
 };

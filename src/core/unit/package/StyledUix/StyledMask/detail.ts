@@ -10,6 +10,7 @@ const detail = {
   code: "StyledUix/StyledMask",
   propsConfig: {
     styledSprite: UnitProp.String(""),
+    preserveAspect: UnitProp.Boolean(true),
   },
   children: "multi" as const,
 };

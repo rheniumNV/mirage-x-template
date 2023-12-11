@@ -260,7 +260,7 @@ Children:
         Active:
           ID: "?"
           Data: true
-        ID: "?"
+        ID: ID:DV/Props:0
         Persistent-Id: "?"
         Position:
           ID: "?"
@@ -366,6 +366,46 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
+            - Type: FrooxEngine.DynamicField`1[System.String]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.styledMaterial
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledRawImage:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
+                    FrooxEngine, 5, Culture=neutral,
+                    PublicKeyToken=null]]:VariableName:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: FrooxEngine.GizmoLink
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                _worker:
+                  ID: "?"
+                  Data: ID:DV/Props:0
+                _gizmo:
+                  ID: "?"
+                  Data: null
+                _type:
+                  ID: "?"
+                  Data: FrooxEngine.SlotGizmo
         Children: []
       - Name:
           ID: "?"
@@ -417,7 +457,7 @@ Children:
                   ID: "?"
                   Data: ID:StyledRawImage:Components:FrooxEngine.StaticTexture2D:0
                 Material:
-                  ID: "?"
+                  ID: ID:StyledRawImage:Components:FrooxEngine.UIX.RawImage:Material:0
                   Data: null
                 Tint:
                   ID: ID:StyledRawImage:Components:FrooxEngine.UIX.RawImage:Tint:0
@@ -511,7 +551,7 @@ Children:
                   Data: null
                 PreferredProfile:
                   ID: "?"
-                  Data: null
+                  Data: sRGB
                 MipMapBias:
                   ID: "?"
                   Data: 0
@@ -542,4 +582,26 @@ Children:
                 Readable:
                   ID: "?"
                   Data: false
+            - Type: FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
+                FrooxEngine, 5, Culture=neutral, PublicKeyToken=null]]
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: ID:StyledRawImage:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
+                    FrooxEngine, 5, Culture=neutral,
+                    PublicKeyToken=null]]:VariableName:0
+                  Data: null
+                Target:
+                  ID: "?"
+                  Data: ID:StyledRawImage:Components:FrooxEngine.UIX.RawImage:Material:0
+                DefaultTarget:
+                  ID: "?"
+                  Data: null
         Children: []

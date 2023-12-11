@@ -1,0 +1,4599 @@
+{
+  "Object": {
+    "ID": "e26ddf6d-29e0-42a8-8ff3-f55849146f67",
+    "Components": {
+      "ID": "459bdeaf-698d-46a5-abaf-5d38e07c44f8",
+      "Data": [
+        {
+          "Type": "FrooxEngine.DynamicVariableSpace",
+          "Data": {
+            "ID": "89dfc7d3-3fc6-4af6-9b55-8131f12e926e",
+            "persistent-ID": "7e35e0a0-d184-4eed-87ca-ad3a6ff4124a",
+            "UpdateOrder": {
+              "ID": "2b993d90-c6fb-4b59-9eec-465404cd357f",
+              "Data": 0
+            },
+            "Enabled": {
+              "ID": "98a01fcd-e4b0-4ec6-a667-151c7be466f1",
+              "Data": true
+            },
+            "SpaceName": {
+              "ID": "9315be3a-36d0-4000-85b8-8483c7c4a94b",
+              "Data": ""
+            },
+            "OnlyDirectBinding": {
+              "ID": "9e2e0c51-c847-49bf-a19a-4cb935ec39a9",
+              "Data": false
+            }
+          }
+        }
+      ]
+    },
+    "Name": {
+      "ID": "73659b2b-0919-4687-8822-9c926aac7d73",
+      "Data": "AdvancedUix/HyperLinkButton"
+    },
+    "Tag": {
+      "ID": "3caa8bf2-f08b-4c1b-abf1-df9957bfb45b",
+      "Data": ""
+    },
+    "Active": {
+      "ID": "6f672a4b-02b0-4223-8db2-7d8f25a64966",
+      "Data": true
+    },
+    "Persistent-ID": "c4f84142-e895-4e03-a92d-531ed8dde434",
+    "Position": {
+      "ID": "5890c911-5e60-40d0-903d-dda1ce74fcbb",
+      "Data": [0, 0, 0]
+    },
+    "Rotation": {
+      "ID": "c2a3c93d-b943-4da7-850f-77345b0dce0d",
+      "Data": [0, 0, 0, 1]
+    },
+    "Scale": {
+      "ID": "cd2632bb-dfeb-4602-bee8-2bc272286f4b",
+      "Data": [1, 1, 1]
+    },
+    "OrderOffset": {
+      "ID": "0e5f1f90-b455-4a78-b808-008ce182ba09",
+      "Data": 0
+    },
+    "ParentReference": "74ce9d35-b74b-453c-8e61-06f6d2cc7be1",
+    "Children": [
+      {
+        "ID": "0851ee96-0e08-4392-a8e4-8802b74ef3ca",
+        "Components": {
+          "ID": "6d4ab553-600b-427f-9f8b-53885d78d81a",
+          "Data": [
+            {
+              "Type": "FrooxEngine.DynamicReferenceVariable`1[[FrooxEngine.Slot, FrooxEngine, Version=2023.11.28.1365, Culture=neutral, PublicKeyToken=null]]",
+              "Data": {
+                "ID": "2643dc5f-3ea4-4829-b959-8c2ebaa3e2b1",
+                "persistent-ID": "2260d4ab-ccb0-489d-bc2b-054320ff5529",
+                "UpdateOrder": {
+                  "ID": "b714cf91-bede-4cd3-83ca-6febcb77fb98",
+                  "Data": 0
+                },
+                "Enabled": {
+                  "ID": "949e7476-fa92-469b-8aee-af4214c91241",
+                  "Data": true
+                },
+                "VariableName": {
+                  "ID": "86ae863d-24ed-4f60-bbab-aaf323462dfc",
+                  "Data": "Static.Ref"
+                },
+                "Reference": {
+                  "ID": "64d11a24-48b2-42c7-bac1-c2d572b0d152",
+                  "Data": "eda040e4-4b2e-4145-9287-7a9141232ef8"
+                },
+                "OverrideOnLink": {
+                  "ID": "72918e1a-d669-41bf-a5b4-4e2504c50584",
+                  "Data": false
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "ID": "fef7ab1f-5c45-429e-bffa-c140630926c0",
+          "Data": "DV"
+        },
+        "Tag": {
+          "ID": "879ea98d-aca0-470b-aad8-81fbf9f8cdb7",
+          "Data": ""
+        },
+        "Active": {
+          "ID": "f6211a14-0631-4c0a-8d23-adc7303e390e",
+          "Data": true
+        },
+        "Persistent-ID": "c1f4c6f5-2fb6-4e4f-9431-7a8fe0be86e5",
+        "Position": {
+          "ID": "93576bc7-61e4-4282-a02a-99e4b058ff29",
+          "Data": [0, 0, 0]
+        },
+        "Rotation": {
+          "ID": "a1bd96f8-18d1-45dd-ab51-20496cc9d102",
+          "Data": [0, 0, 0, 1]
+        },
+        "Scale": {
+          "ID": "319f5aa8-7034-4971-b264-797a0a2a738e",
+          "Data": [1, 1, 1]
+        },
+        "OrderOffset": {
+          "ID": "48863230-6b39-42c0-a9bc-321439569e17",
+          "Data": 0
+        },
+        "ParentReference": "69fad785-3150-4224-8d71-e02c1851d4d5",
+        "Children": []
+      },
+      {
+        "ID": "eda040e4-4b2e-4145-9287-7a9141232ef8",
+        "Components": {
+          "ID": "677dd507-544b-4c8b-b36b-89a7be670270",
+          "Data": [
+            {
+              "Type": "FrooxEngine.DynamicVariableSpace",
+              "Data": {
+                "ID": "3d3c2307-ec0b-48da-ac1b-2bf4f80cac69",
+                "persistent-ID": "ee3acba3-2c84-4d10-873c-15b54536a652",
+                "UpdateOrder": {
+                  "ID": "8eed956f-2ab3-4b91-8757-65f2b3144509",
+                  "Data": 0
+                },
+                "Enabled": {
+                  "ID": "2fcf47c1-05de-4059-a052-406ac4673466",
+                  "Data": true
+                },
+                "SpaceName": {
+                  "ID": "ed66214d-13b5-434c-8ea3-63d6c5a2f968",
+                  "Data": ""
+                },
+                "OnlyDirectBinding": {
+                  "ID": "f856d2d8-4661-464b-9967-ee0f16f0964a",
+                  "Data": false
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "ID": "25c9e08a-b6d9-407c-b95f-51e7399bf29f",
+          "Data": "Ref"
+        },
+        "Tag": {
+          "ID": "75e6a348-f964-4483-af63-c6150022c242",
+          "Data": ""
+        },
+        "Active": {
+          "ID": "606a0202-9adb-4e82-8a39-bfb66ba59334",
+          "Data": true
+        },
+        "Persistent-ID": "46bad3da-6f62-4ec4-a876-14306133a456",
+        "Position": {
+          "ID": "e12a018f-0b92-4cce-a8e3-a1341a074ac2",
+          "Data": [0, 0, 0]
+        },
+        "Rotation": {
+          "ID": "f64672f7-91a5-40ab-8848-84d64e1547b1",
+          "Data": [0, 0, 0, 1]
+        },
+        "Scale": {
+          "ID": "e27df0f6-c5e0-4a9a-8671-f80d37543a44",
+          "Data": [1, 1, 1]
+        },
+        "OrderOffset": {
+          "ID": "def0418c-df0c-4f84-afe9-b0eb1d99bd3b",
+          "Data": 0
+        },
+        "ParentReference": "488cc858-4da5-4180-a74f-554890e35a60",
+        "Children": [
+          {
+            "ID": "ea4c4566-8267-4cc5-8963-0828c6c6b9c2",
+            "Components": {
+              "ID": "ffe1a088-e753-43f8-a94e-9b73738c905b",
+              "Data": [
+                {
+                  "Type": "FrooxEngine.DynamicReferenceVariable`1[[FrooxEngine.Slot, FrooxEngine, Version=2023.11.28.1365, Culture=neutral, PublicKeyToken=null]]",
+                  "Data": {
+                    "ID": "ca5391f0-d2a6-4f3c-ac91-b8b4a2ec6b9c",
+                    "persistent-ID": "7322d141-df2f-42f6-8da1-f764246037a4",
+                    "UpdateOrder": {
+                      "ID": "9156d954-70c5-4be0-b2f3-178c6816aebe",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "1bc3b8cb-7aab-4866-aa32-112e7650e057",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "915fb831-45c1-4335-8736-7a723fb2ac52",
+                      "Data": "Static.Root"
+                    },
+                    "Reference": {
+                      "ID": "468973f5-6460-4b51-8cea-f327aab4c197",
+                      "Data": "eda040e4-4b2e-4145-9287-7a9141232ef8"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "4506c040-28ad-4919-8616-e6f5dc3685a8",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicReferenceVariable`1[[FrooxEngine.Slot, FrooxEngine, Version=2023.11.28.1365, Culture=neutral, PublicKeyToken=null]]",
+                  "Data": {
+                    "ID": "77fc9332-08bc-4d33-b44d-b29babbe309b",
+                    "persistent-ID": "b803259c-9679-4d81-93bb-2ff87e508b1b",
+                    "UpdateOrder": {
+                      "ID": "0a675ac0-0b8b-439b-ad49-801bd7a13a6f",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "1a5bd839-f4c6-4ff7-b891-86b0e59dc072",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "0110a057-be10-4bad-8ca3-d0109f096969",
+                      "Data": "Static.Main"
+                    },
+                    "Reference": {
+                      "ID": "d0e6fa9e-d1b4-481d-a365-39c463ff3b78",
+                      "Data": "65762665-a38d-4602-9b86-a082a9e4fb99"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "dd14cbd9-12bf-459b-894c-2f85feaed648",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicReferenceVariable`1[[FrooxEngine.Slot, FrooxEngine, Version=2023.11.28.1365, Culture=neutral, PublicKeyToken=null]]",
+                  "Data": {
+                    "ID": "3916adf8-4029-4ded-a124-7538dd7ea243",
+                    "persistent-ID": "4ebce372-e9cc-45d4-b07a-48e0fe605d36",
+                    "UpdateOrder": {
+                      "ID": "a189d4b1-ade8-4210-95b7-4807d3f02b4e",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "b32ef7e5-30eb-4bc5-87a3-6aa9025a939b",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "5a7d7fbf-7238-48aa-9b65-50c2acac66a7",
+                      "Data": "Static.ChildrenParent"
+                    },
+                    "Reference": {
+                      "ID": "5874c2bb-8690-4d60-bf7c-e93b97bfd6f5",
+                      "Data": "65762665-a38d-4602-9b86-a082a9e4fb99"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "9ad14a80-cfb2-4092-9318-fd44d462cf37",
+                      "Data": false
+                    }
+                  }
+                }
+              ]
+            },
+            "Name": {
+              "ID": "867fd2fe-4b8b-4a18-85a4-1e7f4ada6bef",
+              "Data": "DV/Static"
+            },
+            "Tag": {
+              "ID": "952a9aca-4f7a-423c-9936-afa37e1a2668",
+              "Data": ""
+            },
+            "Active": {
+              "ID": "767e21f4-11e9-4286-89b8-a4a316513273",
+              "Data": true
+            },
+            "Persistent-ID": "11668214-9a69-40e6-a143-e118601e5ead",
+            "Position": {
+              "ID": "502eb0b7-4bd3-4d35-b4eb-a8fa35debddd",
+              "Data": [0, 0, 0]
+            },
+            "Rotation": {
+              "ID": "ead649ad-6da6-4e78-a11c-134f2c8d2a0f",
+              "Data": [0, 0, 0, 1]
+            },
+            "Scale": {
+              "ID": "af17a625-bb8e-44af-b73d-32412293d947",
+              "Data": [1, 1, 1]
+            },
+            "OrderOffset": {
+              "ID": "8addaf11-e29e-4823-bf69-d7d9987325fc",
+              "Data": 0
+            },
+            "ParentReference": "f15ea610-c31c-43c8-b563-d5640a1e638a",
+            "Children": []
+          },
+          {
+            "ID": "2c4a1e71-89df-4c9c-9493-ce015a565ac5",
+            "Components": {
+              "ID": "d4b9d4a5-999e-478c-a320-84a484767aa2",
+              "Data": [
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "b73e7598-7ee6-4f5f-baa6-5e2e963747d4",
+                    "persistent-ID": "25021795-f20b-4746-a37a-c3183d4eadd2",
+                    "UpdateOrder": {
+                      "ID": "5ba3ef4b-cac6-4670-82e8-ed2679fcf4d9",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "f44a9786-6a82-4ba0-bde5-63cb27bd48dd",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "147b4e41-0367-4f6a-ad3b-08c1d751b228",
+                      "Data": "Props.urlEn"
+                    },
+                    "TargetField": {
+                      "ID": "26a95869-7e01-4216-85ac-ff77933cd401",
+                      "Data": "ad611921-604e-4dac-8de7-df01ffda4558"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "582cc26d-1d34-48c1-ae84-90aa439e95a1",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "758e89cd-6ce2-4a8f-9578-54c688524e0e",
+                    "persistent-ID": "4efc58f0-f573-4495-af83-2151f8c206dd",
+                    "UpdateOrder": {
+                      "ID": "32f9dfc5-38da-459f-a481-37d76f596ca6",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "9c80ed32-1f6e-4499-ad0d-b3a1024e0630",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "827f9c4d-5cdf-4573-9f42-e7dc9328c865",
+                      "Data": "Props.urlJa"
+                    },
+                    "TargetField": {
+                      "ID": "1bd3edd0-5bbd-4ec4-8241-7b5cb0970cbc",
+                      "Data": "6df312eb-6b37-404a-9c3a-21473bb2039a"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "3c354592-0bc0-4fe6-8aed-c00eb2b2695a",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "0a0e44be-fcce-49b4-8ca4-f304fb3eb8cb",
+                    "persistent-ID": "f08a85d8-219a-4b7e-84ac-63d7dbd7310a",
+                    "UpdateOrder": {
+                      "ID": "332fd9ca-c0c2-4dea-aab8-561c5f96b52c",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "c8e2975b-e3c8-43f5-9162-7d64d169a8b5",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "de9724d9-3bf2-4201-b1cd-58d6483691b0",
+                      "Data": "Props.urlKo"
+                    },
+                    "TargetField": {
+                      "ID": "c98d1069-424f-4338-8048-2f5638b0c752",
+                      "Data": "493093a8-7216-4fae-bd2e-8923cabaa33c"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "87bb772d-123c-43bb-a94a-797c338325b2",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "458ff67a-377d-407f-b5a8-fb084b87b988",
+                    "persistent-ID": "a7db9840-a2ee-44e4-b36e-73fd79feb756",
+                    "UpdateOrder": {
+                      "ID": "efc5dfd6-f3f7-433c-9d78-808833134dcd",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "ab597db1-9e38-4cde-b85b-fec3afc6f7f4",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "abdadbd6-8fa8-4895-88ed-4afeab121bc6",
+                      "Data": "Props.reasonEn"
+                    },
+                    "TargetField": {
+                      "ID": "84c9715f-d7e9-4147-b313-ec6cab4ba025",
+                      "Data": "7f49385c-93fa-409f-864d-02fe69edac81"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "84b59dc2-7cf9-4881-b801-8e3278304709",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "f019ef7f-5f9f-4959-921b-1800bc653206",
+                    "persistent-ID": "725a0efc-07d6-405d-8b45-559258b7d106",
+                    "UpdateOrder": {
+                      "ID": "2b10c339-8ae3-4358-b617-41461c9be7f0",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "ece1c18b-f653-4243-a48c-094877b88215",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "91e0e5f7-e7ba-41a4-90b8-357e24444472",
+                      "Data": "Props.reasonJa"
+                    },
+                    "TargetField": {
+                      "ID": "80513393-4688-449e-aa37-87f7f99d883c",
+                      "Data": "5d0b959c-6503-4644-85e9-33e6ba3d9487"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "5409be8e-85f7-458c-9f2e-c32be802ded6",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "f3a40209-e94d-4185-80a2-5cca76178765",
+                    "persistent-ID": "5d8fcd4d-cc36-44f3-8547-577514a17d68",
+                    "UpdateOrder": {
+                      "ID": "5a3f88dc-33a1-4379-a5f2-057d15aca5c1",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "596045a2-bacb-44a9-a669-4b17e1358a80",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "2bf53910-b4e3-4f09-91cf-f96193d96cf5",
+                      "Data": "Props.reasonKo"
+                    },
+                    "TargetField": {
+                      "ID": "e85239e3-33a8-4469-9df5-8888623fa749",
+                      "Data": "94fc090e-a959-4eae-90b0-0c0055343ed4"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "a28891c2-1ac3-44fe-bdf8-49dc12d695f3",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "b8c4af16-5d0d-44c3-b335-65bee3044e45",
+                    "persistent-ID": "0dd6d67f-cd8b-4d61-9af4-6398100ebc77",
+                    "UpdateOrder": {
+                      "ID": "36b187c6-427a-42da-b223-ac6fff0ea50c",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "c07130e1-45dc-4817-a19f-ffcfbdd547fd",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "df311c24-b169-4699-b328-91ba8b6b6f2f",
+                      "Data": "Props.styledSprite"
+                    },
+                    "TargetField": {
+                      "ID": "1c528a7e-6351-4f89-a755-6fb7a0ce7ef2",
+                      "Data": "fa5b3834-758e-41c4-8d78-20c75c32da0c"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "b35f93b7-7048-4843-ab74-e9c699b37a42",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "a437ee58-a80a-4d45-8302-10a212efc479",
+                    "persistent-ID": "4f3141e3-7d17-4fe7-83a0-f68843db444d",
+                    "UpdateOrder": {
+                      "ID": "0da637a8-926d-4b11-8a7e-31941eaef28b",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "36e71a73-f9a7-4b26-907d-02780821873e",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "597e828c-72ee-473c-86d2-8994ed834766",
+                      "Data": "Props.styledColor"
+                    },
+                    "TargetField": {
+                      "ID": "5911158d-890d-4631-b4ea-ad62a9e7c91c",
+                      "Data": "24ecc4cb-8194-441a-95e3-782097ab4197"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "c1430d0d-62ed-4c79-aa28-d5e475dd2239",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "cc9aa8b3-fbc2-4c23-ace8-21d45704c6f6",
+                    "persistent-ID": "5427d27d-51d6-4061-9ba2-9f696b59659f",
+                    "UpdateOrder": {
+                      "ID": "c8ec0081-720e-4356-b858-bb96f6b0d757",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "239859bd-f7a9-4bda-a25a-666cd5f189cc",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "bf510f04-cce8-4ae7-ab87-005401ed084c",
+                      "Data": "Props.styledMaterial"
+                    },
+                    "TargetField": {
+                      "ID": "15ffcf66-69f6-4002-9591-3958f8bf9655",
+                      "Data": "47750034-83da-4b1c-ad23-57d62b1e3490"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "e83e562c-5c48-4db6-b263-67eebd40a6ea",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[FrooxEngine.UIX.InteractionElement+ColorMode, FrooxEngine, Version=2023.11.28.1365, Culture=neutral, PublicKeyToken=null]]",
+                  "Data": {
+                    "ID": "97e0fb47-7c26-485f-9297-ec377383732e",
+                    "persistent-ID": "c6703f47-8a8b-4e93-80ca-2c77026ac820",
+                    "UpdateOrder": {
+                      "ID": "f4d501cc-ac88-4974-ae24-ebd34ecad5c2",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "57f13ca9-d920-406d-8975-7a29ae3dea4b",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "cf077eda-e5d2-4efa-9126-26d2a78f6ae7",
+                      "Data": "Props.tintColorMode"
+                    },
+                    "TargetField": {
+                      "ID": "ee66fdec-b5de-4774-9583-8be715eccc18",
+                      "Data": "012c0653-80dc-433f-8623-f0753a421619"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "34ccdc44-5302-490c-b969-0624bcff06f0",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "e5296291-00f1-4fc9-8245-ab09fbbff7c9",
+                    "persistent-ID": "0912c42f-aa86-4381-b91f-717ae4e8c476",
+                    "UpdateOrder": {
+                      "ID": "38367ca8-1df2-4e96-ad23-d5726686f72a",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "4effe5b9-7e84-4344-9b87-cfd005881f15",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "99e54838-f702-44ff-9752-147314309328",
+                      "Data": "Props.styledNormalColor"
+                    },
+                    "TargetField": {
+                      "ID": "57eb2d7f-9aec-4b4b-84db-f4be0e893558",
+                      "Data": "a83b4236-b5ea-41ab-b3c0-b724e064abc3"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "1885544c-8cff-48b2-b3b7-996442efc6d5",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "f57699f9-7b6d-49af-9b3b-555bb68085f2",
+                    "persistent-ID": "305bb6c9-2d88-451e-a968-1e6d31df8d75",
+                    "UpdateOrder": {
+                      "ID": "c41f7db9-e19a-43e2-8aa3-b474da0552d6",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "15920455-7545-4f12-9a4b-2cd870bce17e",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "37e8aa04-6ddf-4dfa-807e-5b16f7071078",
+                      "Data": "Props.styledHighlightColor"
+                    },
+                    "TargetField": {
+                      "ID": "501dda06-849e-4e5d-b510-331d0efc72a1",
+                      "Data": "dfdf4b29-bd97-4b4e-a333-abc16441e694"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "a76e7add-b937-4cbe-8a3a-8c00f1ad5abc",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "9baf38a6-93f6-4d2c-89f6-52641182326e",
+                    "persistent-ID": "22fb0cea-82ac-4288-a693-0dcad26636cf",
+                    "UpdateOrder": {
+                      "ID": "e3a1217d-9aa5-4a8c-a6a6-be53c3c705e2",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "8ac84de6-0214-406f-bc1d-0b4fb212f9b9",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "69d404af-d863-4ecb-8935-22b81257f548",
+                      "Data": "Props.styledPressColor"
+                    },
+                    "TargetField": {
+                      "ID": "533aeb64-3419-4f7a-96a6-c8cdf930e77d",
+                      "Data": "d8ee0c53-27fa-4b2d-8203-05b238884140"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "954360bd-363f-41bd-936c-e0ce2540167c",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "1ea244c0-d97b-44f1-be60-30c2638949f5",
+                    "persistent-ID": "bc769c0c-b642-4a5d-bf23-f5af964bad84",
+                    "UpdateOrder": {
+                      "ID": "49c1f325-5124-454e-9cc2-43749b69f2a5",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "2598c3be-36d6-45e6-bf2f-d28d1e4ce0d2",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "594c1b99-67a4-4cf8-a7e0-c93bad1f7f22",
+                      "Data": "Props.styledDisableColor"
+                    },
+                    "TargetField": {
+                      "ID": "3d9186b2-87db-4a4f-97db-cf0d0839a263",
+                      "Data": "2f12d38d-7160-432a-8665-83214bae97d5"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "c9734ecc-4676-404a-8d10-100b4f37e8a4",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "8f4bca52-dc58-463d-b344-de98e97d2115",
+                    "persistent-ID": "a4deda9e-dd5a-45ac-8880-bfd47994f0a8",
+                    "UpdateOrder": {
+                      "ID": "20959f60-dd5b-4642-9a42-8ddef6b79600",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "8d74f847-a8ab-4df2-92f3-e407efd904f0",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "7b20ef74-7c26-4f17-91d7-d5832ca84f70",
+                      "Data": "Props.onClick"
+                    },
+                    "TargetField": {
+                      "ID": "91d244e8-5200-4b2e-8388-78168fe17104",
+                      "Data": "8b1b8c77-50a6-42f2-98ff-bc6c6aea563f"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "136a5558-ee87-4e94-b392-315161aa27a4",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "6733efe5-3eef-4b45-8fc7-698002444624",
+                    "persistent-ID": "6bf189f2-3a77-4b55-b7ed-a30db97d3669",
+                    "UpdateOrder": {
+                      "ID": "bdafd8b0-e1e5-4f3d-8bce-d2096ea0fff2",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "c29b76e3-7441-43d3-b025-3ff2d4cfdeaa",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "1640050b-0f8e-4565-bfaf-e792debf94cd",
+                      "Data": "Props.requireLockInToPress"
+                    },
+                    "TargetField": {
+                      "ID": "0a4e80db-a0ac-4f9f-a88b-e3710ffaa4df",
+                      "Data": "e0887a1e-ecb9-4077-b196-31115692530c"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "b8876b84-16eb-4a15-ba61-7ad350309fc8",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[FrooxEngine.UIX.NineSliceSizing, FrooxEngine, Version=2023.11.28.1365, Culture=neutral, PublicKeyToken=null]]",
+                  "Data": {
+                    "ID": "6d3d84ae-2105-4fa5-9f95-ec4233d3fcbb",
+                    "persistent-ID": "24a38e38-975b-4214-b3c0-ee45899b8124",
+                    "UpdateOrder": {
+                      "ID": "8879e0e8-9b05-4a14-8f23-1a0f2ea284fa",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "81b58074-9bce-4cfa-a96c-6086c2afc9b3",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "e35e9003-3a3e-4edf-8858-1a75e741db3c",
+                      "Data": "Props.nineSliceSizing"
+                    },
+                    "TargetField": {
+                      "ID": "d490384c-d2c7-4ae8-a523-2a8ff381effe",
+                      "Data": "7ef6ce35-9685-41a3-9353-86f186c0ee98"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "caaf7e43-c17d-479a-9004-aad3f15b62bb",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicField`1[[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "9d736f6c-f10a-422e-9d2c-e44f90992e62",
+                    "persistent-ID": "05c65cc9-3a0e-45b4-b74b-c841c626432b",
+                    "UpdateOrder": {
+                      "ID": "2ed7d6be-6bb1-4d12-a13a-ab9a0ae344a5",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "1ca3489c-432c-438b-9f68-1e88bcf34da3",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "8816073a-24f2-482c-9546-7f850ec057b4",
+                      "Data": "Props.preserveAspect"
+                    },
+                    "TargetField": {
+                      "ID": "79c62eed-7e77-4658-b0aa-f095cdf5b9a9",
+                      "Data": "66f13893-16d6-4d7d-b3fd-7b3bbbc56e2d"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "7d08b3b5-5da3-4e44-80b0-83ca0dd856bd",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.GizmoLink",
+                  "Data": {
+                    "ID": "3f7e4dd3-6f58-462a-ba3d-25791d6334b0",
+                    "persistent-ID": "1fc63be0-e45b-4338-ade6-ca49997a3b18",
+                    "UpdateOrder": {
+                      "ID": "c15b604d-355f-4a82-a43e-e443f9584743",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "457ef455-e66f-4ee0-9e0e-ac3ef9c07a8d",
+                      "Data": true
+                    },
+                    "_worker": {
+                      "ID": "deda86a7-765b-477e-9b21-50e9a7e18e29",
+                      "Data": "2c4a1e71-89df-4c9c-9493-ce015a565ac5"
+                    },
+                    "_gizmo": {
+                      "ID": "6393d4eb-a87c-4502-9497-da0028ab6e2c",
+                      "Data": null
+                    },
+                    "_type": {
+                      "ID": "555b93c1-ff5a-4db5-b127-2d93bbbbf608",
+                      "Data": "FrooxEngine.SlotGizmo"
+                    }
+                  }
+                }
+              ]
+            },
+            "Name": {
+              "ID": "dfc2fe14-cd45-47f7-bdc0-4a5e41557efe",
+              "Data": "DV/Props"
+            },
+            "Tag": {
+              "ID": "8698e708-02dd-4e78-82bc-4d9083f7d487",
+              "Data": ""
+            },
+            "Active": {
+              "ID": "e765264a-615f-4db2-80b9-beaf0e898880",
+              "Data": true
+            },
+            "Persistent-ID": "0543e45f-0ddf-4d71-a3b8-e76eb843ac67",
+            "Position": {
+              "ID": "90c49a36-00bc-4d71-a7ef-7f0956dfb35b",
+              "Data": [0, 0, 0]
+            },
+            "Rotation": {
+              "ID": "f7d9bd3e-7fc7-48ea-8baa-a2a0b1bb4d8a",
+              "Data": [0, 0, 0, 1]
+            },
+            "Scale": {
+              "ID": "118da118-c0c4-4fe3-8605-60678cf7a407",
+              "Data": [1, 1, 1]
+            },
+            "OrderOffset": {
+              "ID": "e8c787a1-3cdb-4a0f-9dcb-8af98d222350",
+              "Data": 0
+            },
+            "ParentReference": "dcfcd746-dbcc-47d9-b4f9-3261ed0579db",
+            "Children": []
+          },
+          {
+            "ID": "65762665-a38d-4602-9b86-a082a9e4fb99",
+            "Components": {
+              "ID": "6fc76051-34b1-4276-bad4-73ed6ba7cf22",
+              "Data": [
+                {
+                  "Type": "FrooxEngine.UIX.Image",
+                  "Data": {
+                    "ID": "959478cc-8e59-4c4f-9060-37a672cbc02d",
+                    "persistent-ID": "06b656bb-642b-4e68-a51b-6fcf93690fc9",
+                    "UpdateOrder": {
+                      "ID": "c0a5ebfd-47f1-498c-ab19-ef3b87e70dd7",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "cc1ddbe9-485b-409e-9efb-49fad5b89255",
+                      "Data": true
+                    },
+                    "Sprite": {
+                      "ID": "f894110a-11c7-4011-8380-88fd6d5fb6ac",
+                      "Data": null
+                    },
+                    "Material": {
+                      "ID": "fc5b73f7-9b12-4357-a484-8aac46d64f5d",
+                      "Data": null
+                    },
+                    "PreserveAspect": {
+                      "ID": "66f13893-16d6-4d7d-b3fd-7b3bbbc56e2d",
+                      "Data": true
+                    },
+                    "NineSliceSizing": {
+                      "ID": "7ef6ce35-9685-41a3-9353-86f186c0ee98",
+                      "Data": "TextureSize"
+                    },
+                    "FlipHorizontally": {
+                      "ID": "fc2a8111-0a54-40d2-bb0c-73663803c07e",
+                      "Data": false
+                    },
+                    "FlipVertically": {
+                      "ID": "b4767f5c-785f-4537-9678-6a972332f0f5",
+                      "Data": false
+                    },
+                    "InteractionTarget": {
+                      "ID": "5da19d18-5f57-4cf9-8d15-14eb4b02a37a",
+                      "Data": true
+                    },
+                    "FillRect": {
+                      "ID": "78e20947-d50f-4f55-9c11-bc0a31b0e58d",
+                      "Data": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 1,
+                        "Height": 1
+                      }
+                    },
+                    "__legacyZWrite-ID": "1973f8d6-ff28-44e9-b8e9-f9f74f16bd2e",
+                    "Tint": {
+                      "ID": "dfc42f6b-9f8f-47f8-bbc7-70111f5928bf",
+                      "Data": [1, 1, 1, 1, "Linear"]
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.UIX.RectTransform",
+                  "Data": {
+                    "ID": "51eb7612-42c6-42ea-b56b-9daf901a975d",
+                    "persistent-ID": "b948f8fd-a800-40e1-bcc8-6a94a89d9295",
+                    "UpdateOrder": {
+                      "ID": "ea2d2585-41f1-4867-89dd-6cd9544ec6c2",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "bb7f4617-0b00-41d4-be22-b45a51d8b7c8",
+                      "Data": true
+                    },
+                    "AnchorMin": {
+                      "ID": "0375256e-1b20-4571-9800-4ee73c1a79c5",
+                      "Data": [0, 0]
+                    },
+                    "AnchorMax": {
+                      "ID": "acc7c783-6849-407b-b809-219a011df6ee",
+                      "Data": [1, 1]
+                    },
+                    "OffsetMin": {
+                      "ID": "f7db5548-911b-4a48-87b1-ed6698bb1fb9",
+                      "Data": [0, 0]
+                    },
+                    "OffsetMax": {
+                      "ID": "bd2e3ed9-8120-44bd-b8f7-3a221b41589e",
+                      "Data": [0, 0]
+                    },
+                    "Pivot": {
+                      "ID": "c7d251a4-78ed-4736-b665-685752ba2026",
+                      "Data": [0.5, 0.5]
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.UIX.Button",
+                  "Data": {
+                    "ID": "33091977-2842-4f0d-aa2c-597f750669a7",
+                    "persistent-ID": "de8dbfc0-b64b-4bae-9633-75c4fa584fbc",
+                    "UpdateOrder": {
+                      "ID": "6d570770-a8e9-4761-b439-890d1d480764",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "5818fb5a-48fe-41b8-8ca6-61e02edeed39",
+                      "Data": true
+                    },
+                    "BaseColor": {
+                      "ID": "43c17ef7-bf69-4730-8d5b-ef334ee06a09",
+                      "Data": [1, 1, 1, 1, "Linear"]
+                    },
+                    "ColorDrivers": {
+                      "ID": "3fd8efbd-41bf-44e9-9125-432f32b495d9",
+                      "Data": [
+                        {
+                          "ID": "fb0b9e35-66b8-42b4-99b9-967d1aac6373",
+                          "ColorDrive": {
+                            "ID": "89500308-46a1-4e5b-a1c4-c1b2e7c1647c",
+                            "Data": "dfc42f6b-9f8f-47f8-bbc7-70111f5928bf"
+                          },
+                          "TintColorMode": {
+                            "ID": "012c0653-80dc-433f-8623-f0753a421619",
+                            "Data": "Explicit"
+                          },
+                          "NormalColor": {
+                            "ID": "2205ea8e-1094-4a92-aef6-4e0a3d1b529e",
+                            "Data": [1, 1, 1, 1, "sRGBAlpha"]
+                          },
+                          "HighlightColor": {
+                            "ID": "7090b119-66fc-40d4-8e1f-55182fc781c2",
+                            "Data": [0.75, 0.75, 0.75, 1, "sRGBAlpha"]
+                          },
+                          "PressColor": {
+                            "ID": "c8088a1d-6bbf-49cf-9f4f-aade9b2e71cb",
+                            "Data": [0.5, 0.5, 0.5, 1, "sRGBAlpha"]
+                          },
+                          "DisabledColor": {
+                            "ID": "6420f630-67de-4d76-976d-bbbe89d21d42",
+                            "Data": [
+                              0.6499999761581421,
+                              0.6499999761581421,
+                              0.6499999761581421,
+                              1,
+                              "sRGBAlpha"
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "__legacy_NormalColor-ID": "6359dde5-6338-401a-ac21-e358ab921420",
+                    "__legacy_HighlightColor-ID": "66acf044-19f3-451c-831a-bc61220f9816",
+                    "__legacy_PressColor-ID": "df407c6e-ad7b-4aff-8d1f-c5e92ebf23b9",
+                    "__legacy_DisabledColor-ID": "4fea03d5-f12f-4463-92cb-040edfa9a371",
+                    "__legacy_TintColorMode-ID": "ff104e8a-4d59-4217-be1b-a813b41baa46",
+                    "__legacy_ColorDrive-ID": "968b7b22-e604-4329-9b58-7cf9fee85a0c",
+                    "IsPressed": {
+                      "ID": "24c7217d-23b9-4965-b90a-ba6f3b7f5add",
+                      "Data": false
+                    },
+                    "IsHovering": {
+                      "ID": "1d45238d-b3ea-4016-865d-1ceef65bad04",
+                      "Data": false
+                    },
+                    "HoverVibrate": {
+                      "ID": "c5dc7a88-e17c-4f5a-b625-38a1e19e96cb",
+                      "Data": "Short"
+                    },
+                    "PressVibrate": {
+                      "ID": "d34fc467-5bc2-4046-9414-d594fc4509cd",
+                      "Data": "Medium"
+                    },
+                    "ClearFocusOnPress": {
+                      "ID": "ee482208-941e-4a97-b1d8-c469979ea39e",
+                      "Data": true
+                    },
+                    "PassThroughHorizontalMovement": {
+                      "ID": "f0668c53-fc9d-4be2-8658-5e1883f6f55e",
+                      "Data": true
+                    },
+                    "PassThroughVerticalMovement": {
+                      "ID": "a3010f90-1eea-4389-a19f-0c9fdb3fee1b",
+                      "Data": true
+                    },
+                    "RequireLockInToPress": {
+                      "ID": "e0887a1e-ecb9-4077-b196-31115692530c",
+                      "Data": false
+                    },
+                    "RequireInitialPress": {
+                      "ID": "46c2c39d-7518-4ccf-94a9-03eff4421df2",
+                      "Data": true
+                    },
+                    "PressPoint": {
+                      "ID": "413ced37-65ed-43b3-9418-c537dee9492a",
+                      "Data": [0, 0]
+                    },
+                    "SendSlotEvents": {
+                      "ID": "2c01f856-415b-4b4a-82f8-01bd86e806f7",
+                      "Data": true
+                    },
+                    "Pressed": {
+                      "ID": "5cc6bf46-6fce-43a6-867c-c77b10d7ae0e",
+                      "Data": {
+                        "Target": null
+                      }
+                    },
+                    "Pressing": {
+                      "ID": "3516832f-e298-4c4c-82f8-bf164c1e5d0f",
+                      "Data": {
+                        "Target": null
+                      }
+                    },
+                    "Released": {
+                      "ID": "fd9f7fc3-d09c-4301-9725-ae1e7a7e9993",
+                      "Data": {
+                        "Target": null
+                      }
+                    },
+                    "HoverEnter": {
+                      "ID": "dc37f5ea-33c7-461e-ab98-5d1d7de40670",
+                      "Data": {
+                        "Target": null
+                      }
+                    },
+                    "HoverStay": {
+                      "ID": "aaac8e4b-2a87-416e-a713-8e34b302de32",
+                      "Data": {
+                        "Target": null
+                      }
+                    },
+                    "HoverLeave": {
+                      "ID": "dfc274a4-d2c6-43e6-993c-4274f36c69c9",
+                      "Data": {
+                        "Target": null
+                      }
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.ButtonDynamicImpulseTriggerWithValue`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "03c11f35-e4b2-4adf-8239-153805ce38a1",
+                    "persistent-ID": "c0cb7514-0119-4e52-b256-af4131cc2076",
+                    "UpdateOrder": {
+                      "ID": "82fbedf7-e508-45bb-b080-311eb2f93403",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "82c37771-f655-4e77-807e-fd0c0c917b93",
+                      "Data": true
+                    },
+                    "Target": {
+                      "ID": "5e8b7a5d-8d7b-4537-bc12-645cdbad73f0",
+                      "Data": "42ea1e6a-4873-4b76-b7f7-c40eec83aba9"
+                    },
+                    "ExcludeDisabled": {
+                      "ID": "02153c1a-1d0d-4bfe-b140-5500389fab91",
+                      "Data": false
+                    },
+                    "PressedData": {
+                      "ID": "4c32e67d-22a3-47af-b178-68aec2debde2",
+                      "Tag": {
+                        "ID": "4d072d35-33fb-4810-8468-e37872544f82",
+                        "Data": "Func.EmitInteractionEvent.Trigger"
+                      },
+                      "Value": {
+                        "ID": "8b1b8c77-50a6-42f2-98ff-bc6c6aea563f",
+                        "Data": "EMPTY"
+                      }
+                    },
+                    "PressingData": {
+                      "ID": "15d2abc5-fbea-4c09-8624-b6dbe0806288",
+                      "Tag": {
+                        "ID": "ea0bc533-435f-424e-b3b1-ddeac285f08c",
+                        "Data": null
+                      },
+                      "Value": {
+                        "ID": "ffb57dac-688f-4947-a0fe-67e30293fcf2",
+                        "Data": null
+                      }
+                    },
+                    "ReleasedData": {
+                      "ID": "f85a538c-3836-4868-afc9-3aecabc0599a",
+                      "Tag": {
+                        "ID": "89bb052f-e7f4-4cc3-bbdd-baa5f34d4e76",
+                        "Data": null
+                      },
+                      "Value": {
+                        "ID": "f52fe332-5a87-4751-a116-4ca005227908",
+                        "Data": null
+                      }
+                    },
+                    "HoverEnterData": {
+                      "ID": "ea71d039-dfbd-4316-8f8d-4d9b564fa8c6",
+                      "Tag": {
+                        "ID": "0f0e7f0f-c509-4e38-958e-240d2c316f8b",
+                        "Data": null
+                      },
+                      "Value": {
+                        "ID": "5d619835-8457-46fc-8212-6c1ad3aa278e",
+                        "Data": null
+                      }
+                    },
+                    "HoverStayData": {
+                      "ID": "279bcb2f-68c4-450f-9fb7-50a8d07142b9",
+                      "Tag": {
+                        "ID": "5c4e6fe5-132f-46c0-9692-f5f9864763a5",
+                        "Data": null
+                      },
+                      "Value": {
+                        "ID": "e75840c4-12e7-412e-b90c-1b0837932880",
+                        "Data": null
+                      }
+                    },
+                    "HoverLeaveData": {
+                      "ID": "ca8278c6-2aa3-461d-9900-3933f9a14236",
+                      "Tag": {
+                        "ID": "15812a71-2714-4696-a41b-cae47eda6b44",
+                        "Data": null
+                      },
+                      "Value": {
+                        "ID": "3e1816d4-0f1d-4344-9caf-2315e8b9ba20",
+                        "Data": null
+                      }
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicReferenceVariableDriver`1[[FrooxEngine.Slot, FrooxEngine, Version=2023.11.28.1365, Culture=neutral, PublicKeyToken=null]]",
+                  "Data": {
+                    "ID": "ef3a3291-d8f9-4514-8e6c-65e58bac7429",
+                    "persistent-ID": "c9a03599-ea91-4885-8608-9903c5f4c307",
+                    "UpdateOrder": {
+                      "ID": "1d09bc18-76b2-4a22-90ee-1898579c6f9d",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "b83fb5f0-636d-46e0-bbd0-5cf5d4d1b3ce",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "5e79dc96-fe98-43f8-abb6-0bad9935a947",
+                      "Data": "AppRoot/Static.System.Func.EmitInteractionEvent"
+                    },
+                    "Target": {
+                      "ID": "d24b29c8-3e56-4816-b293-c37cf95c5715",
+                      "Data": "5e8b7a5d-8d7b-4537-bc12-645cdbad73f0"
+                    },
+                    "DefaultTarget": {
+                      "ID": "16614c18-9744-478d-ad7f-5f24a7e5eeee",
+                      "Data": null
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicValueVariableDriver`1[[Elements.Core.colorX, Elements.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+                  "Data": {
+                    "ID": "a1c44e5f-43d6-4da1-bbd7-0eca13d64e8a",
+                    "persistent-ID": "9dd9d768-5508-40d8-8e08-410e8c1cd3ea",
+                    "UpdateOrder": {
+                      "ID": "6de03fe9-87c7-433c-a636-78d4fae658af",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "517a2ac6-387d-4986-b5f1-5d24cd309f66",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "24ecc4cb-8194-441a-95e3-782097ab4197",
+                      "Data": ""
+                    },
+                    "Target": {
+                      "ID": "1b32a052-427c-4b8d-b5f8-8fd95f5a8a34",
+                      "Data": "43c17ef7-bf69-4730-8d5b-ef334ee06a09"
+                    },
+                    "DefaultValue": {
+                      "ID": "a2b84782-2c21-49b3-b649-836feda53c67",
+                      "Data": [1, 1, 1, 1, "Linear"]
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicReferenceVariableDriver`1[[FrooxEngine.IAssetProvider`1[[FrooxEngine.Sprite, FrooxEngine, Version=2023.11.28.1365, Culture=neutral, PublicKeyToken=null]], FrooxEngine, Version=2023.11.28.1365, Culture=neutral, PublicKeyToken=null]]",
+                  "Data": {
+                    "ID": "006d59e1-f3c5-4677-9cc9-93bdbdee676e",
+                    "persistent-ID": "8980ffb6-e17a-4da3-b4cb-da29e0fd4ebc",
+                    "UpdateOrder": {
+                      "ID": "bedbab47-6c1a-4560-822c-406fedecb531",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "6f4cddd3-6691-42ec-9299-1f2df29f8c84",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "fa5b3834-758e-41c4-8d78-20c75c32da0c",
+                      "Data": ""
+                    },
+                    "Target": {
+                      "ID": "25c9a11a-db48-47e9-831e-ff0b723067b2",
+                      "Data": "f894110a-11c7-4011-8380-88fd6d5fb6ac"
+                    },
+                    "DefaultTarget": {
+                      "ID": "68eeaef8-4e97-42bb-bf9b-ef0146016a5f",
+                      "Data": null
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.Hyperlink",
+                  "Data": {
+                    "ID": "b7531c0c-67cf-437b-a6aa-95c64f1e2b51",
+                    "persistent-ID": "8d394708-ccc0-4b82-9781-ad6fc865ba54",
+                    "UpdateOrder": {
+                      "ID": "4e2ba239-b51e-485c-aed9-9fbf1c42c204",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "1f14a37e-81fd-4ddc-89af-c17db9f09215",
+                      "Data": true
+                    },
+                    "URL": {
+                      "ID": "287d8e86-ddc7-4c30-83f9-fd2d8ea4e4f2",
+                      "Data": null
+                    },
+                    "OpenOnce": {
+                      "ID": "d5b2611f-42d9-474b-94cb-b83663188834",
+                      "Data": true
+                    },
+                    "Reason": {
+                      "ID": "3bcce34e-88ad-437d-ad7d-4fde69fc65b2",
+                      "Data": ""
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicReferenceVariableDriver`1[[FrooxEngine.IAssetProvider`1[[FrooxEngine.Material, FrooxEngine, Version=2023.11.28.1365, Culture=neutral, PublicKeyToken=null]], FrooxEngine, Version=2023.11.28.1365, Culture=neutral, PublicKeyToken=null]]",
+                  "Data": {
+                    "ID": "5ef5a0c5-f213-412f-8088-ba7a872b3dd6",
+                    "persistent-ID": "755b780c-2035-4af0-9e3c-756f41dcb971",
+                    "UpdateOrder": {
+                      "ID": "4b22471d-5fa2-44af-b673-03f34c23e26d",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "9f542291-47d4-4b7d-995d-1564eab7cc0f",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "47750034-83da-4b1c-ad23-57d62b1e3490",
+                      "Data": ""
+                    },
+                    "Target": {
+                      "ID": "2b4dcbbb-21a4-4cb5-bf41-defa8d8d0e8e",
+                      "Data": "fc5b73f7-9b12-4357-a484-8aac46d64f5d"
+                    },
+                    "DefaultTarget": {
+                      "ID": "e0e3a20d-ab40-4bac-b4dc-cd16da36dbda",
+                      "Data": null
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicValueVariableDriver`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "e96593a7-76dd-44ba-8683-982c500d3bd4",
+                    "persistent-ID": "caaf93ab-c878-4495-9370-a1fe0e99eb27",
+                    "UpdateOrder": {
+                      "ID": "6cf66508-274f-4d0c-9def-370d08eae370",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "3d2cb53f-9853-443c-86f1-0b710bdb9398",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "303b9dce-4699-46e3-9600-490001155791",
+                      "Data": "Locale/Local"
+                    },
+                    "Target": {
+                      "ID": "527907a1-9fa6-4c9b-806c-8c2b5a49c6b1",
+                      "Data": "bae58080-0436-44f1-930c-9cdf60da1af3"
+                    },
+                    "DefaultValue": {
+                      "ID": "84f54a3d-0262-48f8-a535-9eeeee90bb30",
+                      "Data": 0
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.ValueMultiplexer`1[[System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "79f3b77a-23ab-46e2-bce8-397097954f04",
+                    "persistent-ID": "a3d08ecc-b592-4156-80ac-872096a6aa31",
+                    "UpdateOrder": {
+                      "ID": "96941fdd-b0f5-492a-9159-865d692ac880",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "3418b69d-33b4-4d16-8d05-08db12ae8d74",
+                      "Data": true
+                    },
+                    "Target": {
+                      "ID": "7c51d37a-d436-40b8-b974-7d3f39e85059",
+                      "Data": "287d8e86-ddc7-4c30-83f9-fd2d8ea4e4f2"
+                    },
+                    "Index": {
+                      "ID": "0510ac17-4b95-4f2c-8ed6-932e8535e9d4",
+                      "Data": 0
+                    },
+                    "Values": {
+                      "ID": "6bbc66b7-cc23-4617-b2a6-ec07cddb339c",
+                      "Data": [
+                        {
+                          "ID": "ad611921-604e-4dac-8de7-df01ffda4558",
+                          "Data": null
+                        },
+                        {
+                          "ID": "6df312eb-6b37-404a-9c3a-21473bb2039a",
+                          "Data": null
+                        },
+                        {
+                          "ID": "493093a8-7216-4fae-bd2e-8923cabaa33c",
+                          "Data": null
+                        }
+                      ]
+                    },
+                    "AllowWriteBack": {
+                      "ID": "7bd5a0e2-60f8-4d8d-a713-188a5e2e15fb",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicValueVariableDriver`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "1fe05936-9936-43e6-9d03-1850e7aa477e",
+                    "persistent-ID": "836e8328-da85-45b6-bb19-ded66580772a",
+                    "UpdateOrder": {
+                      "ID": "f7e584ba-bea2-49ad-9444-1c0e86609928",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "3726a989-3aeb-4d23-8b31-c28e8a888534",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "adcb14a5-a385-497a-b2ae-27d7467a6a97",
+                      "Data": "Locale/Local"
+                    },
+                    "Target": {
+                      "ID": "9bf23345-9af8-48a1-b10c-26204caf3e06",
+                      "Data": "0510ac17-4b95-4f2c-8ed6-932e8535e9d4"
+                    },
+                    "DefaultValue": {
+                      "ID": "97e26a75-2aaa-40d5-b24b-618cb44cd285",
+                      "Data": 0
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.ValueMultiplexer`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+                  "Data": {
+                    "ID": "6e42d61e-655a-4f8f-a4d7-2160ba464d1a",
+                    "persistent-ID": "ed5615b5-9fc9-452f-b233-23812c4b5186",
+                    "UpdateOrder": {
+                      "ID": "a7f906f1-ee14-4981-b209-c2590f6fe44b",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "459c9b02-690a-4cc7-903f-63d4fbf9ba28",
+                      "Data": true
+                    },
+                    "Target": {
+                      "ID": "f22ac355-8003-4b42-a19e-1616690ac534",
+                      "Data": "3bcce34e-88ad-437d-ad7d-4fde69fc65b2"
+                    },
+                    "Index": {
+                      "ID": "bae58080-0436-44f1-930c-9cdf60da1af3",
+                      "Data": 0
+                    },
+                    "Values": {
+                      "ID": "48e17504-3bb8-42f7-a3a8-6d700a2b8b83",
+                      "Data": [
+                        {
+                          "ID": "7f49385c-93fa-409f-864d-02fe69edac81",
+                          "Data": ""
+                        },
+                        {
+                          "ID": "5d0b959c-6503-4644-85e9-33e6ba3d9487",
+                          "Data": ""
+                        },
+                        {
+                          "ID": "94fc090e-a959-4eae-90b0-0c0055343ed4",
+                          "Data": ""
+                        }
+                      ]
+                    },
+                    "AllowWriteBack": {
+                      "ID": "33b6dd98-be49-4abf-ba73-11b298457438",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicValueVariableDriver`1[[Elements.Core.colorX, Elements.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+                  "Data": {
+                    "ID": "6fbb0140-d87e-4d57-8f40-6cab435f5575",
+                    "persistent-ID": "875d374d-3c62-4879-be8b-a4b19d4fe3bc",
+                    "UpdateOrder": {
+                      "ID": "ee210d16-807f-41dd-a0d9-1f1dabc36f24",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "49b9353c-2326-4cfc-baff-9e3676c390d6",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "a83b4236-b5ea-41ab-b3c0-b724e064abc3",
+                      "Data": ""
+                    },
+                    "Target": {
+                      "ID": "10ed954a-2b59-4ff9-8d1e-3d4eba47bf8a",
+                      "Data": "2205ea8e-1094-4a92-aef6-4e0a3d1b529e"
+                    },
+                    "DefaultValue": {
+                      "ID": "22c2a8ca-c606-466e-b951-95e6653ad306",
+                      "Data": [1, 1, 1, 1, "sRGBAlpha"]
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicValueVariableDriver`1[[Elements.Core.colorX, Elements.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+                  "Data": {
+                    "ID": "04de9206-fe01-431c-81ee-e45011ca27ae",
+                    "persistent-ID": "374fe89a-32f9-46e3-bcb4-59269028a036",
+                    "UpdateOrder": {
+                      "ID": "11557598-209d-4f7a-9fab-124d9b447586",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "5473818f-c28f-4012-84b5-97a07da3f934",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "2f12d38d-7160-432a-8665-83214bae97d5",
+                      "Data": ""
+                    },
+                    "Target": {
+                      "ID": "3890e1d3-41bd-4955-bde5-562a4577a021",
+                      "Data": "6420f630-67de-4d76-976d-bbbe89d21d42"
+                    },
+                    "DefaultValue": {
+                      "ID": "758ea1ac-ab45-425e-a0b3-ab675a7f3f07",
+                      "Data": [
+                        0.6499999761581421,
+                        0.6499999761581421,
+                        0.6499999761581421,
+                        1,
+                        "sRGBAlpha"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicValueVariableDriver`1[[Elements.Core.colorX, Elements.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+                  "Data": {
+                    "ID": "23fceb52-7836-42e2-a4e2-95d96d0fe860",
+                    "persistent-ID": "370ddc76-bbca-4d8e-b02f-b361eb3729e0",
+                    "UpdateOrder": {
+                      "ID": "2a10530c-9e1a-41e7-969b-28a24aaa5d6e",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "88da1c9d-197c-4085-80bf-4501aece4855",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "d8ee0c53-27fa-4b2d-8203-05b238884140",
+                      "Data": ""
+                    },
+                    "Target": {
+                      "ID": "2d88f026-6ecc-409c-8802-6650e14dccb6",
+                      "Data": "c8088a1d-6bbf-49cf-9f4f-aade9b2e71cb"
+                    },
+                    "DefaultValue": {
+                      "ID": "cbe1f5cf-3987-46bb-ae27-b2f8a4ea389c",
+                      "Data": [0.5, 0.5, 0.5, 1, "sRGBAlpha"]
+                    }
+                  }
+                },
+                {
+                  "Type": "FrooxEngine.DynamicValueVariableDriver`1[[Elements.Core.colorX, Elements.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+                  "Data": {
+                    "ID": "2f6ce672-9d9c-46bb-906b-5a09c060f14b",
+                    "persistent-ID": "dd4c1866-8365-4145-aa8a-e14a789dc0b1",
+                    "UpdateOrder": {
+                      "ID": "afbbe3ab-dcf3-44ef-a68b-a69cd6e56654",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "0ba1a13a-26eb-4fd8-8a33-a479f1182e52",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "dfdf4b29-bd97-4b4e-a333-abc16441e694",
+                      "Data": ""
+                    },
+                    "Target": {
+                      "ID": "ad095e2f-dea7-442e-9d46-bdb515963669",
+                      "Data": "7090b119-66fc-40d4-8e1f-55182fc781c2"
+                    },
+                    "DefaultValue": {
+                      "ID": "a7d7198d-621e-4e98-a21c-af315ff99b38",
+                      "Data": [0.75, 0.75, 0.75, 1, "sRGBAlpha"]
+                    }
+                  }
+                }
+              ]
+            },
+            "Name": {
+              "ID": "74d22664-d0da-4163-9e52-3bc47be001d2",
+              "Data": "HyperLinkButton"
+            },
+            "Tag": {
+              "ID": "7235d2a2-2a2c-440c-8b35-220e0ce5c8d8",
+              "Data": null
+            },
+            "Active": {
+              "ID": "e2bd34ec-1940-46da-967d-167686de574e",
+              "Data": true
+            },
+            "Persistent-ID": "c2aa8359-7289-42bc-aaac-75178a638f98",
+            "Position": {
+              "ID": "a39a981e-5ab7-4242-a122-788b75d09005",
+              "Data": [0, 0, 0]
+            },
+            "Rotation": {
+              "ID": "53d7f56e-0da2-43f5-8950-319c1e4a92b4",
+              "Data": [
+                -4.017229882080642e-10, 2.765230933121643e-9,
+                2.988785052782106e-10, 1
+              ]
+            },
+            "Scale": {
+              "ID": "64a265b3-1bf1-439e-9860-1fa7dc73e6f7",
+              "Data": [1, 1, 1]
+            },
+            "OrderOffset": {
+              "ID": "f4917227-b5a1-407b-a33d-8f80c4794821",
+              "Data": 0
+            },
+            "ParentReference": "e23c36f2-923b-43cc-8337-e7ca2d40a791",
+            "Children": []
+          }
+        ]
+      }
+    ]
+  },
+  "Assets": [
+    {
+      "Type": "FrooxEngine.FontChain",
+      "Data": {
+        "ID": "170a52a8-531c-4d64-b967-d0099156d201",
+        "persistent": {
+          "ID": "6530a1a0-a45f-48fc-8196-a4e7a6ac36f8",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "5a61b11c-df9a-4770-92ea-9473e7b7b9a1",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "98fb9e96-3f2f-4b3c-9987-e3cd165f19bd",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "d7d77484-1b06-4c10-9a6f-7175131d5406",
+          "Data": false
+        },
+        "MainFont": {
+          "ID": "b3381ef5-4dbf-4d18-8ae9-46b34a10d910",
+          "Data": "cfcdc1dc-5fc1-4f13-be8b-58e39e660c7f"
+        },
+        "FallbackFonts": {
+          "ID": "91eb516b-2b1f-4552-884d-ab70f78fc506",
+          "Data": [
+            {
+              "ID": "51218fb1-e247-42d2-9f96-3f14d500d3f2",
+              "Data": "7e29794c-1b19-44c0-b4f6-1f6d57d4d1a9"
+            },
+            {
+              "ID": "887b725a-e83b-4eb8-9c5e-a4cff2f387ed",
+              "Data": "a64762ed-b93a-4529-93cb-b5cfc8f1ca6f"
+            },
+            {
+              "ID": "d3f6455e-09d5-4cf5-aaa8-0434ac4b85cf",
+              "Data": "891e587e-af9b-49c2-81bf-20f151b2cb7d"
+            },
+            {
+              "ID": "5421bf3d-f70d-499c-8e29-308968eb5ca7",
+              "Data": "3c14678e-5ee7-445b-9fa9-dc259cfe2b1c"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "cfcdc1dc-5fc1-4f13-be8b-58e39e660c7f",
+        "persistent": {
+          "ID": "9400cd2a-02b2-435d-ac39-e3ebf8913de1",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "a645011b-9b59-49f0-9bca-9f8e47435c32",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "7b98778f-4247-450f-8925-cee40b150259",
+          "Data": true
+        },
+        "URL": {
+          "ID": "7864b437-3fb5-4904-a9a1-c4f3e66c1e8e",
+          "Data": "@resdb:///c801b8d2522fb554678f17f4597158b1af3f9be3abd6ce35d5a3112a81e2bf39"
+        },
+        "Padding": {
+          "ID": "b0cbabf7-6bbe-4439-81ec-0aa054549d11",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "9bcb9915-60ad-4ae4-8c62-e6a85397a7b5",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "212d2cc1-576d-4367-99cf-6557b1c8d909",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "037f0c78-096e-4104-aa5a-a27af8071833",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "b47b110b-7338-4352-8930-02ddc6a99fad",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "b1686592-b5f4-4329-a1a7-bbb63355702b",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "7e29794c-1b19-44c0-b4f6-1f6d57d4d1a9",
+        "persistent": {
+          "ID": "0a0b455c-4bd4-4bc4-a9a1-114252ebe6ee",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "e9b17ea0-364f-4331-8c64-5a1c18194458",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "34defe00-e10f-4b20-b7d0-986d1cd25a24",
+          "Data": true
+        },
+        "URL": {
+          "ID": "b283a6d7-f472-4117-afd6-a2db35ccc1cc",
+          "Data": "@resdb:///4cac521169034ddd416c6deffe2eb16234863761837df677a910697ec5babd25"
+        },
+        "Padding": {
+          "ID": "ef619f8f-d592-4a7d-ba6e-55817138b548",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "5b313cce-687f-4a12-a460-407d68e17c3b",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "35605844-16e3-41fa-a8d8-0df355baa4f1",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "f382f6ee-4165-4905-9177-34febcd94fdd",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "4bbfc82a-9dc9-454e-a654-0a1337b5002a",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "ef6f7f1e-e073-4a19-8612-28b94bc8d195",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "a64762ed-b93a-4529-93cb-b5cfc8f1ca6f",
+        "persistent": {
+          "ID": "dd05024b-cc59-469c-a042-ed1cc50226d0",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "ed8157b6-0a6e-45f0-8304-63ae4e0f4a8a",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "32689610-1ab6-4232-be2f-32013382429e",
+          "Data": true
+        },
+        "URL": {
+          "ID": "faf87728-ade6-409a-bf16-782cb5f0ff75",
+          "Data": "@resdb:///23e7ad7cb0a5a4cf75e07c9e0848b1eb06bba15e8fa9b8cb0579fc823c532927"
+        },
+        "Padding": {
+          "ID": "5b0bb94c-19f9-4c4b-a6b7-58e807804a60",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "332006f1-a6e6-4fd9-aae1-368cad6e6af2",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "2701820a-debf-4280-9ff2-4f18aa9f72b9",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "2b604769-2fd7-4f48-805f-0ec8ce16013f",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "c9b48812-9b9f-440a-bd78-155218e20de0",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "bfb4a1ec-07ea-405f-9136-b8d2a9ff999c",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "891e587e-af9b-49c2-81bf-20f151b2cb7d",
+        "persistent": {
+          "ID": "7e732bcf-ed6b-422c-ab2d-8bc72a642d75",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "78eb3c65-c563-4550-a0c1-891969b14e8d",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "563a5acb-3d7b-49ca-b504-253efde0f034",
+          "Data": true
+        },
+        "URL": {
+          "ID": "e83da0ff-4828-43d0-b8bb-34f465052fb9",
+          "Data": "@resdb:///415dc6290378574135b64c808dc640c1df7531973290c4970c51fdeb849cb0c5"
+        },
+        "Padding": {
+          "ID": "41f88f5f-fd80-4859-9b7b-5f52f947866d",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "aa1d8e73-32e9-4bd5-b9b6-cf62d76d52c6",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "dfe381fb-f0c2-48cd-8d93-52b1130508dd",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "4ab9cb41-3eef-4e27-a1f0-67449cd33962",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "12038cdd-e103-47b2-be93-6622e84f176a",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "369d2dfc-dd0a-4f68-b32e-ff4ca8b2a362",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "3c14678e-5ee7-445b-9fa9-dc259cfe2b1c",
+        "persistent": {
+          "ID": "2de2318c-7851-4916-89e5-0927cddf717a",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "7784ccd4-05a5-4d91-9589-b8e3dacb8926",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "df16d0f7-eb3a-4408-8c2b-d797deb7561e",
+          "Data": true
+        },
+        "URL": {
+          "ID": "a16742d7-01d1-41c5-842a-2e6016170aa1",
+          "Data": "@resdb:///bcda0bcc22bab28ea4fedae800bfbf9ec76d71cc3b9f851779a35b7e438a839d"
+        },
+        "Padding": {
+          "ID": "a9c2a03c-3c7d-4d40-ad6d-85f9d303cfb1",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "6eb5977b-cbc0-4c36-a41b-9c3ea5754dc8",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "3246c888-185c-48f3-9c38-14b96fab4020",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "e14b27d7-0a0d-431c-9019-fbc72cc545ba",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "15276a52-cdde-421f-aa97-e0c1a73cb8b5",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "cfda5605-cd30-4bb7-af8b-c3cd6b75ef26",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.UI_TextUnlitMaterial",
+      "Data": {
+        "ID": "952a1851-7320-4a72-84cd-a7ec78fde240",
+        "persistent": {
+          "ID": "bfc20e18-4cf1-4ced-aaa9-d2a2c1b4b646",
+          "Data": false
+        },
+        "UpdateOrder": {
+          "ID": "25cc0fcd-68a3-434e-ab55-938787d5f8b4",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "c9cd6e59-1965-4127-8147-d0ea7a5d36b8",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "701f1d1b-6eba-485d-8abe-25f176a598d5",
+          "Data": false
+        },
+        "_shader-ID": "aee04764-f13d-499f-add2-a61bc48869ad",
+        "FontAtlas": {
+          "ID": "d6bd52fe-6c5c-45e9-886e-9e37b60a3fa1",
+          "Data": null
+        },
+        "TintColor": {
+          "ID": "185d93cf-ee17-4e6f-942b-b047aaf1a8a9",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "OutlineColor": {
+          "ID": "7878859d-ecc8-403b-add1-eec70bf1774f",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "BackgroundColor": {
+          "ID": "afb5ef4c-4a4a-410f-a311-33a0bbdab2b0",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "AutoBackgroundColor": {
+          "ID": "b4c58f25-54b6-47f6-acff-bf129621398c",
+          "Data": true
+        },
+        "GlyphRenderMethod": {
+          "ID": "57f01caa-7d56-4d72-ba3c-68dd6e997394",
+          "Data": "MSDF"
+        },
+        "PixelRange": {
+          "ID": "ec338a67-6b54-46fc-b2f5-658c8cc19ec3",
+          "Data": 4
+        },
+        "FaceDilate": {
+          "ID": "6ca5a5f1-d218-4029-b97c-c2a9f6f1269a",
+          "Data": 0
+        },
+        "OutlineThickness": {
+          "ID": "b87518cb-e339-4eff-b947-5d596741e202",
+          "Data": 0
+        },
+        "FaceSoftness": {
+          "ID": "0a806571-981a-4a20-8c4e-1c8b290f7dd9",
+          "Data": 0
+        },
+        "BlendMode": {
+          "ID": "a6d92086-a62f-4c10-af24-14b74304501b",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "13569741-156b-45d1-8fde-d950a2e68baf",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "312a8dde-04db-454b-b4b2-49a8bdd6cbb9",
+          "Data": "Auto"
+        },
+        "ZTest": {
+          "ID": "cd11c9a4-bb9a-4376-b0a4-a37e58a9a0a2",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "db8ed923-4e4d-42bd-8b99-fb3425f9d0c9",
+          "Data": 0
+        },
+        "OffsetUnits": {
+          "ID": "c4a69cd1-7a22-4229-a632-4311aef50ca0",
+          "Data": 0
+        },
+        "RenderQueue": {
+          "ID": "87f0e7cd-3728-440e-93f8-2055a6d426a0",
+          "Data": -1
+        },
+        "Overlay": {
+          "ID": "d29d4e51-3c01-4fff-9453-4108860c53ff",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "940563a2-af35-455d-bac5-0a4a72efa02a",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "Rect": {
+          "ID": "eb06b3a1-a598-4df6-9006-9d6df4ff9413",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "2e204e7a-69be-4fa4-9217-050fd43d4fa7",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "0d4b54d6-7d92-4f26-b057-9545bc4d492e",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "70e9eae7-df6f-42ee-82cf-b775c23cc6db",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "36bf623d-42de-4888-85ca-e2580215e630",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "6a41957f-c583-49c2-9424-791c6f285abc",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "f417fe41-e897-4b83-8a58-080d332d1199",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "e616532e-289d-4531-bb79-303746354814",
+          "Data": 255
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.FontChain",
+      "Data": {
+        "ID": "c557fb4f-3de0-48f4-b692-d585b58032e0",
+        "persistent": {
+          "ID": "9a3826be-bd60-4a28-a937-5c6ec61aa970",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "37c1ccca-e563-4553-9ca5-657695c9df08",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "b300bc65-eac9-4d25-b821-8db2262ab361",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "a030c8ef-d63a-4a12-a792-84ec4f274ec8",
+          "Data": false
+        },
+        "MainFont": {
+          "ID": "f85e0bce-cf10-44f4-a369-f235ae8b2716",
+          "Data": "1d944075-8723-4776-b75b-e7a337eb22bd"
+        },
+        "FallbackFonts": {
+          "ID": "f2c9197d-4bbc-4633-9e0f-db7d5dff7e40",
+          "Data": [
+            {
+              "ID": "051edc20-8275-4069-b568-98dbde2a256e",
+              "Data": "bc10e7b6-61e5-4d06-bea1-c2985542ff41"
+            },
+            {
+              "ID": "bddbf65f-10a6-4647-90f3-23116816be7e",
+              "Data": "ad7509b0-3dfc-4244-9bf7-df479ee390d8"
+            },
+            {
+              "ID": "2739496f-0efb-4660-9659-57fbf727dd5d",
+              "Data": "c39b5a7f-7c73-420f-825f-51e7daaf381b"
+            },
+            {
+              "ID": "1fc9bf8b-235b-4041-9848-917e47bd2d7f",
+              "Data": "7bc53985-afec-47bc-af81-df5cd2ea0ab9"
+            },
+            {
+              "ID": "38a023e7-9cfd-4f5f-84e8-49276a2d04f6",
+              "Data": "72f905f1-9868-4f65-8b04-88b8bf6f7b80"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "1d944075-8723-4776-b75b-e7a337eb22bd",
+        "persistent": {
+          "ID": "89f1f1e2-f88e-4a58-9313-908b86da7b2e",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "a104a575-099f-4845-b4d4-0200835bc59e",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "a565dda0-6c74-40f8-9a46-cd10ae020041",
+          "Data": true
+        },
+        "URL": {
+          "ID": "e07fda08-757e-4f99-8caf-ec65f2b5770c",
+          "Data": "@resdb:///529360eec9dfd688614993dbd7515bc61f7651ebae6c53dd005f6247f98b30c5"
+        },
+        "Padding": {
+          "ID": "e5f0adc0-45eb-45c0-b1a5-459efa225ac1",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "a9d1010d-c6f2-40a9-b4f3-fa222b76fa85",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "93283370-ec2b-4fa6-a1ae-fcf68a84a229",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "a0081e9d-2741-4bcd-aa5a-a3b0e7cadd7c",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "5a960830-89ec-4b00-a10b-56f18c3aa2af",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "616a44d6-7dfd-4812-913b-69dd97ad3047",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "bc10e7b6-61e5-4d06-bea1-c2985542ff41",
+        "persistent": {
+          "ID": "91ec93b5-daa7-4983-b949-f470b1bce2ed",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "7743593a-1901-44d3-9cfd-b930f09d5cdd",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "a412f296-a913-4292-9554-5a6d5e075638",
+          "Data": true
+        },
+        "URL": {
+          "ID": "67677a6e-625c-43c4-9b3b-4f57d9fef3e4",
+          "Data": "@resdb:///c801b8d2522fb554678f17f4597158b1af3f9be3abd6ce35d5a3112a81e2bf39"
+        },
+        "Padding": {
+          "ID": "545bd834-2a11-4258-b013-9a07960846b3",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "b7e994dc-045d-4b08-952f-32b4eaa0f953",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "c2d16235-7b67-495a-84c4-063ddbc6ec56",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "2c735161-b001-4347-ada9-edb4e3e84421",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "b0803779-8648-4cfc-9b7c-8cecb3496d98",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "bbfe56d5-e862-4da1-b53c-b5fa302d08f0",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "ad7509b0-3dfc-4244-9bf7-df479ee390d8",
+        "persistent": {
+          "ID": "9f0a0b61-1823-4350-bb52-bd3c692744bf",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "14f05b5b-b957-4ce2-a741-2579d717dbc3",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "3d434225-b492-405b-8f90-fe3cceface10",
+          "Data": true
+        },
+        "URL": {
+          "ID": "786a13dd-9740-468b-a66d-11f4194772c4",
+          "Data": "@resdb:///4cac521169034ddd416c6deffe2eb16234863761837df677a910697ec5babd25"
+        },
+        "Padding": {
+          "ID": "3ce7b09e-0eb3-4e3f-8cca-a3c9aec0785b",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "2b61c3e1-e56a-4e7a-82ca-d6e34b627e3c",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "0614833d-7ef0-4023-9f8f-48ac548cc0cf",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "7fb3f5d4-1b0c-4f2d-b757-0b7b386c0d26",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "f7be11c4-dc21-4480-b3b2-7b1d921531e3",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "4751ca7b-c2f5-4732-9982-3a86aef8c22a",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "c39b5a7f-7c73-420f-825f-51e7daaf381b",
+        "persistent": {
+          "ID": "5eb4b73d-48df-46f1-91bd-2834aa94eedc",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "98a0fc5a-6d37-486b-8161-1fa86bc36f68",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "214b19ae-a7a3-4a72-a3a4-712400a5617a",
+          "Data": true
+        },
+        "URL": {
+          "ID": "6c0651c5-846a-4923-acaf-384e30970ab4",
+          "Data": "@resdb:///23e7ad7cb0a5a4cf75e07c9e0848b1eb06bba15e8fa9b8cb0579fc823c532927"
+        },
+        "Padding": {
+          "ID": "f7842b93-1721-42d0-96d6-2912702d7763",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "00363855-1983-4d6c-b1a9-a2743df5d9db",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "bc835022-692a-4544-b94c-7f0e8a39a763",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "b5297525-52e7-4a46-b699-d8eb0610202e",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "74f2bbe1-2beb-4ca1-bdc9-f35962ac6cd7",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "480b975c-5701-4a70-9ffa-3df899e51426",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "7bc53985-afec-47bc-af81-df5cd2ea0ab9",
+        "persistent": {
+          "ID": "be762a44-936e-47b0-a5e7-0a4dadbb0263",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "a6206c1c-d025-4123-8632-c84ddce2c43f",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "f6dbeb88-a687-4982-82e2-4c8dcf9fdb77",
+          "Data": true
+        },
+        "URL": {
+          "ID": "4e7441b2-0f38-4ebb-8157-22ce4e81ec0f",
+          "Data": "@resdb:///415dc6290378574135b64c808dc640c1df7531973290c4970c51fdeb849cb0c5"
+        },
+        "Padding": {
+          "ID": "afa2a323-84c2-4ffc-8dfb-ba18e8d13b9d",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "ecca71b0-e21c-4d30-8469-2c9ef7e68e14",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "a2031330-9f77-4f78-9ff4-645e73ae71bc",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "3a1468bb-e90b-4eb7-9e09-4f8a04109513",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "b84e8e19-9783-487d-8569-9711fbbe59cc",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "a3d318ee-9307-4808-8b9f-382e7ae503d8",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "72f905f1-9868-4f65-8b04-88b8bf6f7b80",
+        "persistent": {
+          "ID": "137886a0-cb14-4f4f-8ded-e1c41f834a2b",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "c8b41d2f-be46-4959-8e79-18557c05b178",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "acbc4991-f1b5-41fd-b2c2-8a1ae260fa21",
+          "Data": true
+        },
+        "URL": {
+          "ID": "1fe89172-7931-4b00-9711-228f05ca75a1",
+          "Data": "@resdb:///bcda0bcc22bab28ea4fedae800bfbf9ec76d71cc3b9f851779a35b7e438a839d"
+        },
+        "Padding": {
+          "ID": "a8566c0d-24ae-4468-af79-e2731f520072",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "659911d9-de11-4eeb-82e2-a164518543c2",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "f73cba02-bb0c-4223-b992-217b29af046f",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "adc44acc-e2c5-45e8-85da-80cc45e3d1ba",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "fb9c95ab-d833-498c-8127-fc8a5ada87ab",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "bd7976fa-1924-4de1-8c89-f124aec650b5",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.UI_TextUnlitMaterial",
+      "Data": {
+        "ID": "c9c46ba1-f618-49fe-8edb-81fc2c15e9e8",
+        "persistent": {
+          "ID": "616f7609-adcb-4c92-97e5-34e02e8a98fa",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "2d3c675d-cc30-4e9e-a6e3-befea1ae0344",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "8e48af7d-fca4-4675-bb3a-9ef6a8aeb469",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "04d9c350-b9e7-411e-bc29-d2aae2b643ab",
+          "Data": false
+        },
+        "_shader-ID": "4a0674da-a76b-49b9-8457-74cdaf3f7a9b",
+        "FontAtlas": {
+          "ID": "aa4772a4-8e0f-4075-af7f-c9f7078c2d95",
+          "Data": null
+        },
+        "TintColor": {
+          "ID": "cbf4f588-6568-48f1-80c0-ca79e33de7d5",
+          "Data": [1, 1, 1, 1, "sRGB"]
+        },
+        "OutlineColor": {
+          "ID": "615d7e8d-a6f7-4135-9f2d-46f176294fed",
+          "Data": [0, 0, 0, 1, "sRGB"]
+        },
+        "BackgroundColor": {
+          "ID": "2f1377c9-9b34-49a8-ba7b-ce07ce1eb30e",
+          "Data": [0, 0, 0, 1, "sRGB"]
+        },
+        "AutoBackgroundColor": {
+          "ID": "11470842-0b9b-4f9e-ba87-5589ab62b15c",
+          "Data": true
+        },
+        "GlyphRenderMethod": {
+          "ID": "070a86ad-9f4f-46cd-a5a4-ff4e69fe6149",
+          "Data": "MSDF"
+        },
+        "PixelRange": {
+          "ID": "d200fd7f-bb1a-4173-8a3b-74bf07c8e51c",
+          "Data": 4
+        },
+        "FaceDilate": {
+          "ID": "1f39edec-f9d4-4104-bb5b-0e572d1a9393",
+          "Data": 0
+        },
+        "OutlineThickness": {
+          "ID": "44cbd28b-cb46-426c-90c5-dd31d44022c3",
+          "Data": 0
+        },
+        "FaceSoftness": {
+          "ID": "798fc9aa-5db8-45a0-9018-c08e770b47e6",
+          "Data": 0
+        },
+        "BlendMode": {
+          "ID": "6517b28e-7db7-4bb7-9389-fdc919f6ae87",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "8611610c-dbc3-4e82-9c1a-b11f9314e6a8",
+          "Data": "Front"
+        },
+        "ZWrite": {
+          "ID": "cfbd5721-d825-474b-a5ef-2bf2b9ae7a7e",
+          "Data": "Auto"
+        },
+        "ZTest": {
+          "ID": "7561073a-20a6-4b20-ac0b-237c785e4f68",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "0bacb4a6-8761-4089-9400-c3d039830b61",
+          "Data": 0
+        },
+        "OffsetUnits": {
+          "ID": "652b1ed2-db1c-40a8-b55b-11f8a67ef09d",
+          "Data": 0
+        },
+        "RenderQueue": {
+          "ID": "b2388160-d5be-44d5-9f04-37c1a393e16c",
+          "Data": -1
+        },
+        "Overlay": {
+          "ID": "0ab41ca8-a7f6-4906-bc37-b03700f81aef",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "e93de1de-77bf-444d-9ba6-5c9f8979284e",
+          "Data": [1, 1, 1, 0.7300000190734863, "sRGB"]
+        },
+        "Rect": {
+          "ID": "2fa7797b-5567-46de-af8d-e7cb958e7e4c",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "794ff4ad-e464-4f5d-8bca-5af341fa7a51",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "1f58a579-254d-4925-bb1e-c33986c79d13",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "53994bae-2f80-4acd-8c0a-21cdbab64ee6",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "e2c424cb-aea2-4b9b-92d3-5b1591a43fe6",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "eba9c55c-a343-45cd-9bb7-3646b2f42bd9",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "00e752b5-1f9b-4aef-b4e4-2e818f153b61",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "c282608c-a1b3-4659-baf7-3f96254332b4",
+          "Data": 255
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.SpriteProvider",
+      "Data": {
+        "ID": "663a7060-e33b-4adb-9824-bf1c42e93654",
+        "persistent": {
+          "ID": "228be867-d8a4-4375-abcb-3d4a345850ea",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "1cd8c113-3427-4057-817f-399bb96e0f1b",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "6b3654c5-067d-4496-9be4-a30043a60313",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "1fd3ce88-b6e7-4253-9ffb-3c3472e40ad4",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "d6cb384a-6c1f-4a1d-a0dc-cccf3e2f1302",
+          "Data": "d4723309-847c-4712-947f-667759b38cae"
+        },
+        "Rect": {
+          "ID": "1b8b60b2-23ac-4567-85f5-b23683e730a3",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "b30fb530-993c-430f-b6a5-870149b512b6",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "623caaf1-3759-4ef3-b3fc-a0c79373b3de",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "7f8f598e-ccef-4706-9037-aa7feab4f1a7",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticTexture2D",
+      "Data": {
+        "ID": "d4723309-847c-4712-947f-667759b38cae",
+        "persistent": {
+          "ID": "64f16165-a0a3-48a6-a070-47b11aac4143",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "8e278bfb-d64f-457c-bdc8-d1d45dedc8b9",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "981fc5de-8a39-454a-98c7-fb4409d2faa5",
+          "Data": true
+        },
+        "URL": {
+          "ID": "e5e256d0-5a8f-494a-9feb-760f791b4d4a",
+          "Data": "@resdb:///1ba924cca06b4a16a1656d15db015a7ed248579729dd9a73ab9548c842fb1193.png"
+        },
+        "FilterMode": {
+          "ID": "4e4f5de2-bc10-48f6-986a-0a7055991a04",
+          "Data": "Anisotropic"
+        },
+        "AnisotropicLevel": {
+          "ID": "434e0fcd-d046-4bf1-975c-fe4f492305ba",
+          "Data": 16
+        },
+        "Uncompressed": {
+          "ID": "f0ead21d-327f-4854-b741-acbb534b7ff8",
+          "Data": false
+        },
+        "DirectLoad": {
+          "ID": "bd9d2efb-a47d-4878-8db9-6cc1d5267146",
+          "Data": false
+        },
+        "ForceExactVariant": {
+          "ID": "e6e98520-23e8-4e3c-bd82-78e8018d6688",
+          "Data": false
+        },
+        "PreferredFormat": {
+          "ID": "a0a7429b-dcdd-4279-9d76-eab0f9e95511",
+          "Data": null
+        },
+        "PreferredProfile": {
+          "ID": "db4c47a2-852d-460f-b720-d61242dc6c0f",
+          "Data": "sRGB"
+        },
+        "MipMapBias": {
+          "ID": "31997605-80a2-4801-acfe-3cd76f9ddc15",
+          "Data": 0
+        },
+        "IsNormalMap": {
+          "ID": "55464f3b-c6d0-4d76-ad94-7a003bf78c82",
+          "Data": false
+        },
+        "WrapModeU": {
+          "ID": "c1f7ec1d-5142-478e-b42c-567d7f66ed4d",
+          "Data": "Clamp"
+        },
+        "WrapModeV": {
+          "ID": "e19f0e93-c2b5-4980-b77f-32c14b5df9f7",
+          "Data": "Clamp"
+        },
+        "PowerOfTwoAlignThreshold": {
+          "ID": "e6b0a73c-8d00-4666-b382-0e0e2e367cd5",
+          "Data": 0.05000000074505806
+        },
+        "CrunchCompressed": {
+          "ID": "2d08d99c-f3a8-4b75-afa4-bc71cb48f449",
+          "Data": true
+        },
+        "MaxSize": {
+          "ID": "1baed434-e167-4190-a0da-3508422d2300",
+          "Data": null
+        },
+        "MipMaps": {
+          "ID": "45cd2192-17ff-46c3-8a56-255ceb214e49",
+          "Data": false
+        },
+        "MipMapFilter": {
+          "ID": "ad6606e2-948c-4fda-b955-41464cc10a56",
+          "Data": "Box"
+        },
+        "Readable": {
+          "ID": "f9325ac3-7031-463a-8ba4-17f2f5893058",
+          "Data": false
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.UI_UnlitMaterial",
+      "Data": {
+        "ID": "ae4b4624-4f9a-4bdf-8e93-d7665ee5e383",
+        "persistent": {
+          "ID": "8c21651e-e22e-416e-b6f5-82fd76e3d87b",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "51b62b6d-18f9-4b26-a9de-3b7a2ce81291",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "462170b2-ce28-4c70-9e8c-3669199e0bbb",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "745d1576-9f83-40ef-8e9d-d12df4c48f90",
+          "Data": false
+        },
+        "Rect": {
+          "ID": "5e0e82a1-2c22-4e5f-bc0a-e7eea2421ff7",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "6fe6d523-3a1d-4979-a50d-03f45b68fb50",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "af86c8bb-4bda-41bf-9e75-de5e46ff8129",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "33a414de-5543-446f-a6f1-694c7c5be2d3",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "36f619ab-7685-4f33-817e-24970d3fd0ba",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "fde03400-e90a-48df-9a93-c919b9685577",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "8d346a25-2bd6-4268-b8e7-738c876933e7",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "f0a08189-a0ec-40ec-8292-22ebbc1eec13",
+          "Data": 255
+        },
+        "RenderQueue": {
+          "ID": "01cef39c-6b30-4050-ba5a-e3e846dff138",
+          "Data": -1
+        },
+        "_shader-ID": "48e8c9f5-9999-445e-bf05-fe049a55fdd5",
+        "Texture": {
+          "ID": "c418030f-cfc4-4188-9ccd-ae8ea83d220b",
+          "Data": null
+        },
+        "TextureScale": {
+          "ID": "043e8b97-66fc-4006-b01f-7fad47e776a3",
+          "Data": [1, 1]
+        },
+        "TextureOffset": {
+          "ID": "7c5e9b75-4b3d-406a-b550-527b72f04f22",
+          "Data": [0, 0]
+        },
+        "Tint": {
+          "ID": "b1cd684f-9dfe-43df-a24f-d64da374d1a8",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "Overlay": {
+          "ID": "3dc27339-0943-4da7-99e8-215dd07a0311",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "5a5e8d14-3c73-45d1-9e19-510e1273c334",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "AlphaCutoff": {
+          "ID": "55f23e73-52f9-4371-9dc1-dd952db0cb5e",
+          "Data": 0.5
+        },
+        "AlphaClip": {
+          "ID": "9d306704-72eb-477a-ae66-d85ae06af04a",
+          "Data": true
+        },
+        "TextureMode": {
+          "ID": "1c05f067-0d39-41b1-8016-c63c8b4b3398",
+          "Data": "DirectColor"
+        },
+        "MaskTexture": {
+          "ID": "01887b74-bac3-4a0b-bee7-cc653d6da4c2",
+          "Data": null
+        },
+        "MaskScale": {
+          "ID": "63498d44-bd3a-475a-b802-32e8b6defdb7",
+          "Data": [1, 1]
+        },
+        "MaskOffset": {
+          "ID": "9da50be4-2b0f-4095-96a3-8904899ef014",
+          "Data": [0, 0]
+        },
+        "MaskMode": {
+          "ID": "4b54fc56-7d4d-47c9-bb0b-20c28fa6852f",
+          "Data": "MultiplyAlpha"
+        },
+        "BlendMode": {
+          "ID": "4047bb6a-da1f-420a-9273-6f1cf4902c45",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "b3d818d9-195f-4ce0-b5ed-2d2f83170b96",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "a312c932-b033-4660-aa86-45950a2d9e7e",
+          "Data": "On"
+        },
+        "ZTest": {
+          "ID": "a39669f4-2b7d-4de4-b61e-bc2c427a9d97",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "71b6e3e3-7285-4011-8faf-d56b866e8726",
+          "Data": 0.30000001192092896
+        },
+        "OffsetUnits": {
+          "ID": "3196ef06-8677-43f3-a17b-b50fb2b6411e",
+          "Data": 80
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.SpriteProvider",
+      "Data": {
+        "ID": "22d1dd40-b397-4e23-a9cc-53212f3da422",
+        "persistent": {
+          "ID": "c2476a46-14cd-405e-acd5-06a42a11edbe",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "38b1bc64-5f99-483a-8821-a6ff0b05a572",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "00ae8d0d-30bb-404a-9c2f-841f8c91e677",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "21ed6566-2df0-49a7-9164-e9242f7f8623",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "8856f017-f616-4772-b544-88550c463461",
+          "Data": "2b3b7ce2-8f06-4120-9f37-ce8bfbf5a7d1"
+        },
+        "Rect": {
+          "ID": "25637dbe-b294-4820-b900-5363d182cbf4",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "5bc6482b-c23f-4383-a116-dabf4ebb96da",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "86f229db-b250-4681-89da-672ee8beba2c",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "4109a671-6ccf-4819-a4b0-233f08114a91",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticTexture2D",
+      "Data": {
+        "ID": "2b3b7ce2-8f06-4120-9f37-ce8bfbf5a7d1",
+        "persistent": {
+          "ID": "0d96732c-1a52-43c7-9e28-2e790116978d",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "7bd466f8-00d8-4bf4-b7ae-3d14df62403f",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "cac1956b-afc2-4e06-bfa9-44fc2a7e0644",
+          "Data": true
+        },
+        "URL": {
+          "ID": "77f2024d-deec-4177-ab78-81b266e86235",
+          "Data": "@resdb:///6db4879f08e9405359d7c9b8031dc2056e27773c380777b7b877260c51b8f370.png"
+        },
+        "FilterMode": {
+          "ID": "8c10339d-46e3-4e56-a779-f7a13b0dfc38",
+          "Data": "Anisotropic"
+        },
+        "AnisotropicLevel": {
+          "ID": "e083540b-4a40-48be-8ec7-d5442028271e",
+          "Data": 16
+        },
+        "Uncompressed": {
+          "ID": "2714b759-25d7-4de8-a773-b2d0beb95ca1",
+          "Data": false
+        },
+        "DirectLoad": {
+          "ID": "e4d0b6ba-64b2-443e-a9a5-2e5b8a1f306c",
+          "Data": false
+        },
+        "ForceExactVariant": {
+          "ID": "86edd5a5-ff64-40fd-af48-deda30fa521c",
+          "Data": false
+        },
+        "PreferredFormat": {
+          "ID": "cb37783b-6a80-4166-a3c2-411e33755bc7",
+          "Data": null
+        },
+        "PreferredProfile": {
+          "ID": "c243bd1d-7959-406c-90de-259dae762859",
+          "Data": "sRGB"
+        },
+        "MipMapBias": {
+          "ID": "d83717ef-f271-4358-93e1-f99e35ed96f9",
+          "Data": 0
+        },
+        "IsNormalMap": {
+          "ID": "e0df0219-e2c0-48b3-aa9e-ed7358a07b4e",
+          "Data": false
+        },
+        "WrapModeU": {
+          "ID": "a11604ce-4d7b-49c2-8cea-ca77fa350be0",
+          "Data": "Clamp"
+        },
+        "WrapModeV": {
+          "ID": "124ee245-3150-47a0-97ae-ddb71b69dc18",
+          "Data": "Clamp"
+        },
+        "PowerOfTwoAlignThreshold": {
+          "ID": "00e4ac99-606e-4858-b7a8-eb4a0cec53de",
+          "Data": 0.05000000074505806
+        },
+        "CrunchCompressed": {
+          "ID": "18db808f-db4b-4879-83e5-f83f96127941",
+          "Data": true
+        },
+        "MaxSize": {
+          "ID": "51782022-e3c0-48c0-8201-ae8d35d93d5d",
+          "Data": null
+        },
+        "MipMaps": {
+          "ID": "c4fa5845-6398-42b4-8981-49a6b9449e1d",
+          "Data": false
+        },
+        "MipMapFilter": {
+          "ID": "121168b8-e446-4c9c-a369-a972ea5b4750",
+          "Data": "Box"
+        },
+        "Readable": {
+          "ID": "47b5debd-7773-497a-8625-5abd12c18720",
+          "Data": false
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.UI_UnlitMaterial",
+      "Data": {
+        "ID": "3cfdf1e1-e263-462e-849f-017425134a35",
+        "persistent": {
+          "ID": "6e07175f-2a06-4ee1-b209-cb73f28cbcfa",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "451f7a54-701a-4a17-9bbf-89269af91b22",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "e5550936-dd6a-4909-9e6c-a8fd840de13c",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "d855e30c-dfbd-4481-9b3b-ac377a004c02",
+          "Data": false
+        },
+        "Rect": {
+          "ID": "20f9f003-dde2-4568-ba7f-399c18054e12",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "2bb43d55-0b9d-43f9-96bf-ea16d8d5f923",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "8227b269-6ba3-4aae-ac0a-acbeb26091c2",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "5f777ee6-fe1a-4cbf-a7bd-97f4b4a4339b",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "938a66f8-35d8-4a1d-8d4a-87dbee3df2ca",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "bac57d54-fd81-4617-bf6e-51af48743a43",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "65d34187-0e9b-452a-9f5e-f81a3edc0ea7",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "ec15556a-0c53-48a6-9546-3497c264e8b7",
+          "Data": 255
+        },
+        "RenderQueue": {
+          "ID": "ad5f9248-20fe-457f-b051-061bf77121ec",
+          "Data": -1
+        },
+        "_shader-ID": "67c571ab-fc9c-432a-bc78-b1893593cf9d",
+        "Texture": {
+          "ID": "917121b0-d57e-405f-8b0c-bcb318c15666",
+          "Data": null
+        },
+        "TextureScale": {
+          "ID": "3c612b15-1f09-46c0-bbf9-0a9afcd6a425",
+          "Data": [1, 1]
+        },
+        "TextureOffset": {
+          "ID": "6b00233d-305d-4ca4-b732-3e5f32098127",
+          "Data": [0, 0]
+        },
+        "Tint": {
+          "ID": "7049e663-dae6-435b-86da-9538bf5ea10e",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "Overlay": {
+          "ID": "dbde9adb-7a48-418a-a68d-254441b64974",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "a5967697-4001-4785-ac3f-be50e03d17ce",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "AlphaCutoff": {
+          "ID": "4b7667f9-33dd-41e0-8724-f774b1d24699",
+          "Data": 0.49966752529144287
+        },
+        "AlphaClip": {
+          "ID": "c1a02369-b650-46cb-94e8-aade5a07d0a6",
+          "Data": false
+        },
+        "TextureMode": {
+          "ID": "b703565b-ee52-4bb5-86f5-be24d12309f4",
+          "Data": "DirectColor"
+        },
+        "MaskTexture": {
+          "ID": "110f54ac-3ddf-4e35-bfb4-3b7aacab0f2c",
+          "Data": null
+        },
+        "MaskScale": {
+          "ID": "7cdc48f4-4547-44b4-bf6e-bcba9740d9eb",
+          "Data": [1, 1]
+        },
+        "MaskOffset": {
+          "ID": "f0420de4-2ea1-4769-9ab5-b198f93e04c2",
+          "Data": [0, 0]
+        },
+        "MaskMode": {
+          "ID": "ac35c5dc-3711-4e9b-9c6f-5fb1cc4f8a27",
+          "Data": "MultiplyAlpha"
+        },
+        "BlendMode": {
+          "ID": "8694166a-ce34-4e7c-b5c9-b1100c7b8ebc",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "7f5977a2-0318-43d4-8da2-4b0619b1c669",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "de119ab6-b78c-41d0-b010-d9cc347e3be0",
+          "Data": "Off"
+        },
+        "ZTest": {
+          "ID": "286dd271-7e9d-480f-85a1-ffc9d665aa60",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "25d3d291-2d02-4e54-95ea-a5d33de54c34",
+          "Data": 0.4000000059604645
+        },
+        "OffsetUnits": {
+          "ID": "0ffbbd49-0370-4eae-8470-e76b0b1a25fe",
+          "Data": 100
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.SpriteProvider",
+      "Data": {
+        "ID": "c0fdc24b-b99f-4074-8f65-28aa1b3990a4",
+        "persistent": {
+          "ID": "67a13bd9-f42e-4f2c-a20e-739a04c34448",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "48d668fa-9de0-4c7a-be38-9886726ec943",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "315bbd90-e771-49df-94c7-e607478e0cbb",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "05928280-f1aa-4292-a81b-85fe6c3a5f5d",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "1689ec5e-c445-4781-9611-47389a7d096c",
+          "Data": "828fd6f2-942b-4972-9eaa-ebb9a2156523"
+        },
+        "Rect": {
+          "ID": "ec9f1304-af15-4d23-85d8-321a966b4212",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "8c783482-e296-4f82-9c9b-48aa6fd964ea",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "1da2a252-0061-47b0-bd3c-3a96b6d15d31",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "224fc3ea-cb10-47f5-a6eb-577187f1fca9",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticTexture2D",
+      "Data": {
+        "ID": "828fd6f2-942b-4972-9eaa-ebb9a2156523",
+        "persistent": {
+          "ID": "05d94cb7-5817-495c-8d42-d22c3b7f82ae",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "188990a6-9f61-4dfa-880c-57f93920e716",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "e3a9ab07-984c-43d3-b929-7d41ac9b296b",
+          "Data": true
+        },
+        "URL": {
+          "ID": "a246b4c3-ab11-4058-9a1f-f1329756930f",
+          "Data": "@resdb:///1cf7a6b5762d6f0e00136e0302345948b03ac99a13a7f71f9ec8433dd90f8d59.png"
+        },
+        "FilterMode": {
+          "ID": "cf8e9b8e-9676-4d21-b0d6-9554173777e2",
+          "Data": "Anisotropic"
+        },
+        "AnisotropicLevel": {
+          "ID": "e3de0cfd-50c9-47ee-ab26-bbafe3444ae4",
+          "Data": 16
+        },
+        "Uncompressed": {
+          "ID": "6a677aef-05d1-4749-b33e-d25f55eb3deb",
+          "Data": false
+        },
+        "DirectLoad": {
+          "ID": "07b63c28-1074-486d-92ad-e69ebf397dc0",
+          "Data": false
+        },
+        "ForceExactVariant": {
+          "ID": "299a86b3-95dd-453a-b5a3-e208a98637a5",
+          "Data": false
+        },
+        "PreferredFormat": {
+          "ID": "51f22415-3f3e-43a3-bf0d-69d31578755f",
+          "Data": null
+        },
+        "PreferredProfile": {
+          "ID": "98f88380-7b7a-4dde-8e4b-c9e3789d877f",
+          "Data": "sRGB"
+        },
+        "MipMapBias": {
+          "ID": "1b2c7029-9f9d-4014-8368-5655995288a0",
+          "Data": 0
+        },
+        "IsNormalMap": {
+          "ID": "050cc050-5f7f-4404-8fe0-b40ee08eeb5e",
+          "Data": false
+        },
+        "WrapModeU": {
+          "ID": "22c358da-86a5-4132-8069-a4164479057b",
+          "Data": "Clamp"
+        },
+        "WrapModeV": {
+          "ID": "39a73aba-b7fc-4c74-899d-3526382038ad",
+          "Data": "Clamp"
+        },
+        "PowerOfTwoAlignThreshold": {
+          "ID": "fc6aad99-6e7b-4c01-84bc-5c62c7790b50",
+          "Data": 0.05000000074505806
+        },
+        "CrunchCompressed": {
+          "ID": "64246104-02fa-49e9-8e28-14c8d6749c94",
+          "Data": true
+        },
+        "MaxSize": {
+          "ID": "5f8ba632-6795-483a-976e-eed7930fdd98",
+          "Data": null
+        },
+        "MipMaps": {
+          "ID": "04e142b5-474e-4777-b53a-f6aa1025ddb5",
+          "Data": false
+        },
+        "MipMapFilter": {
+          "ID": "e05a79f2-d487-4a98-88b0-edd47892b7a0",
+          "Data": "Box"
+        },
+        "Readable": {
+          "ID": "b14f8c06-e18c-44d7-b8fa-d06d61793844",
+          "Data": false
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.UI_UnlitMaterial",
+      "Data": {
+        "ID": "3d27ed5c-a184-485a-bbaa-4fa4a139c407",
+        "persistent": {
+          "ID": "6d482ba6-1e21-4ef1-818e-199034c2dd97",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "cc056b34-2bbc-43fa-aede-56db9a23feb8",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "ea31f52c-8f67-4226-9f32-304d1fbf94cd",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "526cfa91-644a-4061-a516-1d850cd3c07d",
+          "Data": false
+        },
+        "Rect": {
+          "ID": "19c0f98f-ef85-4869-b4a7-ff18f34493c0",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "6c129f37-ca92-4453-a597-4abbc149d437",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "6aa94317-5f29-4b0d-a1c6-2a5eb33ec154",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "f09256f6-0d0b-4ca9-b5d5-29956e9d4f18",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "af07a089-8b22-4978-b0db-c5fdbdc63556",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "6fcc8835-f88b-4186-911e-4f9111224525",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "a58d91f8-fa2c-4eda-94de-24d4d7407219",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "5546c15e-5ff3-49d8-a37f-1ee2fcf9472b",
+          "Data": 255
+        },
+        "RenderQueue": {
+          "ID": "f5e7c124-b9fa-4241-89d3-fb5ce2401e51",
+          "Data": -1
+        },
+        "_shader-ID": "77c50802-7810-49b3-ba93-036ecdfb13e0",
+        "Texture": {
+          "ID": "3f0acceb-4d7e-49ef-a491-401dcffddab7",
+          "Data": null
+        },
+        "TextureScale": {
+          "ID": "21d47705-d9b4-4836-b601-3b7748fc0ac8",
+          "Data": [1, 1]
+        },
+        "TextureOffset": {
+          "ID": "57bd8a1a-8b5e-4aef-add4-a80c01496318",
+          "Data": [0, 0]
+        },
+        "Tint": {
+          "ID": "1310a8dc-e7b4-431f-8f81-75a9ee418e26",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "Overlay": {
+          "ID": "86bf59c3-b53f-443d-af08-93ac76e043fb",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "4e96af6d-34de-4c95-a64b-8101f76706d8",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "AlphaCutoff": {
+          "ID": "9349d2f6-741b-4cf3-834c-37859ac0fc3c",
+          "Data": 0.5
+        },
+        "AlphaClip": {
+          "ID": "0d684052-2b96-4363-81de-354574461aa1",
+          "Data": true
+        },
+        "TextureMode": {
+          "ID": "46273c1c-7d4d-4410-b51c-6976f6f44259",
+          "Data": "DirectColor"
+        },
+        "MaskTexture": {
+          "ID": "6877a80d-1d26-4170-a647-1d94629706dc",
+          "Data": null
+        },
+        "MaskScale": {
+          "ID": "07daf52f-e007-4ff2-99ba-205ce0d6ffa6",
+          "Data": [1, 1]
+        },
+        "MaskOffset": {
+          "ID": "c8cd9d82-1bda-469c-a4f3-67444ea2a41f",
+          "Data": [0, 0]
+        },
+        "MaskMode": {
+          "ID": "26fb0681-ffcb-486c-80b4-e6a8aa219854",
+          "Data": "MultiplyAlpha"
+        },
+        "BlendMode": {
+          "ID": "e65541f3-7ce8-4ee4-b4b0-09cc7aed534b",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "5cfa774d-6aea-4dbf-9745-2920d0af5373",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "2ca1dd9f-48f5-4c6e-9dcd-6a541de39fde",
+          "Data": "On"
+        },
+        "ZTest": {
+          "ID": "cf83ec31-3227-4d3a-b011-2db28e1100b5",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "113b884f-6e39-49ad-a6ee-05910c428388",
+          "Data": 0.10000000149011612
+        },
+        "OffsetUnits": {
+          "ID": "bf9b6ca3-e9b8-41c6-8660-7c5164166891",
+          "Data": 10
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.SpriteProvider",
+      "Data": {
+        "ID": "46c351be-b362-49b9-a6dc-cdab845bc281",
+        "persistent": {
+          "ID": "2a9401a1-ba2b-432a-b3a4-819d69d1eaa5",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "18bb3033-f1a8-466d-ae7a-b2924582abb8",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "aab3f71d-50a3-4c5c-b265-a92ae6d6d331",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "0a055cc1-7bb6-47e7-84ff-543efe96bd92",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "7052a3de-e1d0-4efc-a364-308623ac7819",
+          "Data": "31ae7139-7991-40c6-b0bd-4e0a9f444d98"
+        },
+        "Rect": {
+          "ID": "74cd152f-6355-4e0b-9b8a-6d1ea01742d0",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "eb9605cf-bad7-415a-8092-105a3d7c4f95",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "ee863a5c-d10d-4296-b764-d103fcc8e168",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "f89313cd-5790-4647-bb76-271eb9378fde",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticTexture2D",
+      "Data": {
+        "ID": "31ae7139-7991-40c6-b0bd-4e0a9f444d98",
+        "persistent": {
+          "ID": "99e1fbae-e53b-4347-a3fc-7d47643d7925",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "24e07fbc-7c0a-43ba-9d54-9aa9240589b4",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "dd2f9dbd-b227-42d4-b43f-0ba5b5683dbe",
+          "Data": true
+        },
+        "URL": {
+          "ID": "f67259f5-9e6b-4468-9bd2-18edf5e198e1",
+          "Data": "@resdb:///553bd47ebcbcb94f769d3840c6290ad8f8466250ba52fdda96095fc191d16401.png"
+        },
+        "FilterMode": {
+          "ID": "a4f7c241-d907-4201-8e39-0bcf2e9d8505",
+          "Data": "Anisotropic"
+        },
+        "AnisotropicLevel": {
+          "ID": "df2a2a32-cd7d-49ca-8926-4cf0c2be6fcc",
+          "Data": 16
+        },
+        "Uncompressed": {
+          "ID": "37e8242b-6bda-4b71-96a4-5f3fc29e38b4",
+          "Data": false
+        },
+        "DirectLoad": {
+          "ID": "8997121f-3264-4e6f-ad8e-5c0796986417",
+          "Data": false
+        },
+        "ForceExactVariant": {
+          "ID": "f64447a4-3f85-4128-9dda-9651ff243d45",
+          "Data": false
+        },
+        "PreferredFormat": {
+          "ID": "3228236e-583b-4c73-96c3-64beb919561a",
+          "Data": null
+        },
+        "PreferredProfile": {
+          "ID": "ac6a8fa5-35e4-41fc-95d4-7a2164c1d1ff",
+          "Data": "sRGB"
+        },
+        "MipMapBias": {
+          "ID": "0254dbaa-723a-4718-842e-28693465cc77",
+          "Data": 0
+        },
+        "IsNormalMap": {
+          "ID": "439e26d3-362b-44fe-938b-ae1ef31ea8fa",
+          "Data": false
+        },
+        "WrapModeU": {
+          "ID": "5cd3e4aa-30a9-4305-b9ed-88ece8f1fef9",
+          "Data": "Clamp"
+        },
+        "WrapModeV": {
+          "ID": "55c36a5f-26ba-49bc-abf3-215f377e3337",
+          "Data": "Clamp"
+        },
+        "PowerOfTwoAlignThreshold": {
+          "ID": "1979e0dc-ece8-49fb-ace7-e463a0eeadcf",
+          "Data": 0.05000000074505806
+        },
+        "CrunchCompressed": {
+          "ID": "26847a1e-6a43-4453-8b83-a4a64ea9357f",
+          "Data": true
+        },
+        "MaxSize": {
+          "ID": "aa539de6-be32-48f0-b491-75fd515c3535",
+          "Data": null
+        },
+        "MipMaps": {
+          "ID": "8f1313eb-9769-4e9a-935e-1b3ecfc3be9d",
+          "Data": false
+        },
+        "MipMapFilter": {
+          "ID": "5c427984-27fa-46dc-bf8b-d6b6a82b6c9a",
+          "Data": "Box"
+        },
+        "Readable": {
+          "ID": "0ac36ffd-d8e3-43c3-a656-a045271e99da",
+          "Data": false
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.UI_UnlitMaterial",
+      "Data": {
+        "ID": "c0b97218-fd0f-47d5-8008-7d6d18debc22",
+        "persistent": {
+          "ID": "117c4cbd-d2ca-493c-81bd-80ab3075e38c",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "73d67838-ab66-4201-b34c-4053aa83081a",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "ced0a5ff-3956-4677-96a8-96a65f6f23fc",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "db124bc9-1558-4957-bafd-461431682d65",
+          "Data": false
+        },
+        "Rect": {
+          "ID": "20fb7fa2-dd2d-4171-9442-257983fc51aa",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "0ab6fc5e-f6f7-4d76-bb2f-c9881c6f3760",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "89e3d535-016f-4e31-9679-857fdfed6f21",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "c5698e62-e1a2-4c87-90af-2068531e3867",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "22042a8b-5342-4d2f-91d7-4ae9e0c003a6",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "df7a2847-a59a-475f-9ae8-dedf47db1a98",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "d121773f-1067-4e2e-b0a0-6a6f5f4e3fc8",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "c278fa20-90dd-42c8-a229-6fa65ba1f97a",
+          "Data": 255
+        },
+        "RenderQueue": {
+          "ID": "6d9f9aeb-1323-476d-82f6-9cfafa1c99fa",
+          "Data": -1
+        },
+        "_shader-ID": "c88301bc-363c-4b7f-8602-a23114b46698",
+        "Texture": {
+          "ID": "bfa88c41-6081-481d-813b-52bec5e71097",
+          "Data": null
+        },
+        "TextureScale": {
+          "ID": "c897a402-956c-493e-9b81-483efd1f2de8",
+          "Data": [1, 1]
+        },
+        "TextureOffset": {
+          "ID": "92e737d3-985d-4606-a0e4-23609e11377b",
+          "Data": [0, 0]
+        },
+        "Tint": {
+          "ID": "5cb0849c-81ca-4e77-9139-4139d1c343b1",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "Overlay": {
+          "ID": "1bd598c9-6537-4156-934e-202ebb541f9f",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "61eb2dff-26f0-435c-90b9-8e147fba2f1e",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "AlphaCutoff": {
+          "ID": "ee0ca904-1169-4d4b-b437-59d40c7a380e",
+          "Data": 0.5
+        },
+        "AlphaClip": {
+          "ID": "2e6310b8-59d5-434b-9afe-d28fa801a03c",
+          "Data": false
+        },
+        "TextureMode": {
+          "ID": "e580dc31-5c07-41f7-b2c7-404f7176c487",
+          "Data": "DirectColor"
+        },
+        "MaskTexture": {
+          "ID": "9360a5c4-0577-4350-b961-4b4ca26c057b",
+          "Data": null
+        },
+        "MaskScale": {
+          "ID": "2d0095a1-f49d-4b9e-b7d8-d438d1422542",
+          "Data": [1, 1]
+        },
+        "MaskOffset": {
+          "ID": "ccc54205-6568-468e-acf0-fa2f4ca8272e",
+          "Data": [0, 0]
+        },
+        "MaskMode": {
+          "ID": "7e385a63-9640-4497-80b3-e92a84410a5e",
+          "Data": "MultiplyAlpha"
+        },
+        "BlendMode": {
+          "ID": "d204d894-67d3-49b3-880c-cc9a4f51e35d",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "574ac404-e55b-4c5d-b4f1-6deb6584d416",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "e4da82c4-9c3e-4af6-b142-2ade2474c87d",
+          "Data": "On"
+        },
+        "ZTest": {
+          "ID": "74be2425-d3de-4495-8ac2-2a5ae87e21d5",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "084ab8ff-8950-4d1d-ab67-2f9964a79f0c",
+          "Data": 0.20000000298023224
+        },
+        "OffsetUnits": {
+          "ID": "15b0747e-eb7b-4b4a-b8ae-5223ef815366",
+          "Data": 20
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.UI_TextUnlitMaterial",
+      "Data": {
+        "ID": "a69342e4-3ec4-4b02-865b-4b84e5ae89b1",
+        "persistent": {
+          "ID": "d26b4793-273d-4aa8-aa73-9db539e8ae8c",
+          "Data": false
+        },
+        "UpdateOrder": {
+          "ID": "3b01407a-1749-4dff-9150-d8d993b465c7",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "af78624c-2b26-49d9-aa95-da374c70047d",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "f027cd06-3a78-4996-8539-d19bea90eaa9",
+          "Data": false
+        },
+        "_shader-ID": "547de2b7-ce20-43b2-a61a-f18b71ffdf13",
+        "FontAtlas": {
+          "ID": "447c6e88-6ef4-4b7a-bb65-0e1c2f1043fe",
+          "Data": null
+        },
+        "TintColor": {
+          "ID": "85a8cfa4-d33f-4ebe-8c8d-c8fd685eaee9",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "OutlineColor": {
+          "ID": "365cf61e-d0b6-4fea-a1eb-4d01435d22c4",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "BackgroundColor": {
+          "ID": "e4aa5db4-f646-4dd5-95ed-ba10e8f227ba",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "AutoBackgroundColor": {
+          "ID": "25fa10a9-0e78-4e2c-892a-2857075464ae",
+          "Data": true
+        },
+        "GlyphRenderMethod": {
+          "ID": "450c2445-53db-4243-bd2e-1a21511dee84",
+          "Data": "MSDF"
+        },
+        "PixelRange": {
+          "ID": "4130cadd-682e-407b-9e47-063b90067dbf",
+          "Data": 4
+        },
+        "FaceDilate": {
+          "ID": "fe01bc77-63d7-4299-8ba1-b26a203de2cc",
+          "Data": 0
+        },
+        "OutlineThickness": {
+          "ID": "31353ec5-a98f-4c12-805e-4d86d46b6123",
+          "Data": 0
+        },
+        "FaceSoftness": {
+          "ID": "314279e8-7b27-474b-8605-bd8257aac3c1",
+          "Data": 0
+        },
+        "BlendMode": {
+          "ID": "bf1e6c30-a948-4617-bbd7-fa126b34c765",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "81be4b8e-e99b-4429-a790-61c828fb8684",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "ab0fac8b-746b-4d5b-8239-1fed0b882341",
+          "Data": "Auto"
+        },
+        "ZTest": {
+          "ID": "628f1f3d-3e07-4903-9417-90f9397c9b26",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "4b38acc4-3463-42d7-8a6c-25003b496e41",
+          "Data": 0
+        },
+        "OffsetUnits": {
+          "ID": "2a8a626f-f2eb-4cf9-8c27-daac0fc20634",
+          "Data": 0
+        },
+        "RenderQueue": {
+          "ID": "e10f9532-f414-450e-8f34-515555226f86",
+          "Data": -1
+        },
+        "Overlay": {
+          "ID": "38647d1c-e9e7-4195-bf93-3e079eeb7d3b",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "48d9a05e-35f3-4442-96cd-2c7f220f940c",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "Rect": {
+          "ID": "316df559-a2d9-44f9-848f-76dc13cee97a",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "831fdbf2-1bbf-4393-abb8-c8f5d6f89603",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "efba9700-da4c-42bc-af1f-4eac69e6b0bd",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "a6c1461c-8563-4199-ad65-2ca96317e33e",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "dd979d0a-6426-4557-9fce-95f38c210f49",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "a8d54396-64b8-4a03-a616-e14988c2eb63",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "b9c2db69-78b8-41e7-bdcc-d0b472fa144f",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "c2fea2ad-5c0e-411f-8ca0-d3b45e56a247",
+          "Data": 255
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.FontChain",
+      "Data": {
+        "ID": "c507c9d4-2f88-4915-914e-2ad1c333476d",
+        "persistent": {
+          "ID": "b3e6b540-b8f8-4cca-94b3-c3f2d753b799",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "05bcdd4e-0c64-4765-a88a-04ce20d3e9e4",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "6c84ab73-4800-4c14-8c67-64a56ef0700e",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "4642683b-4ab8-481a-8083-94099ca61cbd",
+          "Data": false
+        },
+        "MainFont": {
+          "ID": "ee032e1c-73e0-4624-91f0-01fa7609462a",
+          "Data": "bbfadb6e-cde0-4e4c-983a-319f5160ba39"
+        },
+        "FallbackFonts": {
+          "ID": "eff4b1a4-347c-43c6-9d76-cd83315e546d",
+          "Data": [
+            {
+              "ID": "9d4c69bb-4151-4372-bf7b-e2b7c083394c",
+              "Data": "bf3d041e-cfdd-4adf-ace0-b26ec5dde0be"
+            },
+            {
+              "ID": "3dead5eb-a7b5-4304-aff8-185dcb5f9240",
+              "Data": "40be4aad-3a98-41bc-8920-7f1ef3425768"
+            },
+            {
+              "ID": "19900976-6b9c-4019-b330-9660d5983ce2",
+              "Data": "29d8a8f8-a2f1-4bad-8b40-fb0fc0be1406"
+            },
+            {
+              "ID": "8c2bffbe-8e9d-4030-9e66-6e2a1ab232c1",
+              "Data": "76a3fcfa-ab92-4436-9f08-8be1b1f11999"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "bbfadb6e-cde0-4e4c-983a-319f5160ba39",
+        "persistent": {
+          "ID": "8e7d9ef5-27c4-4982-afc5-ba5265e42eff",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "44632769-047d-4bb7-8ccf-f9f0e9d99fdd",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "60fb108c-b156-4591-bfbc-5e5cd1941a31",
+          "Data": true
+        },
+        "URL": {
+          "ID": "f9728cce-34b0-4aab-8b24-e364c75fff2e",
+          "Data": "@resdb:///c801b8d2522fb554678f17f4597158b1af3f9be3abd6ce35d5a3112a81e2bf39"
+        },
+        "Padding": {
+          "ID": "913359bd-d825-483e-afa4-cdfbc336da6e",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "64911c40-1ccc-446e-9299-7d3c8e5995b6",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "96efa277-7986-41f3-8a16-9cc684467ad8",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "3325fcf6-ed3d-42c5-bc1e-0d4a4de9b729",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "5c7762ce-34d9-47d2-955d-9dd45bd84f11",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "554506e5-eed3-48d0-8a8e-b52e3f7558d0",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "bf3d041e-cfdd-4adf-ace0-b26ec5dde0be",
+        "persistent": {
+          "ID": "fa5512dc-5fab-4f1a-a7ff-bcc372669766",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "deb2ae5b-e6e9-45d7-acb0-4373c99591a8",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "2e62fbfe-4953-442d-a9fa-c8ace4e864b1",
+          "Data": true
+        },
+        "URL": {
+          "ID": "e329de8a-f89b-4455-8213-b9a16447d922",
+          "Data": "@resdb:///4cac521169034ddd416c6deffe2eb16234863761837df677a910697ec5babd25"
+        },
+        "Padding": {
+          "ID": "9dc7e584-44a1-4be3-b777-04feefde0042",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "b789a749-fa7c-4cd9-88db-958f6310f9c3",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "35227c50-87b5-4d1f-954b-81484f609275",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "e7255b19-0b79-47c2-860e-474343869649",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "0474ef2f-6037-4c42-a11f-d9d42da156db",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "fa2d24c1-097d-4b1c-b525-74f2c7590c5c",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "40be4aad-3a98-41bc-8920-7f1ef3425768",
+        "persistent": {
+          "ID": "79d67aba-8dc2-4a42-b66d-99845289b867",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "f84b89f5-bbd2-4d43-bbf5-83a99787c23c",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "73988dc8-a9fe-45a3-8e18-9fc9231e4b08",
+          "Data": true
+        },
+        "URL": {
+          "ID": "740cbb7d-ec6e-44be-9d92-d19a87e0a774",
+          "Data": "@resdb:///23e7ad7cb0a5a4cf75e07c9e0848b1eb06bba15e8fa9b8cb0579fc823c532927"
+        },
+        "Padding": {
+          "ID": "e93f49ea-520d-4910-8781-7929f6c24947",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "b28ca43f-1dbd-4eb2-afe8-8fd76489cfb5",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "efc802bc-42f0-43c4-bc8c-0e260e458154",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "9437069e-68d3-4b2b-aa32-c119b7bbc94a",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "73124ea7-0fd4-4028-9b81-4de0a4bb4407",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "6c89ed3f-53cc-4909-90b9-0e0f0cc27278",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "29d8a8f8-a2f1-4bad-8b40-fb0fc0be1406",
+        "persistent": {
+          "ID": "1a561e23-b9e3-4fa0-a317-c7109ab59204",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "b7662810-e211-4d74-b91b-4cb8e8123698",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "6668e95d-4c63-42f7-8382-0b68c3bd6260",
+          "Data": true
+        },
+        "URL": {
+          "ID": "5e88d432-24f4-44f8-af2e-801a7254ae1c",
+          "Data": "@resdb:///415dc6290378574135b64c808dc640c1df7531973290c4970c51fdeb849cb0c5"
+        },
+        "Padding": {
+          "ID": "24a1b516-96ec-44c1-8ac1-c970522eb078",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "5c8925e5-aa19-43f8-87e2-70a7e3d976ce",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "5d844a16-01b6-481e-ad8c-86311354e69c",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "492af773-337f-4499-a404-04541771e820",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "fb721ea6-566e-4cf6-ad6b-91d5cafda2f1",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "dbbe7431-f282-440e-bee0-bbc2bb0755f2",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticFont",
+      "Data": {
+        "ID": "76a3fcfa-ab92-4436-9f08-8be1b1f11999",
+        "persistent": {
+          "ID": "13573e01-7aac-410d-bb18-c607b608f996",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "556e39df-5740-4282-881f-7c5001587080",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "ccfa4600-4605-4fcb-9f70-100dbd18851f",
+          "Data": true
+        },
+        "URL": {
+          "ID": "f5d1d358-b002-4764-bebb-05fcf65b1367",
+          "Data": "@resdb:///bcda0bcc22bab28ea4fedae800bfbf9ec76d71cc3b9f851779a35b7e438a839d"
+        },
+        "Padding": {
+          "ID": "db65e03c-c27f-4df5-ab12-6e4bedaf28e4",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "ee6a9a89-0fad-41d0-98af-70e6534c1765",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "fc536b8c-321c-4124-a328-e46ad5930906",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "8a95e8b4-b4d2-433b-93c0-a8ed586a82fe",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "f1945648-3318-49e8-8f63-ec273721b999",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "0af260f5-5aff-44ee-9ab1-e4c8c0b3d127",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.UI_TextUnlitMaterial",
+      "Data": {
+        "ID": "e6029292-edda-42ed-a4b9-f0c5f71ad779",
+        "persistent": {
+          "ID": "138301b5-11e3-401f-8007-d9ddc87c60e0",
+          "Data": false
+        },
+        "UpdateOrder": {
+          "ID": "cbd77d05-d54c-47c3-90d9-56c62d480245",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "1a9c2f3b-c241-4808-83a8-e24beea3f581",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "a6124d2e-3e3b-4392-b2e1-855b84bfcf6c",
+          "Data": false
+        },
+        "_shader-ID": "d83088d4-677c-4603-94d9-03d2da02feed",
+        "FontAtlas": {
+          "ID": "09710b6f-e54a-4d11-841b-764ab18cfbab",
+          "Data": null
+        },
+        "TintColor": {
+          "ID": "79ae3cef-dde9-4c29-a284-930887eab601",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "OutlineColor": {
+          "ID": "0a3e0bc6-8b8b-4d68-8295-e019a7f7391d",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "BackgroundColor": {
+          "ID": "e456c797-483a-48d0-be13-20a847821431",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "AutoBackgroundColor": {
+          "ID": "6e12d41b-7ea4-4c4f-a931-8f0b2d5dd1f8",
+          "Data": true
+        },
+        "GlyphRenderMethod": {
+          "ID": "4eccc2f3-5178-4348-b67b-f920769ed8cf",
+          "Data": "MSDF"
+        },
+        "PixelRange": {
+          "ID": "d52a84df-ca2a-4148-85e2-0dd735c43bd0",
+          "Data": 4
+        },
+        "FaceDilate": {
+          "ID": "ef878c3a-d38d-4c22-b13b-950a19db119c",
+          "Data": 0
+        },
+        "OutlineThickness": {
+          "ID": "19f94e2d-69fe-4b93-a263-c58368cb7dae",
+          "Data": 0
+        },
+        "FaceSoftness": {
+          "ID": "98fb2a4f-8bfc-47bd-8447-7172ca68972d",
+          "Data": 0
+        },
+        "BlendMode": {
+          "ID": "d737ed27-b615-442a-bbd1-ba85411bd828",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "98c65426-fa1b-476e-8c76-54d53c96a014",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "dfc7f17f-f68b-415e-b2cf-594e4b158145",
+          "Data": "Auto"
+        },
+        "ZTest": {
+          "ID": "908dd6a0-f463-4d81-b8fe-c44b3ea647fe",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "015ef2e9-1039-44e9-89d5-5ece5294f626",
+          "Data": 0
+        },
+        "OffsetUnits": {
+          "ID": "0cb826ee-fbdb-48ab-be1e-996dcc2fc622",
+          "Data": 0
+        },
+        "RenderQueue": {
+          "ID": "2f9ece3d-f744-40cd-8acb-131290898e4c",
+          "Data": -1
+        },
+        "Overlay": {
+          "ID": "f7d77ae2-5687-459b-aa32-d9ec4db8a790",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "2dd0603c-b29f-4105-8bcf-2a84026a617a",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "Rect": {
+          "ID": "b683d819-0d4a-481a-afd3-9d1e010fa43b",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "c2da34d3-2e3f-41f5-a549-b7ba76be0642",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "b7814957-7545-4550-b79c-c6199fb08b23",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "c6f8359b-06ed-4911-9d7c-7c5f54412700",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "dfd8a145-11e4-4d42-8c8a-ee8cf34eaf79",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "ad518e62-172b-4584-afb8-bacd5ee8c1b7",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "6d21acac-5b11-423f-b5d1-ec3f780a26dc",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "2bbaf44e-ed1a-40d6-aff7-b821bd1b13bd",
+          "Data": 255
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.PBS_DualSidedMetallic",
+      "Data": {
+        "ID": "e9d7cf6e-f629-4568-879f-3d11bb228685",
+        "persistent": {
+          "ID": "8939b405-9731-4b75-86e7-f431634f83a0",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "ecbc7f01-9e1c-403e-afe8-255ab3e630b7",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "0642bddf-29f2-419f-9a34-4627bb3dac6b",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "dcadd60f-ab33-4350-98ef-a870c541a48b",
+          "Data": false
+        },
+        "TextureScale": {
+          "ID": "9c81c648-d7c5-4820-aa09-68afab09a868",
+          "Data": [1, 1]
+        },
+        "TextureOffset": {
+          "ID": "075e6e44-76b3-4576-be25-2bc8218cf51c",
+          "Data": [0, 0]
+        },
+        "AlbedoColor": {
+          "ID": "0fe52d84-3eb8-46c2-ab85-89807b1be458",
+          "Data": [0.5, 0.5, 0.5, 1, "sRGBAlpha"]
+        },
+        "AlbedoTexture": {
+          "ID": "5cf5275a-20ac-4203-a102-f508b009234b",
+          "Data": "49f150ba-38ab-4589-adac-eb1be30236f7"
+        },
+        "EmissiveColor": {
+          "ID": "07ac1f97-445c-4c31-b269-c9d0f78bdb64",
+          "Data": [0.5, 0.5, 0.5, 1, "sRGBAlpha"]
+        },
+        "EmissiveMap": {
+          "ID": "001031da-d476-45e9-9e83-e21ba9053695",
+          "Data": "49f150ba-38ab-4589-adac-eb1be30236f7"
+        },
+        "NormalMap": {
+          "ID": "0e1d6daf-b84d-4863-8efe-e6cf82e176a7",
+          "Data": null
+        },
+        "NormalScale": {
+          "ID": "0925fea2-914d-4404-8840-2a6cc5bce28e",
+          "Data": 1
+        },
+        "OcclusionMap": {
+          "ID": "6f753526-e21b-4be1-94d4-dc37e2441448",
+          "Data": null
+        },
+        "Culling": {
+          "ID": "5171f6de-61f7-4322-99e8-7041caabfc5c",
+          "Data": "Off"
+        },
+        "AlphaHandling": {
+          "ID": "9b46a7af-6f92-428d-a79b-fc3fe185d53f",
+          "Data": "Opaque"
+        },
+        "AlphaClip": {
+          "ID": "39a7141d-225e-4266-8398-a98989d28c2a",
+          "Data": 0
+        },
+        "OffsetFactor": {
+          "ID": "7d3e7c1e-85ec-45d2-9d4f-1fafb29cf852",
+          "Data": 0
+        },
+        "OffsetUnits": {
+          "ID": "e91df263-c678-4b2d-bd90-553b95a7abde",
+          "Data": 0
+        },
+        "RenderQueue": {
+          "ID": "3f9bdd7b-8e65-4670-a86a-b3fb47e4aff6",
+          "Data": -1
+        },
+        "Metallic": {
+          "ID": "a1909f8e-1b32-4f03-bbaa-a01b77cf39dc",
+          "Data": 0.8243125677108765
+        },
+        "Smoothness": {
+          "ID": "8f033345-cbe4-4065-9cac-41d447b8c907",
+          "Data": 0.6039625406265259
+        },
+        "MetallicMap": {
+          "ID": "53980eaf-217f-4fc6-9157-e4e47f5a5e16",
+          "Data": null
+        },
+        "_regular-ID": "a7f64393-9339-4a34-addd-3348788bc4e3",
+        "_transparent-ID": "4d0ab28b-3e0f-4f46-a369-2e2519e17086"
+      }
+    },
+    {
+      "Type": "FrooxEngine.StaticTexture2D",
+      "Data": {
+        "ID": "49f150ba-38ab-4589-adac-eb1be30236f7",
+        "persistent": {
+          "ID": "81ba511d-86a0-4d5d-bf8a-67e228a86915",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "7ee8ee7a-62b3-46f9-b9b1-fa3e23963d3b",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "545492e9-4de4-4da5-b0b9-8e7b2faead4d",
+          "Data": true
+        },
+        "URL": {
+          "ID": "05efa6e1-9d4f-4dce-a419-0a9789ad34a5",
+          "Data": "@resdb:///125b9464e8cddaa2b7790f64451406a3a813eb77431ce502345b600c2e47c939.png"
+        },
+        "FilterMode": {
+          "ID": "756cc444-0174-40e0-90b2-373362df1e7b",
+          "Data": "Anisotropic"
+        },
+        "AnisotropicLevel": {
+          "ID": "9522dd6e-5d11-4e8c-89cb-116865f98ec3",
+          "Data": 8
+        },
+        "Uncompressed": {
+          "ID": "f129f14b-d6c9-4bd4-8765-fb4d8c4a3320",
+          "Data": false
+        },
+        "DirectLoad": {
+          "ID": "ed1a7918-e948-4e1e-8ce0-2622e7202291",
+          "Data": false
+        },
+        "ForceExactVariant": {
+          "ID": "e642f6f5-e926-4c6d-91ae-af605fda8ce4",
+          "Data": false
+        },
+        "PreferredFormat": {
+          "ID": "97071073-29fb-44ea-8c96-36ec51683229",
+          "Data": null
+        },
+        "PreferredProfile": {
+          "ID": "8933534d-52cb-46a8-942f-4b3f22c594c3",
+          "Data": "sRGB"
+        },
+        "MipMapBias": {
+          "ID": "eaf0d6a9-5ae3-4cf5-b458-686565e8d5ac",
+          "Data": 0
+        },
+        "IsNormalMap": {
+          "ID": "5d05dc68-a6a3-4ff2-be04-0c16e0d785f3",
+          "Data": false
+        },
+        "WrapModeU": {
+          "ID": "1659b921-f68e-4a2f-bc3c-541d269b38a2",
+          "Data": "Clamp"
+        },
+        "WrapModeV": {
+          "ID": "b77b7606-5022-4112-a630-a83bcbfbca76",
+          "Data": "Clamp"
+        },
+        "PowerOfTwoAlignThreshold": {
+          "ID": "814ab600-318e-4561-834b-566b04280f5c",
+          "Data": 0.05000000074505806
+        },
+        "CrunchCompressed": {
+          "ID": "9ce5e279-be12-4ae9-bef1-d83cc4b6750a",
+          "Data": true
+        },
+        "MaxSize": {
+          "ID": "d9c62e51-6ccf-4086-bc9c-4bc76a8d0300",
+          "Data": null
+        },
+        "MipMaps": {
+          "ID": "89b3b0a5-172e-4d72-9a05-76d30ad5f23b",
+          "Data": false
+        },
+        "MipMapFilter": {
+          "ID": "45af9891-b651-4e69-bc54-b9f28acbc1bb",
+          "Data": "Box"
+        },
+        "Readable": {
+          "ID": "3e87d7ae-c72c-477d-a472-1d8f63e62272",
+          "Data": false
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.SpriteProvider",
+      "Data": {
+        "ID": "9c8d6c28-98ae-4fbf-915e-1fc601657b7e",
+        "persistent": {
+          "ID": "554eef5b-9714-400e-9212-1b29a12b1a06",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "ff87e036-5590-48e5-af32-46bac500df27",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "0b8de83e-9a9c-421a-afa7-a0e797937263",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "3241da23-97bb-4f38-acbe-8b2d42d520d2",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "421e370d-8885-46d0-b0a4-7e7c0be165d5",
+          "Data": "d4723309-847c-4712-947f-667759b38cae"
+        },
+        "Rect": {
+          "ID": "e9191483-8da6-479c-80df-fa1ac8b45bba",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "22cdaafc-4b9c-40d2-986d-1a982348165d",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "a0dc1117-2b1e-4740-8813-205f50d7a235",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "6ca6820d-2c4e-4d56-ae11-43f153f65954",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.SpriteProvider",
+      "Data": {
+        "ID": "f4bda23d-e95e-4c42-bbe2-ff5e73f4e75c",
+        "persistent": {
+          "ID": "bad30755-81a4-4800-996d-6863bcfb5241",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "87edb60c-9c44-4b59-82ff-c38ab8885aad",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "950ec999-f207-44fa-b32b-a6c0743954d1",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "ef47607c-e979-4b94-be94-e53ba090c142",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "d9f98a0d-52ce-4bde-bbe2-92a2299a2f69",
+          "Data": "2b3b7ce2-8f06-4120-9f37-ce8bfbf5a7d1"
+        },
+        "Rect": {
+          "ID": "3c2a67e0-625a-499b-bd40-06f881180dfc",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "4337c6bf-8de0-4ff0-9eff-45415c1f4db8",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "76cddb81-2719-4068-9b5e-9cf2c8d84def",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "9be6b811-56e4-4469-a354-8aec4d8e2d40",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.SpriteProvider",
+      "Data": {
+        "ID": "54d43438-b993-4e37-aa9e-7e17131e8a2c",
+        "persistent": {
+          "ID": "4b380144-fa96-43c5-a2ca-4b3e13305556",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "8257e432-a975-4568-a951-9752336096bc",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "52c6acfb-2303-4b52-abcd-ff65b3a9e6a0",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "63d9cfb8-e30b-4535-b1b2-6b185ac5280a",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "2297bfd3-37ca-477b-822a-149816569f9f",
+          "Data": "828fd6f2-942b-4972-9eaa-ebb9a2156523"
+        },
+        "Rect": {
+          "ID": "3bb596f3-760d-4132-ba93-8859cc25755a",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "a4f7a000-b9d9-4bfd-b0b5-f23f61d56919",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "f094fafd-da55-41b0-83f8-4082fdbf9eb3",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "b62d4ea8-002f-429f-94dd-9a3bdc579a15",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.SpriteProvider",
+      "Data": {
+        "ID": "54a659a9-d241-4748-9934-0505d37ee0e7",
+        "persistent": {
+          "ID": "d4c7174a-057e-4a76-ae39-732530d66dea",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "67d2f663-9f4c-4876-9576-6b8c18f4896e",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "b7825868-29fa-46cb-b26f-ca3d25208648",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "d853520d-0a78-4536-9c9b-a9115ae1c3f1",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "fa398a05-813b-44fa-89d2-b91fd8b6c6b2",
+          "Data": "31ae7139-7991-40c6-b0bd-4e0a9f444d98"
+        },
+        "Rect": {
+          "ID": "f5296359-339f-4aee-a005-7b97874c98e4",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "e479d702-ae12-45b1-bf75-337f178e23b9",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "00bc380e-6d01-4cee-af47-3b093a67b3e5",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "f630f029-8915-4b55-81a3-8aca644ceeec",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": "FrooxEngine.FontChain",
+      "Data": {
+        "ID": "5125f5af-d2d0-42a9-b2f1-ea68b4720e00",
+        "persistent": {
+          "ID": "dba7d02e-e67f-482f-aa54-5a7ee4dc109d",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "f3b55607-aa4e-47f1-9719-0afbd256c71d",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "b329ad7b-a2e7-420b-b2e0-eada4164517b",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "7e989745-c381-4e90-8caf-8703315a75f7",
+          "Data": false
+        },
+        "MainFont": {
+          "ID": "6558f4f6-8d10-4bae-94a2-c06c48f1c5d1",
+          "Data": "1d944075-8723-4776-b75b-e7a337eb22bd"
+        },
+        "FallbackFonts": {
+          "ID": "79819d9e-7d86-4306-8f28-63c6823811c0",
+          "Data": [
+            {
+              "ID": "d4c7de63-a4cb-4065-bcc8-4b80e79e6aeb",
+              "Data": "bc10e7b6-61e5-4d06-bea1-c2985542ff41"
+            },
+            {
+              "ID": "c23e60f2-fa31-4bc3-b8c6-899f9a5eab1a",
+              "Data": "ad7509b0-3dfc-4244-9bf7-df479ee390d8"
+            },
+            {
+              "ID": "c8004f4f-2c91-40ec-b686-aa1b8f40d8ef",
+              "Data": "c39b5a7f-7c73-420f-825f-51e7daaf381b"
+            },
+            {
+              "ID": "d8c62cc2-db32-4821-b92f-77840409733c",
+              "Data": "7bc53985-afec-47bc-af81-df5cd2ea0ab9"
+            },
+            {
+              "ID": "567ea043-43f4-4775-bb93-fafdb7f253d5",
+              "Data": "72f905f1-9868-4f65-8b04-88b8bf6f7b80"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "TypeVersions": {
+    "FrooxEngine.InventoryItem": 1,
+    "FrooxEngine.Grabbable": 2,
+    "FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueEquals`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]": 1,
+    "FrooxEngine.UIX.Canvas": 2,
+    "FrooxEngine.UIX.RectTransform": 1,
+    "FrooxEngine.BoxCollider": 1,
+    "FrooxEngine.UIX.Image": 1,
+    "FrooxEngine.UIX.Text": 1,
+    "FrooxEngine.UI_UnlitMaterial": 2,
+    "FrooxEngine.UIX.ScrollRect": 1,
+    "FrooxEngine.UIX.TextField": 1,
+    "FrooxEngine.MeshCollider": 2,
+    "FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueEquals`1[[System.Net.HttpStatusCode, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]": 1,
+    "FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueEquals`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]": 1
+  }
+}

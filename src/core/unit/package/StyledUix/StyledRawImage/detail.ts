@@ -13,6 +13,7 @@ const detail = {
     preserveAspect: UnitProp.Boolean(false),
     interactionTarget: UnitProp.Boolean(true),
     tint: UnitProp.Color([1, 1, 1, 1]),
+    styledMaterial: UnitProp.String(""),
   },
   children: "multi" as const,
 };

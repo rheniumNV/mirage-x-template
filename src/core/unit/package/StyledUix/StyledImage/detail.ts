@@ -14,6 +14,7 @@ const detail = {
     styledMaterial: UnitProp.String(""),
     defaultColor: UnitProp.Color([1, 1, 1, 1]),
     nineSliceSizing: UnitProp.EnumNineSliceSizing("TextureSize"),
+    preserveAspect: UnitProp.Boolean(true),
   },
   children: "multi" as const,
 };

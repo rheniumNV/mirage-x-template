@@ -2547,7 +2547,7 @@ Children:
                       Data: State.Load.LatestVersion
                     Value:
                       ID: "?"
-                      Data: "1702093853267"
+                      Data: "1702243081602"
                     OverrideOnLink:
                       ID: "?"
                       Data: false
@@ -3721,7 +3721,7 @@ Children:
                   Data: Env.Version.Current
                 Value:
                   ID: "?"
-                  Data: "1702093853267"
+                  Data: "1702243081602"
                 OverrideOnLink:
                   ID: "?"
                   Data: false
@@ -10172,7 +10172,7 @@ Children:
                             Value:
                               ID: ID:Value
                                 Register<String>:Components:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DataModelObjectFieldStore`1+Store[System.String]:Value:0
-                              Data: l$#6$#v$#k0$#type$#v0$#sync$#t0$#string$#k1$#data.type$#v1$#updateProp$#t1$#string$#k2$#data.unit.id$#v2$#10e24363-7902-4df3-b64a-f862c271d17e$#t2$#string$#k3$#data.unit.prop.key$#v3$#content$#t3$#string$#k4$#data.unit.prop.type$#v4$#String$#t4$#string$#k5$#data.unit.prop.value$#v5$#101$#t5$#string$#
+                              Data: l$#6$#v$#k0$#type$#v0$#sync$#t0$#string$#k1$#data.type$#v1$#updateProp$#t1$#string$#k2$#data.unit.id$#v2$#82582f02-f12c-435e-ae7e-840bc8e41ec8$#t2$#string$#k3$#data.unit.prop.key$#v3$#content$#t3$#string$#k4$#data.unit.prop.type$#v4$#String$#t4$#string$#k5$#data.unit.prop.value$#v5$#15$#t5$#string$#
                     Children: []
                   - Name:
                       ID: "?"
@@ -24482,7 +24482,7 @@ Children:
                             Target:
                               ID: ID:Localized Reference
                                 Register<Slot>:Components:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DataModelObjectRefStore`1+Store[FrooxEngine.Slot]:Target:0
-                              Data: null
+                              Data: "?"
                         - Type: FrooxEngine.ReferenceCopy`1[FrooxEngine.Slot]
                           Data:
                             ID: "?"
@@ -37045,7 +37045,7 @@ Children:
           Data: NotConnectedVisual
         Active:
           ID: ID:NotConnectedVisual:Tag:1
-          Data: true
+          Data: false
         ID: "?"
         Persistent-Id: "?"
         Position:
@@ -37768,7 +37768,7 @@ Children:
                                       Data: true
                                     Font:
                                       ID: "?"
-                                      Data: ID:Assets:FrooxEngine.FontChain:ID:0
+                                      Data: ID:Assets:FrooxEngine.FontChain:ID:1
                                     Content:
                                       ID: ID:Text:Components:FrooxEngine.UIX.Text:Content:0
                                       Data: アップデートがあります！
@@ -37802,7 +37802,7 @@ Children:
                                       ID: "?"
                                       Data:
                                         - ID: "?"
-                                          Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:0
+                                          Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:1
                                     LineHeight:
                                       ID: "?"
                                       Data: 266.6666666666667
@@ -38944,7 +38944,7 @@ Children:
                                                       Data: true
                                                     Font:
                                                       ID: "?"
-                                                      Data: ID:Assets:FrooxEngine.FontChain:ID:0
+                                                      Data: ID:Assets:FrooxEngine.FontChain:ID:1
                                                     Content:
                                                       ID: ID:Text:Components:FrooxEngine.UIX.Text:Content:1
                                                       Data: アップデート
@@ -38978,7 +38978,7 @@ Children:
                                                       ID: "?"
                                                       Data:
                                                         - ID: "?"
-                                                          Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:1
+                                                          Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:2
                                                     LineHeight:
                                                       ID: "?"
                                                       Data: 266.6666666666667
@@ -40265,7 +40265,7 @@ Children:
                                                   Data: true
                                                 Font:
                                                   ID: "?"
-                                                  Data: ID:Assets:FrooxEngine.FontChain:ID:0
+                                                  Data: ID:Assets:FrooxEngine.FontChain:ID:1
                                                 Content:
                                                   ID: ID:Text:Components:FrooxEngine.UIX.Text:Content:2
                                                   Data: 開始
@@ -40299,7 +40299,7 @@ Children:
                                                   ID: "?"
                                                   Data:
                                                     - ID: "?"
-                                                      Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:1
+                                                      Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:2
                                                 LineHeight:
                                                   ID: "?"
                                                   Data: 266.6666666666667
@@ -40948,7 +40948,7 @@ Children:
                                       Data: true
                                     Font:
                                       ID: "?"
-                                      Data: ID:Assets:FrooxEngine.FontChain:ID:0
+                                      Data: ID:Assets:FrooxEngine.FontChain:ID:1
                                     Content:
                                       ID: ID:Text:Components:FrooxEngine.UIX.Text:Content:3
                                       Data: 読み込み中
@@ -40982,7 +40982,7 @@ Children:
                                       ID: "?"
                                       Data:
                                         - ID: "?"
-                                          Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:0
+                                          Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:1
                                     LineHeight:
                                       ID: "?"
                                       Data: 266.6666666666667
@@ -49358,6 +49358,25 @@ Children:
                                 OverrideOnLink:
                                   ID: "?"
                                   Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.preserveAspect
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Image:PreserveAspect:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
                         Children: []
                       - Name:
                           ID: "?"
@@ -49412,7 +49431,7 @@ Children:
                                   ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:Material:0
                                   Data: null
                                 PreserveAspect:
-                                  ID: "?"
+                                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:PreserveAspect:0
                                   Data: true
                                 NineSliceSizing:
                                   ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:NineSliceSizing:0
@@ -50232,6 +50251,25 @@ Children:
                                 OverrideOnLink:
                                   ID: "?"
                                   Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.preserveAspect
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:StyledImage:Components:FrooxEngine.UIX.Image:PreserveAspect:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
                         Children: []
                       - Name:
                           ID: "?"
@@ -50286,7 +50324,7 @@ Children:
                                   ID: ID:StyledImage:Components:FrooxEngine.UIX.Image:Material:0
                                   Data: null
                                 PreserveAspect:
-                                  ID: "?"
+                                  ID: ID:StyledImage:Components:FrooxEngine.UIX.Image:PreserveAspect:0
                                   Data: true
                                 NineSliceSizing:
                                   ID: ID:StyledImage:Components:FrooxEngine.UIX.Image:NineSliceSizing:0
@@ -50735,6 +50773,25 @@ Children:
                                 OverrideOnLink:
                                   ID: "?"
                                   Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.preserveAspect
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:StyledMask:Components:FrooxEngine.UIX.Image:PreserveAspect:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
                         Children: []
                       - Name:
                           ID: "?"
@@ -50789,7 +50846,7 @@ Children:
                                   ID: "?"
                                   Data: null
                                 PreserveAspect:
-                                  ID: "?"
+                                  ID: ID:StyledMask:Components:FrooxEngine.UIX.Image:PreserveAspect:0
                                   Data: true
                                 NineSliceSizing:
                                   ID: "?"
@@ -51259,6 +51316,27 @@ Children:
                                 OverrideOnLink:
                                   ID: "?"
                                   Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.String]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.styledMaterial
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:StyledRawImage:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
+                                    FrooxEngine, 5, Culture=neutral,
+                                    PublicKeyToken=null]]:VariableName:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
                         Children: []
                       - Name:
                           ID: "?"
@@ -51310,7 +51388,7 @@ Children:
                                   ID: "?"
                                   Data: ID:StyledRawImage:Components:FrooxEngine.StaticTexture2D:0
                                 Material:
-                                  ID: "?"
+                                  ID: ID:StyledRawImage:Components:FrooxEngine.UIX.RawImage:Material:0
                                   Data: null
                                 Tint:
                                   ID: ID:StyledRawImage:Components:FrooxEngine.UIX.RawImage:Tint:0
@@ -51404,7 +51482,7 @@ Children:
                                   Data: null
                                 PreferredProfile:
                                   ID: "?"
-                                  Data: null
+                                  Data: sRGB
                                 MipMapBias:
                                   ID: "?"
                                   Data: 0
@@ -51435,6 +51513,29 @@ Children:
                                 Readable:
                                   ID: "?"
                                   Data: false
+                            - Type: FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
+                                FrooxEngine, 5, Culture=neutral,
+                                PublicKeyToken=null]]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: ID:StyledRawImage:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
+                                    FrooxEngine, 5, Culture=neutral,
+                                    PublicKeyToken=null]]:VariableName:0
+                                  Data: ""
+                                Target:
+                                  ID: "?"
+                                  Data: ID:StyledRawImage:Components:FrooxEngine.UIX.RawImage:Material:0
+                                DefaultTarget:
+                                  ID: "?"
+                                  Data: null
                         Children: []
               - Name:
                   ID: "?"
@@ -52039,7 +52140,7 @@ Children:
                                     NormalizedPosition:
                                       ID: ID:VerticalLayout:Components:FrooxEngine.UIX.ScrollRect:NormalizedPosition:0
                                       Data:
-                                        - 0
+                                        - 333.3333333333333
                                         - 0
                                     HorizontalAlign:
                                       ID: "?"
@@ -52755,7 +52856,7 @@ Children:
                                   Data: true
                                 Font:
                                   ID: ID:StyledText:Components:FrooxEngine.UIX.Text:Font:0
-                                  Data: ID:Assets:FrooxEngine.FontChain:ID:1
+                                  Data: ID:Assets:FrooxEngine.FontChain:ID:0
                                 Content:
                                   ID: ID:StyledText:Components:FrooxEngine.UIX.Text:Content:0
                                   Data: ""
@@ -52789,7 +52890,7 @@ Children:
                                   ID: "?"
                                   Data:
                                     - ID: ID:StyledText:Components:FrooxEngine.UIX.Text:Materials.0.ID:0
-                                      Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:2
+                                      Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:0
                                 LineHeight:
                                   ID: ID:StyledText:Components:FrooxEngine.UIX.Text:LineHeight:0
                                   Data: 266.6666666666667
@@ -52916,7 +53017,7 @@ Children:
                                   Data: ID:StyledText:Components:FrooxEngine.UIX.Text:Materials.0.ID:0
                                 DefaultTarget:
                                   ID: "?"
-                                  Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:2
+                                  Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:0
                             - Type: FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
                                 FrooxEngine, 5, Culture=neutral,
                                 PublicKeyToken=null]]
@@ -52939,7 +53040,7 @@ Children:
                                   Data: ID:StyledText:Components:FrooxEngine.UIX.Text:Font:0
                                 DefaultTarget:
                                   ID: "?"
-                                  Data: ID:Assets:FrooxEngine.FontChain:ID:1
+                                  Data: ID:Assets:FrooxEngine.FontChain:ID:0
                         Children: []
               - Name:
                   ID: "?"
@@ -56042,6 +56143,1258 @@ Children:
                                   ID: "?"
                                   Data: null
                         Children: []
+          - Name:
+              ID: "?"
+              Data: AdvancedUix
+            Active:
+              ID: "?"
+              Data: true
+            ID: "?"
+            Persistent-Id: "?"
+            Position:
+              ID: "?"
+              Data:
+                - 0
+                - 0
+                - 0
+            Rotation:
+              ID: "?"
+              Data:
+                - 0
+                - 0
+                - 0
+                - 111111
+            Scale:
+              ID: "?"
+              Data:
+                - 111111
+                - 111111
+                - 111111
+            Tag:
+              ID: "?"
+              Data: ""
+            OrderOffset:
+              ID: "?"
+              Data: 0
+            Components:
+              ID: "?"
+              Data: []
+            Children:
+              - Name:
+                  ID: "?"
+                  Data: AdvancedUix/HyperLinkButton
+                Active:
+                  ID: "?"
+                  Data: true
+                ID: "?"
+                Persistent-Id: "?"
+                Position:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                    - 0
+                Rotation:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                    - 0
+                    - 111111
+                Scale:
+                  ID: "?"
+                  Data:
+                    - 111111
+                    - 111111
+                    - 111111
+                Tag:
+                  ID: "?"
+                  Data: ""
+                OrderOffset:
+                  ID: "?"
+                  Data: 0
+                Components:
+                  ID: "?"
+                  Data:
+                    - Type: FrooxEngine.DynamicVariableSpace
+                      Data:
+                        ID: "?"
+                        persistent-ID: "?"
+                        UpdateOrder:
+                          ID: "?"
+                          Data: 0
+                        Enabled:
+                          ID: "?"
+                          Data: true
+                        SpaceName:
+                          ID: "?"
+                          Data: ""
+                        OnlyDirectBinding:
+                          ID: "?"
+                          Data: false
+                Children:
+                  - Name:
+                      ID: "?"
+                      Data: DV
+                    Active:
+                      ID: "?"
+                      Data: true
+                    ID: "?"
+                    Persistent-Id: "?"
+                    Position:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                        - 0
+                    Rotation:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                        - 0
+                        - 111111
+                    Scale:
+                      ID: "?"
+                      Data:
+                        - 111111
+                        - 111111
+                        - 111111
+                    Tag:
+                      ID: "?"
+                      Data: ""
+                    OrderOffset:
+                      ID: "?"
+                      Data: 0
+                    Components:
+                      ID: "?"
+                      Data:
+                        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+                          Data:
+                            ID: "?"
+                            persistent-ID: "?"
+                            UpdateOrder:
+                              ID: "?"
+                              Data: 0
+                            Enabled:
+                              ID: "?"
+                              Data: true
+                            VariableName:
+                              ID: "?"
+                              Data: Static.Ref
+                            Reference:
+                              ID: "?"
+                              Data: ID:Ref:31
+                            OverrideOnLink:
+                              ID: "?"
+                              Data: false
+                    Children: []
+                  - Name:
+                      ID: "?"
+                      Data: Ref
+                    Active:
+                      ID: "?"
+                      Data: true
+                    ID: ID:Ref:31
+                    Persistent-Id: "?"
+                    Position:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                        - 0
+                    Rotation:
+                      ID: "?"
+                      Data:
+                        - 0
+                        - 0
+                        - 0
+                        - 111111
+                    Scale:
+                      ID: "?"
+                      Data:
+                        - 111111
+                        - 111111
+                        - 111111
+                    Tag:
+                      ID: "?"
+                      Data: ""
+                    OrderOffset:
+                      ID: "?"
+                      Data: 0
+                    Components:
+                      ID: "?"
+                      Data:
+                        - Type: FrooxEngine.DynamicVariableSpace
+                          Data:
+                            ID: "?"
+                            persistent-ID: "?"
+                            UpdateOrder:
+                              ID: "?"
+                              Data: 0
+                            Enabled:
+                              ID: "?"
+                              Data: true
+                            SpaceName:
+                              ID: "?"
+                              Data: ""
+                            OnlyDirectBinding:
+                              ID: "?"
+                              Data: false
+                    Children:
+                      - Name:
+                          ID: "?"
+                          Data: DV/Static
+                        Active:
+                          ID: "?"
+                          Data: true
+                        ID: "?"
+                        Persistent-Id: "?"
+                        Position:
+                          ID: "?"
+                          Data:
+                            - 0
+                            - 0
+                            - 0
+                        Rotation:
+                          ID: "?"
+                          Data:
+                            - 0
+                            - 0
+                            - 0
+                            - 111111
+                        Scale:
+                          ID: "?"
+                          Data:
+                            - 111111
+                            - 111111
+                            - 111111
+                        Tag:
+                          ID: "?"
+                          Data: ""
+                        OrderOffset:
+                          ID: "?"
+                          Data: 0
+                        Components:
+                          ID: "?"
+                          Data:
+                            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Static.Root
+                                Reference:
+                                  ID: "?"
+                                  Data: ID:Ref:31
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Static.Main
+                                Reference:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Static.ChildrenParent
+                                Reference:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                        Children: []
+                      - Name:
+                          ID: "?"
+                          Data: DV/Props
+                        Active:
+                          ID: "?"
+                          Data: true
+                        ID: "?"
+                        Persistent-Id: "?"
+                        Position:
+                          ID: "?"
+                          Data:
+                            - 0
+                            - 0
+                            - 0
+                        Rotation:
+                          ID: "?"
+                          Data:
+                            - 0
+                            - 0
+                            - 0
+                            - 111111
+                        Scale:
+                          ID: "?"
+                          Data:
+                            - 111111
+                            - 111111
+                            - 111111
+                        Tag:
+                          ID: "?"
+                          Data: ""
+                        OrderOffset:
+                          ID: "?"
+                          Data: 0
+                        Components:
+                          ID: "?"
+                          Data:
+                            - Type: FrooxEngine.DynamicField`1[System.Uri]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.urlEn
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.Uri]:Values.0.ID:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.Uri]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.urlJa
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.Uri]:Values.1.ID:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.Uri]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.urlKo
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.Uri]:Values.2.ID:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.String]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.reasonEn
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.String]:Values.0.ID:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.String]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.reasonJa
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.String]:Values.1.ID:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.String]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.reasonKo
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.String]:Values.2.ID:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.String]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.styledSprite
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
+                                    FrooxEngine, 5, Culture=neutral,
+                                    PublicKeyToken=null]]:VariableName:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.String]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.styledColor
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.String]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.styledMaterial
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
+                                    FrooxEngine, 5, Culture=neutral,
+                                    PublicKeyToken=null]]:VariableName:1
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[FrooxEngine.UIX.InteractionElement+ColorMode]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.tintColorMode
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.TintColorMode.ID:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.String]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.styledNormalColor
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:1
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.String]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.styledHighlightColor
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:4
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.String]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.styledPressColor
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:3
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.String]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.styledDisableColor
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:2
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.String]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.onClick
+                                TargetField:
+                                  ID: "?"
+                                  Data: "?"
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.requireLockInToPress
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.UIX.Button:RequireLockInToPress:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[FrooxEngine.UIX.NineSliceSizing]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.nineSliceSizing
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.UIX.Image:NineSliceSizing:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Props.preserveAspect
+                                TargetField:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.UIX.Image:PreserveAspect:0
+                                OverrideOnLink:
+                                  ID: "?"
+                                  Data: false
+                        Children: []
+                      - Name:
+                          ID: "?"
+                          Data: HyperLinkButton
+                        Active:
+                          ID: "?"
+                          Data: true
+                        ID: ID:HyperLinkButton:0
+                        Persistent-Id: "?"
+                        Position:
+                          ID: "?"
+                          Data:
+                            - 0
+                            - 0
+                            - 0
+                        Rotation:
+                          ID: "?"
+                          Data:
+                            - 0
+                            - 0
+                            - 0
+                            - 111111
+                        Scale:
+                          ID: "?"
+                          Data:
+                            - 111111
+                            - 111111
+                            - 111111
+                        Tag:
+                          ID: "?"
+                          Data: null
+                        OrderOffset:
+                          ID: "?"
+                          Data: 0
+                        Components:
+                          ID: "?"
+                          Data:
+                            - Type: FrooxEngine.UIX.Image
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                Sprite:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.UIX.Image:Sprite:0
+                                  Data: null
+                                Material:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.UIX.Image:Material:0
+                                  Data: null
+                                PreserveAspect:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.UIX.Image:PreserveAspect:0
+                                  Data: true
+                                NineSliceSizing:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.UIX.Image:NineSliceSizing:0
+                                  Data: TextureSize
+                                FlipHorizontally:
+                                  ID: "?"
+                                  Data: false
+                                FlipVertically:
+                                  ID: "?"
+                                  Data: false
+                                InteractionTarget:
+                                  ID: "?"
+                                  Data: true
+                                FillRect:
+                                  ID: "?"
+                                  Data:
+                                    X: 0
+                                    Y: 0
+                                    Width: 333.3333333333333
+                                    Height: 333.3333333333333
+                                __legacyZWrite-ID: "?"
+                                Tint:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.UIX.Image:Tint:0
+                                  Data:
+                                    - 333.3333333333333
+                                    - 333.3333333333333
+                                    - 333.3333333333333
+                                    - 333.3333333333333
+                                    - Linear
+                            - Type: FrooxEngine.UIX.RectTransform
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                AnchorMin:
+                                  ID: "?"
+                                  Data:
+                                    - 0
+                                    - 0
+                                AnchorMax:
+                                  ID: "?"
+                                  Data:
+                                    - 333.3333333333333
+                                    - 333.3333333333333
+                                OffsetMin:
+                                  ID: "?"
+                                  Data:
+                                    - 0
+                                    - 0
+                                OffsetMax:
+                                  ID: "?"
+                                  Data:
+                                    - 0
+                                    - 0
+                                Pivot:
+                                  ID: "?"
+                                  Data:
+                                    - 166.66666666666666
+                                    - 166.66666666666666
+                            - Type: FrooxEngine.UIX.Button
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                BaseColor:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.UIX.Button:BaseColor:0
+                                  Data:
+                                    - 333.3333333333333
+                                    - 333.3333333333333
+                                    - 333.3333333333333
+                                    - 333.3333333333333
+                                    - Linear
+                                ColorDrivers:
+                                  ID: "?"
+                                  Data:
+                                    - ID: "?"
+                                      ColorDrive:
+                                        ID: "?"
+                                        Data: ID:HyperLinkButton:Components:FrooxEngine.UIX.Image:Tint:0
+                                      TintColorMode:
+                                        ID: ID:HyperLinkButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.TintColorMode.ID:0
+                                        Data: Explicit
+                                      NormalColor:
+                                        ID: ID:HyperLinkButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.NormalColor.ID:0
+                                        Data:
+                                          - 333.3333333333333
+                                          - 333.3333333333333
+                                          - 333.3333333333333
+                                          - 333.3333333333333
+                                          - sRGBAlpha
+                                      HighlightColor:
+                                        ID: ID:HyperLinkButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.HighlightColor.ID:0
+                                        Data:
+                                          - 250
+                                          - 250
+                                          - 250
+                                          - 333.3333333333333
+                                          - sRGBAlpha
+                                      PressColor:
+                                        ID: ID:HyperLinkButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.PressColor.ID:0
+                                        Data:
+                                          - 166.66666666666666
+                                          - 166.66666666666666
+                                          - 166.66666666666666
+                                          - 333.3333333333333
+                                          - sRGBAlpha
+                                      DisabledColor:
+                                        ID: ID:HyperLinkButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.DisabledColor.ID:0
+                                        Data:
+                                          - 216.66666666666666
+                                          - 216.66666666666666
+                                          - 216.66666666666666
+                                          - 333.3333333333333
+                                          - sRGBAlpha
+                                __legacy_NormalColor-ID: "?"
+                                __legacy_HighlightColor-ID: "?"
+                                __legacy_PressColor-ID: "?"
+                                __legacy_DisabledColor-ID: "?"
+                                __legacy_TintColorMode-ID: "?"
+                                __legacy_ColorDrive-ID: "?"
+                                IsPressed:
+                                  ID: "?"
+                                  Data: false
+                                IsHovering:
+                                  ID: "?"
+                                  Data: false
+                                HoverVibrate:
+                                  ID: "?"
+                                  Data: Short
+                                PressVibrate:
+                                  ID: "?"
+                                  Data: Medium
+                                ClearFocusOnPress:
+                                  ID: "?"
+                                  Data: true
+                                PassThroughHorizontalMovement:
+                                  ID: "?"
+                                  Data: true
+                                PassThroughVerticalMovement:
+                                  ID: "?"
+                                  Data: true
+                                RequireLockInToPress:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.UIX.Button:RequireLockInToPress:0
+                                  Data: false
+                                RequireInitialPress:
+                                  ID: "?"
+                                  Data: true
+                                PressPoint:
+                                  ID: "?"
+                                  Data:
+                                    - 0
+                                    - 0
+                                SendSlotEvents:
+                                  ID: "?"
+                                  Data: true
+                                Pressed:
+                                  ID: "?"
+                                  Data:
+                                    Target: null
+                                Pressing:
+                                  ID: "?"
+                                  Data:
+                                    Target: null
+                                Released:
+                                  ID: "?"
+                                  Data:
+                                    Target: null
+                                HoverEnter:
+                                  ID: "?"
+                                  Data:
+                                    Target: null
+                                HoverStay:
+                                  ID: "?"
+                                  Data:
+                                    Target: null
+                                HoverLeave:
+                                  ID: "?"
+                                  Data:
+                                    Target: null
+                            - Type: FrooxEngine.ButtonDynamicImpulseTriggerWithValue`1[System.String]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                Target:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.ButtonDynamicImpulseTriggerWithValue`1[System.String]:Target:0
+                                  Data: ID:Func.EmitInteractionEvent:0
+                                ExcludeDisabled:
+                                  ID: "?"
+                                  Data: false
+                                PressedData:
+                                  ID: "?"
+                                  Data: {}
+                                PressingData:
+                                  ID: "?"
+                                  Data: {}
+                                ReleasedData:
+                                  ID: "?"
+                                  Data: {}
+                                HoverEnterData:
+                                  ID: "?"
+                                  Data: {}
+                                HoverStayData:
+                                  ID: "?"
+                                  Data: {}
+                                HoverLeaveData:
+                                  ID: "?"
+                                  Data: {}
+                            - Type: FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.Slot]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: AppRoot/Static.System.Func.EmitInteractionEvent
+                                Target:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.ButtonDynamicImpulseTriggerWithValue`1[System.String]:Target:0
+                                DefaultTarget:
+                                  ID: "?"
+                                  Data: null
+                            - Type: FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:0
+                                  Data: ""
+                                Target:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.UIX.Button:BaseColor:0
+                                DefaultValue:
+                                  ID: "?"
+                                  Data:
+                                    - 333.3333333333333
+                                    - 333.3333333333333
+                                    - 333.3333333333333
+                                    - 333.3333333333333
+                                    - Linear
+                            - Type: FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
+                                FrooxEngine, 5, Culture=neutral,
+                                PublicKeyToken=null]]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
+                                    FrooxEngine, 5, Culture=neutral,
+                                    PublicKeyToken=null]]:VariableName:0
+                                  Data: ""
+                                Target:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.UIX.Image:Sprite:0
+                                DefaultTarget:
+                                  ID: "?"
+                                  Data: null
+                            - Type: FrooxEngine.Hyperlink
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                URL:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.Hyperlink:URL:0
+                                  Data: null
+                                OpenOnce:
+                                  ID: "?"
+                                  Data: true
+                                Reason:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.Hyperlink:Reason:0
+                                  Data: ""
+                            - Type: FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
+                                FrooxEngine, 5, Culture=neutral,
+                                PublicKeyToken=null]]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
+                                    FrooxEngine, 5, Culture=neutral,
+                                    PublicKeyToken=null]]:VariableName:1
+                                  Data: ""
+                                Target:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.UIX.Image:Material:0
+                                DefaultTarget:
+                                  ID: "?"
+                                  Data: null
+                            - Type: FrooxEngine.DynamicValueVariableDriver`1[System.Int32]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Locale/Local
+                                Target:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.String]:Index:0
+                                DefaultValue:
+                                  ID: "?"
+                                  Data: 0
+                            - Type: FrooxEngine.ValueMultiplexer`1[System.Uri]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                Target:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.Hyperlink:URL:0
+                                Index:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.Uri]:Index:0
+                                  Data: 0
+                                Values:
+                                  ID: "?"
+                                  Data:
+                                    - ID: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.Uri]:Values.0.ID:0
+                                      Data: null
+                                    - ID: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.Uri]:Values.1.ID:0
+                                      Data: null
+                                    - ID: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.Uri]:Values.2.ID:0
+                                      Data: null
+                                AllowWriteBack:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicValueVariableDriver`1[System.Int32]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: "?"
+                                  Data: Locale/Local
+                                Target:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.Uri]:Index:0
+                                DefaultValue:
+                                  ID: "?"
+                                  Data: 0
+                            - Type: FrooxEngine.ValueMultiplexer`1[System.String]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                Target:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.Hyperlink:Reason:0
+                                Index:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.String]:Index:0
+                                  Data: 0
+                                Values:
+                                  ID: "?"
+                                  Data:
+                                    - ID: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.String]:Values.0.ID:0
+                                      Data: ""
+                                    - ID: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.String]:Values.1.ID:0
+                                      Data: ""
+                                    - ID: ID:HyperLinkButton:Components:FrooxEngine.ValueMultiplexer`1[System.String]:Values.2.ID:0
+                                      Data: ""
+                                AllowWriteBack:
+                                  ID: "?"
+                                  Data: false
+                            - Type: FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:1
+                                  Data: ""
+                                Target:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.NormalColor.ID:0
+                                DefaultValue:
+                                  ID: "?"
+                                  Data:
+                                    - 333.3333333333333
+                                    - 333.3333333333333
+                                    - 333.3333333333333
+                                    - 333.3333333333333
+                                    - sRGBAlpha
+                            - Type: FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:2
+                                  Data: ""
+                                Target:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.DisabledColor.ID:0
+                                DefaultValue:
+                                  ID: "?"
+                                  Data:
+                                    - 216.66666666666666
+                                    - 216.66666666666666
+                                    - 216.66666666666666
+                                    - 333.3333333333333
+                                    - sRGBAlpha
+                            - Type: FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:3
+                                  Data: ""
+                                Target:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.PressColor.ID:0
+                                DefaultValue:
+                                  ID: "?"
+                                  Data:
+                                    - 166.66666666666666
+                                    - 166.66666666666666
+                                    - 166.66666666666666
+                                    - 333.3333333333333
+                                    - sRGBAlpha
+                            - Type: FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]
+                              Data:
+                                ID: "?"
+                                persistent-ID: "?"
+                                UpdateOrder:
+                                  ID: "?"
+                                  Data: 0
+                                Enabled:
+                                  ID: "?"
+                                  Data: true
+                                VariableName:
+                                  ID: ID:HyperLinkButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:4
+                                  Data: ""
+                                Target:
+                                  ID: "?"
+                                  Data: ID:HyperLinkButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.HighlightColor.ID:0
+                                DefaultValue:
+                                  ID: "?"
+                                  Data:
+                                    - 250
+                                    - 250
+                                    - 250
+                                    - 333.3333333333333
+                                    - sRGBAlpha
+                        Children: []
   - Name:
       ID: "?"
       Data: Installer
@@ -56180,7 +57533,7 @@ Children:
             Active:
               ID: ID:InstallPanel:Tag:1
               Data: true
-            ID: ID:InstallPanel:0
+            ID: "?"
             Persistent-Id: "?"
             Position:
               ID: "?"
@@ -56392,25 +57745,6 @@ Children:
                         - 0
                         - 264
                         - sRGBAlpha
-                - Type: FrooxEngine.GizmoLink
-                  Data:
-                    ID: "?"
-                    persistent-ID: "?"
-                    UpdateOrder:
-                      ID: "?"
-                      Data: 0
-                    Enabled:
-                      ID: "?"
-                      Data: true
-                    _worker:
-                      ID: "?"
-                      Data: ID:InstallPanel:0
-                    _gizmo:
-                      ID: "?"
-                      Data: null
-                    _type:
-                      ID: "?"
-                      Data: FrooxEngine.SlotGizmo
             Children:
               - Name:
                   ID: "?"
@@ -57385,7 +58719,7 @@ Children:
                                               ID: "?"
                                               Data:
                                                 - ID: "?"
-                                                  Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:1
+                                                  Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:2
                                             LineHeight:
                                               ID: "?"
                                               Data: 266.6666666666667
@@ -57816,7 +59150,7 @@ Children:
                           Data: true
                         Font:
                           ID: "?"
-                          Data: ID:Assets:FrooxEngine.FontChain:ID:0
+                          Data: ID:Assets:FrooxEngine.FontChain:ID:1
                         Content:
                           ID: ID:Text:Components:FrooxEngine.UIX.Text:Content:6
                           Data: 読み込み中
@@ -57850,7 +59184,7 @@ Children:
                           ID: "?"
                           Data:
                             - ID: "?"
-                              Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:0
+                              Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:1
                         LineHeight:
                           ID: "?"
                           Data: 266.6666666666667
@@ -86862,7 +88196,7 @@ Children:
                                               Data: true
                                             Font:
                                               ID: "?"
-                                              Data: ID:Assets:FrooxEngine.FontChain:ID:0
+                                              Data: ID:Assets:FrooxEngine.FontChain:ID:1
                                             Content:
                                               ID: ID:Text:Components:FrooxEngine.UIX.Text:Content:7
                                               Data: 開始
@@ -86896,7 +88230,7 @@ Children:
                                               ID: "?"
                                               Data:
                                                 - ID: "?"
-                                                  Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:1
+                                                  Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:2
                                             LineHeight:
                                               ID: "?"
                                               Data: 266.6666666666667
@@ -87327,7 +88661,7 @@ Children:
                           Data: true
                         Font:
                           ID: "?"
-                          Data: ID:Assets:FrooxEngine.FontChain:ID:0
+                          Data: ID:Assets:FrooxEngine.FontChain:ID:1
                         Content:
                           ID: ID:Text:Components:FrooxEngine.UIX.Text:Content:8
                           Data: 読み込み中
@@ -87361,7 +88695,7 @@ Children:
                           ID: "?"
                           Data:
                             - ID: "?"
-                              Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:0
+                              Data: ID:Assets:FrooxEngine.UI_TextUnlitMaterial:ID:1
                         LineHeight:
                           ID: "?"
                           Data: 266.6666666666667

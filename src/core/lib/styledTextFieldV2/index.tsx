@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from "react";
-import { UpdatableTextField } from "../../unit/package/NexusUix/main";
+import { StyledTextField } from "../../unit/package/StyledUix/main";
 
 export const StyledTextFieldV2 = ({
   setValueRef: setValue,
   defaultValue,
   ...props
-}: Omit<Parameters<typeof UpdatableTextField>[0], "value"> & {
+}: Omit<Parameters<typeof StyledTextField>[0], "value"> & {
   setValueRef?: ReturnType<typeof useRef<(text: string) => void>>;
 }) => {
   const [rawValue, setRawValue] = useState(defaultValue ?? "");
@@ -26,5 +26,5 @@ export const StyledTextFieldV2 = ({
     }
   }, [rawValue]);
 
-  return <UpdatableTextField {...props} defaultValue={rawValue} />;
+  return <StyledTextField {...props} defaultValue={rawValue} />;
 };
