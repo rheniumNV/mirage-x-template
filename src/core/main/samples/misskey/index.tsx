@@ -83,6 +83,12 @@ export const Main = ({}) => {
                     <HyperLinkButton
                       styledSprite={Sprite.gradientGreen}
                       preserveAspect={false}
+                      urlEn={`https://${config.misskey.host}/share?`}
+                      urlJa={`https://${config.misskey.host}/share?`}
+                      urlKo={`https://${config.misskey.host}/share?`}
+                      reasonEn="note"
+                      reasonJa="ノート"
+                      reasonKo="노트"
                     >
                       <StyledText
                         content="ノート"
