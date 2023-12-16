@@ -19,6 +19,9 @@ const insuring =
 
 const app = express();
 const server = http.createServer(app);
+server.listen(Number(config.mirage.port), config.mirage.address, () => {
+    console.log(`Server is running at http://${config.mirage.address}:${config.mirage.port}`);
+});
 const wss = new WebSocketServer({ server });
 
 app.use(express.json());
@@ -33,6 +36,7 @@ app.get(
 const dummyConfig = {
   mirage: {
     port: config.mirage.port,
+    address: config.mirage.address,
     serverId: config.mirage.serverId,
     apiPath: {
       info: "/info",
