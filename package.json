@@ -15,9 +15,9 @@
     "feedback:base": "npm run feedback:fetch & npm run feedback:attachBase",
     "feedback:unit": "npm run feedback:fetch & npm run feedback:attachUnit",
     "feedback:fetch": "ts-node -P ./tsconfig.dev.json ./src/dev/resFeedback/fetch",
-    "feedback:attachBase": "ts-node -P ./tsconfig.dev.json ./src/dev/resFeedback/attachBase",
-    "feedback:attachUnit": "ts-node -P ./tsconfig.dev.json ./src/dev/resFeedback/attachUnit",
-    "updateCloudVariable": "ts-node -P ./tsconfig.dev.json ./src/dev/updateCloudVariable",
+    "feedback:attachBase": "ts-node --require dotenv/config  -P ./tsconfig.dev.json ./src/dev/resFeedback/attachBase",
+    "feedback:attachUnit": "ts-node --require dotenv/config  -P ./tsconfig.dev.json ./src/dev/resFeedback/attachUnit",
+    "updateCloudVariable": "ts-node --require dotenv/config -P ./tsconfig.dev.json ./src/dev/updateCloudVariable",
     "format": "prettier --write ./src/**/*.{ts,tsx,json}",
     "prepare": "husky install"
   },
