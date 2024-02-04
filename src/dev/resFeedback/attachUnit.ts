@@ -3,6 +3,8 @@ import path from "path";
 import { res2yaml } from "../../lib/mirage-x/util/res2yaml";
 import { readFileSync } from "../../lib/fileUtil";
 
+const appCode = process.env.APP_CODE ?? "MirageX";
+
 const args = process.argv.slice(2);
 
 if (typeof args[0] !== "string") throw new Error("invalid args. set unit name");
@@ -58,7 +60,7 @@ const targets = fs
   });
 
 const PackageParentObject = getObject(ResFeedbackOriginal.Object)
-  .Children.find((o: any) => o.Name.Data === "UniPocket")
+  .Children.find((o: any) => o.Name.Data === appCode)
   .Children.find((o: any) => o.Name.Data === "Package");
 
 const filteredTargets = targets.map(({ packageName, units }) => ({
