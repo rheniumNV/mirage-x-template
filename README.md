@@ -69,6 +69,8 @@ Unit はユースケースに合わせてパッケージでまとめられてい
 
 > npm run unitPackage:sync
 
+新しいパッケージを作った場合は`./src/core/unit/main.ts`と`./src/core/unit/res.ts`に import する文を追記します。
+
 以下のコマンドで`./dist/res/src/output.brson`を更新して、Resonite にドラッグアンドドロップしなおします。
 （`npm run dev`を実行中であれば、以下を行わずとも変更を検知して自動で再生成されています。）
 
