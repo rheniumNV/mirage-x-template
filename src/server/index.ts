@@ -30,8 +30,9 @@ app.get(
   })
 );
 
-const dummyConfig = {
+const mirageXConfig = {
   mirage: {
+    url: config.mirage.url,
     port: config.mirage.port,
     serverId: config.mirage.serverId,
     apiPath: {
@@ -39,7 +40,7 @@ const dummyConfig = {
       output: "/output.brson",
       auth: "/auth/:connectionId",
       interactionEvent: "/events",
-      websocket: "/",
+      websocket: "/ws",
     },
   },
   main: {
@@ -52,7 +53,7 @@ const dummyConfig = {
   },
 };
 
-const mirageX = new MirageXServer(App, dummyConfig);
+const mirageX = new MirageXServer(App, mirageXConfig);
 mirageX.route(app, wss);
 
 if (process.env.NODE_ENV !== "production") {
@@ -89,5 +90,5 @@ app.use((req, res, _next) => {
 
 // start server
 server.listen(config.mirage.port, () => {
-  console.info(`Server is listening on port ${dummyConfig.mirage.port}`);
+  console.info(`Server is listening on port ${mirageXConfig.mirage.port}`);
 });

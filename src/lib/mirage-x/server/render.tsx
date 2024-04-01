@@ -20,7 +20,7 @@ const Main = ({
   propsSetterRegister: (setter: (props: MainRootProps) => void) => void;
   children: React.ReactNode;
 }) => {
-  const [props, setProps] = useState<MainRootProps>({});
+  const [props, setProps] = useState<MainRootProps>({ closed: false });
 
   const userResponse = useResoniteUser(ownerId);
 
@@ -28,7 +28,7 @@ const Main = ({
     propsSetterRegister(setProps);
   }, []);
 
-  return (
+  return !props.closed ? (
     <MainRootContextProvider
       value={{
         connectionId,
@@ -43,6 +43,8 @@ const Main = ({
     >
       {children}
     </MainRootContextProvider>
+  ) : (
+    <></>
   );
 };
 

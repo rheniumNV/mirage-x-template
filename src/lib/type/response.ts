@@ -16,8 +16,6 @@ export type Response<D, E extends Error<string, any> = never> =
   | UnknownError
   | E;
 
-type a = Response<{ id: string }, Error<"not_found">>;
-
 export type AsyncState<D, E extends Error<string, any> = never> =
   | { status: typeof STATS_LOADING }
   | Success<D>
@@ -29,5 +27,3 @@ export type Response2AsyncState<R extends Response<any, any>> =
       status: typeof STATS_LOADING;
     }
   | R;
-
-type x = Response2AsyncState<a>;

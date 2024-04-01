@@ -9,6 +9,7 @@ import json2emap from "json2emap";
 
 type MirageXServerConfig = {
   mirage: {
+    url: string;
     port: string;
     serverId: string;
     apiPath: {
@@ -124,13 +125,6 @@ export class MirageXServer {
       app: this.app,
     });
 
-    setTimeout(() => {
-      if (!connection.logicManager) {
-        console.warn("initialize timeout", connection.id);
-        ws?.close();
-      }
-    }, 5000);
-
     this.connectionMap.set(connection.id, connection);
   };
 
@@ -237,7 +231,7 @@ export class MirageXServer {
               } catch (e) {
                 console.error(e);
               }
-            }, 100);
+            }, 50 + Math.random() * 100);
           } else {
             func({ userId, lang }, ...args);
           }

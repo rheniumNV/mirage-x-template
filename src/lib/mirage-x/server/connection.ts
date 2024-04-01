@@ -2,10 +2,6 @@ import { WebSocket } from "ws";
 import { LogicManager } from "./logicManager";
 import json2emap from "json2emap";
 import { v4 as uuidv4 } from "uuid";
-import { UnitChangeServerEvent } from "../common/unitChangeEvent";
-import { MainRootProps } from "../main/mainRootProps";
-
-const connectionMap = new Map<string, Connection>();
 
 type N2mEvent = {
   type: "init";
@@ -16,12 +12,6 @@ type N2mEvent = {
     lang: string;
   };
 };
-
-setInterval(() => {
-  connectionMap.forEach((connection) => {
-    connection.ws.ping();
-  });
-}, 60000);
 
 export class Connection {
   id: string;
@@ -142,12 +132,22 @@ export class Connection {
       }
     });
 
-    this.ws.on("close", () => {
+    const clean = () => {
       this.logicManager?.close();
       this.logicManager = undefined;
       init.onClose(this);
       console.log("close", this.id);
-    });
+    };
+
+    this.ws.on("close", clean);
+
+    setTimeout(() => {
+      if (!this.logicManager) {
+        console.warn("initialize timeout");
+        clean();
+        this.ws.close();
+      }
+    }, 5000);
   }
 
   interactionEvent = (id: string, ...data: any[]) => {};
