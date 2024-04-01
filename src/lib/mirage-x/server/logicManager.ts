@@ -1,5 +1,3 @@
-import { JSDOM } from "jsdom";
-import { createRoot } from "react-dom/client";
 import { jwtVerify, importSPKI } from "jose";
 import { MainRootProps } from "../main/mainRootProps";
 import {
@@ -10,6 +8,7 @@ import { v4 as uuidv4 } from "uuid";
 import { Authentication } from "../main";
 import axios from "axios";
 import { render } from "./render";
+import { DummyReactRenderer } from "./dummyReactRenderer";
 
 type UnitInstance = {
   id: string;
@@ -89,16 +88,13 @@ const isValidUnit = (
   }
 };
 
-//@ts-ignore
-global.window = new JSDOM().window;
-
 export class LogicManager {
-  dom = new JSDOM();
   unitMap = new Map<string, UnitInstance>();
   ownerId: string;
   lang: string;
   authentication: Authentication | undefined;
   authUrl: string;
+  closed: boolean = false;
 
   syncTreeCallback?: () => unknown;
   syncEventCallback?: (event: UnitChangeClientEvent) => unknown;
@@ -124,9 +120,7 @@ export class LogicManager {
     this.authUrl = init.authUrl;
     console.info("init", init);
 
-    const container = this.dom.window.document.createElement("div");
-    this.dom.window.document.body.appendChild(container);
-    createRoot(container).render(
+    DummyReactRenderer.render(
       render(app)({
         connectionId: init.connectionId,
         ownerId: this.ownerId,
@@ -230,7 +224,18 @@ export class LogicManager {
     }
   }
 
-  close() {}
+  close() {
+    this.closed = true;
+    this.syncProps();
+    this.unitMap.clear();
+    this.unitUsages.clear();
+    this.syncFunctionMap.clear();
+    this.authentication = undefined;
+    this.syncTreeCallback = undefined;
+    this.syncEventCallback = undefined;
+    this.propsSetter = () => {};
+    console.info("close logic", this.ownerId);
+  }
 
   render() {
     const functionMap = new Map<string, Function>();
@@ -253,7 +258,10 @@ export class LogicManager {
   }
 
   syncProps() {
-    this.propsSetter({ authentication: this.authentication });
+    this.propsSetter({
+      authentication: this.authentication,
+      closed: this.closed,
+    });
   }
 
   async clearAuth() {
