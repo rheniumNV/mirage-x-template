@@ -53,14 +53,18 @@ function coordinateToIndex(x: number, y: number, width: number): number {
   return x + y * width;
 }
 
-export function getCellByCoordinate(board: Board, x: number, y: number): Cell {
+export function getCellByCoordinate(
+  board: Board,
+  x: number,
+  y: number,
+): Cell | undefined {
   return board.cells[coordinateToIndex(x, y, board.width)];
 }
 
 function assignCell(
   board: Board,
   i: number,
-  partialCell: Partial<Cell>
+  partialCell: Partial<Cell>,
 ): Board {
   const cell = board.cells[i];
   return {
@@ -73,7 +77,7 @@ function isInsideBoard(
   x: number,
   y: number,
   width: number,
-  height: number
+  height: number,
 ): boolean {
   return x >= 0 && x < width && y >= 0 && y < height;
 }
@@ -82,15 +86,15 @@ export function putMinesRandomly(
   board: Board,
   nMines: number,
   startX: number,
-  startY: number
+  startY: number,
 ): Board {
   if (nMines <= 0) return board;
 
-  const { width, height, cells } = board;
+  const { width, cells } = board;
 
   const candidates = Array.from(
     { length: cells.length },
-    (_, k) => [k, cells[k]] as [number, Cell]
+    (_, k) => [k, cells[k]] as [number, Cell],
   ).filter(([i, cell]) => {
     if (cell.isOpened || cell.hasMine) return false;
 
@@ -107,7 +111,9 @@ export function putMinesRandomly(
   const targetIndices: number[] = [];
 
   while (targetIndices.length < n) {
-    const [i] = candidates[Math.floor(Math.random() * candidates.length)];
+    const [i] = candidates[Math.floor(Math.random() * candidates.length)] ?? [
+      0,
+    ];
     if (!targetIndices.includes(i)) {
       targetIndices.push(i);
     }
@@ -141,6 +147,8 @@ export function open(state: GameState, x: number, y: number): GameState {
 
   const i = coordinateToIndex(x, y, width);
   const cell = board.cells[i];
+  if (!cell) return state;
+
   if (cell.isFlagged) {
     return state;
   }
@@ -160,11 +168,11 @@ export function open(state: GameState, x: number, y: number): GameState {
   }
 
   const finalState = surrounding
-    .map(([dx, dy]) => [x + dx, y + dy])
+    .map(([dx, dy]) => [x + dx, y + dy] as const)
     .filter(([x, y]) => isInsideBoard(x, y, width, height))
     .filter(([x, y]) => {
       const { hasMine, isOpened } =
-        openedBoard.cells[coordinateToIndex(x, y, width)];
+        openedBoard.cells[coordinateToIndex(x, y, width)] ?? {};
       return !hasMine && !isOpened;
     })
     .reduce((state, [x, y]) => open(state, x, y), afterState);
@@ -183,11 +191,13 @@ export function isOpenedAll(board: Board): boolean {
 export function toggleFlagged(
   state: GameState,
   x: number,
-  y: number
+  y: number,
 ): GameState {
   const { board } = state;
   const i = coordinateToIndex(x, y, board.width);
   const cell = board.cells[i];
+
+  if (!cell) return state;
 
   if (cell.isOpened) return state;
 

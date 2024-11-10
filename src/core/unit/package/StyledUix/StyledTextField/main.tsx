@@ -1,18 +1,20 @@
 import { useCallback, useMemo } from "react";
-import { Unit } from "../../../../../lib/mirage-x/common/unitChangeEvent";
-import { generateMain } from "../../../../../lib/mirage-x/unit/main";
-import { unitConfig } from "./detail";
+
+import { FunctionEnv } from "../../../../../lib/miragex/common/interactionEvent";
+import { Unit } from "../../../../../lib/miragex/common/unitChangeEvent";
+import { generateMain } from "../../../../../lib/miragex/unit/main";
 import {
   StyledColorVariable,
   StyledFontVariable,
   StyledMaterialVariable,
   StyledSpriteVariable,
 } from "../../../../lib/styledUnit";
-import { FunctionEnv } from "../../../../../lib/mirage-x/common/interactionEvent";
+
+import { unitConfig } from "./detail";
 
 const Unit = generateMain(unitConfig);
 
-export const o = (
+export const O = (
   props: Omit<
     Parameters<typeof Unit>[0],
     | "styledFont"
@@ -36,13 +38,13 @@ export const o = (
     styledBackgroundHighlightColor?: StyledColorVariable;
     styledBackgroundPressColor?: StyledColorVariable;
     styledBackgroundDisableColor?: StyledColorVariable;
-  }
+  },
 ) => {
   // InteractionEventの引数を加工する処理はdetailで定義したいが対応できていないので一旦ここに書く
   const fixedOnChange = useCallback(
     (env: FunctionEnv, text: string) =>
       props.onChange?.(env, decodeURIComponent(text)),
-    [props.onChange]
+    [props.onChange],
   );
 
   // 最初のみしか変更しないPropsをdetailで定義したいが対応できていないので一旦ここに書く

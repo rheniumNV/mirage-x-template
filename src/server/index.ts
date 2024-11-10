@@ -1,15 +1,18 @@
-import express from "express";
 import http from "http";
-import { WebSocketServer } from "ws";
 import path from "path";
-import { MirageXServer } from "../lib/mirage-x/server";
-import { config } from "./config";
+
+import express from "express";
+import { WebSocketServer } from "ws";
+
+import { MirageXServer, MirageXServerConfig } from "../lib/miragex/server";
 import { App } from "../core/main";
+
+import { config } from "./config";
 
 type RequestHandler = (
   req: express.Request,
   res: express.Response,
-  next: express.NextFunction
+  next: express.NextFunction,
 ) => Promise<void> | void;
 
 const insuring =
@@ -27,10 +30,10 @@ app.get(
   "/ping",
   insuring((_req, res) => {
     res.send("pong");
-  })
+  }),
 );
 
-const mirageXConfig = {
+const mirageXConfig: MirageXServerConfig = {
   mirage: {
     url: config.mirage.url,
     port: config.mirage.port,
@@ -42,14 +45,22 @@ const mirageXConfig = {
       interactionEvent: "/events",
       websocket: "/ws",
     },
+    /** イベント送信数の抑制設定
+     eventCountSolver: (eventCount: number) =>
+       ((eventCount - 500) / 100) * ((eventCount - 500) / 100) * 0.2 + 8,
+    //*/
   },
   main: {
-    appCode: config.appCode,
+    appCode: "SampleMirageXApp",
     outputPath: path.resolve(__dirname, "../res/output.brson"),
     versionPath: path.resolve(__dirname, "../res/version.json"),
   },
   auth: {
     url: config.auth.url,
+    defaultAuthenticationToken: config.auth.defaultAuthenticationToken,
+  },
+  platform: {
+    api: { url: config.platform.api.url },
   },
 };
 
@@ -62,6 +73,7 @@ if (process.env.NODE_ENV !== "production") {
   }, 1000);
 }
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 app.on("upgrade", (request, socket, head) => {
   wss.handleUpgrade(request, socket, head, (ws) => {
@@ -75,11 +87,11 @@ app.use(
     err: express.ErrorRequestHandler,
     _req: express.Request,
     res: express.Response,
-    _next: express.NextFunction
+    _next: express.NextFunction,
   ) => {
     console.error(err);
     res.status(500).send("error").send();
-  }
+  },
 );
 
 // handle routing not found

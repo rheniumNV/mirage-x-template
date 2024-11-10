@@ -5,7 +5,7 @@ Active:
   ID: "?"
   Data: true
 ID: "?"
-Persistent-Id: "?"
+Persistent-ID: "?"
 Position:
   ID: "?"
   Data:
@@ -27,14 +27,14 @@ Scale:
     - 1
 Tag:
   ID: "?"
-  Data: ""
+  Data: null
 OrderOffset:
   ID: "?"
   Data: 0
 Components:
   ID: "?"
   Data:
-    - Type: FrooxEngine.DynamicVariableSpace
+    - Type: 0
       Data:
         ID: "?"
         persistent-ID: "?"
@@ -46,7 +46,7 @@ Components:
           Data: true
         SpaceName:
           ID: "?"
-          Data: ""
+          Data: null
         OnlyDirectBinding:
           ID: "?"
           Data: false
@@ -58,7 +58,7 @@ Children:
       ID: "?"
       Data: true
     ID: "?"
-    Persistent-Id: "?"
+    Persistent-ID: "?"
     Position:
       ID: "?"
       Data:
@@ -80,14 +80,14 @@ Children:
         - 111111
     Tag:
       ID: "?"
-      Data: ""
+      Data: null
     OrderOffset:
       ID: "?"
       Data: 0
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+        - Type: 1
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -107,6 +107,7 @@ Children:
               ID: "?"
               Data: false
     Children: []
+    ParentReference: ""
   - Name:
       ID: "?"
       Data: Ref
@@ -114,7 +115,7 @@ Children:
       ID: "?"
       Data: true
     ID: ID:Ref:0
-    Persistent-Id: "?"
+    Persistent-ID: "?"
     Position:
       ID: "?"
       Data:
@@ -136,14 +137,14 @@ Children:
         - 111111
     Tag:
       ID: "?"
-      Data: ""
+      Data: null
     OrderOffset:
       ID: "?"
       Data: 0
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicVariableSpace
+        - Type: 0
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -155,296 +156,11 @@ Children:
               Data: true
             SpaceName:
               ID: "?"
-              Data: ""
+              Data: null
             OnlyDirectBinding:
               ID: "?"
               Data: false
     Children:
-      - Name:
-          ID: "?"
-          Data: DV/Static
-        Active:
-          ID: "?"
-          Data: true
-        ID: "?"
-        Persistent-Id: "?"
-        Position:
-          ID: "?"
-          Data:
-            - 0
-            - 0
-            - 0
-        Rotation:
-          ID: "?"
-          Data:
-            - 0
-            - 0
-            - 0
-            - 111111
-        Scale:
-          ID: "?"
-          Data:
-            - 111111
-            - 111111
-            - 111111
-        Tag:
-          ID: "?"
-          Data: ""
-        OrderOffset:
-          ID: "?"
-          Data: 0
-        Components:
-          ID: "?"
-          Data:
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Static.Root
-                Reference:
-                  ID: "?"
-                  Data: ID:Ref:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Static.Main
-                Reference:
-                  ID: "?"
-                  Data: ID:StyledDVSprite:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Static.ChildrenParent
-                Reference:
-                  ID: "?"
-                  Data: ID:StyledDVSprite:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-        Children: []
-      - Name:
-          ID: "?"
-          Data: DV/Props
-        Active:
-          ID: "?"
-          Data: true
-        ID: "?"
-        Persistent-Id: "?"
-        Position:
-          ID: "?"
-          Data:
-            - 0
-            - 0
-            - 0
-        Rotation:
-          ID: "?"
-          Data:
-            - 0
-            - 0
-            - 0
-            - 111111
-        Scale:
-          ID: "?"
-          Data:
-            - 111111
-            - 111111
-            - 111111
-        Tag:
-          ID: "?"
-          Data: ""
-        OrderOffset:
-          ID: "?"
-          Data: 0
-        Components:
-          ID: "?"
-          Data:
-            - Type: FrooxEngine.DynamicField`1[System.String]
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Props.name
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledDVSprite:Components:FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, , Culture=neutral,
-                    PublicKeyToken=null]]:VariableName:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Uri]
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Props.url
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:URL:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.Rect]
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Props.rect
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:Rect:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float4]
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Props.borders
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:Borders:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Single]
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Props.scale
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:Scale:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: FrooxEngine.DynamicField`1[FrooxEngine.TextureFilterMode]
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Props.filterMode
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:FilterMode:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: FrooxEngine.DynamicField`1[FrooxEngine.TextureWrapMode]
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Props.wrapModeU
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:WrapModeU:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: FrooxEngine.DynamicField`1[FrooxEngine.TextureWrapMode]
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Props.wrapModeV
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:WrapModeV:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-        Children: []
       - Name:
           ID: "?"
           Data: StyledDVSprite
@@ -452,7 +168,7 @@ Children:
           ID: "?"
           Data: true
         ID: ID:StyledDVSprite:0
-        Persistent-Id: "?"
+        Persistent-ID: "?"
         Position:
           ID: "?"
           Data:
@@ -481,9 +197,9 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.SpriteProvider
+            - Type: 2
               Data:
-                ID: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:0
+                ID: ID:StyledDVSprite:Components:2:0
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -496,30 +212,30 @@ Children:
                   Data: false
                 Texture:
                   ID: "?"
-                  Data: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:0
+                  Data: ID:StyledDVSprite:Components:3:0
                 Rect:
-                  ID: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:Rect:0
+                  ID: ID:StyledDVSprite:Components:2:Rect:0
                   Data:
                     X: 0
                     Y: 0
                     Width: 333.3333333333333
                     Height: 333.3333333333333
                 Borders:
-                  ID: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:Borders:0
+                  ID: ID:StyledDVSprite:Components:2:Borders:0
                   Data:
                     - 0
                     - 0
                     - 0
                     - 0
                 Scale:
-                  ID: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:Scale:0
+                  ID: ID:StyledDVSprite:Components:2:Scale:0
                   Data: 333.3333333333333
                 FixedSize:
-                  ID: "?"
+                  ID: ID:StyledDVSprite:Components:2:FixedSize:0
                   Data: 2666.6666666666665
-            - Type: FrooxEngine.StaticTexture2D
+            - Type: 3
               Data:
-                ID: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:0
+                ID: ID:StyledDVSprite:Components:3:0
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -528,14 +244,14 @@ Children:
                   ID: "?"
                   Data: true
                 URL:
-                  ID: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:URL:0
+                  ID: ID:StyledDVSprite:Components:3:URL:0
                   Data: null
                 FilterMode:
-                  ID: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:FilterMode:0
-                  Data: Bilinear
+                  ID: "?"
+                  Data: null
                 AnisotropicLevel:
                   ID: "?"
-                  Data: 2666.6666666666665
+                  Data: null
                 Uncompressed:
                   ID: "?"
                   Data: false
@@ -550,7 +266,7 @@ Children:
                   Data: null
                 PreferredProfile:
                   ID: "?"
-                  Data: null
+                  Data: sRGB
                 MipMapBias:
                   ID: "?"
                   Data: 0
@@ -558,10 +274,10 @@ Children:
                   ID: "?"
                   Data: false
                 WrapModeU:
-                  ID: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:WrapModeU:0
+                  ID: ID:StyledDVSprite:Components:3:WrapModeU:0
                   Data: Repeat
                 WrapModeV:
-                  ID: ID:StyledDVSprite:Components:FrooxEngine.StaticTexture2D:WrapModeV:0
+                  ID: ID:StyledDVSprite:Components:3:WrapModeV:0
                   Data: Repeat
                 PowerOfTwoAlignThreshold:
                   ID: "?"
@@ -569,10 +285,16 @@ Children:
                 CrunchCompressed:
                   ID: "?"
                   Data: true
+                MinSize:
+                  ID: "?"
+                  Data: null
                 MaxSize:
                   ID: "?"
                   Data: null
                 MipMaps:
+                  ID: "?"
+                  Data: false
+                KeepOriginalMipMaps:
                   ID: "?"
                   Data: false
                 MipMapFilter:
@@ -581,8 +303,7 @@ Children:
                 Readable:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.IAssetProvider`1],
-                FrooxEngine, , Culture=neutral, PublicKeyToken=null]]
+            - Type: 4
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -593,14 +314,338 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
-                  ID: ID:StyledDVSprite:Components:FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, , Culture=neutral,
-                    PublicKeyToken=null]]:VariableName:0
+                  ID: ID:StyledDVSprite:Components:4:VariableName:0
                   Data: Name
                 Reference:
+                  ID: ID:StyledDVSprite:Components:4:Reference:0
+                  Data: ID:StyledDVSprite:Components:2:0
+                OverrideOnLink:
                   ID: "?"
-                  Data: ID:StyledDVSprite:Components:FrooxEngine.SpriteProvider:0
+                  Data: false
+            - Type: 5
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                Source:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:4:Reference:0
+                Target:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:4:Reference:0
+                WriteBack:
+                  ID: "?"
+                  Data: false
+        Children: []
+        ParentReference: ""
+      - Name:
+          ID: "?"
+          Data: DV/Static
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-ID: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: 1
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Root
+                Reference:
+                  ID: "?"
+                  Data: ID:Ref:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 1
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Main
+                Reference:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 1
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.ChildrenParent
+                Reference:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
         Children: []
+        ParentReference: ""
+      - Name:
+          ID: "?"
+          Data: DV/Props
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-ID: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: 6
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.name
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:4:VariableName:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 7
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.url
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:3:URL:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 8
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.rect
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:2:Rect:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 9
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.borders
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:2:Borders:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 10
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.scale
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:2:Scale:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 10
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.fixedSize
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:2:FixedSize:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 11
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.filterMode
+                TargetField:
+                  ID: "?"
+                  Data: null
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 12
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.wrapModeU
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:3:WrapModeU:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 12
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.wrapModeV
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVSprite:Components:3:WrapModeV:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+        ParentReference: ""
+    ParentReference: ""
+ParentReference: ""

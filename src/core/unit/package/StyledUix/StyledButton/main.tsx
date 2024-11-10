@@ -1,15 +1,16 @@
-import { Unit } from "../../../../../lib/mirage-x/common/unitChangeEvent";
-import { generateMain } from "../../../../../lib/mirage-x/unit/main";
-import { unitConfig } from "./detail";
+import { Unit } from "../../../../../lib/miragex/common/unitChangeEvent";
+import { generateMain } from "../../../../../lib/miragex/unit/main";
 import {
   StyledColorVariable,
   StyledMaterialVariable,
   StyledSpriteVariable,
 } from "../../../../lib/styledUnit";
 
+import { unitConfig } from "./detail";
+
 const Unit = generateMain(unitConfig);
 
-export const o = (
+export const O = (
   props: Omit<
     Parameters<typeof Unit>[0],
     | "styledColor"
@@ -27,7 +28,7 @@ export const o = (
     styledHighlightColor?: StyledColorVariable;
     styledPressColor?: StyledColorVariable;
     styledDisableColor?: StyledColorVariable;
-  }
+  },
 ) => {
   return Unit({
     ...props,

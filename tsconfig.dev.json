@@ -3,9 +3,20 @@
     "target": "ES2022",
     "module": "commonjs",
     "strict": true,
+    "isolatedModules": true,
+    "noUncheckedIndexedAccess": true,
+    "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx"
   },
-  "include": ["./src/dev/**/*.tsx", "./src/dev/**/*.ts", "jest.config.js"]
+  "include": [
+    "./src/dev/**/*.tsx",
+    "./src/dev/**/*.ts",
+    "./src/lib/miragex/script/**/*.ts",
+    "./src/lib/miragex/dev/**/*.ts",
+    "jest.config.js"
+  ]
 }

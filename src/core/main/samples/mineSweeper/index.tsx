@@ -57,8 +57,8 @@ const CellView = ({
               ? cell.hasMine
                 ? [1, 0, 0, 1]
                 : cell.isOpened
-                ? [0.8, 0.8, 0.8, 1]
-                : [0.5, 0.5, 0.5, 1]
+                  ? [0.8, 0.8, 0.8, 1]
+                  : [0.5, 0.5, 0.5, 1]
               : [0.4, 0.4, 0.4, 1]
           }
         >
@@ -70,8 +70,8 @@ const CellView = ({
                   : `${cell.surroundingMines}`
                 : ""
             }
-            verticalAlign="Middle"
             horizontalAlign="Center"
+            verticalAlign="Middle"
           />
         </StyledImage>
       </StyledButton>
@@ -97,14 +97,14 @@ const TimerView = ({
   return (
     <StyledText
       content={(resultTime ? resultTime : time).toString()}
+      horizontalAlign="Center"
       styledColor={Color.backgroundRev}
       verticalAlign="Middle"
-      horizontalAlign="Center"
     />
   );
 };
 
-export const Main = ({}) => {
+export const MineSweeper = () => {
   const width = 8;
   const height = 8;
   const mineCount = 8;
@@ -143,25 +143,25 @@ export const Main = ({}) => {
           styledSprite={Sprite.kadomaru}
         />
         <VerticalLayout
+          forceExpandChildHeight={false}
           paddingBottom={50}
           paddingLeft={50}
           paddingRight={50}
           paddingTop={50}
-          forceExpandChildHeight={false}
           spacing={20}
         >
           <LayoutElement minHeight={100}>
             <StyledText
               content="Minesweeper"
+              horizontalAlign="Center"
               styledColor={Color.backgroundRev}
               verticalAlign="Middle"
-              horizontalAlign="Center"
             />
           </LayoutElement>
           <LayoutElement minHeight={100}>
             <TimerView
-              startTime={startTime}
               resultTime={state.isGameOver ? resultTime : undefined}
+              startTime={startTime}
             />
           </LayoutElement>
           <LayoutElement minHeight={100}>
@@ -169,23 +169,23 @@ export const Main = ({}) => {
               <LayoutElement flexibleWidth={1}>
                 <StyledText
                   content={state.isGameOver ? "GameOver" : "Playing"}
+                  horizontalAlign="Center"
                   styledColor={Color.backgroundRev}
                   verticalAlign="Middle"
-                  horizontalAlign="Center"
                 />
               </LayoutElement>
               <LayoutElement minWidth={200}>
                 <StyledButton
-                  onClick={restart}
                   defaultColor={[0.6, 0.6, 0.6, 1]}
+                  onClick={restart}
                   styledSprite={Sprite.kadomaru}
                 >
                   <StyledText
                     content="Restart"
-                    styledColor={Color.backgroundRev}
-                    verticalAlign="Middle"
                     horizontalAlign="Center"
                     size={48}
+                    styledColor={Color.backgroundRev}
+                    verticalAlign="Middle"
                   />
                 </StyledButton>
               </LayoutElement>
@@ -195,16 +195,20 @@ export const Main = ({}) => {
             <VerticalLayout spacing={5}>
               {Array.from({ length: height }, (_, i) => i).map((y) => (
                 <HorizontalLayout key={y} spacing={5}>
-                  {Array.from({ length: width }, (_, i) => i).map((x) => (
-                    <CellView
-                      key={x}
-                      cell={state.board.cells[y * height + x]}
-                      open={() => {
-                        openCell(x, y);
-                      }}
-                      forceOpen={state.isGameOver}
-                    />
-                  ))}
+                  {Array.from({ length: width }, (_, i) => i).map((x) => {
+                    const cell = state.board.cells[y * height + x];
+                    if (!cell) return null;
+                    return (
+                      <CellView
+                        cell={cell}
+                        forceOpen={state.isGameOver}
+                        key={x}
+                        open={() => {
+                          openCell(x, y);
+                        }}
+                      />
+                    );
+                  })}
                 </HorizontalLayout>
               ))}
             </VerticalLayout>

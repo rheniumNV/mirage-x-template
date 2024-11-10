@@ -1,7 +1,7 @@
-export { o as Canvas } from "./Canvas/main";
-export { o as GridLayout } from "./GridLayout/main";
-export { o as HorizontalLayout } from "./HorizontalLayout/main";
-export { o as IgnoreLayout } from "./IgnoreLayout/main";
-export { o as LayoutElement } from "./LayoutElement/main";
-export { o as RectTransform } from "./RectTransform/main";
-export { o as VerticalLayout } from "./VerticalLayout/main";
+export { O as Canvas } from "./Canvas/main";
+export { O as GridLayout } from "./GridLayout/main";
+export { O as HorizontalLayout } from "./HorizontalLayout/main";
+export { O as IgnoreLayout } from "./IgnoreLayout/main";
+export { O as LayoutElement } from "./LayoutElement/main";
+export { O as RectTransform } from "./RectTransform/main";
+export { O as VerticalLayout } from "./VerticalLayout/main";

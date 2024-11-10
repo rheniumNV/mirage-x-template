@@ -55,8 +55,8 @@ const StandardText = (props: {
   <StyledText
     content={props.text}
     horizontalAlign={props.horizontalAlign ?? "Center"}
-    verticalAlign={props.verticalAlign ?? "Middle"}
     styledColor={Color.text}
+    verticalAlign={props.verticalAlign ?? "Middle"}
   />
 );
 
@@ -69,22 +69,22 @@ const StandardButton = ({
 }) => (
   <StyledButton
     onClick={onClick}
-    styledSprite={Sprite.kadomaru}
     styledColor={Color.button}
+    styledSprite={Sprite.kadomaru}
   >
     <StandardText text={text} />
   </StyledButton>
 );
 
-export const Main = () => {
+export const SimpleCounter = () => {
   const [count, setCount] = useState(0);
   return (
     <StyledSpace>
       <Canvas size={[600, 320]}>
         <StyledImage
           styledColor={Color.background}
-          styledSprite={Sprite.kadomaru}
           styledMaterial={Material.base}
+          styledSprite={Sprite.kadomaru}
         />
         <VerticalLayout
           paddingBottom={30}

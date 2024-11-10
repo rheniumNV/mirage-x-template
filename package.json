@@ -9,19 +9,24 @@
     "dev": "run-p dev:*",
     "dev:res": "tsc-watch --project ./tsconfig.res.json --onSuccess \"node --require dotenv/config ./dist/res/index.js\"",
     "dev:server": "tsc-watch --project  ./tsconfig.main.json --onSuccess \"npm start\"",
-    "test": "jest",
     "unitPackage:sync": "ts-node -P ./tsconfig.dev.json ./src/dev/unitPackage",
-    "feedback:all": "npm run feedback:fetch & npm run feedback:attachBase & npm run feedback:attachUnit .*",
-    "feedback:base": "npm run feedback:fetch & npm run feedback:attachBase",
-    "feedback:unit": "npm run feedback:fetch & npm run feedback:attachUnit",
-    "feedback:fetch": "ts-node -P ./tsconfig.dev.json ./src/dev/resFeedback/fetch",
-    "feedback:attachBase": "ts-node --require dotenv/config  -P ./tsconfig.dev.json ./src/dev/resFeedback/attachBase",
-    "feedback:attachUnit": "ts-node --require dotenv/config  -P ./tsconfig.dev.json ./src/dev/resFeedback/attachUnit",
+    "feedback:base:core": "npm run feedback:base:fetch & npm run feedback:base:attach:core",
+    "feedback:base:frame:install": "npm run feedback:base:fetch & npm run feedback:base:attach:frame:install",
+    "feedback:base:frame:simple": "npm run feedback:base:fetch & npm run feedback:base:attach:frame:simple",
+    "feedback:base:fetch": "ts-node --require dotenv/config -P ./tsconfig.dev.json ./src/lib/miragex/script/fetch",
+    "feedback:base:attach:core": "ts-node --require dotenv/config -P ./tsconfig.dev.json ./src/lib/miragex/script/attachCore",
+    "feedback:base:attach:frame:install": "ts-node --require dotenv/config -P ./tsconfig.dev.json ./src/lib/miragex/script/attachInstallFrame",
+    "feedback:base:attach:frame:simple": "ts-node --require dotenv/config -P ./tsconfig.dev.json ./src/lib/miragex/script/attachSimpleFrame",
+    "feedback:unit": "npm run feedback:unit:fetch & npm run feedback:unit:attach",
+    "feedback:unit:fetch": "ts-node --require dotenv/config -P ./tsconfig.dev.json ./src/dev/resFeedback/fetch",
+    "feedback:unit:attach": "ts-node --require dotenv/config -P ./tsconfig.dev.json ./src/dev/resFeedback/attachUnit",
     "updateCloudVariable": "ts-node --require dotenv/config -P ./tsconfig.dev.json ./src/dev/updateCloudVariable",
-    "format": "prettier --write ./src/**/*.{ts,tsx,json}",
-    "prepare": "npx husky install"
+    "lint": "eslint --fix ./src/**/*.{ts,tsx}",
+    "format": "prettier --write .",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "@eslint/js": "^9.14.0",
     "@types/cors": "^2.8.14",
     "@types/express": "^4.17.17",
     "@types/jest": "^29.5.3",
@@ -30,17 +35,22 @@
     "@types/react-reconciler": "^0.28.8",
     "@types/uuid": "^9.0.1",
     "@types/ws": "^8.5.4",
-    "brson.js": "^1.0.4",
+    "brson.js": "^1.0.5",
     "dotenv": "^16.3.1",
+    "eslint": "^9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
     "husky": "^8.0.3",
     "jest": "^29.6.2",
     "lint-staged": "^13.2.3",
     "npm-run-all": "^4.1.5",
-    "prettier": "2.8.8",
+    "prettier": "3.3.3",
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.1",
     "tsc-watch": "^6.0.4",
     "typescript": "^5.0.4",
+    "typescript-eslint": "^8.13.0",
     "yaml": "^2.3.1"
   },
   "dependencies": {
@@ -49,17 +59,20 @@
     "express": "^4.18.2",
     "jose": "^4.14.6",
     "json2emap": "^0.2.0",
-    "neos-script": "^0.1.8",
     "react": "^18.2.0",
     "react-reconciler": "^0.29.0",
     "uuid": "^9.0.0",
     "ws": "^8.13.0"
   },
   "volta": {
-    "node": "20.10.0"
+    "node": "20.18.0"
   },
   "lint-staged": {
-    "*.{ts,tsx,json}": [
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{json,md,yml}": [
       "prettier --write"
     ]
   }

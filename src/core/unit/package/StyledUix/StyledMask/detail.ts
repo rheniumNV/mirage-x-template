@@ -4,12 +4,16 @@ import {
   getMainProps,
   getMirrorProps,
   getWebProps,
-} from "../../../../../lib/mirage-x/unit/common";
+} from "../../../../../lib/miragex/unit/common";
 
 const detail = {
   code: "StyledUix/StyledMask",
   propsConfig: {
     styledSprite: UnitProp.String(""),
+    styledColor: UnitProp.String(""),
+    styledMaterial: UnitProp.String(""),
+    defaultColor: UnitProp.Color([1, 1, 1, 1]),
+    nineSliceSizing: UnitProp.EnumNineSliceSizing("TextureSize"),
     preserveAspect: UnitProp.Boolean(true),
   },
   children: "multi" as const,

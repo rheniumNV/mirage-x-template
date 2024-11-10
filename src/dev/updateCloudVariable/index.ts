@@ -10,7 +10,7 @@ if (
   typeof args[3] !== "string"
 )
   throw new Error(
-    "invalid args. set resonite username and password and cloud variable path and new value"
+    "invalid args. set resonite username and password and cloud variable path and new value",
   );
 
 const resUsername = args[0];
@@ -34,10 +34,10 @@ const main = async () => {
     {
       headers: {
         UID: Array.from({ length: 64 }, () =>
-          Math.floor(Math.random() * 10).toString()
+          Math.floor(Math.random() * 10).toString(),
         ).join(""),
       },
-    }
+    },
   );
 
   console.log("start update", cloudVariablePath, newValue);
@@ -49,7 +49,7 @@ const main = async () => {
       headers: {
         Authorization: `res ${userSession.userId}:${userSession.token}`,
       },
-    }
+    },
   );
 };
 

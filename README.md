@@ -2,6 +2,9 @@
 
 MirageX は TypeScript×React で Resonite の開発を行えるフレームワークです。
 
+[UniPocket](https://about.uni-pocket.com/ja)を作るために開発されました。
+このリポジトリはUniPocketからMirageX部分を抽出して作られています。
+
 現在は α 版であり破壊的な変更を頻繁にします。
 
 サーバーサイドでメインロジックを動かし、Resonite では結果のみを表示するという仕組みになっています。
@@ -46,9 +49,6 @@ MirageX は TypeScript×React で Resonite の開発を行えるフレームワ�
 メインロジックは`./src/core/main/`下に配置します。
 React で動いています。
 
-サンプルを参考にしてください。
-`./src/core/main/index.tsx`の`import { App } from "./samples/xxxxx"`を変更すれば別のサンプルに切り替えられます。
-
 ## Unit パッケージ
 
 MirageX では Resonite と同期する際に、Unit という独自概念を最小単位としています。
@@ -85,20 +85,20 @@ Resonite 上の編集をリポジトリにフィードバックさせること�
 
 #### config の設定
 
-`./src/dev/config.private.json`を作成します。
-{RECORD_URL}に Resonite で保存したフォルダのリンクを入れます。
+`.env`を作成します。（`.env.sample`が参考になります）
+`FEEDBACK_LINK`に Resonite で保存したフォルダのリンクを入れます。
 （パブリックフォルダにする必要があります。）
 
 ```
-{
-  "feedbackLink": "{RECORD_URL}"
-}
+FEEDBACK_LINK=resrec:///U-xxx/xxx
 ```
 
 #### 使い方
 
-以下のコマンドで登録したフォルダから最新のオブジェクトを取得して、ユニット名 xxxx に適用します。
+以下のコマンドで登録したフォルダから最新のオブジェクトを取得して、ユニットに適用します。
+ユニットは`{パッケージ名}/{ユニット名}` で識別されます。
 
 > npm run feedback:unit xxxx
 
-ユニット名の指定には正規表現が使えます。
+正規表現を使用して複数のユニットを更新できます。
+例：`npm run feedback:unit ^PrimitiveUix.*`
