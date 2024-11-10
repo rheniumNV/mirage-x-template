@@ -1,4 +1,5 @@
-import { generateMain } from "../../../../../lib/mirage-x/unit/main";
+import { generateMain } from "../../../../../lib/miragex/unit/main";
+
 import { unitConfig } from "./detail";
 
-export const o = generateMain(unitConfig);
+export const O = generateMain(unitConfig);

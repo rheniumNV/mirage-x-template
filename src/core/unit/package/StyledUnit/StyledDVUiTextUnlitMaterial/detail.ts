@@ -1,10 +1,11 @@
 import {
+  DetailBase,
   UnitProp,
   generateUnitConfig,
   getMainProps,
   getMirrorProps,
   getWebProps,
-} from "../../../../../lib/mirage-x/unit/common";
+} from "../../../../../lib/miragex/unit/common";
 
 const detail = {
   code: "StyledUnit/StyledDVUiTextUnlitMaterial",
@@ -14,8 +15,8 @@ const detail = {
     offsetFactor: UnitProp.Float(0),
     offsetUnits: UnitProp.Float(0),
   },
-  children: "multi" as "multi",
-};
+  children: "multi",
+} satisfies DetailBase;
 
 export type MainProps = getMainProps<typeof detail>;
 export type MirrorProps = getMirrorProps<typeof detail>;

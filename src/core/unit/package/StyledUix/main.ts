@@ -1,7 +1,9 @@
-export { o as StyledButton } from "./StyledButton/main";
-export { o as StyledImage } from "./StyledImage/main";
-export { o as StyledMask } from "./StyledMask/main";
-export { o as StyledRawImage } from "./StyledRawImage/main";
-export { o as StyledScrollArea } from "./StyledScrollArea/main";
-export { o as StyledText } from "./StyledText/main";
-export { o as StyledTextField } from "./StyledTextField/main";
+export { O as StyledButton } from "./StyledButton/main";
+export { O as StyledGradientButton } from "./StyledGradientButton/main";
+export { O as StyledGradientImage } from "./StyledGradientImage/main";
+export { O as StyledImage } from "./StyledImage/main";
+export { O as StyledMask } from "./StyledMask/main";
+export { O as StyledRawImage } from "./StyledRawImage/main";
+export { O as StyledScrollArea } from "./StyledScrollArea/main";
+export { O as StyledText } from "./StyledText/main";
+export { O as StyledTextField } from "./StyledTextField/main";

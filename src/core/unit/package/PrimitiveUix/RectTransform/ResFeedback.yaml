@@ -5,7 +5,7 @@ Active:
   ID: "?"
   Data: true
 ID: "?"
-Persistent-Id: "?"
+Persistent-ID: "?"
 Position:
   ID: "?"
   Data:
@@ -27,14 +27,14 @@ Scale:
     - 1
 Tag:
   ID: "?"
-  Data: ""
+  Data: null
 OrderOffset:
   ID: "?"
   Data: 0
 Components:
   ID: "?"
   Data:
-    - Type: FrooxEngine.DynamicVariableSpace
+    - Type: 0
       Data:
         ID: "?"
         persistent-ID: "?"
@@ -46,7 +46,7 @@ Components:
           Data: true
         SpaceName:
           ID: "?"
-          Data: ""
+          Data: null
         OnlyDirectBinding:
           ID: "?"
           Data: false
@@ -58,7 +58,7 @@ Children:
       ID: "?"
       Data: true
     ID: "?"
-    Persistent-Id: "?"
+    Persistent-ID: "?"
     Position:
       ID: "?"
       Data:
@@ -80,14 +80,14 @@ Children:
         - 111111
     Tag:
       ID: "?"
-      Data: ""
+      Data: null
     OrderOffset:
       ID: "?"
       Data: 0
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+        - Type: 1
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -107,6 +107,7 @@ Children:
               ID: "?"
               Data: false
     Children: []
+    ParentReference: ""
   - Name:
       ID: "?"
       Data: Ref
@@ -114,7 +115,7 @@ Children:
       ID: "?"
       Data: true
     ID: ID:Ref:0
-    Persistent-Id: "?"
+    Persistent-ID: "?"
     Position:
       ID: "?"
       Data:
@@ -136,14 +137,14 @@ Children:
         - 111111
     Tag:
       ID: "?"
-      Data: ""
+      Data: null
     OrderOffset:
       ID: "?"
       Data: 0
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicVariableSpace
+        - Type: 0
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -155,19 +156,19 @@ Children:
               Data: true
             SpaceName:
               ID: "?"
-              Data: ""
+              Data: null
             OnlyDirectBinding:
               ID: "?"
               Data: false
     Children:
       - Name:
           ID: "?"
-          Data: DV/Static
+          Data: RectTransform
         Active:
-          ID: "?"
+          ID: ID:RectTransform:Tag:1
           Data: true
-        ID: "?"
-        Persistent-Id: "?"
+        ID: ID:RectTransform:0
+        Persistent-ID: "?"
         Position:
           ID: "?"
           Data:
@@ -196,7 +197,80 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: 2
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                AnchorMin:
+                  ID: ID:RectTransform:Components:2:AnchorMin:0
+                  Data:
+                    - 0
+                    - 0
+                AnchorMax:
+                  ID: ID:RectTransform:Components:2:AnchorMax:0
+                  Data:
+                    - 333.3333333333333
+                    - 333.3333333333333
+                OffsetMin:
+                  ID: ID:RectTransform:Components:2:OffsetMin:0
+                  Data:
+                    - 0
+                    - 0
+                OffsetMax:
+                  ID: ID:RectTransform:Components:2:OffsetMax:0
+                  Data:
+                    - 0
+                    - 0
+                Pivot:
+                  ID: "?"
+                  Data:
+                    - 166.66666666666666
+                    - 166.66666666666666
+        Children: []
+        ParentReference: ""
+      - Name:
+          ID: "?"
+          Data: DV/Static
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-ID: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: 1
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -215,7 +289,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: 1
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -234,7 +308,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: 1
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -254,6 +328,7 @@ Children:
                   ID: "?"
                   Data: false
         Children: []
+        ParentReference: ""
       - Name:
           ID: "?"
           Data: DV/Props
@@ -261,7 +336,7 @@ Children:
           ID: "?"
           Data: true
         ID: "?"
-        Persistent-Id: "?"
+        Persistent-ID: "?"
         Position:
           ID: "?"
           Data:
@@ -283,14 +358,14 @@ Children:
             - 111111
         Tag:
           ID: "?"
-          Data: ""
+          Data: null
         OrderOffset:
           ID: "?"
           Data: 0
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+            - Type: 3
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -309,7 +384,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float2]
+            - Type: 4
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -324,11 +399,11 @@ Children:
                   Data: Props.anchorMin
                 TargetField:
                   ID: "?"
-                  Data: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:AnchorMin:0
+                  Data: ID:RectTransform:Components:2:AnchorMin:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float2]
+            - Type: 4
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -343,11 +418,11 @@ Children:
                   Data: Props.anchorMax
                 TargetField:
                   ID: "?"
-                  Data: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:AnchorMax:0
+                  Data: ID:RectTransform:Components:2:AnchorMax:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float2]
+            - Type: 4
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -362,11 +437,11 @@ Children:
                   Data: Props.offsetMin
                 TargetField:
                   ID: "?"
-                  Data: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:OffsetMin:0
+                  Data: ID:RectTransform:Components:2:OffsetMin:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float2]
+            - Type: 4
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -381,80 +456,11 @@ Children:
                   Data: Props.offsetMax
                 TargetField:
                   ID: "?"
-                  Data: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:OffsetMax:0
+                  Data: ID:RectTransform:Components:2:OffsetMax:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
         Children: []
-      - Name:
-          ID: "?"
-          Data: RectTransform
-        Active:
-          ID: ID:RectTransform:Tag:1
-          Data: true
-        ID: ID:RectTransform:0
-        Persistent-Id: "?"
-        Position:
-          ID: "?"
-          Data:
-            - 0
-            - 0
-            - 0
-        Rotation:
-          ID: "?"
-          Data:
-            - 0
-            - 0
-            - 0
-            - 111111
-        Scale:
-          ID: "?"
-          Data:
-            - 111111
-            - 111111
-            - 111111
-        Tag:
-          ID: "?"
-          Data: ""
-        OrderOffset:
-          ID: "?"
-          Data: 0
-        Components:
-          ID: "?"
-          Data:
-            - Type: FrooxEngine.UIX.RectTransform
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                AnchorMin:
-                  ID: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:AnchorMin:0
-                  Data:
-                    - 0
-                    - 0
-                AnchorMax:
-                  ID: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:AnchorMax:0
-                  Data:
-                    - 333.3333333333333
-                    - 333.3333333333333
-                OffsetMin:
-                  ID: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:OffsetMin:0
-                  Data:
-                    - 0
-                    - 0
-                OffsetMax:
-                  ID: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:OffsetMax:0
-                  Data:
-                    - 0
-                    - 0
-                Pivot:
-                  ID: "?"
-                  Data:
-                    - 166.66666666666666
-                    - 166.66666666666666
-        Children: []
+        ParentReference: ""
+    ParentReference: ""
+ParentReference: ""

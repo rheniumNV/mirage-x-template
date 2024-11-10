@@ -1,5 +1,4 @@
 type Config = {
-  appCode: string;
   mirage: {
     url: string;
     port: string;
@@ -7,9 +6,15 @@ type Config = {
   };
   auth: {
     url: string;
+    defaultAuthenticationToken?: string;
   };
   dev: {
     performanceTest: boolean;
+  };
+  platform: {
+    api: {
+      url: string;
+    };
   };
 };
 
@@ -18,21 +23,30 @@ const {
   MIRAGE_PORT,
   MIRAGE_SERVER_ID,
   AUTH_URL,
-  APP_CODE,
   PERFORMANCE_TEST_CODE,
+  PLATFORM_API_URL,
+  DEFAULT_AUTHENTICATION_TOKEN,
 } = process.env;
 
 export const config: Config = {
-  appCode: APP_CODE ?? "SampleMirageXApp",
   mirage: {
-    url: MIRAGE_URL ?? "http://localhost:3001",
-    port: MIRAGE_PORT ?? "3001",
+    url: MIRAGE_URL ?? "http://localhost:3000/",
+    port: MIRAGE_PORT ?? "3000",
     serverId: MIRAGE_SERVER_ID ?? "xxx",
   },
   auth: {
-    url: AUTH_URL ?? "https://auth.neauth.app",
+    url: AUTH_URL ?? "https://auth.resonite.love/",
+    defaultAuthenticationToken:
+      DEFAULT_AUTHENTICATION_TOKEN === ""
+        ? undefined
+        : DEFAULT_AUTHENTICATION_TOKEN,
   },
   dev: {
     performanceTest: PERFORMANCE_TEST_CODE === "PERFORMANCE_TEST",
+  },
+  platform: {
+    api: {
+      url: PLATFORM_API_URL ?? "https://api.resonite.com/",
+    },
   },
 };

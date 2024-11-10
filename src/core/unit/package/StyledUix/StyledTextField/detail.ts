@@ -1,11 +1,11 @@
-import { FunctionEnv } from "../../../../../lib/mirage-x/common/interactionEvent";
+import { FunctionEnv } from "../../../../../lib/miragex/common/interactionEvent";
 import {
   UnitProp,
   generateUnitConfig,
   getMainProps,
   getMirrorProps,
   getWebProps,
-} from "../../../../../lib/mirage-x/unit/common";
+} from "../../../../../lib/miragex/unit/common";
 
 const detail = {
   code: "StyledUix/StyledTextField",

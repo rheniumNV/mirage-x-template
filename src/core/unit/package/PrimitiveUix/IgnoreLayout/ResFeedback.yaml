@@ -5,7 +5,7 @@ Active:
   ID: "?"
   Data: true
 ID: "?"
-Persistent-Id: "?"
+Persistent-ID: "?"
 Position:
   ID: "?"
   Data:
@@ -27,14 +27,14 @@ Scale:
     - 1
 Tag:
   ID: "?"
-  Data: ""
+  Data: null
 OrderOffset:
   ID: "?"
   Data: 0
 Components:
   ID: "?"
   Data:
-    - Type: FrooxEngine.DynamicVariableSpace
+    - Type: 0
       Data:
         ID: "?"
         persistent-ID: "?"
@@ -46,7 +46,7 @@ Components:
           Data: true
         SpaceName:
           ID: "?"
-          Data: ""
+          Data: null
         OnlyDirectBinding:
           ID: "?"
           Data: false
@@ -58,7 +58,7 @@ Children:
       ID: "?"
       Data: true
     ID: "?"
-    Persistent-Id: "?"
+    Persistent-ID: "?"
     Position:
       ID: "?"
       Data:
@@ -80,14 +80,14 @@ Children:
         - 111111
     Tag:
       ID: "?"
-      Data: ""
+      Data: null
     OrderOffset:
       ID: "?"
       Data: 0
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+        - Type: 1
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -107,6 +107,7 @@ Children:
               ID: "?"
               Data: false
     Children: []
+    ParentReference: ""
   - Name:
       ID: "?"
       Data: Ref
@@ -114,7 +115,7 @@ Children:
       ID: "?"
       Data: true
     ID: ID:Ref:0
-    Persistent-Id: "?"
+    Persistent-ID: "?"
     Position:
       ID: "?"
       Data:
@@ -136,14 +137,14 @@ Children:
         - 111111
     Tag:
       ID: "?"
-      Data: ""
+      Data: null
     OrderOffset:
       ID: "?"
       Data: 0
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicVariableSpace
+        - Type: 0
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -155,142 +156,11 @@ Children:
               Data: true
             SpaceName:
               ID: "?"
-              Data: ""
+              Data: null
             OnlyDirectBinding:
               ID: "?"
               Data: false
     Children:
-      - Name:
-          ID: "?"
-          Data: DV/Static
-        Active:
-          ID: "?"
-          Data: true
-        ID: "?"
-        Persistent-Id: "?"
-        Position:
-          ID: "?"
-          Data:
-            - 0
-            - 0
-            - 0
-        Rotation:
-          ID: "?"
-          Data:
-            - 0
-            - 0
-            - 0
-            - 111111
-        Scale:
-          ID: "?"
-          Data:
-            - 111111
-            - 111111
-            - 111111
-        Tag:
-          ID: "?"
-          Data: ""
-        OrderOffset:
-          ID: "?"
-          Data: 0
-        Components:
-          ID: "?"
-          Data:
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Static.Root
-                Reference:
-                  ID: "?"
-                  Data: ID:Ref:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Static.Main
-                Reference:
-                  ID: "?"
-                  Data: ID:IgnoreLayout:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Static.ChildrenParent
-                Reference:
-                  ID: "?"
-                  Data: ID:IgnoreLayout:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-        Children: []
-      - Name:
-          ID: "?"
-          Data: DV/Props
-        Active:
-          ID: "?"
-          Data: true
-        ID: "?"
-        Persistent-Id: "?"
-        Position:
-          ID: "?"
-          Data:
-            - 0
-            - 0
-            - 0
-        Rotation:
-          ID: "?"
-          Data:
-            - 0
-            - 0
-            - 0
-            - 111111
-        Scale:
-          ID: "?"
-          Data:
-            - 111111
-            - 111111
-            - 111111
-        Tag:
-          ID: "?"
-          Data: ""
-        OrderOffset:
-          ID: "?"
-          Data: 0
-        Components:
-          ID: "?"
-          Data: []
-        Children: []
       - Name:
           ID: "?"
           Data: IgnoreLayout
@@ -298,7 +168,7 @@ Children:
           ID: "?"
           Data: true
         ID: ID:IgnoreLayout:0
-        Persistent-Id: "?"
+        Persistent-ID: "?"
         Position:
           ID: "?"
           Data:
@@ -327,7 +197,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.UIX.RectTransform
+            - Type: 2
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -362,7 +232,7 @@ Children:
                   Data:
                     - 166.66666666666666
                     - 166.66666666666666
-            - Type: FrooxEngine.UIX.IgnoreLayout
+            - Type: 3
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -373,3 +243,139 @@ Children:
                   ID: "?"
                   Data: true
         Children: []
+        ParentReference: ""
+      - Name:
+          ID: "?"
+          Data: DV/Static
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-ID: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: 1
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Root
+                Reference:
+                  ID: "?"
+                  Data: ID:Ref:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 1
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Main
+                Reference:
+                  ID: "?"
+                  Data: ID:IgnoreLayout:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 1
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.ChildrenParent
+                Reference:
+                  ID: "?"
+                  Data: ID:IgnoreLayout:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+        ParentReference: ""
+      - Name:
+          ID: "?"
+          Data: DV/Props
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-ID: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data: []
+        Children: []
+        ParentReference: ""
+    ParentReference: ""
+ParentReference: ""

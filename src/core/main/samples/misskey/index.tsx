@@ -5,10 +5,8 @@ import {
   VerticalLayout,
 } from "../../../unit/package/PrimitiveUix/main";
 import {
-  StyledButton,
   StyledImage,
   StyledMask,
-  StyledRawImage,
   StyledText,
 } from "../../../unit/package/StyledUix/main";
 import { Timeline } from "./component/timeline";
@@ -17,7 +15,7 @@ import { useMisskey } from "./util/misskey";
 import { HyperLinkButton } from "../../../unit/package/AdvancedUix/main";
 import { config } from "./config";
 
-export const Main = ({}) => {
+export const Misskey = () => {
   const { notes } = useMisskey();
 
   return (
@@ -33,16 +31,16 @@ export const Main = ({}) => {
             {/* Header */}
             <LayoutElement preferredHeight={200}>
               <StyledMask>
-                <RectTransform offsetMin={[0, 20]} offsetMax={[0, -20]}>
+                <RectTransform offsetMax={[0, -20]} offsetMin={[0, 20]}>
                   <HyperLinkButton
-                    urlJa={`https://${config.misskey.host}/`}
-                    urlEn={`https://${config.misskey.host}/`}
-                    urlKo={`https://${config.misskey.host}/`}
-                    reasonJa="Misskey を開きます"
+                    preserveAspect
                     reasonEn="Open Misskey"
+                    reasonJa="Misskey を開きます"
                     reasonKo="Misskey 열기"
                     styledSprite={Sprite.logo}
-                    preserveAspect={true}
+                    urlEn={`https://${config.misskey.host}/`}
+                    urlJa={`https://${config.misskey.host}/`}
+                    urlKo={`https://${config.misskey.host}/`}
                   />
                 </RectTransform>
               </StyledMask>
@@ -52,9 +50,9 @@ export const Main = ({}) => {
               <Timeline notes={notes} />
               <RectTransform anchorMin={[0, 1]} offsetMin={[0, -50]}>
                 <StyledImage
-                  styledSprite={Sprite.gradient2}
-                  styledColor={Color.background}
                   preserveAspect={false}
+                  styledColor={Color.background}
+                  styledSprite={Sprite.gradient2}
                 />
               </RectTransform>
             </LayoutElement>
@@ -62,39 +60,38 @@ export const Main = ({}) => {
             <LayoutElement preferredHeight={200}>
               <RectTransform anchorMin={[0, 1]} offsetMin={[0, -50]}>
                 <StyledImage
-                  styledSprite={Sprite.gradient}
-                  styledColor={Color.white}
                   preserveAspect={false}
+                  styledColor={Color.white}
+                  styledSprite={Sprite.gradient}
                 />
               </RectTransform>
               <RectTransform offsetMax={[0, -50]}>
-                <StyledImage styledColor={Color.white} preserveAspect={false} />
+                <StyledImage preserveAspect={false} styledColor={Color.white} />
               </RectTransform>
               <VerticalLayout
                 forceExpandChildHeight={false}
-                paddingTop={40}
                 paddingBottom={30}
                 paddingLeft={30}
                 paddingRight={30}
+                paddingTop={40}
                 spacing={30}
               >
                 <LayoutElement preferredHeight={120}>
-                  <StyledMask styledSprite={Sprite.maru} preserveAspect={false}>
+                  <StyledMask preserveAspect={false} styledSprite={Sprite.maru}>
                     <HyperLinkButton
-                      styledSprite={Sprite.gradientGreen}
-                      preserveAspect={false}
-                      urlEn={`https://${config.misskey.host}/share?`}
-                      urlJa={`https://${config.misskey.host}/share?`}
-                      urlKo={`https://${config.misskey.host}/share?`}
                       reasonEn="note"
                       reasonJa="ノート"
                       reasonKo="노트"
+                      styledSprite={Sprite.gradientGreen}
+                      urlEn={`https://${config.misskey.host}/share?`}
+                      urlJa={`https://${config.misskey.host}/share?`}
+                      urlKo={`https://${config.misskey.host}/share?`}
                     >
                       <StyledText
                         content="ノート"
+                        horizontalAlign="Center"
                         styledColor={Color.white}
                         verticalAlign="Middle"
-                        horizontalAlign="Center"
                       />
                     </HyperLinkButton>
                   </StyledMask>

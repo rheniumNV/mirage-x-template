@@ -16,7 +16,7 @@ import {
 } from "../../../unit/package/StyledUix/main";
 import { Color, Material, Sprite, StyledSpace } from "./style";
 import axios from "axios";
-import { FunctionEnv } from "../../../../lib/mirage-x/common/interactionEvent";
+import { FunctionEnv } from "../../../../lib/miragex/common/interactionEvent";
 
 type User = {
   id: string;
@@ -26,7 +26,7 @@ type User = {
   };
 };
 
-export const Main = () => {
+export const UserSearchPanel = () => {
   const [searchText, setSearchText] = useState<string>("");
   const [searchResult, setSearchResult] = useState<User[]>([]);
 
@@ -42,31 +42,31 @@ export const Main = () => {
     (_env: FunctionEnv, value: string) => {
       setSearchText(value);
     },
-    [setSearchText]
+    [setSearchText],
   );
 
   return (
     <StyledSpace>
       <Canvas size={[800, 1000]}>
         <StyledImage
-          styledMaterial={Material.base}
           styledColor={Color.background}
+          styledMaterial={Material.base}
           styledSprite={Sprite.kadomaru}
         />
         <VerticalLayout
-          spacing={10}
           paddingBottom={20}
           paddingLeft={20}
           paddingRight={20}
           paddingTop={20}
+          spacing={10}
         >
           <LayoutElement preferredHeight={100}>
             <StyledText
               content="Resonite User Search Panel"
-              verticalAlign="Middle"
               horizontalAlign="Center"
-              styledColor={Color.text}
               size={48}
+              styledColor={Color.text}
+              verticalAlign="Middle"
             />
           </LayoutElement>
           <LayoutElement preferredHeight={100}>
@@ -77,14 +77,14 @@ export const Main = () => {
                 </LayoutElement>
                 <LayoutElement preferredWidth={100}>
                   <StyledButton
-                    styledColor={Color.button}
                     onClick={searchButtonOnClick}
+                    styledColor={Color.button}
                   >
                     <StyledText
                       content="🔍"
-                      verticalAlign="Middle"
                       horizontalAlign="Center"
                       styledColor={Color.text}
+                      verticalAlign="Middle"
                     />
                   </StyledButton>
                 </LayoutElement>
@@ -94,13 +94,13 @@ export const Main = () => {
           <LayoutElement flexibleHeight={1}>
             <StyledScrollArea verticalFit="PreferredSize">
               <VerticalLayout
+                forceExpandChildHeight={false}
                 spacing={10}
                 verticalAlign="Top"
-                forceExpandChildHeight={false}
               >
-                {searchResult.map((user) => {
+                {searchResult.map((user, index) => {
                   return (
-                    <LayoutElement preferredHeight={100}>
+                    <LayoutElement key={index} preferredHeight={100}>
                       <HorizontalLayout spacing={10}>
                         <LayoutElement preferredWidth={100}>
                           <StyledMask styledSprite={Sprite.maru}>
@@ -109,9 +109,9 @@ export const Main = () => {
                             ) : (
                               <StyledText
                                 content="👤"
-                                verticalAlign="Middle"
                                 horizontalAlign="Center"
                                 styledColor={Color.text}
+                                verticalAlign="Middle"
                               />
                             )}
                           </StyledMask>
@@ -119,10 +119,10 @@ export const Main = () => {
                         <LayoutElement flexibleWidth={1}>
                           <StyledText
                             content={user.username}
-                            verticalAlign="Middle"
                             horizontalAlign="Left"
-                            styledColor={Color.text}
                             size={36}
+                            styledColor={Color.text}
+                            verticalAlign="Middle"
                           />
                         </LayoutElement>
                       </HorizontalLayout>

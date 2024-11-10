@@ -1,10 +1,11 @@
 import {
+  DetailBase,
   UnitProp,
   generateUnitConfig,
   getMainProps,
   getMirrorProps,
   getWebProps,
-} from "../../../../../lib/mirage-x/unit/common";
+} from "../../../../../lib/miragex/unit/common";
 
 const detail = {
   code: "StyledUnit/StyledDVFont",
@@ -21,8 +22,8 @@ const detail = {
     url8: UnitProp.Uri(""),
     url9: UnitProp.Uri(""),
   },
-  children: "multi" as const,
-};
+  children: "multi",
+} satisfies DetailBase;
 
 export type MainProps = getMainProps<typeof detail>;
 export type MirrorProps = getMirrorProps<typeof detail>;

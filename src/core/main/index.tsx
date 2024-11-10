@@ -1,5 +1,5 @@
-import { Main } from "./samples/mineSweeper";
+import { SampleSwitcher } from "./sampleSwitcher";
 
 export const App = () => {
-  return <Main />;
+  return <SampleSwitcher />;
 };

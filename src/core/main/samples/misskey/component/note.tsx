@@ -25,29 +25,29 @@ export const NoteView = ({
   const content = note.cw != null ? note.cw : note.text;
   const time = new Date(note.createdAt).toLocaleString();
   const images = note.files.filter(
-    (file) => !file.isSensitive && file.type.startsWith("image/")
+    (file) => !file.isSensitive && file.type.startsWith("image/"),
   );
   let height = note.cw == null && images.length > 0 ? 500 : 300;
   if (note.renote) height += 500;
   return (
     <LayoutElement preferredHeight={height}>
-      <StyledImage styledSprite={Sprite.kadomaru} styledColor={Color.white}>
+      <StyledImage styledColor={Color.white} styledSprite={Sprite.kadomaru}>
         <HorizontalLayout
           forceExpandChildWidth={false}
-          paddingTop={40}
           paddingBottom={40}
           paddingLeft={40}
           paddingRight={40}
+          paddingTop={40}
           spacing={20}
         >
           {/* Icon */}
-          <LayoutElement preferredWidth={150} minWidth={150}>
+          <LayoutElement minWidth={150} preferredWidth={150}>
             <VerticalLayout forceExpandChildHeight={false}>
-              <LayoutElement preferredHeight={150} minHeight={150}>
+              <LayoutElement minHeight={150} preferredHeight={150}>
                 <StyledMask styledSprite={Sprite.circle}>
                   <StyledRawImage
-                    url={note.user.avatarUrl}
                     styledMaterial={Material.front}
+                    url={note.user.avatarUrl}
                   />
                 </StyledMask>
               </LayoutElement>
@@ -57,36 +57,36 @@ export const NoteView = ({
           <LayoutElement flexibleWidth={1}>
             <VerticalLayout forceExpandChildHeight={false} spacing={15}>
               {/* Top */}
-              <LayoutElement preferredHeight={40} minHeight={40}>
+              <LayoutElement minHeight={40} preferredHeight={40}>
                 <HorizontalLayout forceExpandChildWidth={false}>
                   <LayoutElement flexibleWidth={1}>
                     <StyledText
                       content={`${note.user.name ?? ""}@${note.user.username}`}
-                      styledColor={Color.black}
+                      horizontalAutoSize
                       size={35}
+                      styledColor={Color.black}
                       verticalAlign="Middle"
-                      verticalAutoSize={true}
-                      horizontalAutoSize={true}
+                      verticalAutoSize
                     />
                   </LayoutElement>
-                  <LayoutElement preferredWidth={250} minWidth={250}>
+                  <LayoutElement minWidth={250} preferredWidth={250}>
                     <HyperLinkButton
-                      urlJa={`https://${config.misskey.host}/notes/${note.id}`}
-                      urlEn={`https://${config.misskey.host}/notes/${note.id}`}
-                      urlKo={`https://${config.misskey.host}/notes/${note.id}`}
-                      reasonJa="ノートを開きます"
                       reasonEn="Open Note"
+                      reasonJa="ノートを開きます"
                       reasonKo="노트 열기"
                       styledColor={Color.white}
+                      urlEn={`https://${config.misskey.host}/notes/${note.id}`}
+                      urlJa={`https://${config.misskey.host}/notes/${note.id}`}
+                      urlKo={`https://${config.misskey.host}/notes/${note.id}`}
                     >
                       <StyledText
                         content={time}
-                        styledColor={Color.black}
-                        size={24}
-                        verticalAlign="Middle"
                         horizontalAlign="Right"
-                        verticalAutoSize={true}
-                        horizontalAutoSize={true}
+                        horizontalAutoSize
+                        size={24}
+                        styledColor={Color.black}
+                        verticalAlign="Middle"
+                        verticalAutoSize
                       />
                     </HyperLinkButton>
                   </LayoutElement>
@@ -96,11 +96,11 @@ export const NoteView = ({
                 <VerticalLayout paddingLeft={5} paddingRight={5} spacing={10}>
                   <StyledText
                     content={content}
-                    styledColor={Color.black}
                     size={35}
+                    styledColor={Color.black}
                   />
                   {note.cw == null && images.length > 0 && (
-                    <LayoutElement preferredHeight={300} minHeight={300}>
+                    <LayoutElement minHeight={300} preferredHeight={300}>
                       <StyledImage styledSprite={Sprite.kadomaru}>
                         <StyledScrollArea horizontalFit="PreferredSize">
                           <HorizontalLayout
@@ -110,13 +110,10 @@ export const NoteView = ({
                             {images.map((file, index) => (
                               <LayoutElement
                                 key={index}
-                                preferredWidth={300}
                                 minWidth={300}
+                                preferredWidth={300}
                               >
-                                <StyledRawImage
-                                  url={file.url}
-                                  preserveAspect={true}
-                                />
+                                <StyledRawImage preserveAspect url={file.url} />
                               </LayoutElement>
                             ))}
                           </HorizontalLayout>
@@ -125,7 +122,7 @@ export const NoteView = ({
                     </LayoutElement>
                   )}
                   {!isRenote && note.renote && (
-                    <NoteView note={note.renote} isRenote={true} />
+                    <NoteView isRenote note={note.renote} />
                   )}
                 </VerticalLayout>
               </LayoutElement>

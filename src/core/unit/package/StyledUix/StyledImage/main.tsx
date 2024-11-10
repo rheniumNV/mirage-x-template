@@ -1,14 +1,15 @@
+import { generateMain } from "../../../../../lib/miragex/unit/main";
 import {
   StyledColorVariable,
   StyledMaterialVariable,
   StyledSpriteVariable,
 } from "../../../../lib/styledUnit";
-import { generateMain } from "../../../../../lib/mirage-x/unit/main";
+
 import { unitConfig } from "./detail";
 
 const Unit = generateMain(unitConfig);
 
-export const o = (
+export const O = (
   props: Omit<
     Parameters<typeof Unit>[0],
     "styledColor" | "styledSprite" | "styledMaterial"
@@ -16,7 +17,7 @@ export const o = (
     styledColor?: StyledColorVariable;
     styledSprite?: StyledSpriteVariable;
     styledMaterial?: StyledMaterialVariable;
-  }
+  },
 ) => {
   return Unit({
     ...props,

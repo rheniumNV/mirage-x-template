@@ -14,7 +14,7 @@ export const useMisskey = () => {
         ...notes
           .map((note) => {
             const avatarUrl = decodeURIComponent(
-              note.user.avatarUrl.match(/\?url=(.*)&/)?.[1] ?? ""
+              note.user.avatarUrl.match(/\?url=(.*)&/)?.[1] ?? "",
             );
             return {
               ...note,
@@ -27,7 +27,7 @@ export const useMisskey = () => {
           .map((note) => {
             if (!note.renote) return note;
             const avatarUrl = decodeURIComponent(
-              note.renote.user.avatarUrl.match(/\?url=(.*)&/)?.[1] ?? ""
+              note.renote.user.avatarUrl.match(/\?url=(.*)&/)?.[1] ?? "",
             );
             return {
               ...note,
@@ -41,7 +41,7 @@ export const useMisskey = () => {
             };
           }),
         ...prevNotes,
-      ].slice(-100)
+      ].slice(-100),
     );
   }, []);
 
@@ -56,7 +56,7 @@ export const useMisskey = () => {
             channel: "localTimeline",
             id: "testId",
           },
-        })
+        }),
       );
     });
 
@@ -83,7 +83,7 @@ export const useMisskey = () => {
       ws.close();
       clearInterval(interval);
     };
-  }, []);
+  }, [addNotes]);
 
   return { notes };
 };

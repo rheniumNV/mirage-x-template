@@ -1,11 +1,12 @@
-import { FunctionEnv } from "../../../../../lib/mirage-x/common/interactionEvent";
+import { FunctionEnv } from "../../../../../lib/miragex/common/interactionEvent";
 import {
+  DetailBase,
   UnitProp,
   generateUnitConfig,
   getMainProps,
   getMirrorProps,
   getWebProps,
-} from "../../../../../lib/mirage-x/unit/common";
+} from "../../../../../lib/miragex/unit/common";
 
 const detail = {
   code: "AdvancedUix/HyperLinkButton",
@@ -27,10 +28,10 @@ const detail = {
     onClick: UnitProp.Function((_env: FunctionEnv) => {}),
     requireLockInToPress: UnitProp.Boolean(false),
     nineSliceSizing: UnitProp.EnumNineSliceSizing("TextureSize"),
-    preserveAspect: UnitProp.Boolean(true),
+    preserveAspect: UnitProp.Boolean(false),
   },
-  children: "multi" as const,
-};
+  children: "multi",
+} as const satisfies DetailBase;
 
 export type MainProps = getMainProps<typeof detail>;
 export type MirrorProps = getMirrorProps<typeof detail>;

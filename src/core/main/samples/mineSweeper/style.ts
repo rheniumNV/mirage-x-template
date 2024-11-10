@@ -1,4 +1,4 @@
-import { createSprite, createStyle } from "../../../lib/styledUnit";
+import { createStyle } from "../../../lib/styledUnit";
 
 export const { Sprite } = createStyle({
   Sprite: {

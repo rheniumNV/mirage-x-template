@@ -59,14 +59,14 @@ type StyledFontConfig = {
     string?,
     string?,
     string?,
-    string?
+    string?,
   ];
 };
 
-type StyledConfig = StyledColorConfig | StyledSpriteConfig;
+// type StyledConfig = StyledColorConfig | StyledSpriteConfig;
 
 export const createColor = (
-  color: [number, number, number, number]
+  color: [number, number, number, number],
 ): StyledColorConfig => ({
   type: "Color",
   color,
@@ -172,7 +172,7 @@ export const createStyle = <
   C extends { [key: string]: StyledColorConfig },
   S extends { [key: string]: StyledSpriteConfig },
   M extends { [key: string]: StyledMaterial },
-  F extends { [key: string]: StyledFontConfig }
+  F extends { [key: string]: StyledFontConfig },
 >(config: {
   Color?: C;
   Sprite?: S;
@@ -203,7 +203,7 @@ export const createStyle = <
       }),
       variableName: `${spaceName}/${createId()}`,
       key,
-    })
+    }),
   );
 
   const spriteVariables = Object.keys(config.Sprite ?? []).map(
@@ -214,7 +214,7 @@ export const createStyle = <
       }),
       variableName: `${spaceName}/${createId()}`,
       key,
-    })
+    }),
   );
 
   const materialVariables = Object.keys(config.Material ?? []).map(
@@ -229,7 +229,7 @@ export const createStyle = <
       }),
       variableName: `${spaceName}/${createId()}`,
       key,
-    })
+    }),
   );
 
   const fontVariables = Object.keys(config.Font ?? []).map(
@@ -240,7 +240,7 @@ export const createStyle = <
       }),
       variableName: `${spaceName}/${createId()}`,
       key,
-    })
+    }),
   );
 
   return {
@@ -248,20 +248,20 @@ export const createStyle = <
       <StyledDVSpace spaceName={spaceName}>
         {colorVariables.map((variable) => (
           <StyledDVColor
-            key={variable.variableName}
             color={variable.color}
+            key={variable.variableName}
             name={variable.variableName}
           />
         ))}
         {spriteVariables.map((variable) => (
           <StyledDVSprite
+            borders={variable.borders}
+            filterMode={variable.filterMode}
             key={variable.variableName}
-            url={variable.url}
             name={variable.variableName}
             rect={variable.rect}
-            borders={variable.borders}
             scale={variable.scale}
-            filterMode={variable.filterMode}
+            url={variable.url}
             wrapModeU={variable.wrapModeU}
             wrapModeV={variable.wrapModeV}
           />
@@ -271,12 +271,12 @@ export const createStyle = <
             case "UiUnlitMaterial":
               return (
                 <StyledDVUiUnlitMaterial
+                  alphaClip={variable.alphaClip}
+                  alphaCutoff={variable.alphaCutoff}
                   key={variable.variableName}
                   name={variable.variableName}
                   offsetFactor={variable.offsetFactor}
                   offsetUnits={variable.offsetUnits}
-                  alphaCutoff={variable.alphaCutoff}
-                  alphaClip={variable.alphaClip}
                   zWrite={variable.zWrite}
                 />
               );
@@ -321,7 +321,7 @@ export const createStyle = <
       ),
       {} as {
         [key in keyof C]: StyledColorVariable;
-      }
+      },
     ),
     Sprite: spriteVariables.reduce(
       (acc, variable) => (
@@ -333,7 +333,7 @@ export const createStyle = <
       ),
       {} as {
         [key in keyof S]: StyledSpriteVariable;
-      }
+      },
     ),
     Material: materialVariables.reduce(
       (acc, variable) => (
@@ -345,7 +345,7 @@ export const createStyle = <
       ),
       {} as {
         [key in keyof M]: StyledMaterialVariable;
-      }
+      },
     ),
     Font: fontVariables.reduce(
       (acc, variable) => (
@@ -357,7 +357,7 @@ export const createStyle = <
       ),
       {} as {
         [key in keyof F]: StyledFontVariable;
-      }
+      },
     ),
   };
 };
